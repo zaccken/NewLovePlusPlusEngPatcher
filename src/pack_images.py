@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Pack EngPatcher UI PNGs into romfs/img.bin via nlpp-tools + same-size DARC inject."""
+"""Pack EngPatcher UI PNGs into romfs/img.bin via nlpp-tools + same-size DARC inject.
+
+Uses tools from https://github.com/kiwiz/nlpp-tools (ie, pe, png2bclim).
+"""
 
 from __future__ import annotations
 
@@ -103,16 +106,19 @@ def png_to_bclim_candidates(png: Path) -> list[str]:
 
 
 def _bclim_looks_valid(path: Path, orig_size: int) -> tuple[bool, str]:
+    """Accept only exact-size BCLIMs.
+
+    png2bclim often re-encodes to a different format/size (e.g. 4KB -> 32KB).
+    Those break alpha/UI panes in-game (solid grey panels). Same-size only.
+    """
     data = path.read_bytes()
     size = len(data)
     if size < 128:
         return False, f"too small ({size} bytes)"
-    # png2bclim sometimes emits a header-only CLIM stub (~40 bytes) or near-empty junk
     if data[:4] == b"CLIM" and size < 256:
         return False, "header-only CLIM stub"
-    # Reject catastrophic shrinks (likely failed ETC1/format round-trip)
-    if orig_size >= 256 and size < max(128, orig_size // 4):
-        return False, f"shrank too much ({orig_size} -> {size})"
+    if size != orig_size:
+        return False, f"size/format changed ({orig_size} -> {size}); keeping original"
     return True, ""
 
 
@@ -182,13 +188,14 @@ def patch_arc_with_pngs(
     pngs: list[Path],
     work_dir: Path,
 ) -> tuple[int, int, list[str]]:
-    """Extract DARC, convert PNGs to BCLIM, rebuild .arc. Returns (ok, skipped, warnings)."""
+    """Convert PNGs and same-size-inject into the original .arc (no DARC rebuild)."""
     darc = DarcArchive.load(arc_path)
     extract_dir = work_dir / "extract"
     conv_dir = work_dir / "convert"
     if extract_dir.exists():
         shutil.rmtree(extract_dir)
     extract_dir.mkdir(parents=True, exist_ok=True)
+    # Extract only files we may convert (need original BCLIM beside PNG for png2bclim)
     darc.extract_all(extract_dir)
 
     ok = skipped = 0
@@ -211,21 +218,18 @@ def patch_arc_with_pngs(
         dest_bclim = extract_dir / entry.name
         try:
             new_bclim = convert_png_to_bclim(png, dest_bclim, conv_dir / png.stem)
-            shutil.copy2(new_bclim, dest_bclim)
+            darc.replace_same_size(entry, new_bclim.read_bytes())
             dirty = True
             ok += 1
-            if new_bclim.stat().st_size != entry.length:
-                warnings.append(
-                    f"resized {png.name}: {entry.length} -> {new_bclim.stat().st_size}"
-                )
         except PackError as exc:
+            skipped += 1
+            warnings.append(str(exc))
+        except ValueError as exc:
             skipped += 1
             warnings.append(str(exc))
 
     if dirty:
-        rebuilt = work_dir / arc_path.name
-        darc.rebuild_from_dir(extract_dir, rebuilt)
-        shutil.copy2(rebuilt, arc_path)
+        darc.save(arc_path)
     return ok, skipped, warnings
 
 

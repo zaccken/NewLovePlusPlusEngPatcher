@@ -5,7 +5,7 @@
 | Path | Source | Role |
 |------|--------|------|
 | `cia/` | [3dstool](https://github.com/dnasdw/3dstool), Batch CIA 3DS Decryptor Redux | Decrypt CIA, split/rebuild NCCH/RomFS, makerom CIA |
-| `nlpp-tools/` | [LovePlusProject/nlpp-tools](https://github.com/LovePlusProject/nlpp-tools) | `img.bin` / package / DARC / BCLIM helpers |
+| `nlpp-tools/` | **[kiwiz/nlpp-tools](https://github.com/kiwiz/nlpp-tools)** (original) | `img.bin` / package / BCLIM helpers (`ie`, `pe`, `png2bclim`, …) |
 | `NLPTextTool/` | [LovePlusProject/NLPTextTool](https://github.com/LovePlusProject/NLPTextTool) | XML ↔ `.dbin2` (needs .NET SDK to build) |
 | `NLPUnpacker/` | [LovePlusProject/NLPUnpacker](https://github.com/LovePlusProject/NLPUnpacker) | Older `img.bin` unpacker (C#) |
 
@@ -13,7 +13,7 @@
 
 [Makein/NLPPGit](https://github.com/Makein/NLPPGit) is the **translation repo** (XML scripts + UI art + PDFs). Releases are **LayeredFS overlays**, not a CIA rebuild toolchain. Packing instructions there point at Discord / external tools.
 
-The packing stack officially listed by [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH):
+`nlpp-tools` originates from **[kiwiz/nlpp-tools](https://github.com/kiwiz/nlpp-tools)**. The packing stack listed by [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH) also includes:
 
 - NLPTextTool, nlpp-tools, NLPUnpacker, png2texi, trb2xlsx, nlpp-fmt
 

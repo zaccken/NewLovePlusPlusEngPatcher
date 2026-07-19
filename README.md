@@ -13,7 +13,7 @@ Drop in the correct encrypted CIA and it will:
 1. **Verify** the dump (SHA-1) before touching anything  
 2. **Decrypt** the CIA if needed  
 3. **Inject English scripts** (pre-packed `.dbin2` from finished XML)  
-4. **Inject English UI art** into `romfs/img.bin` (when a packed image bank is available)  
+4. **Optionally inject English UI art** into `romfs/img.bin` (same-size BCLIM swaps only; off by default)  
 5. **Rebuild** a decrypted CIA for FBI / Azahar / Citra  
 6. **Also emit** a Luma/Azahar **LayeredFS** overlay (same style as community NLPPATCH releases)
 
@@ -87,11 +87,18 @@ encrypted CIA
 
 **UI packing notes**
 
-- PNGs are converted with `png2bclim`, then DARCs are rebuilt (`src/darcutil.py` — Windows-friendly; upstream `darctool` in nlpp-tools is Linux ELF).  
-- Packages go back into `img.bin` via [LovePlusProject/nlpp-tools](https://github.com/LovePlusProject/nlpp-tools) (`ie` / `pe`).  
-- Some BCLIM formats cannot round-trip; those textures are **skipped** and the Japanese original is kept. See the image pack report.
+- **Default patch is scripts-only.** `png2bclim` often changes BCLIM size/format and breaks UI alpha (solid grey panels). Upstream [nlpp-tools](https://github.com/kiwiz/nlpp-tools) documents the same: *check that the new bclim is the correct size*.  
+- The drop bat does **not** mutate your RomFS dump in-place (an earlier in-place run had overwritten `img.bin` with a bad pack).  
+- To enable UI packing later: `NLPP_WITH_IMAGES=1` or `--with-images` — only **exact same-size** BCLIM swaps are kept.  
+- Standalone: `python src/pack_images.py` (writes `out/new_img.bin`).
 
-Community packing stack (reference): [NLPPATCH](https://github.com/LovePlusProject/NLPPATCH), [NLPTextTool](https://github.com/LovePlusProject/NLPTextTool), [nlpp-tools](https://github.com/LovePlusProject/nlpp-tools).
+---
+
+## Credits
+
+Image packing (`tools/nlpp-tools/`) uses **[kiwiz/nlpp-tools](https://github.com/kiwiz/nlpp-tools)** — thank you to **kiwiz** for `ie`, `pe`, `png2bclim`, `png2texi`, and the packing workflow this project wraps.
+
+Other community references: [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH), [NLPTextTool](https://github.com/LovePlusProject/NLPTextTool), [Makein/NLPPGit](https://github.com/Makein/NLPPGit).
 
 ---
 

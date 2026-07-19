@@ -68,19 +68,25 @@ echo Decrypting / injecting scripts + UI / rebuilding CIA...
 echo This can take several minutes and needs a few GB free disk.
 echo.
 
+REM Use extracted RomFS as a *source copy* only — never --in-place-romfs
+REM (in-place previously overwrote img.bin with a bad UI pack).
 set "EXTRA_ROMFS="
 if exist "C:\Users\Zepse\nlpp_work\romfs\script\bin\script" (
-  echo Using existing RomFS at C:\Users\Zepse\nlpp_work\romfs
-  set "EXTRA_ROMFS=--romfs C:\Users\Zepse\nlpp_work\romfs --in-place-romfs"
+  echo Using RomFS template from C:\Users\Zepse\nlpp_work\romfs ^(copied, not in-place^)
+  set "EXTRA_ROMFS=--romfs C:\Users\Zepse\nlpp_work\romfs"
 )
 
-set "REUSE_IMG="
-if exist "%~dp0out\new_img.bin" (
-  echo Reusing packed UI: out\new_img.bin
-  set "REUSE_IMG=--reuse-packed-img"
+REM UI packing is opt-in: only same-size BCLIM swaps are safe. Default = scripts only
+REM (broken grey panels were caused by png2bclim format/size changes).
+if /i "%NLPP_WITH_IMAGES%"=="1" (
+  echo UI image packing enabled ^(NLPP_WITH_IMAGES=1^)
+  set "REUSE_IMG="
+  if exist "%~dp0out\new_img.bin" set "REUSE_IMG=--reuse-packed-img"
+  python "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" --with-images --packed-img "%~dp0out\new_img.bin" %REUSE_IMG% %EXTRA_ROMFS%
+) else (
+  echo Scripts-only patch ^(UI images off — set NLPP_WITH_IMAGES=1 to enable^)
+  python "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" %EXTRA_ROMFS%
 )
-
-python "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" --with-images --packed-img "%~dp0out\new_img.bin" %REUSE_IMG% %EXTRA_ROMFS%
 set ERR=%ERRORLEVEL%
 
 echo.

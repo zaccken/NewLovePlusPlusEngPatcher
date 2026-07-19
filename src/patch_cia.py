@@ -6,8 +6,9 @@ Pipeline:
   -> rebuild RomFS/CXI/CIA (decrypted, CFW/emulator ready)
 
 NLPPGit (https://github.com/Makein/NLPPGit) is translation assets only.
-Packing tools come from LovePlusProject (nlpp-tools / NLPTextTool) plus
-ctrtool / makerom / 3dstool / Batch CIA Decryptor.
+img.bin helpers from kiwiz/nlpp-tools (https://github.com/kiwiz/nlpp-tools);
+also NLPTextTool / LovePlusProject refs plus ctrtool / makerom / 3dstool /
+Batch CIA Decryptor.
 """
 
 from __future__ import annotations
