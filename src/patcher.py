@@ -10,7 +10,8 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+SRC = Path(__file__).resolve().parent
+ROOT = SRC.parent
 ASSETS = ROOT / "assets"
 SCRIPTS = ASSETS / "scripts"
 IMAGES = ASSETS / "images"

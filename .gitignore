@@ -1,8 +1,40 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
 venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Patcher build / work products (CIAs, RomFS trees, img.bin, LayeredFS, reports)
 out/
+
+# Downloaded / cloned tooling — keep docs only
+tools/*
+!tools/README.md
+
+# Game dumps & intermediates (never commit)
+*.cia
+*.cxi
+*.cci
+*.3ds
+*.app
+img.bin
+new_img.bin
+*.ncch
+
+# Archives
+*.rar
+*.7z
+*.zip
+
+# OS / editor
 .DS_Store
 Thumbs.db
-*.rar
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
