@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="3888720811" Unknown="3">
+  <Entries>
+    <Entry Unknown0="3125578901" Unknown1="872184858">
+      <SDL2 Key="595799881">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>4294901760</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>91440</Value0>
+                <Value1>500</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91441</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91442</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91443</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91444</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Are you here yet 
+▲高嶺＊＊▲？</Dialog>
+          <Dialog>Manaka</Dialog>
+          <Dialog>Sorry to keep you waiting, 
+▲主人公＊▲.</Dialog>
+          <Dialog>Hehe♪</Dialog>
+          <Dialog>▲高嶺＊＊▲！？ 
+What's wrong, why are you 
+wearing a yukata...？</Dialog>
+          <Dialog>Why？ Are you worried about 
+it？</Dialog>
+          <Dialog>No, it's not that. I'm just 
+curious...</Dialog>
+          <Dialog>Okay, here's a hint. Where 
+else did I wear this 
+yukata？</Dialog>
+          <Dialog>It was probably in Atami's――</Dialog>
+          <Dialog>Pinpon♪ Also, I just don't 
+want to wear this there, 
+but also in other places.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3684204982" Unknown1="1979686246">
+      <SDL2 Key="1135756948">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>4294901760</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>91445</Value0>
+                <Value1>500</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91446</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91447</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91448</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91449</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Are you here yet 
+▲高嶺＊＊▲？</Dialog>
+          <Dialog>Manaka</Dialog>
+          <Dialog>Sorry to keep you waiting 
+▲主人公＊▲.</Dialog>
+          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, where are you going 
+to take me today？</Dialog>
+          <Dialog>Good question... Hmm, where 
+do you want to go to, 
+▲高嶺＊＊▲？</Dialog>
+          <Dialog>Me？ I want... I want to go 
+on a trip？</Dialog>
+          <Dialog>On a trip, right now！？</Dialog>
+          <Dialog>It's a joke♪ But, didn't 
+you consider it for a 
+minute？ The two of us, 
+going far away...</Dialog>
+          <Dialog>I worry if you don't know 
+about the time to go back 
+home...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="261857282" Unknown1="2518739305">
+      <SDL2 Key="4219783530">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91450</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91451</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91452</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91453</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91454</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>91455</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>720896</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yeah, that sounds nice！ 
+But, is it okay？ Staying 
+overnight, for example.</Dialog>
+          <Dialog>Manaka</Dialog>
+          <Dialog>I think it's okay... But...</Dialog>
+          <Dialog>Papa might get worried, 
+so maybe he'll come with 
+me...</Dialog>
+          <Dialog>Eh！？</Dialog>
+          <Dialog>It's a joke♪</Dialog>
+          <Dialog>Ah, it's cool... Alright, 
+let's go on a trip！</Dialog>
+          <Dialog>Yup！</Dialog>
+          <Dialog>Okay then... Can you make 
+that promise to me？</Dialog>
+          <Dialog>Do you mean something like 
+this？</Dialog>
+          <Dialog>No. Instead, something like 
+this...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>

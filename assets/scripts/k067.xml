@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="4120303758" Unknown="12">
+  <Entries>
+    <Entry Unknown0="2858356630" Unknown1="1413516105">
+      <SDL2 Key="3620266289">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41765</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41766</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41767</Value0>
+                <Value1>167</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yes, it's Kobayakawa.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>It's me, 
+▲小早川＊▲.</Dialog>
+          <Dialog>Yeah. What's wrong？</Dialog>
+          <Dialog>Well, you know...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="588586013" Unknown1="173413119">
+      <SDL2 Key="3620266289">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41768</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41769</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hello.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>It's me, 
+▲小早川＊▲.</Dialog>
+          <Dialog>What's up, did something 
+happen？</Dialog>
+          <Dialog>Well, you know...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3576210899" Unknown1="500746258">
+      <SDL2 Key="3620266289">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41770</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41771</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hello, it's me, Rinko.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>It's me, 
+▲小早川＊▲.</Dialog>
+          <Dialog>Yes, what's up？</Dialog>
+          <Dialog>Well, you know...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4205830118" Unknown1="2928728985">
+      <SDL2 Key="2677695511">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>131072</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147459</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41772</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41773</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'd like to move our date 
+up...</Dialog>
+          <Dialog>How about going on 
+▲月▲▲日▲の▲時刻▲？</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>....</Dialog>
+          <Dialog>Roger, it's okay.</Dialog>
+          <Dialog>I see, I'm glad. I'll see 
+you later.</Dialog>
+          <Dialog>Um, no.</Dialog>
+          <Dialog>I see, then...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1936059501" Unknown1="1353081423">
+      <SDL2 Key="3251215202">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>131072</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147459</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41774</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41775</Value0>
+                <Value1>83</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41776</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'd like to move our date 
+up...</Dialog>
+          <Dialog>How about going on 
+▲月▲▲日▲の▲時刻▲？</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>....</Dialog>
+          <Dialog>I guess I have no choice. 
+It's okay.</Dialog>
+          <Dialog>Thank you very much. 
+I'll see you later.</Dialog>
+          <Dialog>No, I can't.</Dialog>
+          <Dialog>I see, then...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="628651299" Unknown1="1730680930">
+      <SDL2 Key="3251215202">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>131072</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147459</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41777</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41778</Value0>
+                <Value1>250</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41779</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'd like to move our date 
+up...</Dialog>
+          <Dialog>How about going on 
+▲月▲▲日▲の▲時刻▲？</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>....</Dialog>
+          <Dialog>That's fine. I'm glad you 
+didn't cancel it.</Dialog>
+          <Dialog>Me too. Well, then, that's 
+that. See you later.</Dialog>
+          <Dialog>Sorry, no.</Dialog>
+          <Dialog>I see, then...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1258270518" Unknown1="3772787689">
+      <SDL2 Key="3251215202">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41780</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41781</Value0>
+                <Value1>117</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Um... sorry. It was nothing 
+after all.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hmm, I don't mind. Okay, bye.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3283467453" Unknown1="3203838623">
+      <SDL2 Key="3251215202">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41782</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41783</Value0>
+                <Value1>167</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41784</Value0>
+                <Value1>117</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>...It's nothing. Sorry.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>What's with that？　
+If you don't need me, 
+I'm hanging up. Bye.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1976092019" Unknown1="2843240626">
+      <SDL2 Key="3251215202">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41785</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41786</Value0>
+                <Value1>167</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41787</Value0>
+                <Value1>117</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>...Actually, I just called 
+to hear your voice. 
+I'm kidding.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>...Really？　Well, okay, 
+hehe. See you.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2588901254" Unknown1="1513192249">
+      <SDL2 Key="2039160392">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>(This is fine. I'll have to 
+make sure I don't forget.)</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="319097869" Unknown1="3846439663">
+      <SDL2 Key="2039160392">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>(Here we go. It's bad to 
+change the date over and 
+over, so this is the last 
+time I'll do it.)</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3306722755" Unknown1="1774958594">
+      <SDL2 Key="2039160392">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>131072</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147459</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41788</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41789</Value0>
+                <Value1>200</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>41790</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>41791</Value0>
+                <Value1>117</Value1>
+              </Entry>
+            </Values>
+            <Value0>147459</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I0d like to move the date 
+of our travel...</Dialog>
+          <Dialog>How about going on 
+▲月▲▲日▲？</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>....</Dialog>
+          <Dialog>Well, okay. I'll figure 
+something out.</Dialog>
+          <Dialog>I see, thank you. Sorry, 
+see you later.</Dialog>
+          <Dialog>No. It's not convenient.</Dialog>
+          <Dialog>I see, then...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>

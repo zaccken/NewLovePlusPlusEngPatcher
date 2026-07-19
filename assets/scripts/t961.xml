@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="3813627336" Unknown="26">
+  <Entries>
+    <Entry Unknown0="3502103463" Unknown1="2717747844">
+      <SDL2 Key="1070480695">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65537</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65537</Value0>
+            <Value1>65538</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>65540</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>1041807</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Friends and others</Dialog>
+          <Dialog>Family</Dialog>
+          <Dialog>Others</Dialog>
+          <Dialog>Select from list</Dialog>
+          <Dialog>【DEBUG】BF's face registered</Dialog>
+          <Dialog>▲紹介友達名▲</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="965400336" Unknown1="1845097295">
+      <SDL2 Key="1070480695">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3968253659" Unknown1="1784856139">
+      <SDL2 Key="1878938754">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65537</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65537</Value0>
+            <Value1>65538</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>65540</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65542</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65542</Value0>
+            <Value1>65543</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65543</Value0>
+            <Value1>65544</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65544</Value0>
+            <Value1>65545</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65545</Value0>
+            <Value1>65546</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65546</Value0>
+            <Value1>65547</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65547</Value0>
+            <Value1>65548</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65548</Value0>
+            <Value1>65549</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65549</Value0>
+            <Value1>65550</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65550</Value0>
+            <Value1>65551</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65551</Value0>
+            <Value1>65552</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65552</Value0>
+            <Value1>65553</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65553</Value0>
+            <Value1>65554</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65554</Value0>
+            <Value1>65555</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65555</Value0>
+            <Value1>65556</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65556</Value0>
+            <Value1>65557</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65557</Value0>
+            <Value1>65558</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65558</Value0>
+            <Value1>65559</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65559</Value0>
+            <Value1>65560</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65560</Value0>
+            <Value1>65561</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65561</Value0>
+            <Value1>65562</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65562</Value0>
+            <Value1>65563</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65563</Value0>
+            <Value1>65564</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65564</Value0>
+            <Value1>65565</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65565</Value0>
+            <Value1>451983</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Pal</Dialog>
+          <Dialog>Family</Dialog>
+          <Dialog>Other</Dialog>
+          <Dialog>Select from list</Dialog>
+          <Dialog>【DEBUG】BF's face registered</Dialog>
+          <Dialog>▲紹介友達名▲</Dialog>
+          <Dialog>Celebrity</Dialog>
+          <Dialog>Father</Dialog>
+          <Dialog>Mother</Dialog>
+          <Dialog>Big brother</Dialog>
+          <Dialog>Big sister</Dialog>
+          <Dialog>Lil' brother</Dialog>
+          <Dialog>Lil' sister</Dialog>
+          <Dialog>Son</Dialog>
+          <Dialog>Daughter</Dialog>
+          <Dialog>A Type</Dialog>
+          <Dialog>B Type</Dialog>
+          <Dialog>AB Type</Dialog>
+          <Dialog>O Type</Dialog>
+          <Dialog>Kind</Dialog>
+          <Dialog>Cold</Dialog>
+          <Dialog>Quiet</Dialog>
+          <Dialog>Noisy</Dialog>
+          <Dialog>Serious</Dialog>
+          <Dialog>Interesting</Dialog>
+          <Dialog>Nasty</Dialog>
+          <Dialog>Register</Dialog>
+          <Dialog>Start Over</Dialog>
+          <Dialog>○</Dialog>
+          <Dialog>×</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3773664215" Unknown1="3526212276">
+      <SDL2 Key="1878938754">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1236961088" Unknown1="2552832895">
+      <SDL2 Key="1878938754">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1018588683" Unknown1="2643652219">
+      <SDL2 Key="433051496">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65537</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65537</Value0>
+            <Value1>65538</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>65540</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>65542</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65542</Value0>
+            <Value1>2221243</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>For how long have you been 
+dating？</Dialog>
+          <Dialog>What's your boyfriend's 
+favorite place？</Dialog>
+          <Dialog>What has made you happy？</Dialog>
+          <Dialog>What worries you？</Dialog>
+          <Dialog>What are your hobbies？</Dialog>
+          <Dialog>What is your favorite dish？</Dialog>
+          <Dialog>How old are you？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="807254791" Unknown1="123595492">
+      <SDL2 Key="433051496">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2582296432" Unknown1="3411628975">
+      <SDL2 Key="433051496">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1290149435" Unknown1="3233947307">
+      <SDL2 Key="433051496">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1078815543" Unknown1="948771348">
+      <SDL2 Key="433051496">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2837079968" Unknown1="4136207327">
+      <SDL2 Key="1241513395">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2618740331" Unknown1="4092743387">
+      <SDL2 Key="1241513395">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2424118119" Unknown1="1841121860">
+      <SDL2 Key="1241513395">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4182382544" Unknown1="565818127">
+      <SDL2 Key="1241513395">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2890333851" Unknown1="639794699">
+      <SDL2 Key="1241513395">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2695744407" Unknown1="2666363508">
+      <SDL2 Key="4056056217">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="159041280" Unknown1="1290396479">
+      <SDL2 Key="4056056217">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4235636427" Unknown1="1230155323">
+      <SDL2 Key="4056056217">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4041079751" Unknown1="3541936804">
+      <SDL2 Key="4056056217">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1504376624" Unknown1="2669220719">
+      <SDL2 Key="4056056217">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="212229883" Unknown1="2625822315">
+      <SDL2 Key="569485541">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65537</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65537</Value0>
+            <Value1>65538</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>65540</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>65542</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65542</Value0>
+            <Value1>65543</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65543</Value0>
+            <Value1>65544</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65544</Value0>
+            <Value1>65545</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65545</Value0>
+            <Value1>65546</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65546</Value0>
+            <Value1>65547</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65547</Value0>
+            <Value1>65545</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65545</Value0>
+            <Value1>65548</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65548</Value0>
+            <Value1>65547</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65547</Value0>
+            <Value1>65549</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65549</Value0>
+            <Value1>65548</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65548</Value0>
+            <Value1>65550</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65550</Value0>
+            <Value1>65551</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65551</Value0>
+            <Value1>254615</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○</Dialog>
+          <Dialog>×</Dialog>
+          <Dialog>Nice to meet you</Dialog>
+          <Dialog>Wrong</Dialog>
+          <Dialog>A Type</Dialog>
+          <Dialog>B Type</Dialog>
+          <Dialog>O Type</Dialog>
+          <Dialog>AB Type</Dialog>
+          <Dialog>Passionate</Dialog>
+          <Dialog>Rough</Dialog>
+          <Dialog>Natural</Dialog>
+          <Dialog>Careful</Dialog>
+          <Dialog>Out</Dialog>
+          <Dialog>Selfish</Dialog>
+          <Dialog>Introduce to others</Dialog>
+          <Dialog>End</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="895991" Unknown1="3830307540">
+      <SDL2 Key="569485541">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1775937376" Unknown1="2856928159">
+      <SDL2 Key="569485541">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1557532203" Unknown1="2947681947">
+      <SDL2 Key="569485541">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1346198311" Unknown1="964495876">
+      <SDL2 Key="569485541">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3104462739" Unknown1="75068367">
+      <SDL2 Key="1396825695">
+        <Unknown />
+        <Dialogs />
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>

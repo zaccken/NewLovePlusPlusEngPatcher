@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="1168595484" Unknown="10">
+  <Entries>
+    <Entry Unknown0="3087057912" Unknown1="1174355338">
+      <SDL2 Key="2405615228">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>4294901761</Value0>
+                <Value1>0</Value1>
+              </Entry>
+              <Entry>
+                <Value0>50833</Value0>
+                <Value1>500</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50834</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50835</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Do you have any food that 
+you don't like, 
+▲主人公＊▲？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Food I don't like, huh... 
+Ah, you don't like green 
+peas, right？　I noticed you 
+left them at school lunch, 
+▲小早川＊▲.</Dialog>
+          <Dialog>What！？　What did you... 
+I'm the one asking 
+questions！</Dialog>
+          <Dialog>You couldn't eat them, 
+so the sensei got angry. 
+You almost cried.</Dialog>
+          <Dialog>Don't talk like you've seen 
+it all！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1376987294" Unknown1="1503060893">
+      <SDL2 Key="1768128429">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50836</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50837</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50838</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>An anime my brother watches 
+has been discontinued.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Heh, it's a world of hurt.</Dialog>
+          <Dialog>It's an anime that's 
+supposed to give you 
+dreams, but it's just so 
+sad.</Dialog>
+          <Dialog>I hope Hapikamurinko isn't 
+discontinued！</Dialog>
+          <Dialog>...Haha, are we talking 
+about your fantasy anime？</Dialog>
+          <Dialog>Huh, wait a minute, 
+▲小早川＊▲！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1739230897" Unknown1="3980195380">
+      <SDL2 Key="3117669716">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50839</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50840</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50841</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Historical dramas are quite 
+interesting. Though it's 
+hard to keep up with my 
+brother when we watch them 
+together.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I see, so you take the 
+beaten role when that 
+happens, right, 
+▲小早川＊▲？</Dialog>
+          <Dialog>Yeah, like "I got hit～"... 
+"I'm dying"... 
+Something like that...</Dialog>
+          <Dialog>！？　Don't die, Kobayakawa- 
+sensei！　Stay with me！</Dialog>
+          <Dialog>No... If you take it so 
+seriously, it's a little...</Dialog>
+          <Dialog>Hah... Just a dream...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="139490120" Unknown1="2521796058">
+      <SDL2 Key="3117669716">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50842</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50843</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50844</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yesterday, I read a book to 
+my little brother that 
+seemed unusually girly.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Heh, like what？</Dialog>
+          <Dialog>Cinderella, Snow White, 
+and the Little Mermaid...</Dialog>
+          <Dialog>In that case, you're a 
+Thumbelina, right？　
+See, size-wise, 
+▲小早川＊▲.</Dialog>
+          <Dialog>Who's the size of a thumb！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2724452590" Unknown1="2900767725">
+      <SDL2 Key="3117669716">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50845</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50846</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50847</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Babies are so cute.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Heh, you want a baby？　
+Your child will be cute, 
+▲小早川＊▲...</Dialog>
+          <Dialog>You idiot！</Dialog>
+          <Dialog>Ouch.</Dialog>
+          <Dialog>I'm talking about a baby 
+cat！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3086630401" Unknown1="982271620">
+      <SDL2 Key="3117669716">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50848</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50849</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50850</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>You know, Rinko will be 
+working in a few years.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>What's wrong, so suddenly.</Dialog>
+          <Dialog>I suddenly though about it. 
+What does Rinko, a member 
+of society, look like？ 
+Do you think I'll take it 
+seriously？</Dialog>
+          <Dialog>...I don't think so.</Dialog>
+          <Dialog>Karate chop！</Dialog>
+          <Dialog>Ouch！　That why it's 
+impossible unless you stop 
+doing this！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1486889880" Unknown1="3818904874">
+      <SDL2 Key="3117669716">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50851</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50852</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50853</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>You know, Rinko...</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Rinda！？</Dialog>
+          <Dialog>What？　Who is that...</Dialog>
+          <Dialog>Haha, what do you mean. 
+It's you as a foreigner and 
+wanted to say "Hey, Rinda".</Dialog>
+          <Dialog>No... I'm Japanese.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4071852094" Unknown1="4281762621">
+      <SDL2 Key="1906659642">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50854</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50855</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50856</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Hey, can I ask you 
+something about your kicks, 
+▲小早川＊▲...</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Eh, you want one？</Dialog>
+          <Dialog>Wrong！　Why do you call 
+them small kicks？　
+Is there a medium or large？</Dialog>
+          <Dialog>.....</Dialog>
+          <Dialog>That's because...</Dialog>
+          <Dialog>Better leave it like that！</Dialog>
+          <Dialog>Hmm？</Dialog>
+          <Dialog>(I feel like I'm not 
+supposed to ask... 
+I had some weird dreams)</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="122351185" Unknown1="2279380692">
+      <SDL2 Key="1906659642">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50857</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50858</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50859</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Ah, a cat！</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Stop it, 
+▲小早川＊▲！</Dialog>
+          <Dialog>Wha-, why do you disturb 
+me？</Dialog>
+          <Dialog>You might think you're 
+cute, but the people you're 
+being cute with may be 
+annoyed. You have to think 
+about how others feel, 
+▲小早川＊▲.</Dialog>
+          <Dialog>What's that nonsense, 
+I don't feel bad about it. 
+Of course the cats are 
+happy too.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2834355176" Unknown1="1022307706">
+      <SDL2 Key="1906659642">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50860</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50861</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>50862</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hah, I'm hungry...</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>What！？</Dialog>
+          <Dialog>What, why are you so 
+surprised？</Dialog>
+          <Dialog>I beg you！　Please don't 
+eat me！</Dialog>
+          <Dialog>...I'm not eating you.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>

@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="2506202391" Unknown="56">
+  <Entries>
+    <Entry Unknown0="2370442267" Unknown1="3744182388">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52594</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>You didn't do so well on 
+your last test, did you？　
+I think it might help if we 
+study together... What do 
+you think？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Well...</Dialog>
+          <Dialog>Let's study together</Dialog>
+          <Dialog>We should not...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="947815880" Unknown1="328949160">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52595</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>You said you didn't do so 
+well on the test the other 
+day. Do you want to have a 
+study session with Rinko 
+now？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>What I should do...</Dialog>
+          <Dialog>Yeah, let's study</Dialog>
+          <Dialog>Not today</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1827483900" Unknown1="2185597207">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52596</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Sorry to hear about your 
+last test... If you're 
+going to review, why don't 
+you join me？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Hmm...</Dialog>
+          <Dialog>Sounds nice</Dialog>
+          <Dialog>I'll pass</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3717882987" Unknown1="746258628">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52597</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Well then, I'll be waiting 
+for you at home, so come 
+when you're ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2295256344" Unknown1="1626058232">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52598</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Okay. We'll meet up at 
+Rinko's house later.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3158147148" Unknown1="3516260711">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52599</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>It's decided. Then come to 
+Rinko's house when you're 
+ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="770356411" Unknown1="2043367444">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52600</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I see... Well, okay.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3625854312" Unknown1="3040607560">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52601</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hmm. Well, Rinko doesn't 
+mind.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="210620572" Unknown1="619000247">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52602</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Really？　If so, I don't 
+mind...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2100954123" Unknown1="3323699300">
+      <SDL2 Key="730136219">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52603</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Did you arrive without 
+trouble？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yep.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="678327736" Unknown1="176901528">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52604</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Welcome.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Sorry to disturb you.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1557995756" Unknown1="2067104007">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52605</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I've been waiting for you.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'm kind of nervous.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3448394843" Unknown1="325841076">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52606</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Don't stare too much at my 
+room, okay？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I won't look.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2025768200" Unknown1="1608228328">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52607</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I think it's cleaner than 
+your room.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Haha, well I guess you're 
+right.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2888659004" Unknown1="3464876375">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52608</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Don't look around my room 
+too much, okay？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>That being said, I'm 
+curious...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="500868267" Unknown1="1622884356">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52609</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Well, let's get started.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Roger that.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3356366168" Unknown1="2888559928">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52610</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Well, is it time to start？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Okay.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4236099724" Unknown1="500507047">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52611</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>So, can we start...？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Sure.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1831531771" Unknown1="2903216212">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52612</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Which subject do you want 
+to study？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="408839592" Unknown1="3782950280">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52613</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Well, which subject are you 
+going to take？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1288507612" Unknown1="1881502199">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52614</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Which subject would you 
+like to study？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3178906699" Unknown1="442163364">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>65536</Value0>
+            <Value1>65537</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65537</Value0>
+            <Value1>65538</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>65540</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65540</Value0>
+            <Value1>65541</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65541</Value0>
+            <Value1>65542</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65542</Value0>
+            <Value1>452535</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>General</Dialog>
+          <Dialog>Japanese</Dialog>
+          <Dialog>Social Studies</Dialog>
+          <Dialog>Science</Dialog>
+          <Dialog>Math</Dialog>
+          <Dialog>English</Dialog>
+          <Dialog>▲小早川＊▲</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1756280312" Unknown1="1439272408">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52615</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>What's that... Idiot.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2619170860" Unknown1="2776023367">
+      <SDL2 Key="3545658210">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52616</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Geez, you're being too 
+persistent. Let's just 
+start with General.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="231380123" Unknown1="1202401524">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52617</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I can't believe you... 
+Why do you insist on doing 
+that？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3103655240" Unknown1="2333859112">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52618</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yes, yes. Well then, that's 
+fine...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3966611580" Unknown1="449122711">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52619</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I can't help it... 
+I'm selfish.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1562043627" Unknown1="3036381252">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52620</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Okay, that's it.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="139351448" Unknown1="4167773560">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52621</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yeah, I get it.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1019019468" Unknown1="1226138087">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52622</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Okay. Then let's start.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2909418555" Unknown1="3779842196">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52623</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52624</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>That's great. This seems 
+like a no-brainer. Do you 
+want to take a break for a 
+cup of tea or something？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Sounds good.</Dialog>
+          <Dialog>Then wait for me while I 
+get ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1486792168" Unknown1="767262152">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52625</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52626</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>You're doing it！　
+Looks like it's safe to 
+take a little break... 
+do you want some tea？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Agreed.</Dialog>
+          <Dialog>Okay. Then wait for me.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2349682716" Unknown1="3160781111">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52627</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52628</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Awesome！　This looks fine 
+to me, so why don't we have 
+our tea time break here？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Let's do it.</Dialog>
+          <Dialog>Okay. I'm going to get it 
+ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4256859275" Unknown1="1855660260">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52629</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>That's perfect. Then... 
+I need something to reward 
+you.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2834232632" Unknown1="2718682392">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52630</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>What！？　You got all the 
+questions right. Then, I'll 
+give you a reward.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3697123436" Unknown1="3551854983">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52631</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Wow, that's great. I should 
+reward you for answering 
+all correctly, right？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1292555483" Unknown1="3152769076">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52632</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52633</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Are you tired？　Would you 
+like to have a cup of tea 
+and refresh yourself？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>That would be great.</Dialog>
+          <Dialog>Okay. Then wait for me.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="4164830600" Unknown1="4149943656">
+      <SDL2 Key="327592397">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52634</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52635</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Look at you... you're not 
+doing well. Maybe you 
+should have a cup of tea 
+and refresh yourself.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yeah, that might help.</Dialog>
+          <Dialog>I have no choice. I'll go 
+get ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="749596860" Unknown1="1711624663">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52636</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52637</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hmm... In time like this, 
+let's have a cup of tea to 
+refresh ourselves.</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'd like that.</Dialog>
+          <Dialog>Done！　Okay, I'll hurry up 
+and get ready.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2639930411" Unknown1="3359359108">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52638</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>How do you like your 
+reward？　I got this dress 
+as a gift from you... 
+Do you think it looks good 
+on me？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1217304024" Unknown1="78343608">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52639</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Okay, a special treat. 
+You gave me this as a gift.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2096971788" Unknown1="3042287911">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52640</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yes... it's a reward. 
+The clothes you picked out 
+for me... will they look 
+good on me？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3987371131" Unknown1="361435348">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52641</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Isn't this a little too 
+much... service？　I rarely 
+wear something like this.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2564744488" Unknown1="1509670152">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52642</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yes, this a special treat. 
+You're the only one who can 
+see me like this.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3427635292" Unknown1="3366318455">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52643</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>It's your reward... 
+don't laugh, okay？　
+I'm really embarrassed.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1039844555" Unknown1="2732285988">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52644</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Well, today is special... 
+I'll let you take a photo.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3895342456" Unknown1="3997896024">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52645</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>I'll give you a photo 
+session to commemorate the 
+event...</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="480108716" Unknown1="536166855">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52646</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>What are you gonna do？　
+Take pictures or something？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2370442267" Unknown1="4012617844">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52647</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52648</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Sorry to make you wait. 
+You know... I made this, do 
+you want some？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yeah！　I wanna try it.</Dialog>
+          <Dialog>I can't guarantee the 
+taste, but... go ahead.</Dialog>
+          <Dialog>Thank you. Bon appetit！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="947815880" Unknown1="597384616">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52649</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52650</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Thanks for waiting. By the 
+way, I made something like 
+this, would you like to try 
+it？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yeah, thank you.</Dialog>
+          <Dialog>It doesn't always taste 
+good.</Dialog>
+          <Dialog>If it's made by you, it 
+must be really delicious, 
+▲小早川＊▲.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="1827483900" Unknown1="2990903575">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52651</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52652</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147458</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Sorry to keep you waiting. 
+Hey, I don't know if this 
+is palatable, but... I made 
+it. Would you like to try 
+it？</Dialog>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>That's great. Of course 
+I'll eat it.</Dialog>
+          <Dialog>I hope it's delicious...</Dialog>
+          <Dialog>Bon appetit.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3717882987" Unknown1="477823172">
+      <SDL2 Key="3143052436">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52653</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Now, are you ready to 
+continue？</Dialog>
+          <Dialog>Let's do that</Dialog>
+          <Dialog>I'll stop now</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="2295256344" Unknown1="1357622776">
+      <SDL2 Key="3951514622">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52654</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Now then, shouldn't we go 
+back to studying now？</Dialog>
+          <Dialog>That's right</Dialog>
+          <Dialog>I'm done</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3158147148" Unknown1="3784696167">
+      <SDL2 Key="3951514622">
+        <Unknown>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52655</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65538</Value0>
+            <Value1>65539</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>65539</Value0>
+            <Value1>648624</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Hey, don't you think it's 
+time to continue our 
+studies？</Dialog>
+          <Dialog>Sure</Dialog>
+          <Dialog>I'll stop today</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="770356411" Unknown1="1237995540">
+      <SDL2 Key="3951514622">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52656</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Right. Let's go back to 
+studying.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yeah, I know. You must have 
+refreshed yourself.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="3625854312" Unknown1="2218392904">
+      <SDL2 Key="3951514622">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>52657</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>I'm not going to do this 
+anymore today.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>Yeah？　Well, it's been 
+longer than I thought... 
+I guess we'll do that.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>

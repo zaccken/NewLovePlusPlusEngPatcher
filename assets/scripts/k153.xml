@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBIN2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="2683066683" Unknown="3">
+  <Entries>
+    <Entry Unknown0="2131192851" Unknown1="2794762821">
+      <SDL2 Key="2480594511">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>4294901761</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89702</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89703</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89704</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89705</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>You're late... 
+Today's the day for sorting 
+out the bookshelves, 
+▲小早川＊▲.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>▲主人公＊▲.</Dialog>
+          <Dialog>Sorry, I was just getting 
+dressed, and time flew by 
+before I knew.</Dialog>
+          <Dialog>▲小早川＊▲！？
+What's up with that outfit...</Dialog>
+          <Dialog>What's wrong？ These are 
+my Atami, you know？ 
+Did you forget？</Dialog>
+          <Dialog>No, nothing like that...</Dialog>
+          <Dialog>In this way, not only I can 
+organize books in a dark 
+library, but I can take 
+a break once in a while...</Dialog>
+          <Dialog>Well, that sounds fine？</Dialog>
+          <Dialog>So, shall we go？ 
+Not just to Atami this 
+time, but to other places 
+too.</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="688961473" Unknown1="2781700174">
+      <SDL2 Key="3273201067">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>4294901761</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89706</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89707</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89708</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89709</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89710</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>720896</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>You're late... 
+Today's the day for sorting 
+out the bookshelves, 
+▲小早川＊▲.</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>▲主人公＊▲.</Dialog>
+          <Dialog>How is it？ 
+Are you ready to begin？</Dialog>
+          <Dialog>Sorry I'm late, but that 
+attitude is...</Dialog>
+          <Dialog>You know, even if Rinko is 
+organizing the bookshelves 
+like this...</Dialog>
+          <Dialog>Think about it, it's our 
+youth, you know？ 
+Do you want to spend your 
+youth like this？</Dialog>
+          <Dialog>I think I get it...？</Dialog>
+          <Dialog>Leave your books behind 
+and let's travel！ 
+I'm joking...？</Dialog>
+          <Dialog>Travel, huh... 
+Come to think of it, we've 
+never done that before, 
+have we？</Dialog>
+          <Dialog>So, shall we go？ 
+We'll even stay the night！</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+    <Entry Unknown0="541672906" Unknown1="4235946375">
+      <SDL2 Key="3273201067">
+        <Unknown>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>65536</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89711</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>196608</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89712</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>262144</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>327680</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89713</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>393216</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>458752</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89714</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>524288</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>589824</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89715</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>655360</Value1>
+          </Entry>
+          <Entry>
+            <Values />
+            <Value0>147456</Value0>
+            <Value1>720896</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89716</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>786432</Value1>
+          </Entry>
+          <Entry>
+            <Values>
+              <Entry>
+                <Value0>89717</Value0>
+                <Value1>0</Value1>
+              </Entry>
+            </Values>
+            <Value0>147458</Value0>
+            <Value1>851968</Value1>
+          </Entry>
+        </Unknown>
+        <Dialogs>
+          <Dialog>○○○○○○○○</Dialog>
+          <Dialog>Yes, I agree. 
+Let's think about it...</Dialog>
+          <Dialog>Rinko</Dialog>
+          <Dialog>It's a deal, hehe.</Dialog>
+          <Dialog>Hey~, then when？ 
+When are we going？</Dialog>
+          <Dialog>Not so fast... 
+You know what goes before, 
+right？</Dialog>
+          <Dialog>Well, why don't you enter 
+a sweepstakes or something 
+like that？</Dialog>
+          <Dialog>A sweepstakes？ 
+Yeah, I don't think I can 
+win it all the time！</Dialog>
+          <Dialog>Well, not necessarily. 
+Take a look at this...</Dialog>
+          <Dialog>Huh？</Dialog>
+          <Dialog>What do you think？ 
+If I win the trip, do you 
+want to go with Rinko？</Dialog>
+          <Dialog>Sure</Dialog>
+          <Dialog>Hehe...</Dialog>
+          <Dialog>Okay, promise. Hey, hey... 
+Doesn't look like anyone's 
+watching right now, huh？</Dialog>
+        </Dialogs>
+      </SDL2>
+    </Entry>
+  </Entries>
+</DBIN2>
