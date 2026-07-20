@@ -15,7 +15,7 @@
           <Dialog>Today is your birthday... 
 I didn't prepare a present 
 for you. Will it be okay, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -33,7 +33,7 @@ for you. Will it be okay,
           <Dialog>Today is your birthday. 
 I already prepared a gift. 
 I wonder if you'll like it, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -52,7 +52,7 @@ I wonder if you'll like it,
 but I didn't have a chance 
 to give you my present. 
 What should I do, 
-▲高嶺＊＊▲...？</Dialog>
+Takane...？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -70,7 +70,7 @@ What should I do,
           <Dialog>Today is your birthday... 
 I didn't prepare a present 
 for you. Will it be okay, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -88,7 +88,7 @@ for you. Will it be okay,
           <Dialog>Today is your birthday. 
 I already prepared a gift. 
 I wonder if you'll like it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -107,7 +107,7 @@ I wonder if you'll like it,
 but I didn't have a chance 
 to give you my present. 
 What should I do, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -125,7 +125,7 @@ What should I do,
           <Dialog>Today is your birthday... 
 I didn't prepare a gift for 
 you. Will it be okay, 
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -143,7 +143,7 @@ you. Will it be okay,
           <Dialog>Today is your birthday. 
 I already prepared a gift. 
 I wonder if you'll like it, 
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -162,7 +162,7 @@ I wonder if you'll like it,
 but I didn't have a chance 
 to give you my present.
 What should I do, 
-▲姉ヶ崎＊▲...？</Dialog>
+Nene...？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

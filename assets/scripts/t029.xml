@@ -138,12 +138,12 @@
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What kinds of TV programs 
 do you usually watch, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>TV？ Why？</Dialog>
           <Dialog>You might not watch what 
 other girls like to watch. 
 That's what I think, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...I watch what others 
 watch.</Dialog>
           <Dialog>I see. I'm sorry. Then you 
@@ -322,7 +322,7 @@ it for a while after that.</Dialog>
           <Dialog>But, it's okay now.</Dialog>
           <Dialog>(You are the type that 
 can't control herself, huh, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -437,7 +437,7 @@ can't control herself, huh,
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>Besides tennis, what other 
 sports do you play, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Sports？ Um, during grade 
 school, I attended 
 swimming class.</Dialog>
@@ -599,7 +599,7 @@ a frog...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What kind of music do you 
-like, ▲高嶺＊＊▲？</Dialog>
+like, Takane？</Dialog>
           <Dialog>Music？ Piano concerto, I 
 guess.</Dialog>
           <Dialog>Concer... What？</Dialog>
@@ -767,7 +767,7 @@ guy...？)</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>Do you have hobbies？ 
 Something besides tennis, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yes. What do you think my 
 hobby is？</Dialog>
           <Dialog>Um... Cooking or baking, 
@@ -777,7 +777,7 @@ it too common？</Dialog>
           <Dialog>No. Many girls like 
 cooking, but I think you 
 would like it too, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Really？ Hehe... Since I 
 was a kid, I always quit 
 things halfway, like for 
@@ -794,7 +794,7 @@ fine. Hehe▼</Dialog>
           <Dialog>(But she said she always 
 quits halfway through... 
 Will I be okay, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -943,7 +943,7 @@ Will I be okay,
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What are your favorite 
 animals, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>My favorite animals？ I 
 guess rabbits are.</Dialog>
           <Dialog>Rabbits？ What do you like 
@@ -966,7 +966,7 @@ something all the time.
 Such gluttons. Hehe▼</Dialog>
           <Dialog>(So your favorite animals 
 are the rabbits then, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1157,7 +1157,7 @@ are the rabbits then,
 before, but have to be the 
 successor of your parent's 
 hospital, right 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I guess...</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>When I was a child, I 
@@ -1184,7 +1184,7 @@ make someone I love think
 that he's happy to have 
 me by his side. I just 
 want to make him happy.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>I'm such a terrible 
 daughter. I only think 
 about myself.</Dialog>
@@ -1192,7 +1192,7 @@ about myself.</Dialog>
 for your thoughts. You are 
 such a nice person. That's 
 what I think 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>No, I'm not... But thank 
 you. If you said that, 
 I... No, never mind.</Dialog>
@@ -1333,7 +1333,7 @@ serious about my future...)</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What are your dreams for 
 your future 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>My dreams and my future 
 are probably totally 
 different.</Dialog>
@@ -1344,7 +1344,7 @@ take care of it. I'm
 their only child.</Dialog>
           <Dialog>So, you'll be a doctor？ I 
 know you can do it, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Really？ Why？</Dialog>
           <Dialog>Because you're smart, 
 diligent, and gentle to 
@@ -1355,7 +1355,7 @@ person. Actually...
 Actually, I've also been 
 thinking about many bad 
 things.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1473,7 +1473,7 @@ things.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>Do you have a role model, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>A role model...？ Yeah, 
 Nightingale, I think.</Dialog>
           <Dialog>Nightingale... You mean 
@@ -1486,14 +1486,14 @@ knowledgeable. And she has
 faith too.</Dialog>
           <Dialog>I see... You want to be 
 like her huh, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I used to... But now, I 
 don't know anymore.</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>I've just realized that 
 I'm not that special. I'm 
 just an ordinary girl.</Dialog>
-          <Dialog>(▲高嶺＊＊▲...)</Dialog>
+          <Dialog>(Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1636,7 +1636,7 @@ just an ordinary girl.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>Do you have any role model, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes, many.</Dialog>
           <Dialog>I see. Like who？</Dialog>
           <Dialog>Um... The closest one to 
@@ -1661,7 +1661,7 @@ sound like a little kid
 now. This is embarrassing.</Dialog>
           <Dialog>(I'm sure you can become 
 like your mother, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1825,7 +1825,7 @@ like your mother,
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>Do you have any role models 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Of course.</Dialog>
           <Dialog>I see. Like who？</Dialog>
           <Dialog>Long ago, my neighbor 
@@ -1849,7 +1849,7 @@ she knew what she wanted
 and that she went for it.</Dialog>
           <Dialog>I see. She's like the 
 ideal person for you right, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yeah, when I baked my 
 first cake, I just 
 imitated her... Now you 
@@ -2016,7 +2016,7 @@ Could I also do that？
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What kinds of movies do you 
 like to watch, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Movies？ Well... Um...</Dialog>
           <Dialog>Do you like historical 
 documentaries or something 
@@ -2152,7 +2152,7 @@ You liar！</Dialog>
           <Dialog>Hmm？ What？</Dialog>
           <Dialog>What kinds of novels do 
 you like to read, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Novels？ Um... I haven't 
 read much lately.</Dialog>
           <Dialog>I see. Then how about 
@@ -2173,7 +2173,7 @@ fun. Maybe I'll start
 reading them again.</Dialog>
           <Dialog>(You really enjoy reading 
 mystery novels, huh, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

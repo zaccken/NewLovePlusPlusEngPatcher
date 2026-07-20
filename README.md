@@ -13,9 +13,11 @@ Drop in the correct encrypted CIA and it will:
 1. **Verify** the dump (SHA-1) before touching anything  
 2. **Decrypt** the CIA if needed  
 3. **Inject English scripts** (pre-packed `.dbin2` from finished XML)  
-4. **Optionally inject English UI art** into `romfs/img.bin` (same-size BCLIM swaps only; off by default)  
-5. **Rebuild** a decrypted CIA for FBI / Azahar / Citra  
-6. **Also emit** a Luma/Azahar **LayeredFS** overlay (same style as community NLPPATCH releases)
+4. **English heroine names** — rewrite dialog tokens (`▲高嶺＊＊▲` → `Takane`, etc.) and patch UI name tables in `textresource_resident_jpn.trb` / `img.bin`  
+5. **Optionally patch `code.bin`** — single-pane player-name draw so roman letters aren’t one-glyph-per-box (`--patch-code`)  
+6. **Optionally inject English UI art** into `romfs/img.bin` (same-size BCLIM swaps only; off by default)  
+7. **Rebuild** a decrypted CIA for FBI / Azahar / Citra  
+8. **Also emit** a Luma/Azahar **LayeredFS** overlay (same style as community NLPPATCH releases)
 
 | Included assets | Approx. count |
 |-----------------|--------------:|
@@ -46,16 +48,18 @@ Decrypted CIAs will fail the hash check (by design). The patcher decrypts for yo
 ### Requirements
 
 - Windows x64  
-- Python 3.10+ on `PATH`  
+- Python 3.10+ (the drop bat finds `python`, `py -3`, or common install folders)  
 - A few GB free disk (RomFS rebuild is large)  
 - First run downloads/wires `3dstool` + CIA tools via `src/setup_tools.py`
+
+If you see **Python not found**: install from [python.org](https://www.python.org/downloads/) with **Add python.exe to PATH** checked, open a **new** Command Prompt, and confirm `py -3 --version` works. Turning off Windows “App execution aliases” for `python.exe` only helps after a real install exists.
 
 ### Outputs
 
 | Path | Description |
 |------|-------------|
 | `out/NewLovePlusPlus-EN.cia` | Patched **decrypted** CIA — install with FBI, or open in Azahar/Citra |
-| `out/layeredfs/00040000000F4E00/` | LayeredFS drop: `romfs/script/bin/...` + `romfs/img.bin` |
+| `out/layeredfs/00040000000F4E00/` | LayeredFS drop: scripts + resident name TRB (+ `img.bin` with `--with-images` / `--name-img`) |
 | `out/new_img.bin` | Packed English UI bank (reused on later runs) |
 | `out/img_work/image_pack_report.txt` | Per-texture pack log |
 
@@ -74,10 +78,29 @@ encrypted CIA
   → decrypt (Batch CIA 3DS Decryptor tools)
   → extract NCCH / RomFS (ctrtool + 3dstool)
   → inject rebuild_dbin2/*.dbin2 into script/bin/{NLP_01,NLP_02,script}/
-  → inject packed img.bin (UI)
+  → name patches (plain Takane/Rinko/Nene in scripts + resident/img tables)
+  → inject packed img.bin (UI, optional)
   → rebuild RomFS → CXI → CIA (makerom, decrypted)
   → also write LayeredFS overlay
 ```
+
+**Heroine names**
+
+- Finished XML under `assets/scripts` uses plain **Takane** / **Rinko** / **Nene** (not `▲高嶺＊＊▲`).  
+  Player tokens like `▲主人公＊▲` are unchanged.  
+- At patch time, `src/patch_names.py` also rewrites any leftover tokens inside `.dbin2` and patches the resident TRB + `img.bin` name table.  
+- Standalone:  
+  `python src/patch_names.py --romfs path\to\romfs`  
+  `python src/patch_names.py --xml assets/scripts`  
+  `python src/patch_names.py --dbin ../rebuild_dbin2`  
+- Skip with `--skip-name-patches`. For LayeredFS without a full UI pack but with the name table: `--name-img`.
+
+**Player name UI (`code.bin`)**
+
+- Opt-in: `--patch-code` rewrites `SetNameCharsToPanes` / clear / backspace so the whole name draws in one pane (max still 8).  
+- Standalone: `python src/patch_code.py path\to\code.bin`  
+- LayeredFS installs `code.bin` next to `romfs/` (Azahar/Luma ExeFS overlay).  
+- CIA builds unpack/repack ExeFS via `3dstool`.
 
 **Encryption notes**
 
@@ -100,6 +123,8 @@ Image packing (`tools/nlpp-tools/`) uses **[kiwiz/nlpp-tools](https://github.com
 
 Other community references: [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH), [NLPTextTool](https://github.com/LovePlusProject/NLPTextTool), [Makein/NLPPGit](https://github.com/Makein/NLPPGit).
 
+An offline copy of NLPPATCH (git tree + `NLPPATCH.2017.08.15` release scripts/TRB/code) lives in `vendor/NLPPATCH/`. Deploy dialogue with `python src/deploy_nlppatch_scripts.py`.
+
 ---
 
 ## Layout
@@ -112,6 +137,8 @@ assets/
   images/                    finished UI PNGs (+ editor sources)
 src/
   patch_cia.py               CIA decrypt → inject → rebuild
+  patch_names.py             heroine names (dbin2 / resident TRB / img.bin)
+  patch_code.py              single-pane name draw (ExeFS code.bin)
   pack_images.py             PNG → img.bin
   darcutil.py                DARC extract / rebuild
   image_map.py               folder → img.bin package index
@@ -119,6 +146,7 @@ src/
   setup_tools.py             fetch 3dstool + wire decryptor bins
   drop_zone.ps1              WinForms drop window
 tools/                       cia binaries, nlpp-tools, optional clones
+vendor/NLPPATCH/             offline NLPPATCH snapshot (scripts/TRB/code)
 out/                         build products (gitignored)
 ```
 
@@ -144,6 +172,20 @@ python src/pack_images.py --only title mail
 
 # Skip SHA-1 (not recommended)
 python src/patch_cia.py --cia "..." --skip-hash
+
+# Name patches only (scripts / resident / img table)
+python src/patch_names.py --romfs "path\to\romfs"
+python src/patch_names.py --dbin ../rebuild_dbin2
+python src/patch_names.py --xml assets/scripts
+
+# LayeredFS with name-table img.bin but without UI texture packing
+python src/patch_cia.py --cia "path\to\game.cia" --layeredfs-only --name-img --skip-hash
+
+# LayeredFS + single-pane name code.bin patch
+python src/patch_cia.py --cia "path\to\game.cia" --layeredfs-only --patch-code --skip-hash
+
+# Patch code.bin only
+python src/patch_code.py "..\New Love Plus Plus\extracted\exefs\code.bin"
 
 # Asset helpers
 python src/patcher.py status

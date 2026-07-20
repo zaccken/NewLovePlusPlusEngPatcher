@@ -552,7 +552,7 @@ when we do this.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hand is so warm 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>My hand isn't the only 
 thing that gets warm.</Dialog>
@@ -753,7 +753,7 @@ my hand！</Dialog>
           <Dialog>Somehow, when you do this, 
 it feels like you really 
 care about Rinko.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1309,7 +1309,7 @@ themselves？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well, why do you want to 
 hold hands then, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko？ Um, point taken.</Dialog>
         </Dialogs>
       </SDL2>
@@ -2809,7 +2809,7 @@ you should look at.</Dialog>
           <Dialog>But since you looked at 
 her, I couldn't help 
 looking at her too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>But there's someone here 
 you shouldn't take your 
 eyes off of. Don't you 
@@ -3000,7 +3000,7 @@ made in Japan.</Dialog>
           <Dialog>Do you like it？ I'll 
 always keep the back seat 
 available for you then, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>You'd better get a driver's 
 license before saying that.</Dialog>
         </Dialogs>
@@ -3599,7 +3599,7 @@ to be here... Yeah.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What！？ It's dangerous！ 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Eh？</Dialog>
           <Dialog>What is this？ 

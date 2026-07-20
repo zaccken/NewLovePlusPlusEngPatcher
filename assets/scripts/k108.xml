@@ -249,7 +249,7 @@ doesn't it？ Hehe, I'm
 proud of myself.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yes, you really improved, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -645,7 +645,7 @@ impression...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills are 
 rough around the edges, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -662,7 +662,7 @@ rough around the edges,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills seem 
 to be improving, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -679,7 +679,7 @@ to be improving,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills have 
 improved so much this time, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -696,7 +696,7 @@ improved so much this time,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills are at 
 a level that make me proud, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -714,7 +714,7 @@ a level that make me proud,
           <Dialog>(Your cooking skill can't 
 be considered the likes of 
 an amateur anymore, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -732,7 +732,7 @@ an amateur anymore,
           <Dialog>(Your cooking skills are at 
 a level where you can start 
 teaching people, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -749,7 +749,7 @@ teaching people,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills are on 
 par with a top chef, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -767,7 +767,7 @@ par with a top chef,
           <Dialog>(Your cooking skills are 
 as good as a three star 
 restaurant, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -785,7 +785,7 @@ restaurant,
           <Dialog>(Your cooking skills are at 
 the level of the best in 
 the world, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -802,7 +802,7 @@ the world,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills are 
 the best in human history, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1235,7 +1235,7 @@ try.</Dialog>
           <Dialog>I think I'll try 
 ▲生成選択肢１▲. 
 What do you want to eat, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1352,7 +1352,7 @@ Sounds good.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You know, your hair 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm？　What's wrong with my 
 hair？</Dialog>
@@ -2089,7 +2089,7 @@ doesn't look good on you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I don't think that kind of 
 glasses look good on you 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2170,7 +2170,7 @@ try other things.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>How do you choose the 
 clothes you use, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>How, you ask... I just pick 
 them normally.</Dialog>
@@ -2476,7 +2476,7 @@ ease.</Dialog>
           <Dialog>A calm, cold color would be 
 nice, don't you think？　
 It would look good on you 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3044,7 +3044,7 @@ way of calling you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hmm, I'm thinking of 
 changing the way I call you 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3393,7 +3393,7 @@ way they are.</Dialog>
 want？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Then, I think for you, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Cute-type page</Dialog>
           <Dialog>neat-and-tidy page</Dialog>
           <Dialog>Casual page</Dialog>

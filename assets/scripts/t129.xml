@@ -397,7 +397,7 @@ because I put it away
 recently...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Isn't your room always 
-clean, ▲高嶺＊＊▲？</Dialog>
+clean, Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -625,7 +625,7 @@ want to cover first？</Dialog>
           <Dialog>Science</Dialog>
           <Dialog>Math</Dialog>
           <Dialog>English</Dialog>
-          <Dialog>▲高嶺＊＊▲</Dialog>
+          <Dialog>Takane</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1399,7 +1399,7 @@ fits your tastes.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Is it handmade？ This makes 
 me so happy, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>You're doing your best, 
 so I'm going to support 
 you too.</Dialog>

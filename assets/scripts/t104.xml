@@ -287,7 +287,7 @@ while it was snowing...</Dialog>
           <Dialog>...</Dialog>
           <Dialog>(No way. Today was our 
 date！.)</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Geez, I've been waiting 
 for a long time... 
@@ -335,7 +335,7 @@ Why were you so late？</Dialog>
           <Dialog>...</Dialog>
           <Dialog>(No  way. Today was our 
 date！.)</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm glad you're here. 
 I came to pick you up 
@@ -384,7 +384,7 @@ What happened？</Dialog>
           <Dialog>...</Dialog>
           <Dialog>(No way. Today was our 
 date！.)</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I couldn't wait, so I 
 came here. Is that okay？</Dialog>
@@ -506,7 +506,7 @@ right？　Geez.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(Oh, ▲高嶺＊＊▲. 
+          <Dialog>(Oh, Takane. 
 It looks like she hasn't 
 noticed yet.)</Dialog>
           <Dialog>(I'll give you a surprise.)</Dialog>
@@ -568,7 +568,7 @@ move...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh？　She hasn't... 
 I should call her, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello？　Huh？　I called you 
 right now？</Dialog>
@@ -714,7 +714,7 @@ being seen like this.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh？　Are you talking to 
 someone, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah, there you are... 
 Well, that's why I came 
@@ -899,13 +899,13 @@ didn't make you wait.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Didn't you come？ Where 
 are you 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah... I was found.</Dialog>
           <Dialog>Were you trying to do 
 something 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I wanted to cover your 
 eyes and ask "Who is it！". 
 I almost got you.</Dialog>
@@ -965,7 +965,7 @@ late... Anyway, I have to
 change my clothes！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Huh, the lock is open...</Dialog>
-          <Dialog>Eh, ▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Eh, Takane！？</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>Uwa！</Dialog>
           <Dialog>(I'm glad I was wearing 
@@ -1039,7 +1039,7 @@ boxers...)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm so sorry 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>I came to pick you up. 
 Did you forget our 
 promise？</Dialog>
@@ -1102,10 +1102,10 @@ change now！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(...Huh？　I wonder what 
 are you doing, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Hey, what are you doing 
 crouched like that 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah...</Dialog>
           <Dialog>There was a dog here.</Dialog>
@@ -1178,8 +1178,8 @@ away because you shouted.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh？　Are you speaking 
 with some foreigners 
-▲高嶺＊＊▲？)</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+Takane？)</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Whassup. How are you？</Dialog>
@@ -1187,7 +1187,7 @@ with some foreigners
 directions... He's from 
 Germany.</Dialog>
           <Dialog>Can you speak German 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>No, in English. Chatting 
 in German is a bit...</Dialog>
           <Dialog>(That's amazing...)</Dialog>
@@ -1237,7 +1237,7 @@ in German is a bit...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(She's not here...？　It's 
 rare for you to be late, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm sorry to keep you 
 waiting.</Dialog>
@@ -1363,7 +1363,7 @@ because of the humidity？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong？ Is anything 
 troubling you 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes... Isn't my butt 
 weird？</Dialog>
@@ -1375,7 +1375,7 @@ Oh, I'm okay because I'm
 not hurt.</Dialog>
           <Dialog>(Falling in the snow. I'm 
 sorry, I wanted to see it 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1430,9 +1430,9 @@ sorry, I wanted to see it
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh？ What are you doing, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>What are you doing 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Look, look, I made this 
 while I was waiting for you 
@@ -1497,7 +1497,7 @@ little.</Dialog>
           <Dialog>(It's embarrassing... 
 But, if you fix it, I'll 
 feel lucky, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1546,7 +1546,7 @@ feel lucky,
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲. 
 Kyaa...</Dialog>
@@ -2931,7 +2931,7 @@ more patient...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>... Not here.</Dialog>
         </Dialogs>
@@ -4049,7 +4049,7 @@ why don't we have a date
 here？</Dialog>
           <Dialog>(If you're fine with it, 
 then it's okay
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4099,7 +4099,7 @@ out of time, should we do
 it here？</Dialog>
           <Dialog>(If you're fine with it, 
 then it's okay
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4680,7 +4680,7 @@ to see it.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Wait！ It's dangerous 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>...There, there. Do you 
 want to play？ I'm sorry, 
@@ -4736,7 +4736,7 @@ Hey, you there！</Dialog>
           <Dialog>It was nice his mom was 
 nearby. It's thanks to you 
 for realizing immediately 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>It just happens. You were 
 the one who found her.</Dialog>
         </Dialogs>
@@ -4891,7 +4891,7 @@ reason...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲, here.</Dialog>
+          <Dialog>Takane, here.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah,yes...</Dialog>
           <Dialog>It's dangerous, even 
@@ -5324,7 +5324,7 @@ be with you more.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Are you good on time？ I 
 want to continue our date, 
-▲高嶺＊＊▲ ...</Dialog>
+Takane...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5796,7 +5796,7 @@ get off.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>We arrived, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah... You saw my sleeping 
 face... Geez, forget it 
@@ -6219,7 +6219,7 @@ to get people in.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>... Yes.</Dialog>
         </Dialogs>
@@ -6246,7 +6246,7 @@ to get people in.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Bye-bye.</Dialog>
         </Dialogs>
@@ -6578,7 +6578,7 @@ How were you？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It was a pain not being 
 able to speak with you, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Me too. I'm so happy 
 today... I wish this 
 makes us closer.</Dialog>

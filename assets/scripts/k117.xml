@@ -215,7 +215,7 @@ should do...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah, that thing.</Dialog>
           <Dialog>Huh？　You knew about it 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Because that's what Rinko 
 said no to.</Dialog>
           <Dialog>I didn't know that... 
@@ -424,8 +424,8 @@ would be nice！</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Wha-... there you are, 
-▲小早川＊▲.</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+Rinko.</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Would you like to go read 
@@ -632,7 +632,7 @@ bit too much...)</Dialog>
 "My Measuring Spoon"！</Dialog>
           <Dialog>Wonder if she's available. 
 I should give you a call, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Would you like to read it 
@@ -648,7 +648,7 @@ be waiting for you▼</Dialog>
 rest of "My Measuring 
 Spoons"！</Dialog>
           <Dialog>Are you available, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>If you have time, let's 
 read the rest of "My 
@@ -780,7 +780,7 @@ more.</Dialog>
           <Dialog>Then it's settled！　Right 
 now, okay？　Now, start！</Dialog>
           <Dialog>How far did you read 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2094,7 +2094,7 @@ it's fine. I'm reading.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲小早川＊▲.</Dialog>
+          <Dialog>Hey, Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2720,7 +2720,7 @@ what a good story.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4206,7 +4206,7 @@ done, just hold on...</Dialog>
           <Dialog>"My Measuring Spoon", huh. 
 How do you like it after 
 reading it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah... at first, I really 
 thought I was going to stop 
@@ -4371,7 +4371,7 @@ before I forget！</Dialog>
           <Dialog>"My Measuring Spoon", huh. 
 How do you like it after 
 reading it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah... Simply put, it's 
 been a long time since I've 
@@ -4534,7 +4534,7 @@ in my book review...)</Dialog>
           <Dialog>"My Measuring Spoon", huh. 
 How do you like it after 
 reading it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah, first of all, I think 
 it's great that it's 
@@ -4755,7 +4755,7 @@ I'll be reading your book
 review with all my heart.</Dialog>
           <Dialog>Hah～～！　Feels like we did 
 it！　 Thanks to you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>As, I, said, Rinko just 
 read it together with you.</Dialog>
           <Dialog>But, you know, it was still 
@@ -4777,7 +4777,7 @@ to it very well. It's a
 good piece of writing.</Dialog>
           <Dialog>When you say so, I feel 
 more confident, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Then, why don't we write 
 down the Library Committee 
 couple's recommendation？　
@@ -4964,7 +4964,7 @@ is this the one you want
 to recommend？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Huh？　Um, it's... right, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What do you mean？</Dialog>
           <Dialog>What, you had Kobayakawa 
@@ -4975,7 +4975,7 @@ Kobayakawa did it...</Dialog>
 job, Kobayakawa.</Dialog>
           <Dialog>Hah... I ended up relying 
 on you until the end, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Yeah. What were you 
 thinking？　Letting me do 
 all the job.</Dialog>

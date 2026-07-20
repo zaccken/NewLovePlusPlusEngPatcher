@@ -614,7 +614,7 @@ like to study？</Dialog>
           <Dialog>Science</Dialog>
           <Dialog>Math</Dialog>
           <Dialog>English</Dialog>
-          <Dialog>▲小早川＊▲</Dialog>
+          <Dialog>Rinko</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1388,7 +1388,7 @@ it？</Dialog>
 good.</Dialog>
           <Dialog>If it's made by you, it 
 must be really delicious, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

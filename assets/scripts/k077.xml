@@ -1320,7 +1320,7 @@ I'm asking you why.</Dialog>
           <Dialog>No！</Dialog>
           <Dialog>Huh, why not？</Dialog>
           <Dialog>...How can I say it？</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1598,12 +1598,12 @@ seriously.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Huh？　Oh, right.</Dialog>
           <Dialog>Hmm.</Dialog>
-          <Dialog>▲小早川＊▲！？</Dialog>
+          <Dialog>Rinko！？</Dialog>
           <Dialog>Your back is surprisingly 
 big.</Dialog>
           <Dialog>Really？</Dialog>
           <Dialog>Yeah, for real...</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1763,10 +1763,10 @@ Then, I'll use another.</Dialog>
           <Dialog>What's with that joke. 
 Am I supposed to laugh？</Dialog>
           <Dialog>Huh？</Dialog>
-          <Dialog>▲小早川＊▲！？</Dialog>
+          <Dialog>Rinko！？</Dialog>
           <Dialog>I meant on this futon, 
 where you sleep.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Stay just like this till 

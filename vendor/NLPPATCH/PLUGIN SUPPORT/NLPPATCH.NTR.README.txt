@@ -1,0 +1,42 @@
+﻿NLPPATCH.NTR.Instructions
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Material:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+For the english translation download the [NLPPATCH] files here:
+https://github.com/LovePlusProject/NLPPATCH/releases
+Check and update this patch often to own the latest improved version
+
+To enhance your gaming experience browse through some of these custom MODs:
+https://gbatemp.Net/threads/project-newloveplus-custom-mods-thread.412840/
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Make sure your device and firmware is compatible and install NTR:
+
+(Original has been discontinued):
+https://gbatemp.Net/threads/release-ntr-cfw-3-2-with-experimental-real-time-save-feature.385142/
+
+Use BootNTR instead:
+https://github.com/44670/BootNTR/releases/
+
+Create a 'NLP+' folder into the root of sd card
+
+Extract the [NLPPATCH] files into the 'NLP+' folder
+
+'script' files should be in 'NLP+/script/bin/script/'
+
+'TextResource' files should be in 'NLP+/SystemData/TextResource'
+
+Download the '[NLP+].NTR.Plugin':
+https://mega.nz/#!hxwyzBoZ!7ORyyRFg5LkMo49XppJZlTSZeHABHryfHyOEZo28iQ8
+
+Extract 'plugin' folder into root of sd card, 'plg' file should be in 'plugin/00040000000f4e00/'
+
+The patch will be automatically applied after you first run the NTR plugin each time before you run the game
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Thank you to anyone who contributed to this project and made it a possibility!​:
+https://github.Com/loveplusproject/nlppatch/issues/1

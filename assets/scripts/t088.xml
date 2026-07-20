@@ -41,7 +41,7 @@
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲. 
 Good morning.</Dialog>
@@ -150,7 +150,7 @@ you out in the morning.</Dialog>
 going out in the mornings, 
 don't I？</Dialog>
           <Dialog>I see then... Ah, morning 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hehe, good morning.</Dialog>
         </Dialogs>
       </SDL2>
@@ -192,7 +192,7 @@ don't I？</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>This way 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm sorry for calling so 
@@ -239,7 +239,7 @@ a good reason. I know it.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm sorry, I called you so 
@@ -341,7 +341,7 @@ help it.</Dialog>
           <Dialog>Good evening, 
 ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>The atmosphere feels a 
 little different when we 
 meet at night.</Dialog>
@@ -385,7 +385,7 @@ meet at night.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I wonder if this also 
 counts as a night out.</Dialog>
@@ -438,7 +438,7 @@ night.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Over here, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm sorry to make you come 
@@ -490,7 +490,7 @@ at night, is it？</Dialog>
           <Dialog>Good morning.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good mornin', 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Isn't my hair messy？ 
 I came out in a hurry.</Dialog>
           <Dialog>Haha, it's okay really.</Dialog>
@@ -591,7 +591,7 @@ about that！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Over here.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>I couldn't wait♪　I'm glad 
 you feel the same.</Dialog>
           <Dialog>I couldn't wait either！</Dialog>
@@ -641,14 +641,14 @@ you feel the same.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'm over here, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Thank you for accepting 
 my urgent request. Are you 
 sure it's not something 
 bothersome for you？</Dialog>
           <Dialog>It's impossible for me to 
 deny any of your requests 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -690,7 +690,7 @@ deny any of your requests
           <Dialog>Manaka</Dialog>
           <Dialog>Ah...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Yo, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Yo, Takane.</Dialog>
           <Dialog>Sorry for being so selfish.</Dialog>
           <Dialog>It's a boyfriend's job to 
 fulfill his girlfriend's 
@@ -737,7 +737,7 @@ selfish desires！</Dialog>
           <Dialog>Whassup！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Whassup. How are you doing, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Just now, when I saw your 
 face, it made me feel 
 better♪</Dialog>
@@ -789,7 +789,7 @@ better♪</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Is everything okay in your 
 house 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes, Mama is backing me. 
 Thank you for worrying 
 about me.</Dialog>
@@ -854,7 +854,7 @@ aren't I？</Dialog>
           <Dialog>Haha. It's not a problem 
 at all. I'm more worried 
 that you will be sleepy, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Oh, you... Thank you.</Dialog>
         </Dialogs>
       </SDL2>
@@ -897,7 +897,7 @@ that you will be sleepy,
           <Dialog>Manaka</Dialog>
           <Dialog>There you are.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>I'm so excited to see you 
 at this hour. Is it only me？</Dialog>
           <Dialog>No, I'm happy to see you 

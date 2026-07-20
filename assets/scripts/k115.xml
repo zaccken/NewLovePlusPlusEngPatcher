@@ -14,7 +14,7 @@
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah... Now that I recall, 
 I had a gift I was to give 
-you ▲小早川＊▲.</Dialog>
+you Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -47,7 +47,7 @@ you ▲小早川＊▲.</Dialog>
           <Dialog>You know, I found some 
 seasonings the other day, 
 so I want you to have them, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Seasonings？　
 Hmm, can I open it？</Dialog>
@@ -190,7 +190,7 @@ can look forward to it.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I bought a book for you to 
 read in your leisure time, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>The name of the book is 
 ▲本の名前＊＊＊＊＊＊▲.</Dialog>
         </Dialogs>
@@ -222,7 +222,7 @@ how did you know？　
 Hehe... thanks.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I knew you'd like it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -363,7 +363,7 @@ on it.</Dialog>
 When I went out before, 
 I found something that 
 would look good on you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Are you sure？　Thanks, 
 I'll open it.</Dialog>
           <Dialog>Go ahead.</Dialog>
@@ -521,7 +521,7 @@ or anything... Hehe.</Dialog>
 for you. I was wondering 
 if you'd like to put it 
 in your room, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>A present？　
 ...Are you up to something？</Dialog>

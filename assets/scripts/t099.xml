@@ -97,11 +97,11 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Okay, it's time to go home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm going home now, 
@@ -209,7 +209,7 @@ about it...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well, time to home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
@@ -314,7 +314,7 @@ this...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Okay then, I think I'll 
 go home now...</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
@@ -406,13 +406,13 @@ back yet.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I think I'll go home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
           <Dialog>Why don't we go back home 
 together 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Sure, I have plenty of time 
@@ -498,7 +498,7 @@ next time...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>*Phew* ...I'll go back home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
@@ -593,13 +593,13 @@ so it's fine.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I think it's a good time 
 to go back home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
           <Dialog>Hello. Are you heading 
 home now 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>That's right. Are you 
 inviting me to go back 
@@ -682,11 +682,11 @@ alone...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It's late, I have to start 
 heading back...</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
-          <Dialog>Heey, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Heey, Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>If you'd like, let's go 
@@ -767,7 +767,7 @@ alone...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hmm, I need a plan after 
 getting home...</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
@@ -851,7 +851,7 @@ back alone.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Alright, I'm going back 
 home.</Dialog>
-          <Dialog>(Ah, ▲高嶺＊＊▲ 
+          <Dialog>(Ah, Takane 
 is over there...)</Dialog>
           <Dialog>Let's go back together</Dialog>
           <Dialog>I'm going back alone</Dialog>
@@ -948,7 +948,7 @@ home with you.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Wait a minute, please.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>I saw you while you went 
 back home, so I chased 
 after you. Can I go with 
@@ -1216,7 +1216,7 @@ pity then...</Dialog>
 nice day.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Do you want to go with me？ 
 We can talk while walking.</Dialog>
           <Dialog>Yes, let's get going.</Dialog>
@@ -1275,7 +1275,7 @@ waiting for you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning. Were you 
 waiting too much 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Not much. I think it's more 
 fun to go to school 
 together, won't you agree？</Dialog>
@@ -1336,7 +1336,7 @@ predict the right time you
 arrive here.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>It's the right time indeed. 
 Shall we go？</Dialog>
           <Dialog>Ah, I see. I had my timing 

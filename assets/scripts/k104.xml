@@ -280,7 +280,7 @@ for waiting.</Dialog>
           <Dialog>(Oh, by the way, don't we 
 have a date today！　
 No way...)</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hah... Why are you still at 
 home...</Dialog>
@@ -328,7 +328,7 @@ home...</Dialog>
           <Dialog>(Oh, by the way, don't we 
 have a date today！　
 No way...)</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>You're here... How could 
 you forget？</Dialog>
@@ -376,7 +376,7 @@ you forget？</Dialog>
           <Dialog>(Oh, by the way, don't we 
 have a date today！　
 No way...)</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>I was wondering if I could 
 join you on the way here... 
@@ -441,7 +441,7 @@ But now we're here.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You haven't arrived yet, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Obaa-san</Dialog>
           <Dialog>Excuse me. I'm trying to 
 get to the location of 
@@ -456,7 +456,7 @@ while...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Too slow.</Dialog>
           <Dialog>I'm really sorry, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Kidding. I saw that. You 
 did good.</Dialog>
         </Dialogs>
@@ -517,7 +517,7 @@ drink...)</Dialog>
           <Dialog>What's all the fuss？</Dialog>
           <Dialog>Here, look, I won！　
 One more drink, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Heh, lucky you. Well, 
 thanks for the drink.</Dialog>
         </Dialogs>
@@ -568,7 +568,7 @@ thanks for the drink.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah, ▲小早川＊▲.</Dialog>
+          <Dialog>Ah, Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Rinko just arrived, you've 
 been here a while 
@@ -631,7 +631,7 @@ punishment！</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
           <Dialog>Yo.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey, have you seen a cat？</Dialog>
@@ -703,12 +703,12 @@ up again eventually.</Dialog>
           <Dialog>(I'm a little late... Huh, 
 there's something wrong 
 with you, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's with the face？　Are 
 you standing on your toes, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Ah this, muscle training. 
 Sort of. </Dialog>
           <Dialog>Heh, you want to keep 
@@ -766,7 +766,7 @@ late.)</Dialog>
           <Dialog>(Scurrying like this makes 
 me feel like I want to 
 protect you, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>You're too late！</Dialog>
           <Dialog>I take back what I said 
@@ -828,10 +828,10 @@ about？　You're late.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Oh no... I'm pretty late. 
-Ah, ▲小早川＊▲？)</Dialog>
+Ah, Rinko？)</Dialog>
           <Dialog>(Talking to a guy...？　
 Oh... he's gone.)</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah... you're so slow！</Dialog>
           <Dialog>Sorry, who was that you 
@@ -895,11 +895,11 @@ middle schooler...？)</Dialog>
           <Dialog>(Oh no... I'm totally 
 late！)</Dialog>
           <Dialog>(I think you've gone home, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting.</Dialog>
           <Dialog>Huh, did you just arrive, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah, sorry. Oh, you too？</Dialog>
           <Dialog>Actually... haha, we're 
 both late.</Dialog>
@@ -961,7 +961,7 @@ both late.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Why did you do that, 
-▲小早川＊▲！？</Dialog>
+Rinko！？</Dialog>
           <Dialog>I thought I'd kick you if 
 you forgot.</Dialog>
           <Dialog>Ugh...</Dialog>
@@ -1032,7 +1032,7 @@ Hah...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>I'm really sorry, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Just hurry up and get ready.</Dialog>
           <Dialog>Oh, it's okay now. You can 
 get out.</Dialog>
@@ -1116,7 +1116,7 @@ weather...</Dialog>
           <Dialog>I know, right？ I hope it 
 will clear up quickly.</Dialog>
           <Dialog>....</Dialog>
-          <Dialog>Ah, ▲小早川＊▲.</Dialog>
+          <Dialog>Ah, Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting. 
 The weather is not so 
@@ -1245,7 +1245,7 @@ harder！)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Ah, the rain is amazing, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Yeah... looks like a squall.</Dialog>
           <Dialog>We should take shelter from 
 the rain somewhere...</Dialog>
@@ -1291,7 +1291,7 @@ the rain somewhere...</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yo. It's raining, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>I don't mind, but holding 
 an umbrella is a hassle.</Dialog>
@@ -1348,7 +1348,7 @@ snow...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Nicely done.</Dialog>
           <Dialog>Did you see that, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>It was a clean tumble, so 
 contrived！</Dialog>
         </Dialogs>
@@ -1396,7 +1396,7 @@ contrived！</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Did I make you wait, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>I just got here. Did you 
 notice the little snowman 
@@ -1466,7 +1466,7 @@ pictures... wait here！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong？　Did 
 something happen 
-▲小早川＊▲！？</Dialog>
+Rinko！？</Dialog>
           <Dialog>It was windy and my skirt 
 was...</Dialog>
           <Dialog>I was too slow...</Dialog>
@@ -1526,7 +1526,7 @@ was...</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Did you just arrive, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah, I just arrived, 
 ▲主人公＊▲.</Dialog>
@@ -3116,7 +3116,7 @@ know.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>...I'm having trouble 
 walking.</Dialog>
@@ -3144,7 +3144,7 @@ walking.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yes, I'll walk looking 
 forward.</Dialog>
@@ -3172,7 +3172,7 @@ forward.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>...can't hear you.</Dialog>
         </Dialogs>
@@ -4059,7 +4059,7 @@ doing. Well, I'm okay here,
 too.</Dialog>
           <Dialog>(If that's what you want, 
 then it's all fine, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4109,7 +4109,7 @@ We're running out of time,
 so let's just stay here.</Dialog>
           <Dialog>(If that's what you want, 
 then it's all fine, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4935,7 +4935,7 @@ twin？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It would be tough if you 
 did, don't you think so 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>What do you mean？　Don't 
 you think, "I want to go 
 out with you two" or 
@@ -5728,7 +5728,7 @@ tired.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>We're almost there, you 
 have to wake up, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>...Hmm？　I wanted to sleep 
 a little longer...</Dialog>
@@ -6147,7 +6147,7 @@ for you.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah... ▲小早川＊▲.</Dialog>
+          <Dialog>Ah... Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hehe, don't look so lonely.</Dialog>
         </Dialogs>
@@ -6175,7 +6175,7 @@ for you.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You know what, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Why don't we just do it the 
 next time we see each 

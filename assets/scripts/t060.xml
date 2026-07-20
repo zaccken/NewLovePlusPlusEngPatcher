@@ -592,7 +592,7 @@ listening...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Is there anything you wanna 
 do together, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Something I want to do？ 
 Why？</Dialog>
@@ -705,7 +705,7 @@ swimsuit？ Is it cute,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Of course！ It's the best！ 
 It suits you really well, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hehe！</Dialog>
           <Dialog>(I wonder if this is 
 right...)</Dialog>
@@ -714,7 +714,7 @@ After getting such a
 sunburn...</Dialog>
           <Dialog>It's not weird！ It suits 
 you！ You look awesome 
-▲高嶺＊＊▲！！</Dialog>
+Takane！！</Dialog>
           <Dialog>Really？ If you say so...</Dialog>
           <Dialog>(It's good no matter 
 what...)</Dialog>
@@ -899,12 +899,12 @@ just the of us. Come on！</Dialog>
 the hot water is so good 
 ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲！？ 
+          <Dialog>Takane！？ 
 That is not...</Dialog>
           <Dialog>It's hot！ Geez, what am 
 I doing？</Dialog>
           <Dialog>(No way, what happened？)</Dialog>
-          <Dialog>▲高嶺＊＊▲～？</Dialog>
+          <Dialog>Takane～？</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>Oh my God！ I'm sorry！</Dialog>
           <Dialog>No, it's okay. Hey, this is 
@@ -1146,7 +1146,7 @@ If you stay with me...</Dialog>
           <Dialog>Thank you for staying with 
 me, ▲主人公＊▲...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

@@ -114,7 +114,7 @@ game？</Dialog>
 a quiz.</Dialog>
           <Dialog>Then... me？</Dialog>
           <Dialog>Idiot.</Dialog>
-          <Dialog>▲小早川＊▲！？</Dialog>
+          <Dialog>Rinko！？</Dialog>
           <Dialog>(What was that...)</Dialog>
         </Dialogs>
       </SDL2>
@@ -208,10 +208,10 @@ a quiz.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(What did you mean before, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Ah, there you are！</Dialog>
           <Dialog>Wait a bit, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What.</Dialog>
           <Dialog>What did you mean earlier？</Dialog>
@@ -226,7 +226,7 @@ believe you took it that
 seriously.</Dialog>
           <Dialog>Isn't that obvious？</Dialog>
           <Dialog>....</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -407,15 +407,15 @@ seriously.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(No, I can't do anything 
 because I'm worried, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(An email... Ah it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>"Come to the convenience 
 store."</Dialog>
-          <Dialog>Ouch... ▲小早川＊▲！</Dialog>
+          <Dialog>Ouch... Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲！　You know...</Dialog>
+          <Dialog>Rinko！　You know...</Dialog>
           <Dialog>First, calm down. Close 
 your eyes.</Dialog>
           <Dialog>...Ah, I get it.</Dialog>
@@ -425,7 +425,7 @@ your eyes.</Dialog>
           <Dialog>▲苗字▲▲名前▲.</Dialog>
           <Dialog>What day is it today？</Dialog>
           <Dialog>April 1st.... hmm？</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I'm really sorry. I didn't 
 think...</Dialog>
           <Dialog>"I've found someone I like" 
@@ -626,7 +626,7 @@ going to make any
 difference.</Dialog>
           <Dialog>(I feel like I could be 
 more intimate with you 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -807,24 +807,24 @@ you forgot.</Dialog>
           <Dialog>(Today is the opening of 
 the pool. It's joint with 
 another grade, so 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(I wonder if you're here, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>....</Dialog>
           <Dialog>What are you looking at？</Dialog>
           <Dialog>Ah, nothing... I like that 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>I don't know what that 
 means. Why don't you 
 clarify？</Dialog>
           <Dialog>Over all, you're the cutest 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>...I'm not happy to be 
 compared to others.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>(Looks like I'll be looking 
 forward to more pool 
 lessons！)</Dialog>
@@ -924,12 +924,12 @@ lessons！)</Dialog>
           <Dialog>(Today is the opening of 
 the pool. It's joint with 
 another grade, so 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(I wonder if you're here, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>....</Dialog>
           <Dialog>Don't stare. Lecher.</Dialog>
           <Dialog>Not looking！　...Well, I'm 
@@ -1045,12 +1045,12 @@ lessons！)</Dialog>
           <Dialog>(Today is the opening of 
 the pool. It's joint with 
 another grade, so 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(I wonder if you're here, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>....</Dialog>
           <Dialog>Hehe. It's refreshing to be 
 in a school pool.</Dialog>
@@ -1059,7 +1059,7 @@ in a school pool.</Dialog>
 They're all around you.</Dialog>
           <Dialog>Eh, haha... I guess so.</Dialog>
           <Dialog>See you.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>(Looks like I'll be looking 
 forward to more pool 
 lessons！)</Dialog>
@@ -1147,7 +1147,7 @@ lessons！)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>If you're not busy, come 
 hang out with me.</Dialog>
           <Dialog>Yeah, what are you doing？　
@@ -1240,7 +1240,7 @@ you care what they do？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>How long can you stay 
 underwater？</Dialog>
           <Dialog>Hmm... who knows. Maybe a 
@@ -1333,7 +1333,7 @@ go.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>What is it, ▲小早川＊▲？</Dialog>
+          <Dialog>What is it, Rinko？</Dialog>
           <Dialog>You know, Rinko... She 
 seems like a child, right？</Dialog>
           <Dialog>Huh？　Why are you asking me 
@@ -1344,7 +1344,7 @@ know.</Dialog>
           <Dialog>Really？　I didn't know 
 because I didn't see anyone 
 other than you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hehe, don't act so cool.</Dialog>
         </Dialogs>
       </SDL2>
@@ -1497,7 +1497,7 @@ let's go.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, she's there. Okay, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Yo！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Whoa！</Dialog>
@@ -1596,7 +1596,7 @@ lie. Idiot, dumbass！</Dialog>
           <Dialog>Boo！</Dialog>
           <Dialog>Yikes.</Dialog>
           <Dialog>Ah, it was you, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hehe, surprised？</Dialog>
           <Dialog>I was... I'll tickle you to 
@@ -1792,7 +1792,7 @@ wish on a strip of paper？</Dialog>
           <Dialog>You think？　I guess I'm 
 surprised you like that 
 kind of thing, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I know it sounds like a lot 
 of tricky stuff, but... 
 Rinko has a proper line 
@@ -1920,7 +1920,7 @@ fine.</Dialog>
           <Dialog>I guess you're an adult 
 when you're dealing with 
 your little brother 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I've always been an adult, 
 right？　I have a boyfriend.</Dialog>
           <Dialog>Then, so it's because of me？</Dialog>
@@ -1928,7 +1928,7 @@ right？　I have a boyfriend.</Dialog>
 yeah, I guess you're right. 
 I appreciate it, so thank 
 you.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1996,11 +1996,11 @@ you.</Dialog>
           <Dialog>(It's over... It's a hassle 
 to come to school just for 
 this.)</Dialog>
-          <Dialog>Ah, ▲小早川＊▲.</Dialog>
+          <Dialog>Ah, Rinko.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>You don't have to go that 
 fast. I wanted to see you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>I don't care, you can see 
 me anytime.</Dialog>
@@ -2101,10 +2101,10 @@ so lonely...</Dialog>
 to come to school just for 
 this.)</Dialog>
           <Dialog>(An email... Ah, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>"Come to the library."</Dialog>
           <Dialog>(Where are you, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>(Ah, there she is...)</Dialog>
           <Dialog>Yo, what's up？</Dialog>
           <Dialog>Rinko</Dialog>
@@ -2185,7 +2185,7 @@ this.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's wrong, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Somehow, I wanted to come 
 here. It's nice once in a 
 while, isn't it？</Dialog>
@@ -2277,7 +2277,7 @@ just for the first day of
 school.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>It's a hassle coming just 
 for the first day of school.</Dialog>
           <Dialog>Huh？</Dialog>
@@ -2355,7 +2355,7 @@ just for the first day of
 school.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Don't look so gloomy, it 
 makes me gloomy too.</Dialog>
           <Dialog>Oh, my bad. But I don't 
@@ -2437,7 +2437,7 @@ just for the first day of
 school.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hey, want to go to the 
 arcade？</Dialog>
           <Dialog>That's out of the blue.</Dialog>
@@ -2531,7 +2531,7 @@ arcade？</Dialog>
           <Dialog>(Hmm, it's pretty exciting.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>You've been practicing a 
 lot, haven't you？</Dialog>
           <Dialog>Well, yeah.</Dialog>
@@ -2651,7 +2651,7 @@ competition...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Yo, what's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>You know, I really don't 
 want to leave, but I've 
 been forced into a three- 
@@ -2781,12 +2781,12 @@ is now a memory.</Dialog>
           <Dialog>Even though it's like this？</Dialog>
           <Dialog>If it's with you, it would 
 not be too bad, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>What's that？　Masochism？</Dialog>
           <Dialog>How can that be！</Dialog>
           <Dialog>Kidding. Thanks, I'm glad 
 you helped me...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2876,7 +2876,7 @@ all that.</Dialog>
 be fun if we could.</Dialog>
           <Dialog>Hmm, I see.</Dialog>
           <Dialog>Why？　Do you have plans, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I don't... but I wonder 
 what I should do.</Dialog>
           <Dialog>Hmm？</Dialog>
@@ -2951,7 +2951,7 @@ what I should do.</Dialog>
 watch. What should I do...)</Dialog>
           <Dialog>Oh, who's that？　Coming.</Dialog>
           <Dialog>Ah... What's going on, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What, can't I come？</Dialog>
           <Dialog>That's not what I meant. 
@@ -3016,13 +3016,13 @@ way.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(What's going on, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting.</Dialog>
           <Dialog>Now, what was it... Give 
 me candy or I'll give you 
 a small kick！</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Or any alternative to 
 candy...</Dialog>
         </Dialogs>
@@ -3286,9 +3286,9 @@ I hope they succeed...)</Dialog>
           <Dialog>(Good. It's a lot more 
 exciting.)</Dialog>
           <Dialog>(I'll peek at your class, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(Let's see... Huh, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>...Yo. What's that class 
@@ -3432,7 +3432,7 @@ left is the party.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>You changed your clothes, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>It's obvious. Forget it.</Dialog>
           <Dialog>Sorry.</Dialog>
           <Dialog>But the festival itself was 
@@ -3590,7 +3590,7 @@ right now.</Dialog>
 you did back then？</Dialog>
           <Dialog>That's...</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3651,7 +3651,7 @@ you did back then？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. Summer classes start 
 today. Hah...</Dialog>
           <Dialog>Cheer up, please.</Dialog>
@@ -3718,7 +3718,7 @@ is someone else's problem？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hey, how can we get rid of 
 summer school？ What if you 
 break all the windows at 
@@ -3785,7 +3785,7 @@ saying...)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning. Hope the 
 summer classes go by fast！</Dialog>
           <Dialog>Yes！　...But those start 
@@ -3847,7 +3847,7 @@ today.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. I'm sick of summer 
 classes.</Dialog>
           <Dialog>Sick, you say. You didn't 
@@ -3915,7 +3915,7 @@ beginning.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>It's hot. Why bother with 
 summer classes when it's 
 hot？</Dialog>
@@ -3983,7 +3983,7 @@ summer season.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning. I'm tired of 
 summer school. Should I 
 skip it？</Dialog>
@@ -4055,7 +4055,7 @@ but you have to be patient.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. Did you know？　I heard 
 that the winter semester 
 starts today.</Dialog>
@@ -4124,7 +4124,7 @@ are here, right？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Do Rinko looks like she 
 wants to take winter 
 classes？</Dialog>
@@ -4199,7 +4199,7 @@ It's inexcusable...</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning. Winter term 
 starts today. Circle？　Or, 
 Cross？</Dialog>
@@ -4262,7 +4262,7 @@ Cross？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. Hey, didn't you already 
 complete the course when 
 you woke up in the morning 
@@ -4330,7 +4330,7 @@ with the cold？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I think Rinko might have 
 caught a cold.</Dialog>
           <Dialog>What？　Are you sure you're 
@@ -4399,7 +4399,7 @@ mom could be fooled too.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning... Good night. </Dialog>
           <Dialog>...Good night.</Dialog>
           <Dialog>Don't say things you can't 
@@ -4466,7 +4466,7 @@ do...？)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. Spring semester starts 
 today, huh. I wonder how 
 many times I'll doze off...</Dialog>
@@ -4534,12 +4534,12 @@ supposed to doze off.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Alright, spring semester. 
 I'll do my best starting 
 today！</Dialog>
           <Dialog>Oh, amazing, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Don't believe me.</Dialog>
           <Dialog>(Return my amazement...)</Dialog>
         </Dialogs>
@@ -4611,7 +4611,7 @@ today！</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning. The spring 
 semester starts today. Will 
 it be over by tomorrow？</Dialog>
@@ -4681,7 +4681,7 @@ times.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hi. I'll try not to sleep 
 today.</Dialog>
           <Dialog>Oh, that's a good mindset, 
@@ -4746,7 +4746,7 @@ time.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Okay, I give up.</Dialog>
           <Dialog>What do you mean？</Dialog>
           <Dialog>For today's class.</Dialog>
@@ -4812,7 +4812,7 @@ time.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good morning. The course is 
 almost over.</Dialog>
           <Dialog>Well... I guess？　Are you 
@@ -4895,7 +4895,7 @@ going to miss them？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Oh, by the way, did you 
 hear about the contest, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>They are going to held a 
@@ -4907,7 +4907,7 @@ going around.</Dialog>
 business.</Dialog>
           <Dialog>Surprisingly, you might get 
 selected to enter, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>What's so surprising...</Dialog>
           <Dialog>...Nevermind.</Dialog>
         </Dialogs>
@@ -5014,11 +5014,11 @@ selected to enter,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I heard you won, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What do you mean？</Dialog>
           <Dialog>The swimsuit contest, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hah...</Dialog>
           <Dialog>I guess you're not happy...</Dialog>
           <Dialog>I don't want to look like a 

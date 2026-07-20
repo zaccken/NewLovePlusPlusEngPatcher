@@ -1,0 +1,30 @@
+---
+description: Hard safety bans for NLPP img.bin / code.bin / Azahar patches.
+alwaysApply: true
+---
+
+# Patch safety (hard bans)
+
+## Never
+
+- Full-rebuild `img.bin` with `Image.write()` or `pack_images --full-repack` (black-screen boot).
+- Redeploy `EngPatcher/src/patch_clock_text.py` global MakeStr hook as-is (crashes or blanks all text). Prefer `code.bin.bak_clocktext` restore if that lands again.
+- Same-size BCLIM violations — if encode changes length/format, keep the original entry.
+- Broad `--only`-less image packs that skip-fail half of NCommonIcon; scope keys (`--only ncommonicon`) and only replace intended PNGs.
+- Shipping Azahar **custom texture** packs (`use_new_hash`) as the real fix — OK for RE, unstable in play.
+
+## Always
+
+- Splice packages at the **same offset/length** (`splice_packages_into_img`).
+- Backup before code hooks; test one change at a time in LayeredFS.
+- When deploying images, prefer splicing onto the current Azahar mod `img.bin` if it already has other patches (CESA, etc.), not only vanilla — see `pack_images --deploy-azahar` source selection.
+- Treat dump `extracted/` as mostly read-only; write patches through EngPatcher → Azahar mods.
+
+## LayeredFS layout
+
+```
+%AppData%\Azahar\load\mods\00040000000F4E00\
+  romfs\img.bin
+  romfs\SystemData\TextResource\...
+  exefs\code.bin
+```

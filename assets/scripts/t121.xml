@@ -54,7 +54,7 @@
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Say, are you studying to 
 become a doctor 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes, there are some things 
 I understand, but... some 
@@ -131,12 +131,12 @@ like I had something on my
 butt...</Dialog>
           <Dialog>You butt！？　Show me！ 
 Show me your butt, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>...Idiot！</Dialog>
           <Dialog>Ah！ It wasn't like that, 
 it was just the volleyball 
 sign！ 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -257,7 +257,7 @@ in my throat...</Dialog>
           <Dialog>No way, it was the medicine 
 to become a human. You 
 really are a mermaid, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>What's with the mermaid 
 tale？ Hehe, you think 
 such cute things.</Dialog>
@@ -317,7 +317,7 @@ such cute things.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Do they talk about 
 matchmaking in your house, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Eh！？ I don't think so... 
 I'm a high school student, 
@@ -448,7 +448,7 @@ called me to be the coach.</Dialog>
           <Dialog>Huh, you？</Dialog>
           <Dialog>Don't say it like that！ 
 Call me coach, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Wha- yes！ Coach！... 
 Like that？</Dialog>
         </Dialogs>
@@ -505,7 +505,7 @@ Like that？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Yo, ▲高嶺＊＊▲. 
+          <Dialog>Yo, Takane. 
 Yaffu！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yo, yaffu？</Dialog>
@@ -629,7 +629,7 @@ right？</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You look like a goddess 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Huh？ What was that...？</Dialog>
           <Dialog>Ah... hahaha, it's 
 nothing！ I said nothing！ 

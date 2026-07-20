@@ -49,7 +49,7 @@
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>You were talking to 
 someone right now, 
 weren't you？</Dialog>
@@ -127,7 +127,7 @@ friend, though.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>It's been a while since 
 we talked like this.</Dialog>
           <Dialog>Hmm, really？</Dialog>
@@ -518,7 +518,7 @@ activities... it's great.</Dialog>
 ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good work today, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Let's do our best today.</Dialog>
           <Dialog>Yes, let's do it.</Dialog>
         </Dialogs>
@@ -659,7 +659,7 @@ do your best okay？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Nice play.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲. 
+          <Dialog>Oh, Takane. 
 I'm still a long way off.</Dialog>
           <Dialog>No, that's not true. 
 It's amazing.</Dialog>
@@ -711,7 +711,7 @@ It's amazing.</Dialog>
 ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yeah, thank you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We must practice together 
 sometime.</Dialog>
           <Dialog>Oh, that's nice.</Dialog>
@@ -993,7 +993,7 @@ happy to...</Dialog>
 you to use it with your 
 girlfriend.</Dialog>
           <Dialog>Yay！ Thank you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1193,7 +1193,7 @@ good.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>It's been a while since 
 we talked like this.</Dialog>
           <Dialog>...That's right.</Dialog>
@@ -1664,7 +1664,7 @@ embarrassed...)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>...▲高嶺＊＊▲？　
+          <Dialog>...Takane？　
 What's wrong？</Dialog>
           <Dialog>Lovers do that kind of 
 thing, after all...</Dialog>
@@ -1862,7 +1862,7 @@ something unnecessary.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>....</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲？ 
+          <Dialog>Takane？ 
 What's wrong？</Dialog>
           <Dialog>At school... doing that 
 kind of thing...</Dialog>
@@ -2193,7 +2193,7 @@ been...</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Lovey-dovey, right？</Dialog>
           <Dialog>Lovey-dovey you say, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Because everyone has been 
 saying that. I wonder if 
 it's true.</Dialog>
@@ -2922,7 +2922,7 @@ friends...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Are you going home now？ 
 If you don't mind, can I 
 tag along？</Dialog>
@@ -2992,7 +2992,7 @@ alone today.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>I guess I kept you waiting 
 for me. Are you alright？</Dialog>
           <Dialog>Yes, I'm okay. I was 
@@ -3243,7 +3243,7 @@ doing it's not bad.</Dialog>
           <Dialog>You are good at making 
 sweets, it's time to show 
 your skills, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hmm... these will be for 
 Papa, the neighbors, and 
 some patients...</Dialog>
@@ -3308,7 +3308,7 @@ to have fun.</Dialog>
           <Dialog>Isn't it fun for you？ You 
 can have something nice 
 back, right, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>That's right... 
 Yes, I guess it's fun.</Dialog>
         </Dialogs>
@@ -3377,7 +3377,7 @@ Yes, I guess it's fun.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>You know, today is my 
 birthday.</Dialog>
           <Dialog>Oh, congratulations！</Dialog>
@@ -3602,7 +3602,7 @@ your girlfriend？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong, 
 ▲主人公＊▲？</Dialog>
@@ -3622,7 +3622,7 @@ various things. A study
 of a woman's mind！... 
 I'm kidding.</Dialog>
           <Dialog>Haha, you're also a woman, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Oh... don't laugh at me.</Dialog>
           <Dialog>I'm sorry. Then, please.</Dialog>
         </Dialogs>
@@ -3930,7 +3930,7 @@ be so serious. Thank you.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I wonder if you are here, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Sorry to keep you waiting, 
 ▲主人公＊▲.</Dialog>
@@ -3946,16 +3946,16 @@ do you？</Dialog>
 Let's work together.</Dialog>
           <Dialog>Yes, it's up to you.</Dialog>
           <Dialog>Did you find something good 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yeah... I saw something 
 over there...</Dialog>
           <Dialog>Oh, what is it？</Dialog>
           <Dialog>Emm, I'll look for it.</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>... And she's gone.</Dialog>
           <Dialog>(You are pretty serious 
 even at times like this 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>Oh, sorry. I went on my 
 own... What happened？</Dialog>
           <Dialog>Wait, your girlfriend was 
@@ -3970,7 +3970,7 @@ do？</Dialog>
           <Dialog>But...</Dialog>
           <Dialog>Don't worry about it. It's 
 okay. So, how was it, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Oh, uh...</Dialog>
           <Dialog>You saved me today. 
 Thank you, really.</Dialog>
@@ -4095,7 +4095,7 @@ it was helpful.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Takane！？</Dialog>
           <Dialog>...Why are you so 
 surprised？</Dialog>
           <Dialog>Well, you know, it was 
@@ -4114,7 +4114,7 @@ way it is.</Dialog>
 I'm going now.</Dialog>
           <Dialog>Yes, see you.</Dialog>
           <Dialog>(I wonder if you saw us 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4248,7 +4248,7 @@ but from my point of view,
 it has gone too far.</Dialog>
           <Dialog>(So that's not up to your 
 standards then, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4507,7 +4507,7 @@ selfish person...</Dialog>
           <Dialog>Yes, you are. I'm on your 
 girlfriend's side.</Dialog>
           <Dialog>(▲彼女＊＊▲ and 
-▲高嶺＊＊▲ 
+Takane 
 united... It's scary.)</Dialog>
         </Dialogs>
       </SDL2>
@@ -4638,7 +4638,7 @@ good...</Dialog>
           <Dialog>Why？ Well, my girlfriend 
 is the best, but you're 
 second to none, 
-▲高嶺＊＊▲ ！</Dialog>
+Takane！</Dialog>
           <Dialog>I don't have a boyfriend 
 to say that to me...</Dialog>
           <Dialog>Huh...？ Do you want a 
@@ -4775,7 +4775,7 @@ activities...？</Dialog>
           <Dialog>It's about my love life... 
 it's not going well at all.</Dialog>
           <Dialog>(Well, you will be okay, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

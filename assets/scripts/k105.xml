@@ -536,7 +536,7 @@ really forget our promise,
 ▲主人公＊▲？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, I was just about to go, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -662,7 +662,7 @@ out.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Sorry, did you wait long, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Naruto</Dialog>
           <Dialog>"Sorry, did you wait 
 long？" he says. Ah, so 
@@ -725,7 +725,7 @@ be doing fine.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Sorry to keep you waiting, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Naruto</Dialog>
           <Dialog>Yo, you two. You guys 
 getting off to school 
@@ -784,7 +784,7 @@ funny.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Sorry, did you wait for me 
-▲小早川＊▲！？</Dialog>
+Rinko！？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Nah. Rinko is totally fine.</Dialog>
           <Dialog>Men B</Dialog>
@@ -795,7 +795,7 @@ about？　You're an idiot.</Dialog>
           <Dialog>(I see that you can talk 
 normally with the boys in 
 your class now, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -924,7 +924,7 @@ tell me？</Dialog>
           <Dialog>Ah, well no... Okay, that's 
 fine.</Dialog>
           <Dialog>(As expected of you, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1315,7 +1315,7 @@ younger boyfriend, huh.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Shh.</Dialog>
           <Dialog>Why are you... Oh, that 
@@ -1363,7 +1363,7 @@ be tactless to interrupt.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Be quiet！</Dialog>
           <Dialog>What are you... Oh, is that 
@@ -1411,7 +1411,7 @@ quickly.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Why are you so nervous, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm... I've been told that 
 my classmate is going to 
@@ -1420,7 +1420,7 @@ their senior today.</Dialog>
           <Dialog>So you're nervous all the 
 way down. Reminds you of 
 our own time, doesn't it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>That's good. Come on, let's 
 go.</Dialog>
         </Dialogs>
@@ -1473,7 +1473,7 @@ go.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, you're talking with 
 someone. Seems weird, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Were you here？ Let's go, 
 ▲主人公＊▲.</Dialog>
@@ -1482,7 +1482,7 @@ someone. Seems weird,
 for my name and contact 
 information. I ignored it.</Dialog>
           <Dialog>(You're popular... 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1528,10 +1528,10 @@ information. I ignored it.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh, is that... 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Were you talking to someone 
 just now or something, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>He said he was in the third 
 grade. "What's your class 
@@ -1644,7 +1644,7 @@ leave Rinko alone.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Sorry to keep you waiting, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah... Hah, I wish you could 
 have been slower.</Dialog>
@@ -1697,7 +1697,7 @@ voice.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah... don't suddenly call 
 me out loud. It run away.</Dialog>
@@ -1750,7 +1750,7 @@ appointment with me.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Here he comes. Well, 
 bye-bye.</Dialog>
@@ -1980,11 +1980,11 @@ you found the owner safely.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>(Did you not hear me...？)</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Eh？　Oh, sorry, I was 
 listening to music.</Dialog>
           <Dialog>Ah, so that was it.</Dialog>
@@ -2037,7 +2037,7 @@ listening to music.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>(Didn't you hear that...？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey, what are you doing？ 
@@ -2045,7 +2045,7 @@ If you're looking for
 Rinko, I'm over here.</Dialog>
           <Dialog>Ah！　Haha, looks like I got 
 the wrong person, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I don't know if you're 
 looking at the wrong 
 girlfriend, or if you're 
@@ -2120,8 +2120,8 @@ just being rude.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, it's you again, 
-▲小早川＊▲...)</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+Rinko...)</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Wah.</Dialog>
           <Dialog>Eh, behind me？</Dialog>
@@ -2497,7 +2497,7 @@ stock." What should I do？</Dialog>
           <Dialog>Online shopping, huh. 
 Seems like you are making 
 good use of it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

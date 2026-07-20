@@ -317,11 +317,11 @@ a shame.</Dialog>
 we could stay outside. 
 I was looking forward to 
 it...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>...</Dialog>
           <Dialog>(That's right, the 
 tickets...)</Dialog>
-          <Dialog>Emm, ▲高嶺＊＊▲？ 
+          <Dialog>Emm, Takane？ 
 You know, I actually won 
 a prize: 2 days 1 night 
 in Atami.</Dialog>
@@ -332,8 +332,8 @@ together？</Dialog>
           <Dialog>(I knew it, it's 
 impossible...)</Dialog>
           <Dialog>See you next time, 
-▲高嶺＊＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+Takane.</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>...Okay.</Dialog>
           <Dialog>The thing you said before. 
 Okay...</Dialog>
@@ -363,7 +363,7 @@ days and one night from
 ▲月▲▲日▲！</Dialog>
           <Dialog>...Yes.</Dialog>
           <Dialog>(Our first trip together, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -463,7 +463,7 @@ days and one night from
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>You know, I got tickets to 
@@ -481,7 +481,7 @@ from ▲月▲▲日▲！</Dialog>
           <Dialog>Yes！</Dialog>
           <Dialog>(We will travel to Atami 
 together once more, 
-▲高嶺＊＊▲！)</Dialog>
+Takane！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -746,7 +746,7 @@ together once more,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's my phone... Ah, it's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Yes, hello.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello, it's me.</Dialog>
@@ -905,7 +905,7 @@ best. See you.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, you're already here, 
-▲高嶺＊＊▲！)</Dialog>
+Takane！)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Good morning, it's a nice 
 day, and it's sunny.</Dialog>
@@ -1115,7 +1115,7 @@ to be okay.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hair, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. It's a special trip, 
 so I changed it a little. 
@@ -1144,7 +1144,7 @@ today？</Dialog>
 overwhelmed.</Dialog>
           <Dialog>(Today's clothes look 
 really good on you, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Geez, I wish you were more 
 interested.</Dialog>
           <Dialog>(Well, I don't care about 
@@ -1342,7 +1342,7 @@ clothes.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hair, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>You noticed？ I changed it 
 according to the trip.</Dialog>
@@ -1369,7 +1369,7 @@ they weird？</Dialog>
           <Dialog>Really？ I'm happy...</Dialog>
           <Dialog>(I really like your 
 clothes today, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>They aren't strange, 
 right？ In that case, it's 
 fine.</Dialog>
@@ -1556,7 +1556,7 @@ clothes.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hair, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes, it's the travel 
 version, I'm kidding. How 
@@ -1582,7 +1582,7 @@ today？ It suits me？</Dialog>
           <Dialog>Thank you！ Hehe, I'm glad.</Dialog>
           <Dialog>(I really like your 
 clothes today, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Geez... it doesn't matter.</Dialog>
           <Dialog>(Well, I don't care about 
 clothes.)</Dialog>
@@ -1950,7 +1950,7 @@ prepared, you don't have
 to worry！ Right？</Dialog>
           <Dialog>(It's seems like you're not 
 used to traveling yet, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2283,7 +2283,7 @@ so excited.</Dialog>
           <Dialog>Yes, that's right.</Dialog>
           <Dialog>No Papa, Mama or sensei. 
 Just the two of us.</Dialog>
-          <Dialog>(▲高嶺＊＊▲...)</Dialog>
+          <Dialog>(Takane...)</Dialog>
           <Dialog>I wonder if something has 
 changed from when we came 
 before.</Dialog>
@@ -2681,10 +2681,10 @@ famous.</Dialog>
           <Dialog>Yes. It's a specialty... 
 but it's a pity...</Dialog>
           <Dialog>I won't ever do that to 
-you, ▲高嶺＊＊▲.</Dialog>
+you, Takane.</Dialog>
           <Dialog>Even if I marry another 
 person...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Man A</Dialog>
           <Dialog>Excuse me. Sorry for 
@@ -2720,7 +2720,7 @@ here. There are more than
           <Dialog>(Will I be alright...？)</Dialog>
           <Dialog>I'm so sorry. I'm at my 
 limit here, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Only half left. Do your 
 best！</Dialog>
           <Dialog>If you climb, you have to 
@@ -2740,12 +2740,12 @@ expected of the Towano
 Tennis Club！</Dialog>
           <Dialog>Leave it to me！ But, it 
 seems you are still fine, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Nothing like that. I was 
 breathing heavily.</Dialog>
           <Dialog>(I didn't see that... 
 You're amazing, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>The autumn leaves are 
 beautiful. I can see the 
 city, I'm glad we worked 
@@ -2760,10 +2760,10 @@ seems to grant good things.</Dialog>
           <Dialog>Yes, let's visit it.</Dialog>
           <Dialog>(I wish my relationship 
 with you develops further, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>(Somehow, I feel closer 
 to you than before, 
-▲高嶺＊＊▲！)</Dialog>
+Takane！)</Dialog>
           <Dialog>I hope your wish comes true.</Dialog>
         </Dialogs>
       </SDL2>
@@ -3237,9 +3237,9 @@ okay？</Dialog>
           <Dialog>Yes. See you in a few.</Dialog>
           <Dialog>(Hmm... If you look around, 
 you're probably the cutest 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Oh, Takane.</Dialog>
           <Dialog>Sorry to keep you waiting.</Dialog>
           <Dialog>Oh, it's fine.</Dialog>
           <Dialog>Geez, this is kind of 
@@ -3252,26 +3252,26 @@ from last time.</Dialog>
           <Dialog>(That's right. I wonder if 
 you took countermeasures 
 against sunburn, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>I must apply sunscreen！</Dialog>
           <Dialog>This is sun oil！</Dialog>
           <Dialog>Isn't it better to apply 
 sunscreen, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes, I forgot.</Dialog>
           <Dialog>Haha, that's no good. Come 
 here, I'll apply it for 
 you.</Dialog>
           <Dialog>...Pervert.</Dialog>
           <Dialog>(Tsk...)</Dialog>
-          <Dialog>▲高嶺＊＊▲！ 
+          <Dialog>Takane！ 
 Apply this！</Dialog>
           <Dialog>Is this sun oil？ I'll get 
 a tan.</Dialog>
           <Dialog>Ah, I think you'll look 
 cute with a tan！ I will 
 apply it to you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>That's good. Then, apply 
 it.</Dialog>
           <Dialog>(This is good...)</Dialog>
@@ -3472,7 +3472,7 @@ trip... I want to be
 fashionable.</Dialog>
           <Dialog>...You're right, I'm sorry. 
 Please, show me your leg, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yes, thank you. I don't 
 think it's a big deal...</Dialog>
         </Dialogs>
@@ -3949,7 +3949,7 @@ we're staying today？</Dialog>
           <Dialog>Well... isn't it over 
 there？</Dialog>
           <Dialog>...</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>I think it would be even 
 better if we come here at 
 night...</Dialog>
@@ -4235,7 +4235,7 @@ the name ▲苗字▲...</Dialog>
           <Dialog>Then, I will guide you to 
 your room.</Dialog>
           <Dialog>Let's go, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Please give me your 
 luggage dear wife.</Dialog>
@@ -4248,7 +4248,7 @@ Thank you very much.</Dialog>
 like a couple.</Dialog>
           <Dialog>(She's bright red. I'm 
 embarrassed too, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4432,7 +4432,7 @@ should do.</Dialog>
           <Dialog>I don't want to bother the 
 hotel staff. I will stay 
 in the same room.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>I want to stay with you 
 forever.</Dialog>
           <Dialog>Then let's take our time.</Dialog>
@@ -4597,7 +4597,7 @@ some tea.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hey, let's go explore 
 inside the hotel, 
-▲高嶺＊＊▲</Dialog>
+Takane</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hehe, exploration？　It's 
 okay... Ah, but...</Dialog>
@@ -5083,7 +5083,7 @@ bit today, let's relax.)</Dialog>
           <Dialog>(Okay, it's about time.)</Dialog>
           <Dialog>(She isn't here yet. Well, 
 that's okay. I'll wait for 
-you ▲高嶺＊＊▲.)</Dialog>
+you Takane.)</Dialog>
           <Dialog>(She's taking too long... 
 I wonder why girl's take 
 too much time to bathe.)</Dialog>
@@ -5416,7 +5416,7 @@ you may find it.</Dialog>
           <Dialog>Well then, I'll excuse 
 myself. Take your time.</Dialog>
           <Dialog>Haha, a legendary beach, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>It's wonderful...</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>Tomorrow, we will 
@@ -5424,7 +5424,7 @@ absolutely going to find
 it.</Dialog>
           <Dialog>Ah, yes. You're right.</Dialog>
           <Dialog>(You're so happy, so it's 
-okay, ▲高嶺＊＊▲.)</Dialog>
+okay, Takane.)</Dialog>
           <Dialog>What should we do 
 tomorrow？</Dialog>
           <Dialog>I want to go there again.</Dialog>
@@ -5619,14 +5619,14 @@ there, why don't we play？</Dialog>
           <Dialog>It's a match！</Dialog>
           <Dialog>Not now</Dialog>
           <Dialog>It's a match, bring it 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Yes！</Dialog>
           <Dialog>Don't pull out now. It's 
 a serious match between us, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Of course！</Dialog>
           <Dialog>Nice！ I won against you, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>...</Dialog>
           <Dialog>This is also the result 
 of practice, although I 
@@ -5645,7 +5645,7 @@ we get home, let's
 practice hard together！</Dialog>
           <Dialog>(If you do your best, I 
 won't win forever, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>It's a little troublesome, 
 so let's pass.</Dialog>
           <Dialog>That so. But it looks 
@@ -5878,7 +5878,7 @@ fun...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, there's an open-air 
 bath. I would invite 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Let's take an outdoor 
 bath！</Dialog>
           <Dialog>Let's not do that now</Dialog>
@@ -5886,7 +5886,7 @@ bath！</Dialog>
 need another bath.)</Dialog>
           <Dialog>We should go take an 
 outdoor bath, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>An outdoor bath. We should 
 not. We just bathed.</Dialog>
@@ -5899,7 +5899,7 @@ right, let's go.</Dialog>
 it was falling without us 
 realizing.)</Dialog>
           <Dialog>(Oh, there she is.)</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Emm？　W-what？</Dialog>
           <Dialog>The snow is amazing！</Dialog>
           <Dialog>Yes, I'm surprised！ It's 
@@ -5911,7 +5911,7 @@ That's obvious.)</Dialog>
           <Dialog>The view is amazing！</Dialog>
           <Dialog>Yes, it's beautiful！ It 
 was nice to come here！</Dialog>
-          <Dialog>Right, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Right, Takane！</Dialog>
           <Dialog>Uh, yes. You know？</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Should we stop talking 
@@ -6193,7 +6193,7 @@ what I should do.)</Dialog>
           <Dialog>I should act like a man...</Dialog>
           <Dialog>(This is the family bath. 
 Where are you, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>Can I go in？</Dialog>
           <Dialog>Oh, yes. Go ahead！</Dialog>
           <Dialog>It's embarrassing, so 
@@ -6228,7 +6228,7 @@ I understand, I'll be out！</Dialog>
           <Dialog>Really...？　It looks fun.</Dialog>
           <Dialog>(I wonder if you can 
 understand me at all, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6427,14 +6427,14 @@ understand me at all,
           <Dialog>(That's right, I told her 
 that the night view would 
 be beautiful. I should tell 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Invite for a night walk</Dialog>
           <Dialog>It's dark, we should not</Dialog>
           <Dialog>(It's too dark, I should 
 not say anything.)</Dialog>
           <Dialog>Would you like to go for a 
 night walk, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>A walk？</Dialog>
           <Dialog>Today, when you looked 
@@ -6464,7 +6464,7 @@ walk.</Dialog>
           <Dialog>It's beautiful, amazing...</Dialog>
           <Dialog>Haha, the beach is shining.</Dialog>
           <Dialog>Yes...</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>Thank you for listening 
 to my selfish request.</Dialog>
           <Dialog>It's not selfish. It was 
@@ -6821,7 +6821,7 @@ without coming here.</Dialog>
           <Dialog>Oh, I'm sorry.</Dialog>
           <Dialog>Don't worry.</Dialog>
           <Dialog>Come here, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...</Dialog>
           <Dialog>Hey, the name of the sun 
 beach changes at night 
@@ -6840,7 +6840,7 @@ It's beautiful...</Dialog>
 from daytime.</Dialog>
           <Dialog>Yes...</Dialog>
           <Dialog>(I'm watching only you, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6966,7 +6966,7 @@ from daytime.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Let's go back to our room, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Ah！！</Dialog>
@@ -7130,7 +7130,7 @@ the lights？</Dialog>
           <Dialog>It's a waste going to 
 sleep like this... 
 I'm with you.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Well then, shall we turn 
 in？</Dialog>
           <Dialog>...Yeah.</Dialog>
@@ -7362,10 +7362,10 @@ wrong.</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Takane！？</Dialog>
           <Dialog>Hmmー...</Dialog>
           <Dialog>(Your sleeping face, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>(I'm glad I got up early. 
 I slept really well 
 yesterday.)</Dialog>
@@ -7520,7 +7520,7 @@ a while...)</Dialog>
           <Dialog>...Zzz...</Dialog>
           <Dialog>Just a little more...</Dialog>
           <Dialog>Hehe.</Dialog>
-          <Dialog>▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Takane！？</Dialog>
           <Dialog>You finally wake up.</Dialog>
           <Dialog>That's cruel, tickling me 
 while sleeping.</Dialog>
@@ -7530,7 +7530,7 @@ wake up easily.</Dialog>
 I wanted to hug you.</Dialog>
           <Dialog>Wow.</Dialog>
           <Dialog>(You seems so defenseless 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>I've been wanting to do 
 this for a while...</Dialog>
           <Dialog>(Well, this is fine...)</Dialog>
@@ -7714,7 +7714,7 @@ this for a while...</Dialog>
           <Dialog>Good morning, 
 ▲主人公＊▲.</Dialog>
           <Dialog>Good morning, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Emm, I want to change my 
 clothes.</Dialog>
           <Dialog>Huh？　Yes.</Dialog>
@@ -7725,11 +7725,11 @@ please.</Dialog>
           <Dialog>It's fine to look</Dialog>
           <Dialog>Wait for her</Dialog>
           <Dialog>Is now okay, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>Yes, you've finished. 
 Let's go eat.</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>Geez！</Dialog>
           <Dialog>(It's okay because she had 
 already finished.)</Dialog>
@@ -7865,7 +7865,7 @@ rice and bread！</Dialog>
           <Dialog>Geez, do you want to break 
 your stomach？</Dialog>
           <Dialog>(Such thing is also good, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>...What's wrong？</Dialog>
           <Dialog>Haha, it's nothing. I'll 
 also get a drink.</Dialog>
@@ -8113,7 +8113,7 @@ like imitating a movie.</Dialog>
           <Dialog>...I sound so stupid.</Dialog>
           <Dialog>That's not true. You look 
 cute when doing it okay, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>It really doesn't look 
 stupid？</Dialog>
           <Dialog>Of course！</Dialog>
@@ -8506,7 +8506,7 @@ Peninsula and the Boso
 Peninsula！</Dialog>
           <Dialog>You're right, it's written 
 here. As expected of you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hehe.</Dialog>
           <Dialog>Geez, it's pathetic isn't 
 it？</Dialog>
@@ -8734,7 +8734,7 @@ sad face. I'm glad we
 came, even if we couldn't 
 find the beach.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Oh！</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Can you hear that？ The 
@@ -8742,7 +8742,7 @@ sound of waves...</Dialog>
           <Dialog>...I can't hear it.</Dialog>
           <Dialog>No, I can hear it. Over 
 there！</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Hey, Takane！</Dialog>
           <Dialog>Surely it was around 
 here...</Dialog>
           <Dialog>It's strange. I wonder 
@@ -9071,7 +9071,7 @@ changes...</Dialog>
 something...</Dialog>
           <Dialog>I feel I love you more 
 and more.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>I love you.</Dialog>
           <Dialog>From now on, keep teaching 
 me a lot of thing, okay？</Dialog>
@@ -9409,7 +9409,7 @@ truly would come here.</Dialog>
 and Mama.</Dialog>
           <Dialog>I wonder if I can say 
 anything.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>But, I'm glad we could 
 come...</Dialog>
           <Dialog>Otherwise, we couldn't see 
@@ -9802,7 +9802,7 @@ greedy.</Dialog>
           <Dialog>I love you so much.</Dialog>
           <Dialog>I can't do anything about 
 this feeling...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Hey, if from now on...</Dialog>
           <Dialog>Even if I hurt you...</Dialog>
           <Dialog>That's because I love you.</Dialog>
@@ -9971,7 +9971,7 @@ will never change.</Dialog>
           <Dialog>...</Dialog>
           <Dialog>It's the same thing as 
 before...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10051,7 +10051,7 @@ over.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes...</Dialog>
           <Dialog>Let's go, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Let's say goodbye to 
 Hatsushima.</Dialog>
           <Dialog>Okay.</Dialog>
@@ -10212,7 +10212,7 @@ count as having many known
 people.</Dialog>
           <Dialog>(I guess it's not something 
 you have to worry about, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10262,12 +10262,12 @@ you have to worry about,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Did you get a sunburn, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. When I took a bath, 
 my skin was tingling.</Dialog>
           <Dialog>You're really tanned, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>What？</Dialog>
           <Dialog>No, nothing.</Dialog>
         </Dialogs>
@@ -10377,7 +10377,7 @@ fall asleep soon.</Dialog>
 while we arrive.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>You really fell asleep, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Geez, I didn't...</Dialog>
           <Dialog>No problem, your sleeping 
 face is cute！</Dialog>
@@ -10772,12 +10772,12 @@ sad.)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>What's wrong, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Sorry. I have no special 
 reason for this, but... 
 I just don't want to leave 
 yet.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>You just have to be here 
 for a little bit, and then 
 I'll go back home.</Dialog>
@@ -10933,7 +10933,7 @@ Bye-bye...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Kyaa... Geez.</Dialog>
@@ -10993,7 +10993,7 @@ isn't kissing normal？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Kyaa. W-why？</Dialog>
@@ -11962,9 +11962,9 @@ chocolate.</Dialog>
           <Dialog>I see, Valentine's！</Dialog>
           <Dialog>Yes. Can you accept them？</Dialog>
           <Dialog>Of course！ Yay！ Thank you, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>...</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>It's nothing. I'm glad it 
 made you so happy.</Dialog>
           <Dialog>I'm glad I did my best... 
@@ -12113,7 +12113,7 @@ time.</Dialog>
           <Dialog>Return something you give 
 me？ Never. Even if heaven 
 and earth are destroyed, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Geez, how can you make 
 those things sound so 
 nice？</Dialog>
@@ -12208,13 +12208,13 @@ so happy. Happy Birthday.</Dialog>
 birthday, isn't it？ So, 
 here it is...</Dialog>
           <Dialog>A present！ Thank you, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>You're welcome. Tell me if 
 you don't like it, okay？ 
 You can return it.</Dialog>
           <Dialog>I won't return a gift if 
 it's from you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>How can you say that 
 before looking at it？</Dialog>
           <Dialog>It's okay！</Dialog>
@@ -12459,7 +12459,7 @@ hope we have a great year.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Happy birthday！ I want to 
 give this to you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah... Thank you！ Hey, can 
 I open it？</Dialog>
@@ -12662,12 +12662,12 @@ getting along, okay？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>Isn't today your birthday？　
 Here, a gift for you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>You remembered it... I'm 
 happy, thank you. Can I 
 open it？</Dialog>
@@ -12874,7 +12874,7 @@ year...)</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hehe, what's wrong？ Your 
 face, isn't it a bit 
@@ -12898,7 +12898,7 @@ sense？</Dialog>
 much...)</Dialog>
           <Dialog>So, once again, let me say 
 this. Happy birthday, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Thank you. I hope this can 
 be an event both of us can 
 enjoy, right？</Dialog>
@@ -12919,7 +12919,7 @@ nice plan？</Dialog>
 on good terms, right？</Dialog>
           <Dialog>(I want to continue 
 looking you forever... 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -13109,7 +13109,7 @@ the demons may laugh at
 me, I'm kidding. Hehe.</Dialog>
           <Dialog>(I want to see your smile 
 like this each year... 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -13287,7 +13287,7 @@ Thank you...</Dialog>
           <Dialog>Stop that. I would say you 
 gave me the courage so we 
 could have this day, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...Hehe, I see. Yes, I 
 won't say that anymore.</Dialog>
           <Dialog>Hey, I've prepared a 

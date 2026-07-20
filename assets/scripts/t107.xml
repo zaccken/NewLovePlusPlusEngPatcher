@@ -199,7 +199,7 @@ want.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>As expected... Your room 
 is always clean and tidy, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Not really, I did my best 
 cleaning yesterday. 
@@ -371,11 +371,11 @@ good.</Dialog>
           <Dialog>Hey, do you smell that？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hmm... The smell of your 
-room, ▲高嶺＊＊▲.</Dialog>
+room, Takane.</Dialog>
           <Dialog>Eh！？</Dialog>
           <Dialog>Rather than that, I wonder 
 if that's your smell 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Geez, that's not it... 
 incorrect answer.</Dialog>
           <Dialog>Huh？</Dialog>
@@ -440,7 +440,7 @@ apple tea is lingering.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You're always sitting in 
 that chair while studying, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. I like it.</Dialog>
           <Dialog>Well, it's small and cute.</Dialog>
@@ -582,7 +582,7 @@ even if I'm here.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>By the way, there's no TV 
 in your room, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. I guess it's normal 
 to have a TV in the room.</Dialog>
@@ -877,13 +877,13 @@ interesting.</Dialog>
           <Dialog>It seems like your 
 bookshelf has interesting 
 stuff, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>...See the bookshelves, 
 if you picture them in 
 your head, then...</Dialog>
           <Dialog>(It's true. I can really 
 see it in my head 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1159,7 +1159,7 @@ subject.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I get a little nervous in 
 your room, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes, but I'm nervous too.</Dialog>
           <Dialog>Haha, you too.</Dialog>
@@ -1304,7 +1304,7 @@ have to fix it.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Do you listen to music in 
 you room 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Well, I don't listen to 
 music that much. Why？</Dialog>
@@ -1474,7 +1474,7 @@ somehow.</Dialog>
           <Dialog>(I wonder if her father 
 is weak against your 
 selfishness 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1536,7 +1536,7 @@ selfishness
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I can see the entryway 
 from your room, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. When you're walking, 
 I've seen you through this 
@@ -1549,7 +1549,7 @@ kind of cute.</Dialog>
           <Dialog>Oh, I'm sorry... Well... 
 Teehee♪</Dialog>
           <Dialog>(You're so cute 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2930,7 +2930,7 @@ brew it myself.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your mom seems to be as 
 nervous as you are, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3112,7 +3112,7 @@ Thank you for calling.</Dialog>
           <Dialog>What...？ Then, excuse me.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You're so strict, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3322,7 +3322,7 @@ you have to get along...</Dialog>
 funny things Papa.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your Dad cares about me 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3402,7 +3402,7 @@ mother home？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(In these moments you're 
 really strong willed 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4574,7 +4574,7 @@ make you lonely？</Dialog>
           <Dialog>Hmm, I'm used to it. 
 And I have you and you 
 come to play with me 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...Yes. When you feel 
 lonely, I'll always be 
 there... I'm kidding.</Dialog>
@@ -4643,12 +4643,12 @@ tomorrow's schedule,
 reading the WEB mag...</Dialog>
           <Dialog>Hmm, that's all？</Dialog>
           <Dialog>And... I think about you, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Yes, well done. 
 I'm kidding.</Dialog>
           <Dialog>(I wonder if you think 
 about me 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4926,7 +4926,7 @@ talking.</Dialog>
           <Dialog>Yes... But, the silence 
 is nice.</Dialog>
           <Dialog>That's right. I'm with you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>If you feel lonely, please 
 call me.</Dialog>
           <Dialog>Yes, I understand.</Dialog>
@@ -5063,7 +5063,7 @@ looking at the clock.</Dialog>
           <Dialog>I'm sure it's going as 
 usual.</Dialog>
           <Dialog>(You look so cute, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5459,7 +5459,7 @@ I see it？</Dialog>
 embarrassed...</Dialog>
           <Dialog>Eh, it's fine. Please▼</Dialog>
           <Dialog>(I can't refuse you 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5524,7 +5524,7 @@ when you cleaned, when
 you did laundry...</Dialog>
           <Dialog>Somehow, you really seem 
 like a mother, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Geez, I'm not nosy.</Dialog>
           <Dialog>Haha, I'm sorry.</Dialog>
         </Dialogs>
@@ -5796,7 +5796,7 @@ pattern！)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>......</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>Ah, yes！？</Dialog>
           <Dialog>I'm sorry. I'm going a 
 little crazy in your room...</Dialog>

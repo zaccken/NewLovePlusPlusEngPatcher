@@ -115,7 +115,7 @@
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 do you like to watch TV？</Dialog>
           <Dialog>Hmm？ Not that much.</Dialog>
           <Dialog>Which means you usually don't
@@ -245,7 +245,7 @@ than watching TV.</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 What is your favorite food？</Dialog>
           <Dialog>I love everything, but... If
 you ask what I like most, it's
@@ -376,7 +376,7 @@ uncommon...)</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
           <Dialog>Speaking of which,
-▲姉ヶ崎＊▲, do
+Nene, do
 you have any sports you like？</Dialog>
           <Dialog>Eh？ Ah... Why do you ask？</Dialog>
           <Dialog>I'm just curious. Are there
@@ -500,7 +500,7 @@ embarrassed...)</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 do you often listen to music？</Dialog>
           <Dialog>No, not quite often. Usually,
 I listen to movie soundtracks,
@@ -675,7 +675,7 @@ on a switch...)</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
           <Dialog>Speaking of which,
-▲姉ヶ崎＊▲,
+Nene,
 do you have other hobbies
 besides watching horror
 movies？</Dialog>
@@ -813,7 +813,7 @@ time.</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 do you like animals？</Dialog>
           <Dialog>Yeah, most of them. But I'm
 not very good with cows and
@@ -831,7 +831,7 @@ have an affinity with them.</Dialog>
           <Dialog>Affinity？</Dialog>
           <Dialog>Somehow I can picture myself
 as a raccoon dog.</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲...
+          <Dialog>(Nene...
 as a raccoon dog！？)</Dialog>
         </Dialogs>
       </SDL2>
@@ -961,7 +961,7 @@ as a raccoon dog！？)</Dialog>
           <Dialog>What is it？</Dialog>
           <Dialog>I might've already asked you
 this, but
-▲姉ヶ崎＊▲,
+Nene,
 what is your dream for your
 future？</Dialog>
           <Dialog>Hehe. "Being someone's bride."
@@ -974,7 +974,7 @@ to be a bride.</Dialog>
           <Dialog>Is that so？</Dialog>
           <Dialog>Is it weird？</Dialog>
           <Dialog>No. I'm sure
-▲姉ヶ崎＊▲
+Nene
 will look great in
 a wedding dress.</Dialog>
           <Dialog>Hehe. What I want to wear
@@ -990,7 +990,7 @@ things suit you.</Dialog>
           <Dialog>Hehe. If you wait long enough,
 you might be able to see it
 with your own eyes.</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲...)</Dialog>
+          <Dialog>(Nene...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1123,7 +1123,7 @@ with your own eyes.</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 do you have a dream for your
 future？</Dialog>
           <Dialog>Hmm, well...</Dialog>
@@ -1137,7 +1137,7 @@ books.</Dialog>
 I realize it.</Dialog>
           <Dialog>I don't have the creative urge
 for writing.</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 really？ But you also watch a
 lot of horror movies.</Dialog>
           <Dialog>It's not like I don't want to
@@ -1148,7 +1148,7 @@ movies？</Dialog>
 that.</Dialog>
           <Dialog>I see. But that's too bad. I'm
 very interested in
-▲姉ヶ崎＊▲'s
+Nene's
 horror movies.</Dialog>
           <Dialog>Hehe. If you like to see
 horror movies this much, how
@@ -1292,7 +1292,7 @@ watch them？)</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 do you have any female role
 models？</Dialog>
           <Dialog>Hmm... I've never thought
@@ -1485,7 +1485,7 @@ me, okay？</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 Do you have any female role
 models？</Dialog>
           <Dialog>Only restricted to females,
@@ -1519,7 +1519,7 @@ is myself, I think.</Dialog>
           <Dialog>Hmm...？</Dialog>
           <Dialog>...What？</Dialog>
           <Dialog>I think
-▲姉ヶ崎＊▲
+Nene
 is very cool.</Dialog>
           <Dialog>Eh？ Ah... No.</Dialog>
           <Dialog>Geez... Idiot.</Dialog>
@@ -1618,7 +1618,7 @@ is very cool.</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 Do you have any female role
 models？</Dialog>
           <Dialog>Why do you ask all of a
@@ -1750,7 +1750,7 @@ asked this kind of question.</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 what kind of movies do you
 like？ It must be horror
 movies, right？</Dialog>
@@ -1774,7 +1774,7 @@ some kinds of movies, but for
 me... I prefer analog.</Dialog>
           <Dialog>Analog...？
 Somehow I feel like
-▲姉ヶ崎＊▲
+Nene
 might not be good at using
 technical stuff.</Dialog>
           <Dialog>Ah. Geez！ I'm really
@@ -1895,7 +1895,7 @@ concerned about that！</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>What is it？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 You can read books very fast,
 right？ How fast are you？</Dialog>
           <Dialog>My reading pace？ I can read

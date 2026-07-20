@@ -570,7 +570,7 @@ pretty rough...</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah... You've been missing 
 a lot of dates, so I was 
 just curious.</Dialog>
@@ -766,7 +766,7 @@ me...)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>...Why are you so excited？</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>Rinko is mad at you. 
@@ -900,7 +900,7 @@ haven't seen much lately.</Dialog>
           <Dialog>Yeah, it is. Aren't you 
 lonely？</Dialog>
           <Dialog>Are you lonely, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Idiot！</Dialog>
           <Dialog>(I guess we need to meet 
 more often...)</Dialog>
@@ -2518,7 +2518,7 @@ do it for Rinko, too.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yes. I have to make sure 
 I don't infect you 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko doesn't mind if she's 
 infected. Because... you 
 will be nice to me, right？</Dialog>
@@ -2662,7 +2662,7 @@ do you want some...？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Thanks for today. Thanks to 
 you, I'm feeling better, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Good. I'm leaving now, 
 but call me if you need 
@@ -2850,14 +2850,14 @@ lose my energy too.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Thanks to you, I'm better 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Heh, I guess that story 
 wasn't a superstition after 
 all.</Dialog>
           <Dialog>Maybe so... More important, 
 didn't you catch a cold, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Are you worried about me？　
 I'm fine, though.</Dialog>
         </Dialogs>
@@ -2956,7 +2956,7 @@ I'm feeling better.</Dialog>
 work？</Dialog>
           <Dialog>Maybe. But, you didn't 
 catch a cold, right, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah, Rinko feels fine. 
 If I was sick, you would 
 have nursed me back to 
@@ -3125,7 +3125,7 @@ health... hehe.</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Um, you know...</Dialog>
           <Dialog>(Something's bothering you, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Let's see, how can I say 
 it...</Dialog>
           <Dialog>.....</Dialog>
@@ -3141,7 +3141,7 @@ once. From Rinko to you.</Dialog>
           <Dialog>I see...</Dialog>
           <Dialog>And so...</Dialog>
           <Dialog>Um, that was not it...</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>Anyway...</Dialog>
           <Dialog>Eh？</Dialog>
         </Dialogs>
@@ -3318,7 +3318,7 @@ once. From Rinko to you.</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Em...</Dialog>
           <Dialog>(Hmm？　You seem nervous, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Y-Yes...</Dialog>
           <Dialog>...What are you getting 
@@ -3329,7 +3329,7 @@ you mad at me？</Dialog>
           <Dialog>Then, what I was trying to 
 say...</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Sorry...</Dialog>
           <Dialog>It's okay, what's up？</Dialog>
           <Dialog>I'm not mad at you...</Dialog>
@@ -3485,13 +3485,13 @@ you...</Dialog>
           <Dialog>Hehe...</Dialog>
           <Dialog>(Aren't you acting a little 
 different from usual 
-▲小早川＊▲...？)</Dialog>
+Rinko...？)</Dialog>
           <Dialog>You know, Rinko...</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>I wanted to spoil you.</Dialog>
           <Dialog>Want to spoil me？</Dialog>
           <Dialog>Yes...</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>You know, I love you...</Dialog>
           <Dialog>Emm...</Dialog>
           <Dialog>That's why I said I wanted 
@@ -3566,7 +3566,7 @@ to spoil you.</Dialog>
           <Dialog>Hah...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>...Excuse me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>What do you wanted to talk 
 about？</Dialog>
@@ -3575,7 +3575,7 @@ about？</Dialog>
           <Dialog>I forgot... it's okay, 
 because I'm done with it.</Dialog>
           <Dialog>(So you can also be bold, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3647,7 +3647,7 @@ because I'm done with it.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Did you get the message？</Dialog>
           <Dialog>Eh？</Dialog>
           <Dialog>Did you get the message 
@@ -3655,7 +3655,7 @@ that I love you？</Dialog>
           <Dialog>...Yeah.</Dialog>
           <Dialog>...It's fine then.</Dialog>
           <Dialog>(You're so bold, it's rare, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3736,7 +3736,7 @@ a lot, okay？</Dialog>
           <Dialog>Hehe, yay▼</Dialog>
           <Dialog>(You're even more 
 aggressive than usual 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

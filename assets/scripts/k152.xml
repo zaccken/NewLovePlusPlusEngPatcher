@@ -324,7 +324,7 @@ again！ I won a trip！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>Hey, what's wrong, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I'm getting more and more 
 worried about you, you 
 know？</Dialog>
@@ -401,7 +401,7 @@ like playing newlyweds...
 Rinko's not an ogre, either.</Dialog>
           <Dialog>(Yay！！ We are playing 
 honeymoon soon, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -585,7 +585,7 @@ honeymoon soon,
 Rinko to the Hakone trip 
 I won again...)</Dialog>
           <Dialog>You know, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Actually, I won it again. 
@@ -635,10 +635,10 @@ expectations, you know？</Dialog>
           <Dialog>If we're going to do it or 
 not, well... want to do it？</Dialog>
           <Dialog>(You really want to do it, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(Yay！！We are playing 
 honeymoon soon, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -914,12 +914,12 @@ honeymoon soon,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Yes, hello.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello, this is Rinko.</Dialog>
           <Dialog>What's the matter, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>You're free, right？</Dialog>
           <Dialog>Well, I'm free.</Dialog>
           <Dialog>You know, we're going to 
@@ -936,7 +936,7 @@ okay？</Dialog>
 go shopping？ You're a 
 well-traveled girl, 
 aren't you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>That's besides the point. 
 This time, you see... it's 
 that.</Dialog>
@@ -1017,11 +1017,11 @@ I'll go back home...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You haven't arrived yet, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>You were already here, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1194,7 +1194,7 @@ that？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>In case you're wondering... 
 that's how it's set up, 
@@ -1309,7 +1309,7 @@ look at it.</Dialog>
 for the honeymoon――</Dialog>
           <Dialog>Keep your voice down！</Dialog>
           <Dialog>(Are you in a good mood, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Ah！ This one？ You want to 
 ride this one？</Dialog>
           <Dialog>Yes. The Romancecar.</Dialog>
@@ -2238,7 +2238,7 @@ a nice contrast to the
 green of the river.</Dialog>
           <Dialog>It's true... You're kinda 
 positive today, aren't you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I guess？ Rinko, you know, 
 at least during our 
 honeymoon, is not being 
@@ -2466,7 +2466,7 @@ ramen shop.</Dialog>
           <Dialog>I understand... Have you 
 decided what you're going 
 to ask for yet, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko's order... okay, this 
 one！</Dialog>
           <Dialog>Sorry to keep you waiting！ 
@@ -2475,7 +2475,7 @@ We will be serving your
 "Gomoku-wontan-men"！</Dialog>
           <Dialog>Here it comes, hehe♪</Dialog>
           <Dialog>It look delicious, doesn't 
-it, ▲小早川＊▲？</Dialog>
+it, Rinko？</Dialog>
           <Dialog>Right？ Oh... you want me 
 do it then？</Dialog>
           <Dialog>Hmm？</Dialog>
@@ -2854,12 +2854,12 @@ blooms！</Dialog>
 through the hydrangeas...</Dialog>
           <Dialog>You said a lot of things in 
 "Hydrangea Bridge," didn't 
-you, ▲小早川＊▲？</Dialog>
+you, Rinko？</Dialog>
           <Dialog>Rinko was totally wrong... 
 the hydrangeas of Hakone 
 are nice...</Dialog>
           <Dialog>(I'm glad you're having fun 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2947,7 +2947,7 @@ the uniqueness of Japan,
 yes...</Dialog>
           <Dialog>(I'm glad you like it. Nice 
 season to be here together, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3271,7 +3271,7 @@ know？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ugh...</Dialog>
           <Dialog>You're already tired, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>So much...</Dialog>
           <Dialog>Hang in there, we're almost 
 there！</Dialog>
@@ -3382,7 +3382,7 @@ get off...</Dialog>
           <Dialog>Good job for hanging on. 
 Here we are, the Hakone 
 Glass Forest Museum, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Let me tell you, I've 
 raised the bar considerably 
 with the bus now, okay？ 
@@ -3705,7 +3705,7 @@ remiss if you didn't take
 a photo of it, wouldn't 
 you？</Dialog>
           <Dialog>Okay！ Let's go in, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>You know, this place is 
 kind of like an aisle, 
 isn't it？</Dialog>
@@ -4502,7 +4502,7 @@ to make a oath？</Dialog>
           <Dialog>I better not tell you. 
 I'll keep it a secret...</Dialog>
           <Dialog>(Then, me and you, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>"We'll get married！"</Dialog>
           <Dialog>"We'll be together 
 forever！"</Dialog>
@@ -4609,7 +4609,7 @@ It's our honeymoon duty.</Dialog>
           <Dialog>Have you decided what 
 you're going to pledge？</Dialog>
           <Dialog>(Okay then, me and you, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>"Something for the trip！"</Dialog>
           <Dialog>"A real honeymoon！"</Dialog>
           <Dialog>Hehe▼ Same oath, right？</Dialog>
@@ -4788,7 +4788,7 @@ you're going to pledge？</Dialog>
 Forest Museum", huh.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Are you a little tired, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I guess？ But, you know, 
 it feels good.</Dialog>
           <Dialog>I see. Nice place, huh？</Dialog>
@@ -4804,12 +4804,12 @@ oath we did earlier. I'd
 like to know.</Dialog>
           <Dialog>Oh... that one, huh？ Then 
 you'll have to say it too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Huh？ Lemme see. Rinko's... 
 come on, you get the 
 general idea, right？</Dialog>
           <Dialog>(What did you swear, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Announcement</Dialog>
           <Dialog>Next, the last stop. 
 Togendai, Togendai. Hakone 
@@ -5242,7 +5242,7 @@ me my husband.</Dialog>
 Hehe... Geez, what was 
 that？ What am I doing！</Dialog>
           <Dialog>(You're confused, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5607,7 +5607,7 @@ It's nice outside after
 all...</Dialog>
           <Dialog>Dear～？</Dialog>
           <Dialog>What's the matter, 
-▲小早川＊▲！？</Dialog>
+Rinko！？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5895,7 +5895,7 @@ you're done, I'm gonna――</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hah～... nice hot water.</Dialog>
           <Dialog>(I guess you're still in, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting.</Dialog>
           <Dialog>Oh...</Dialog>
@@ -6206,7 +6206,7 @@ patience. This dish is a
           <Dialog>Phew...</Dialog>
           <Dialog>You get nervous every time 
 a waiter comes, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Because, you know, I felt 
 like they know... that you 
 and Rinko are high school 
@@ -6547,7 +6547,7 @@ kind of house do you want
 in the future？ How many 
 children do you want？</Dialog>
           <Dialog>Well, what do you think, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Can I have just one child？ 
 In return, I'm going to 
 love them very, very much.</Dialog>
@@ -6567,7 +6567,7 @@ their side.</Dialog>
           <Dialog>In case you're wondering, 
 in my image, it's a boy. 
 A boy, just like his father.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>▲主人公＊▲...</Dialog>
         </Dialogs>
       </SDL2>
@@ -6748,7 +6748,7 @@ bullied？</Dialog>
           <Dialog>Maybe？ But a house with a 
 father like you is Rinko's 
 ideal...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>▲主人公＊▲...</Dialog>
           <Dialog>This kind of thing might be 
 less fatherly...</Dialog>
@@ -7347,7 +7347,7 @@ okay？</Dialog>
           <Dialog>Hah～～...</Dialog>
           <Dialog>Dear～～？</Dialog>
           <Dialog>Again... what's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko is entering the sauna 
 once again～.</Dialog>
           <Dialog>I guess that means she's 
@@ -7544,7 +7544,7 @@ in the bathtub...)</Dialog>
           <Dialog>*Yawn*...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You look sleepy, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>(There's nothing to do now, 
 all I have to do is turn 
 off the lights and go to 
@@ -7570,7 +7570,7 @@ me on the trip, actually,
 Rinko was a little 
 suspicious.</Dialog>
           <Dialog>That's why, I'm sorry...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>You and Rinko, you know, 
 are going to have to stay 
 on top of this for a little 
@@ -7757,10 +7757,10 @@ Rinko's husband▼</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>You're still sleeping, as 
 you should be, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>(Your sleeping face, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(Good thing I woke up 
 early. I got a decent 
 night's sleep last night！)</Dialog>
@@ -7882,7 +7882,7 @@ Here goes...</Dialog>
 stop！</Dialog>
           <Dialog>Good morning, Dear▼</Dialog>
           <Dialog>What was that, 
-▲小早川＊▲！？</Dialog>
+Rinko！？</Dialog>
           <Dialog>I am a newlywed with a 
 famous ticklish wake-up 
 call. Wake up, Dear▼</Dialog>
@@ -8116,7 +8116,7 @@ already？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Whoa, you're awake！？</Dialog>
           <Dialog>Hmm？ Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Wait... no！ Hold on, don't 
 turn around！</Dialog>
           <Dialog>Why not？</Dialog>
@@ -8128,7 +8128,7 @@ turn around！</Dialog>
           <Dialog>We're newlyweds here！</Dialog>
           <Dialog>Wait until you hear her</Dialog>
           <Dialog>Are you done, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Eh？ Wait――</Dialog>
           <Dialog>Hah... that was dangerous！</Dialog>
           <Dialog>Are you done getting 
@@ -8278,7 +8278,7 @@ you？ Nicely done♪ You know
 what I'm talking about, 
 don't you？</Dialog>
           <Dialog>You're only eating yogurt, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>That's fine, I'm getting 
 it from you anyway. Hehe！</Dialog>
           <Dialog>Hah～～, nice view！ Dining 
@@ -8644,7 +8644,7 @@ Mt. Fuji！</Dialog>
           <Dialog>Hey, don't get wild！</Dialog>
           <Dialog>Big, Mt. Fuji is so big！</Dialog>
           <Dialog>Come on, sit down 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Wah！</Dialog>
           <Dialog>I got you... It's kinda 
 dangerous, so don't go 
@@ -9127,7 +9127,7 @@ egg♪</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I bought a "Black Egg" 
-▲小早川＊▲♪</Dialog>
+Rinko♪</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Good work, good work. Oh, 
 it's so black♪</Dialog>
@@ -9138,7 +9138,7 @@ for this thing, wasn't it？</Dialog>
 about？ Here, can you peel 
 Rinko's egg？</Dialog>
           <Dialog>(Why don't you do it, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -9351,7 +9351,7 @@ pretty good, too！</Dialog>
           <Dialog>It's true. Well then, Rinko 
 wants... okay, curry.</Dialog>
           <Dialog>You don't waver, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Well, yeah. Hmm？ 
 Oh, something about the 
 pork looks good too.</Dialog>
@@ -9674,7 +9674,7 @@ they could pop out！</Dialog>
           <Dialog>Exciting！</Dialog>
           <Dialog>Don't try to run, it's 
 dangerous, okay, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>That's not what I'm talking 
 about. Did you see that？ 
 There are pirates in all 
@@ -9955,7 +9955,7 @@ it？</Dialog>
 end of those cobblestones 
 and press A to emerge, 
 RPG-style, right？</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10011,7 +10011,7 @@ beautiful...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Oh, isn't that an unusual 
 impression from you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah... I wonder myself. 
 If it had been the old 
 Rinko, I wouldn't have 
@@ -10022,7 +10022,7 @@ high. Because all I've been
 doing is looking down？ 
 Maybe it's someone else's 
 influence... Hehe.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10252,7 +10252,7 @@ together, but...</Dialog>
           <Dialog>Please tie us up one more 
 time... For money, I'll be 
 patient.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10374,7 +10374,7 @@ I asked you for a favor.</Dialog>
           <Dialog>Thank you very much. I look 
 forward to your blessings. 
 May we always be together.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10588,7 +10588,7 @@ thought the lake was
 beautiful.</Dialog>
           <Dialog>It's not like you to make 
 such an statement, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>It's true... Maybe it's 
 because it's our honeymoon.</Dialog>
         </Dialogs>
@@ -10662,7 +10662,7 @@ before... I'm sure I've
 become more sensitive to 
 feelings of sadness and 
 such.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>It's cold！ Let's stick 
 together a little longer！ 
 Hehe▼</Dialog>
@@ -10733,7 +10733,7 @@ That means...</Dialog>
           <Dialog>I knew it had to be a 
 stairway～ Ahh～...</Dialog>
           <Dialog>Go for it, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10789,7 +10789,7 @@ Observation Pavilion"！</Dialog>
           <Dialog>I forgot... there was a 
 staircase～...</Dialog>
           <Dialog>Go for it, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -11155,7 +11155,7 @@ time you tell me about it.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Then are you going to tell 
 me yours too, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko too... right？ Yeah, 
 it's fine？ But, you go 
 first.</Dialog>
@@ -11289,7 +11289,7 @@ me.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Someday, I'm going to marry 
-you, ▲小早川＊▲...</Dialog>
+you, Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah！！</Dialog>
           <Dialog>W-What are you talking 
@@ -11304,7 +11304,7 @@ good... idiot.</Dialog>
 you know, you said 
 "marriage" so suddenly...</Dialog>
           <Dialog>Then, what about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko wants to have a real 
 honeymoon. Someday, with 
 you.</Dialog>
@@ -11427,7 +11427,7 @@ you...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I wished to be with you 
 forever, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>.......</Dialog>
           <Dialog>Huh？ Did I say something 
@@ -11439,7 +11439,7 @@ thought about that too.
 I always manage to surprise 
 myself...</Dialog>
           <Dialog>Then, what about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>That is, you know, I mean, 
 it's...</Dialog>
           <Dialog>What？</Dialog>
@@ -11597,7 +11597,7 @@ I hope you understand...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>That someday we will have 
 a real honeymoon, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>...for real？</Dialog>
           <Dialog>Yeah.</Dialog>
@@ -11610,7 +11610,7 @@ not, you'll be shocked.　
 You know, Rinko really 
 made a vow to you, okay？</Dialog>
           <Dialog>I see... So, what about you 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>...the same as you. That's 
 a given... idiot.</Dialog>
           <Dialog>I see, we're the same！</Dialog>
@@ -11620,7 +11620,7 @@ we have to be "newlyweds"
 to come, right？</Dialog>
           <Dialog>Well, that's... right？ 
 It's called "marriage".</Dialog>
-          <Dialog>▲小早川＊▲, 
+          <Dialog>Rinko, 
 then we will get mar――</Dialog>
           <Dialog>Wa-Wait a minute！ What are 
 you talking about！？ 
@@ -11851,7 +11851,7 @@ down. Feels good...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Oh, feels so good. Let's 
 take a photo, shall we, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Okay♪</Dialog>
         </Dialogs>
       </SDL2>
@@ -12223,14 +12223,14 @@ a kiss▼</Dialog>
           <Dialog>Of course, to be together 
 and be able to have have a 
 real honeymoon someday, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah... there, good boy. 
 Hehe...</Dialog>
           <Dialog>Somehow... I'm feeling like 
 my chest is tightening 
 now...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>When this happens, you 
 know, kissing cures it, 
 right？ You know that, 
@@ -12510,13 +12510,13 @@ Yumoto station. 次は...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Is this enough for my 
 souvenirs？ Where are you, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>(She's late... It's about 
 time――)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting♪</Dialog>
           <Dialog>You're late, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Sorry. It took me a while 
 to pick out a souvenir for 
 my little brother. I knew 
@@ -12591,7 +12591,7 @@ married...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Just in time. Hurry up, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Oh！？ Looks kind of fast！ 
 Is this a Romancecar too？</Dialog>
@@ -12711,7 +12711,7 @@ husband▼</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Over here, ▲小早川＊▲！</Dialog>
+          <Dialog>Over here, Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Geez, go a little more 
 slowly！ You'll get lost！</Dialog>
@@ -12923,7 +12923,7 @@ unreasonable.</Dialog>
           <Dialog>If we were real newlyweds, 
 we could stay together 
 tonight.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Hehe, I'm sad again...</Dialog>
           <Dialog>Yeah... healed up a bit. 
 I guess I'll bear with it 
@@ -13030,7 +13030,7 @@ after a trip...</Dialog>
           <Dialog>You didn't kiss me goodbye, 
 did you？ It's different 
 from the previous kiss.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I made you escort me again. 
 Hehe.</Dialog>
           <Dialog>It's okay.</Dialog>

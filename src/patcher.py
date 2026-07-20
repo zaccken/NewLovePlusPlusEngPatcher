@@ -78,8 +78,8 @@ def cmd_validate(_: argparse.Namespace) -> int:
         for i, text in enumerate(dialogs, 1):
             reasons = []
             if JP_RE.search(text) and "▲" not in text:
-                # Keep name tokens like ▲姉ヶ崎＊▲ out of the hard fail list;
-                # flag only lines that still look mostly Japanese body text.
+                # Keep remaining control tokens (e.g. ▲主人公＊▲) out of the hard
+                # fail list; heroine names are plain Takane/Rinko/Nene now.
                 jp_chars = len(JP_RE.findall(text))
                 if jp_chars >= 4:
                     reasons.append("japanese")

@@ -25,9 +25,9 @@
           <Dialog>Ah, I remember now. On my 
 way home today, I exchanged 
 e-mail addresses with 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Oh, it's an e-mail from 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Maybe I'll send her an 
 e-mail sometime...</Dialog>
         </Dialogs>
@@ -57,9 +57,9 @@ e-mail sometime...</Dialog>
           <Dialog>Ah, I remember now. On my 
 way home today, I exchanged 
 e-mail addresses with 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Oh, it's an e-mail from 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Maybe I'll send her an 
 e-mail sometime...</Dialog>
         </Dialogs>
@@ -89,9 +89,9 @@ e-mail sometime...</Dialog>
           <Dialog>Ah, I remember now. On my 
 way home today, I exchanged 
 e-mail addresses with 
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Oh, it's an e-mail from 
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Maybe I'll send her an 
 e-mail sometime...</Dialog>
         </Dialogs>
@@ -193,7 +193,7 @@ over there now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It was fun going home with 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -209,7 +209,7 @@ over there now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It was fun going home with 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -225,7 +225,7 @@ over there now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It was fun going home with 
-▲姉ヶ崎＊▲.)</Dialog>
+Nene.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

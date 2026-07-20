@@ -3,6 +3,8 @@
 
 Pipeline:
   encrypted CIA -> decrypt -> extract CXI/RomFS -> inject EN .dbin2
+  -> English heroine-name patches (scripts / resident TRB / img.bin table)
+  -> optional single-pane name code.bin patch (--patch-code)
   -> rebuild RomFS/CXI/CIA (decrypted, CFW/emulator ready)
 
 NLPPGit (https://github.com/Makein/NLPPGit) is translation assets only.
@@ -37,6 +39,7 @@ DEFAULT_MAIN_CXI = Path(r"C:\Users\Zepse\nlpp_work\main.cxi")
 DEFAULT_ROMFS = Path(r"C:\Users\Zepse\nlpp_work\romfs")
 DEFAULT_IMG_BIN = Path(r"C:\Users\Zepse\nlpp_work\romfs\img.bin")
 DEFAULT_IMAGES = ROOT / "assets" / "images"
+DEFAULT_CODE_BIN = DEFAULT_EXTRACTED / "exefs" / "code.bin"
 TITLE_ID = "00040000000F4E00"
 PACKS = ("NLP_01", "NLP_02", "script")
 
@@ -308,9 +311,93 @@ def rebuild_cia(cxi: Path, manual: Path | None, out_cia: Path, title_ver: int | 
         raise PatchError("CIA rebuild failed")
 
 
-def write_layeredfs(out_dir: Path, dbin_root: Path, img_bin: Path | None = None) -> int:
+def _resolve_resident_trb(romfs_hint: Path | None) -> Path | None:
+    candidates = []
+    if romfs_hint is not None:
+        candidates.append(
+            romfs_hint
+            / "SystemData"
+            / "TextResource"
+            / "textresource_resident_jpn.trb"
+        )
+    candidates.append(
+        DEFAULT_ROMFS
+        / "SystemData"
+        / "TextResource"
+        / "textresource_resident_jpn.trb"
+    )
+    candidates.append(
+        DEFAULT_EXTRACTED
+        / "romfs"
+        / "SystemData"
+        / "TextResource"
+        / "textresource_resident_jpn.trb"
+    )
+    for path in candidates:
+        if path.is_file():
+            return path
+    return None
+
+
+def apply_name_patches(
+    romfs_dir: Path,
+    *,
+    skip: bool = False,
+) -> None:
+    """English heroine names in scripts / resident TRB / img.bin name table."""
+    if skip:
+        print("[names] skipped (--skip-name-patches)")
+        return
+    from patch_names import apply_romfs_name_patches
+
+    apply_romfs_name_patches(romfs_dir)
+
+
+def patch_exefs_code(exefs_bin: Path, work: Path) -> Path:
+    """Unpack ExeFS, apply single-pane name patch to code.bin, repack. Returns new exefs.bin."""
+    from patch_code import patch_code_bin
+
+    exefs_dir = work / "exefs_patched"
+    if exefs_dir.exists():
+        shutil.rmtree(exefs_dir)
+    exefs_dir.mkdir(parents=True)
+    print(f"[code] unpacking ExeFS ...")
+    _run([TOOL_3DS, "-xvtf", "exefs", exefs_bin, "--exefs-dir", exefs_dir])
+    code = exefs_dir / "code.bin"
+    if not code.is_file():
+        # Some extractions use .code
+        alt = exefs_dir / ".code"
+        if alt.is_file():
+            code = alt
+        else:
+            raise PatchError(f"no code.bin in unpacked ExeFS: {exefs_dir}")
+    try:
+        patch_code_bin(code, force=True)
+    except ValueError as exc:
+        raise PatchError(str(exc)) from exc
+    out = work / "exefs_namepatch.bin"
+    if out.exists():
+        out.unlink()
+    print(f"[code] repacking ExeFS ...")
+    _run([TOOL_3DS, "-cvtf", "exefs", out, "--exefs-dir", exefs_dir])
+    if not out.is_file():
+        raise PatchError("ExeFS rebuild failed")
+    return out
+
+
+def write_layeredfs(
+    out_dir: Path,
+    dbin_root: Path,
+    img_bin: Path | None = None,
+    *,
+    resident_src: Path | None = None,
+    code_bin_src: Path | None = None,
+    patch_code: bool = False,
+    skip_name_patches: bool = False,
+) -> int:
     """Emit a Luma/Azahar LayeredFS drop (same format as Makein/NLPPATCH releases)."""
-    title_romfs = out_dir / TITLE_ID / "romfs"
+    title_root = out_dir / TITLE_ID
+    title_romfs = title_root / "romfs"
     title_dir = title_romfs / "script" / "bin"
     count = 0
     for pack in PACKS:
@@ -324,11 +411,40 @@ def write_layeredfs(out_dir: Path, dbin_root: Path, img_bin: Path | None = None)
             shutil.copy2(src, dest / src.name)
             count += 1
         print(f"[layeredfs] {pack}: {len(files)} file(s)")
+
+    if resident_src and resident_src.is_file():
+        dest_trb = (
+            title_romfs
+            / "SystemData"
+            / "TextResource"
+            / "textresource_resident_jpn.trb"
+        )
+        dest_trb.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(resident_src, dest_trb)
+        print(f"[layeredfs] resident TRB <- {resident_src}")
+
     if img_bin and img_bin.is_file():
         title_romfs.mkdir(parents=True, exist_ok=True)
         dest_img = title_romfs / "img.bin"
         print(f"[layeredfs] copying img.bin ({img_bin.stat().st_size:,} bytes) ...")
         shutil.copy2(img_bin, dest_img)
+
+    if patch_code:
+        src = code_bin_src if code_bin_src and code_bin_src.is_file() else DEFAULT_CODE_BIN
+        if not src.is_file():
+            raise PatchError(
+                f"--patch-code needs a vanilla code.bin (not found: {src}). "
+                "Pass --code-bin PATH."
+            )
+        from patch_code import write_patched_code_bin
+
+        dest_code = title_root / "code.bin"
+        write_patched_code_bin(src, dest_code, force=True)
+        print(f"[layeredfs] code.bin (single-pane name draw)")
+
+    # Patch names in the overlay tree (dbin tokens → plain Takane/Rinko/Nene, etc.)
+    apply_name_patches(title_romfs, skip=skip_name_patches)
+
     readme = out_dir / "LAYEREDFS_README.txt"
     readme.write_text(
         "\n".join(
@@ -345,7 +461,13 @@ def write_layeredfs(out_dir: Path, dbin_root: Path, img_bin: Path | None = None)
                 "",
                 "Contains:",
                 "  - romfs/script/bin/{NLP_01,NLP_02,script}/*.dbin2",
-                "  - romfs/img.bin (when built with --with-images)",
+                "  - romfs/SystemData/.../textresource_resident_jpn.trb (heroine names)",
+                "  - romfs/img.bin (when built with --with-images / --name-img)",
+                "  - code.bin (when built with --patch-code; single-pane name UI)",
+                "",
+                "Heroine dialog tokens (▲高嶺＊＊▲ etc.) are rewritten to plain",
+                "English names at build time — see src/patch_names.py.",
+                "Optional ExeFS name-draw patch — see src/patch_code.py.",
                 "",
                 "This matches the install style used by Makein/NLPPGit releases",
                 "and LovePlusProject/NLPPATCH — no CIA rebuild required.",
@@ -354,7 +476,7 @@ def write_layeredfs(out_dir: Path, dbin_root: Path, img_bin: Path | None = None)
         ),
         encoding="utf-8",
     )
-    print(f"[layeredfs] wrote {count} scripts under {out_dir / TITLE_ID}")
+    print(f"[layeredfs] wrote {count} scripts under {title_root}")
     return count
 
 
@@ -468,8 +590,32 @@ def cmd_patch(args: argparse.Namespace) -> int:
     if args.with_images:
         packed_img = pack_ui_images(args, work)
 
+    romfs_hint = Path(args.romfs).resolve() if args.romfs else (
+        DEFAULT_ROMFS if DEFAULT_ROMFS.is_dir() else None
+    )
+    resident_src = _resolve_resident_trb(romfs_hint)
+
+    # Optional: ship img.bin in LayeredFS just to patch the name table (no UI pack).
+    layered_img = packed_img
+    if layered_img is None and args.name_img:
+        img_src = Path(args.img_bin).resolve()
+        if img_src.is_file():
+            layered_img = img_src
+        else:
+            print(f"[names] --name-img requested but img.bin missing: {img_src}")
+
+    code_bin_src = Path(args.code_bin).resolve() if args.code_bin else DEFAULT_CODE_BIN
+
     if args.layeredfs_out or args.layeredfs_only:
-        write_layeredfs(Path(args.layeredfs_out).resolve(), dbin_root, packed_img)
+        write_layeredfs(
+            Path(args.layeredfs_out).resolve(),
+            dbin_root,
+            layered_img,
+            resident_src=resident_src,
+            code_bin_src=code_bin_src,
+            patch_code=args.patch_code,
+            skip_name_patches=args.skip_name_patches,
+        )
 
     if args.layeredfs_only:
         print()
@@ -533,6 +679,13 @@ def cmd_patch(args: argparse.Namespace) -> int:
         dest_img = romfs_dir / "img.bin"
         print(f"[inject] img.bin -> {dest_img}")
         shutil.copy2(packed_img, dest_img)
+
+    # Heroine names: plain English in dialog scripts + UI name tables.
+    apply_name_patches(romfs_dir, skip=args.skip_name_patches)
+
+    if args.patch_code:
+        parts = dict(parts)
+        parts["exefs"] = patch_exefs_code(parts["exefs"], work)
 
     # 4) Rebuild containers
     new_romfs = work / "romfs_patched.bin"
@@ -655,6 +808,26 @@ def build_parser() -> argparse.ArgumentParser:
         "--skip-hash",
         action="store_true",
         help="Skip the input CIA SHA-1 check (not recommended)",
+    )
+    p.add_argument(
+        "--skip-name-patches",
+        action="store_true",
+        help="Skip English heroine-name patches (▲高嶺＊＊▲ → Takane, resident/img tables)",
+    )
+    p.add_argument(
+        "--name-img",
+        action="store_true",
+        help="Include img.bin in LayeredFS and patch its name table (even without --with-images)",
+    )
+    p.add_argument(
+        "--patch-code",
+        action="store_true",
+        help="Apply single-pane English name-draw patch to ExeFS code.bin (see src/patch_code.py)",
+    )
+    p.add_argument(
+        "--code-bin",
+        default=str(DEFAULT_CODE_BIN),
+        help="Vanilla code.bin for LayeredFS --patch-code (default: sibling extracted/exefs/code.bin)",
     )
     return p
 

@@ -173,7 +173,7 @@ Rumors about our coach,
 Suzuki-sensei！</Dialog>
           <Dialog>Ah, Miyoshi. A rumor？　Do 
 you know anything about it 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>No, I don't know... 
 Hey, the serve and 
@@ -201,7 +201,7 @@ here？ Let's go for today.</Dialog>
           <Dialog>Our club is just messy... 
 right？</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>(▲高嶺＊＊▲...？)</Dialog>
+          <Dialog>(Takane...？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -346,7 +346,7 @@ right？</Dialog>
           <Dialog>Hmm？　It's weird to hear 
 you sigh like that, are 
 you okay, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I'm sorry. Say...</Dialog>
           <Dialog>Tennis is fun...</Dialog>
           <Dialog>...What's wrong？</Dialog>
@@ -856,7 +856,7 @@ but she might be not bad？</Dialog>
           <Dialog>What are you saying...</Dialog>
           <Dialog>(First grade, Komaki... 
 Will you be okay 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1154,7 +1154,7 @@ Will you be okay
           <Dialog>(Now, let's play tennis！)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲――</Dialog>
+          <Dialog>Oh, Takane――</Dialog>
           <Dialog>Mina</Dialog>
           <Dialog>And me, Komaki！</Dialog>
           <Dialog>Oh, Komaki.</Dialog>
@@ -1184,7 +1184,7 @@ BF-senpai！</Dialog>
           <Dialog>Well, it's fine... I'm 
 sorry but can we train in 
 the back, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes. I'm not good at the 
 low courses, so let's do 
 it.</Dialog>
@@ -1203,7 +1203,7 @@ boys will be crazy for
 you, just like me...</Dialog>
           <Dialog>Geez, what a strange girl. 
 Let's go train.</Dialog>
-          <Dialog>Eh, ▲高嶺＊＊▲...</Dialog>
+          <Dialog>Eh, Takane...</Dialog>
           <Dialog>I'm sorry. See you later, 
 okay？</Dialog>
           <Dialog>Well, I can't help it...</Dialog>
@@ -1418,11 +1418,11 @@ today. Good work.</Dialog>
 ▲主人公＊▲.</Dialog>
           <Dialog>Good work... Maybe I'm not 
 that tired, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We finished practice early 
 today.</Dialog>
           <Dialog>(You seem to be bored 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>Naruto</Dialog>
           <Dialog>Hey, have you heard？</Dialog>
           <Dialog>Is this another story 
@@ -1879,13 +1879,13 @@ sensei――</Dialog>
 the coach of this club. 
 I am Masami Oiwa.</Dialog>
           <Dialog>An amazing person just came 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Truly... a trained body, 
 a serve that seems to 
 have the power of 200 kg. 
 Surely a world class top 
 player...</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>Don't speak among 
 yourselves！</Dialog>
           <Dialog>Yes！</Dialog>
@@ -1905,7 +1905,7 @@ come here.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Those people...</Dialog>
           <Dialog>Do you know them 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Let me introduce myself. 
 I'm a tennis member at 
 Tonarino High School, 
@@ -2121,7 +2121,7 @@ they be our opponents？)</Dialog>
 can barely play tennis...</Dialog>
           <Dialog>(You were the only one able 
 to pass your match 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>Chono</Dialog>
           <Dialog>Coach Oiwa. Do we still 
 have to be here？</Dialog>
@@ -2290,7 +2290,7 @@ I'm sure everyone will...</Dialog>
           <Dialog>Really！？</Dialog>
           <Dialog>I want to like tennis as 
 much as you do, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yes. Thank you...</Dialog>
         </Dialogs>
       </SDL2>
@@ -2724,7 +2724,7 @@ That's all.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Quitting the club... 
@@ -2941,7 +2941,7 @@ you will be left behind.</Dialog>
 to play tennis！)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>Let's do our best today！</Dialog>
           <Dialog>Let's do it！</Dialog>
           <Dialog>(Hah. Stroke and Volley, 
@@ -2967,7 +2967,7 @@ will be fine.</Dialog>
           <Dialog>Alright！ The rest, 
 continue with the 
 practice！</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Hey, is it really okay？</Dialog>
           <Dialog>I'm fine. I got a massage 
 and it healed. He's an 
@@ -3222,7 +3222,7 @@ more time！</Dialog>
 seeing the ball！</Dialog>
           <Dialog>...Yes！</Dialog>
           <Dialog>(Are you doing okay, 
-▲高嶺＊＊▲...？)</Dialog>
+Takane...？)</Dialog>
           <Dialog>Don't go out with that 
 kind of practice, 
 Takane...</Dialog>
@@ -3521,7 +3521,7 @@ coach！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You haven't you changed 
 your clothes yet 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes. Just wanted to 
 practice a little more.</Dialog>
           <Dialog>Right now？</Dialog>
@@ -3560,7 +3560,7 @@ is different from us.</Dialog>
 Komaki-san？</Dialog>
           <Dialog>(Alright, we will make 
 this happen, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3765,7 +3765,7 @@ this happen,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Now then, Komaki and 
-▲高嶺＊＊▲ are...)</Dialog>
+Takane are...)</Dialog>
           <Dialog>(Oh, they are playing.)</Dialog>
           <Dialog>Mina</Dialog>
           <Dialog>Here！</Dialog>
@@ -3904,7 +3904,7 @@ will catch a cold.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You've been recently close 
 to Komaki these days, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes, it's fun to be with 
 her.</Dialog>
@@ -4170,7 +4170,7 @@ enough.</Dialog>
 Group B against Group A！</Dialog>
           <Dialog>Fine！</Dialog>
           <Dialog>Hey, stop it！</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hey, hey, why don't we 
 all practice together 
@@ -4317,7 +4317,7 @@ strength, it's natural
 for competition to start.</Dialog>
           <Dialog>Do you think the current 
 tennis club is better, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>No, not like that... 
 If you continue doing 
 this and get results, 
@@ -4331,7 +4331,7 @@ you couldn't before.</Dialog>
 it's no good...</Dialog>
           <Dialog>(You are getting a little 
 moody these days, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4516,7 +4516,7 @@ nice. It suits you.</Dialog>
           <Dialog>Dismissed.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Did the Coach just 
 praised you？ Amazing！ 
 He doesn't praise any of 
@@ -4726,7 +4726,7 @@ every day！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Naruto-kun, 
 ▲主人公＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Takane-chan, what's wrong？</Dialog>
           <Dialog>Hey, is Komaki-san doing 
 okay？</Dialog>
@@ -4755,7 +4755,7 @@ practice！</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>(Isn't this what you really 
 wanted for the tennis club, 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4994,7 +4994,7 @@ tennis！)</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>(I wonder if Komaki's late 
 again... 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>Next. Group A, go to the 
 court. Group B, divide 
 into 2 groups, swinging 
@@ -5359,7 +5359,7 @@ clock and came an hour
 earlier...)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Huh, ▲高嶺＊＊▲？ 
+          <Dialog>Huh, Takane？ 
 You're early.</Dialog>
           <Dialog>You too, it's unusual.</Dialog>
           <Dialog>Well, sometimes that 
@@ -5670,7 +5670,7 @@ Coach, okay？</Dialog>
 tennis！)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>Aren't you getting tired 
 this morning？</Dialog>
           <Dialog>I'm fine.</Dialog>
@@ -5694,7 +5694,7 @@ soleus muscle.</Dialog>
           <Dialog>Emm, excuse me！</Dialog>
           <Dialog>Oops...</Dialog>
           <Dialog>Dismissed.</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>What was the Coach doing？</Dialog>
           <Dialog>I don't know.</Dialog>
           <Dialog>Huh？　What do you mean？</Dialog>
@@ -5958,19 +5958,19 @@ us strange things to do！</Dialog>
 about your duel with me！</Dialog>
           <Dialog>(It's still calm...)</Dialog>
           <Dialog>(She's late... What are you 
-doing ▲高嶺＊＊▲？)</Dialog>
+doing Takane？)</Dialog>
           <Dialog>？？？</Dialog>
           <Dialog>Geez！</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>(Are you still practicing 
-▲高嶺＊＊▲...？)</Dialog>
+Takane...？)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ha！</Dialog>
           <Dialog>(Oh, awesome...)</Dialog>
           <Dialog>No... Geez！</Dialog>
           <Dialog>(Somehow, this looks 
 strange...)</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Still practicing？</Dialog>
           <Dialog>Yes...</Dialog>
@@ -5990,7 +5990,7 @@ be fine.</Dialog>
           <Dialog>I'll be fine.</Dialog>
           <Dialog>(You don't seem to enjoy 
 tennis like this, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6529,7 +6529,7 @@ that okay？</Dialog>
           <Dialog>(You laughed. I haven't 
 seen you like this in a 
 long time 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -7089,7 +7089,7 @@ match comes.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It's finally our match 
 against Tonarino, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes...</Dialog>
           <Dialog>Do you think we can do it？</Dialog>
@@ -7585,7 +7585,7 @@ matches！</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>The only point we could get 
 was yours 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>But I couldn't win...</Dialog>
           <Dialog>(Is this useless for us？)</Dialog>
           <Dialog>Oiwa</Dialog>
@@ -9400,18 +9400,18 @@ if you don't have friends
 to share joy.</Dialog>
           <Dialog>I think Komaki is similar 
 to you too, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...To me？</Dialog>
           <Dialog>I realized it when I saw 
 you. I'm the same as her, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>I realized... that I like 
 the hard-working and pure 
-you, ▲高嶺＊＊▲.</Dialog>
+you, Takane.</Dialog>
           <Dialog>I also like you... You 
 always look at me kindly...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Hey, nobody seems to be 
 watching now, 
 ▲主人公＊▲...</Dialog>
@@ -9707,7 +9707,7 @@ have that kind of hobby！</Dialog>
           <Dialog>Miyoshi</Dialog>
           <Dialog>(Thank you Coach. It was 
 fun to play tennis with 
-you, ▲高嶺＊＊▲...)</Dialog>
+you, Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

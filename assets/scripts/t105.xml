@@ -257,7 +257,7 @@ let's go.</Dialog>
 Yeah, I don't think so.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'm sure you'd enjoy it 
-too, ▲高嶺＊＊▲.</Dialog>
+too, Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -390,7 +390,7 @@ detour.</Dialog>
           <Dialog>Thank you for asking me.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I won't refuse anything you 
-ask, ▲高嶺＊＊▲.</Dialog>
+ask, Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -648,7 +648,7 @@ Let's go.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, you were here. Let's 
-go, ▲高嶺＊＊▲.</Dialog>
+go, Takane.</Dialog>
           <Dialog>女子生徒</Dialog>
           <Dialog>Hey, isn't it your turn 
 today？ Did you erase the 
@@ -659,7 +659,7 @@ looked into the classroom,
 it was already clean.</Dialog>
           <Dialog>(I didn't erase it... 
 No way, did 
-▲高嶺＊＊▲...？)</Dialog>
+Takane...？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -725,7 +725,7 @@ so write in the log and
 then you can go home.</Dialog>
           <Dialog>I know... I'm sorry. Wait 
 a second please, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hmm. Can I see how you do 
 your chores today？</Dialog>
           <Dialog>(That will only make my 
@@ -862,7 +862,7 @@ do this tomorrow？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Hey, Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Shh, be quiet. Over here.</Dialog>
           <Dialog>Hmm？ Ah, the Life Guidance 
@@ -871,7 +871,7 @@ sensei.</Dialog>
 find me.</Dialog>
           <Dialog>It's rare to see you 
 hiding from a sensei, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...Well, that's because 
 that sensei likes to raise 
 his voice while making 
@@ -1097,7 +1097,7 @@ be planning？</Dialog>
           <Dialog>(She has a lot fans... 
 I think I have to be 
 careful with you 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1171,7 +1171,7 @@ such a moron！</Dialog>
 What's the cause？</Dialog>
           <Dialog>(It's hard to say it's 
 because of you, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1230,7 +1230,7 @@ with that？</Dialog>
           <Dialog>Male student</Dialog>
           <Dialog>I'm sorry！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲. 
+          <Dialog>Oh, Takane. 
 What are you doing？</Dialog>
           <Dialog>Someone I don't know told 
 me to give them my mail 
@@ -1287,7 +1287,7 @@ is a lot of work...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I came to pick you up, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Thank you. Well then, 
 let's go.</Dialog>
@@ -1299,7 +1299,7 @@ only had 3 dictionaries.</Dialog>
           <Dialog>(You bring your dictionary 
 everyday... I expected 
 nothing less of you, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1344,7 +1344,7 @@ nothing less of you,
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲. 
+          <Dialog>Hey, Takane. 
 Over here...</Dialog>
           <Dialog>Wow！</Dialog>
           <Dialog>Manaka</Dialog>
@@ -1352,7 +1352,7 @@ Over here...</Dialog>
 bag too much.</Dialog>
           <Dialog>Haha, when I saw you do 
 that. I got nervous, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...I'm always in top form.</Dialog>
         </Dialogs>
       </SDL2>
@@ -1461,7 +1461,7 @@ anything wrong now.)</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Sorry to keep you waiting, 
@@ -1521,7 +1521,7 @@ rules.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>It's dangerous, the floor 
 is wet...</Dialog>
@@ -1576,7 +1576,7 @@ okay！</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Hey, Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Stop！</Dialog>
           <Dialog>Huh？</Dialog>
@@ -1635,13 +1635,13 @@ Is something worrying you？</Dialog>
           <Dialog>I feel like I've forgotten 
 something...</Dialog>
           <Dialog>...Huh？ What about your 
-bag ▲高嶺＊＊▲？</Dialog>
+bag Takane？</Dialog>
           <Dialog>Eh, it can't be. Wait for 
 me, I'll go get it right 
 away！</Dialog>
           <Dialog>(When you're careless 
 like this, you're so cute 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1692,8 +1692,8 @@ like this, you're so cute
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I wonder if 
-▲高嶺＊＊▲ is...</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲！ 
+Takane is...</Dialog>
+          <Dialog>Ah, Takane！ 
 I didn't notice you at all.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm sorry... I waved my 
@@ -1706,7 +1706,7 @@ and call you, that means
 I've lost？ ...I'm kidding.</Dialog>
           <Dialog>(Sometimes I wonder if you 
 can makes jokes, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1756,7 +1756,7 @@ can makes jokes,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>...Huh？　
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm sorry, but you caught 
 me at a bad time 
@@ -1766,7 +1766,7 @@ me at a bad time
 I was looking for it.</Dialog>
           <Dialog>(You were making funny 
 noises for the doggy 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1997,7 +1997,7 @@ misunderstood this？)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I wonder were 
-▲高嶺＊＊▲ is...</Dialog>
+Takane is...</Dialog>
           <Dialog>女子生徒Ａ</Dialog>
           <Dialog>Ah... Takane-san, over here.</Dialog>
           <Dialog>Manaka</Dialog>
@@ -2061,7 +2061,7 @@ you are together like that.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Huh？　Is that a sensei with 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>...Do you think it's bad？</Dialog>
           <Dialog>教師</Dialog>
@@ -2071,7 +2071,7 @@ you are together like that.</Dialog>
 was going on a date" right 
 now... ▲主人公＊▲.</Dialog>
           <Dialog>(You shouldn't get so angry 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2123,7 +2123,7 @@ now... ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'm sorry, did you wait 
 for me that much 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>No, not at all. 
 Okay, let's go.</Dialog>
@@ -2224,7 +2224,7 @@ worry that much.</Dialog>
           <Dialog>See, shall we go？</Dialog>
           <Dialog>(That thing Oyama said... 
 You're amazing 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2274,7 +2274,7 @@ my pocket.)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Sorry to keep you waiting. 
 What are you looking for？</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲. 
+          <Dialog>Oh, Takane. 
 It looks like I've lost my 
 wallet. Maybe dropped it...</Dialog>
           <Dialog>I got you covered. Your 
@@ -2354,7 +2354,7 @@ to you.</Dialog>
 Head to the staff room...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Why are they calling for 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Sorry for being late.</Dialog>
           <Dialog>It's fine, you were called 
@@ -2403,7 +2403,7 @@ anything wrong.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(She's late. I wonder if I 
 should send her an email to 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>(Hmm？ Is there something 
 ringing behind me？)</Dialog>
           <Dialog>Manaka</Dialog>
@@ -2514,7 +2514,7 @@ when you are looking at
 something.</Dialog>
           <Dialog>Ah！ That...</Dialog>
           <Dialog>No, I won't forgive you.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2562,11 +2562,11 @@ date with Papa...</Dialog>
           <Dialog>That kind of parent-child 
 date is cute. I bet the 
 small you was cute, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>...I'm not cute anymore？</Dialog>
           <Dialog>I misspoke, you are cute 
 every time, over all, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2634,7 +2634,7 @@ every time, over all,
           <Dialog>Don't look at them, that's 
 something bad.</Dialog>
           <Dialog>I wasn't doing that 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>I'm training everyday, 
 so I'm more powerful than 
 her, right？ 
@@ -2689,7 +2689,7 @@ joking, I was scared...)</Dialog>
           <Dialog>And you went and put trash 
 away. I knew it, you're 
 really amazing 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>It's not like that. I read 
 in a book that the city is 
 dirty because people 
@@ -3108,7 +3108,7 @@ your clothes,
 ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Oh, you also have 
-some, ▲高嶺＊＊▲.</Dialog>
+some, Takane.</Dialog>
           <Dialog>This reminds me of the 
 grooming some animals do.</Dialog>
           <Dialog>Haha, it may be like that.</Dialog>
@@ -3218,7 +3218,7 @@ get a discount coupon,
 isn't it amazing？</Dialog>
           <Dialog>(I'm so proud of you... 
 You are really cute 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3441,7 +3441,7 @@ tonight... I'm kidding.</Dialog>
 because you'll feel sleepy 
 tomorrow.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah ▲高嶺＊＊▲, 
+          <Dialog>Ah Takane, 
 I... that's... Hmm, I'll 
 be fine. See ya.</Dialog>
         </Dialogs>

@@ -198,7 +198,7 @@ a date next time？</Dialog>
           <Dialog>I see. Isn't it unusual 
 that you thought about a 
 new date spot, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>...Huh？ That's... Yes！ 
 You're always thinking 
 about them, so doing 
@@ -212,7 +212,7 @@ Shonan！</Dialog>
           <Dialog>Shonan, huh...</Dialog>
           <Dialog>Yes, Shonan. 
 I'm kidding...</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Are you hiding something 
 about this？</Dialog>
@@ -221,7 +221,7 @@ about this？</Dialog>
           <Dialog>No？ At Enoshima...</Dialog>
           <Dialog>It's okay. If you wanna go, 
 let's go, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Really？ I'm really glad！</Dialog>
           <Dialog>I should do some research 
 about it, right？ About 
@@ -229,7 +229,7 @@ Enoshima！ Hehe, are you
 looking forward for it？</Dialog>
           <Dialog>(So you really wanted to go 
 there, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -305,13 +305,13 @@ there,
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Now then, I wonder where 
-▲高嶺＊＊▲ is...</Dialog>
+Takane is...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲？</Dialog>
+          <Dialog>Takane？</Dialog>
           <Dialog>There's something different 
 about you today, 
-▲高嶺＊＊▲...？</Dialog>
+Takane...？</Dialog>
           <Dialog>Really？</Dialog>
           <Dialog>Hmm, the way you're 
 dressed up...</Dialog>
@@ -376,13 +376,13 @@ much.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲！ 
+          <Dialog>Ah, Takane！ 
 You're early.</Dialog>
           <Dialog>Yeah, I wanted to arrive 
 early.</Dialog>
           <Dialog>Aren't you wearing 
 something different today 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>That's because, you know, 
 I guessed you'll take some 
 photos again... Meanie.</Dialog>
@@ -474,7 +474,7 @@ photos again... Meanie.</Dialog>
           <Dialog>Hehe♪</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Are you having fun, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yeah. There's no sound 
 coming from the inverter 
 control of the ＶＶＶＦ.</Dialog>
@@ -488,7 +488,7 @@ right？</Dialog>
           <Dialog>That's right. Hehe♪</Dialog>
           <Dialog>Say... Do you like railways 
 that much 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>That's not the case, but 
 I've been researching 
 about trains for today.</Dialog>
@@ -568,7 +568,7 @@ about trains for today.</Dialog>
           <Dialog>The blue vehicle that was 
 parked before.</Dialog>
           <Dialog>Are you addicted to trains 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>That's not it, but I 
 looked it up before, you 
 know？ I remembered some 
@@ -580,7 +580,7 @@ of them？</Dialog>
 have the popular 300-type, 
 1000-type, 2000-type...</Dialog>
           <Dialog>(And I'm addicted to you, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -660,7 +660,7 @@ the sea...</Dialog>
 straight walk on this 
 road. Shall we go？</Dialog>
           <Dialog>As expected of you！ Let's 
-go, ▲高嶺＊＊▲！</Dialog>
+go, Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1095,7 +1095,7 @@ a first stop.</Dialog>
           <Dialog>I'm glad you liked it. 
 You ate a lot this time.</Dialog>
           <Dialog>Your bento is always so 
-good ▲高嶺＊＊▲！</Dialog>
+good Takane！</Dialog>
           <Dialog>Geez... Hey, why don't we 
 go see Samuel Cocking 
 Garden next？</Dialog>
@@ -1281,12 +1281,12 @@ forever united with the
 Celestial Maiden.</Dialog>
           <Dialog>Over there！ If I'm with 
 you, I won't need a guide, 
-right ▲高嶺＊＊▲？</Dialog>
+right Takane？</Dialog>
           <Dialog>I don't think so... 
 I just did some research 
 before coming.</Dialog>
           <Dialog>(What do you mean 
-▲高嶺＊＊▲...？)</Dialog>
+Takane...？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1391,7 +1391,7 @@ textbooks ？</Dialog>
 appear in a textbook？</Dialog>
           <Dialog>Yes, it really comes in a 
 history textbook.</Dialog>
-          <Dialog>(...▲高嶺＊＊▲？)</Dialog>
+          <Dialog>(...Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1543,7 +1543,7 @@ Don't worry.</Dialog>
           <Dialog>... Don't lie.</Dialog>
           <Dialog>It's true, all these kinds 
 of things remind me of you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>...Thank you.</Dialog>
           <Dialog>...It's true.</Dialog>
           <Dialog>What do you mean？</Dialog>
@@ -1714,7 +1714,7 @@ Did you look it up？</Dialog>
 research about it.</Dialog>
           <Dialog>A little, huh... 
 As expected of you, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2148,7 +2148,7 @@ white, beautiful face.</Dialog>
 a beautiful Goddess.</Dialog>
           <Dialog>...Isn't that something 
 strange for you to say 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Say it's beautiful.</Dialog>
           <Dialog>...Who？</Dialog>
           <Dialog>Benzaiten-sama...</Dialog>
@@ -2244,7 +2244,7 @@ into the scenery around.</Dialog>
 special...</Dialog>
           <Dialog>(Yes. You seem like someone 
 who can do everything, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2506,7 +2506,7 @@ about who can climb back
 first？ Let's go！</Dialog>
           <Dialog>(Sometimes I can't match 
 your energy levels 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2703,7 +2703,7 @@ effects...</Dialog>
           <Dialog>Ah... Maybe it's the 
 wonderful thing your 
 mother told you about, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Ah！！ Well then, I'm sure 
 we'll... We'll treasure 
 this forever, right？</Dialog>
@@ -3204,7 +3204,7 @@ Enoshima because Mama
 told me.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your mother did, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Enoshima is the place 
 where Papa and Mama dated 
 back when they were 
@@ -3221,7 +3221,7 @@ we're just studying
 history...</Dialog>
           <Dialog>That's also a good point 
 of yours, isn't it 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Thank you... 
 Yeah, this is enough.</Dialog>
           <Dialog>Huh？</Dialog>
@@ -3242,7 +3242,7 @@ feelings...</Dialog>
           <Dialog>That's not strange nor 
 wonderful... 
 Or so I thought.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>That is why, I want to 
 ring the bell with you.</Dialog>
           <Dialog>Yes...</Dialog>
@@ -3548,7 +3548,7 @@ together; and I love you
 after all...</Dialog>
           <Dialog>And I thought I wanted to 
 walk with you, forever.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>So, I want to ring the 
 bell with you.</Dialog>
           <Dialog>Yes...</Dialog>
@@ -3819,7 +3819,7 @@ it...</Dialog>
 something.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>You mom？ What did she say, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>She said "Manaka, you're 
 a little tomboyish, so 
 I'm worried. Do your best 
@@ -3849,7 +3849,7 @@ so...</Dialog>
           <Dialog>A secret... 
 Is it something like 
 that？</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>I love you...</Dialog>
           <Dialog>I love you too.</Dialog>
           <Dialog>Hey, why don't we ring 
@@ -4001,7 +4001,7 @@ The sunset is also very
 beautiful...</Dialog>
           <Dialog>Did your mom also see the 
 sunset before going home, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes, I'm sure. Even thought 
 Papa puts a bothered face, 
 I'm sure it was very 
@@ -4011,7 +4011,7 @@ romantic.</Dialog>
 the sunset, and then...</Dialog>
           <Dialog>And then？</Dialog>
           <Dialog>You know what... Meanie.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>See, you knew...</Dialog>
           <Dialog>Yes...</Dialog>
           <Dialog>Let's come again, okay？</Dialog>
@@ -4154,7 +4154,7 @@ transport is here.
 Let's go！</Dialog>
           <Dialog>(It seems this will be a 
 good memory too, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

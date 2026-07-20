@@ -1,0 +1,91 @@
+---
+description: How to work in the NLPP dump + EngPatcher repos — addresses, images, TRB, deploy, safety.
+alwaysApply: true
+---
+
+# NLPP repo workflow
+
+Two sibling trees:
+
+| Tree | Role |
+|------|------|
+| `New Love Plus Plus/` | Vanilla dump, `extracted/`, Ghidra `code.bin`, this Cursor workspace |
+| `../NewLovePlusPlusEngPatcher/` | Patcher scripts, `assets/`, `src/`, LayeredFS outputs |
+
+Title ID: `00040000000F4E00`. Prefer editing/patching via EngPatcher; treat the dump as read-only unless intentionally replacing `extracted/`.
+
+## Memory / Ghidra conventions
+
+- Program: `extracted/exefs/code.bin` (also open as `/code.bin` in Ghidra MCP `user-ghidra`).
+- **Image base = 0.** File offsets in Ghidra ≈ offsets in `code.bin`.
+- **Runtime VA ≈ file offset + `0x100000`.** Pointers stored in binaries are usually runtime VAs; convert with `file = va - 0x100000` before seeking in `code.bin`.
+- Thumb/ARM mix; prefer decompile + xrefs over guessing BL targets.
+- Softkey Pos strings live around `0x006c3d88` / `0x0073a76e` (file). Layout names near `0x0073d8ac` (`Lyt_ClockPop_01`, etc.).
+- String APIs: `FUN_005c0e7c` (TextResource by pack+slot), `FUN_0056ed00` (hierarchy resolve), `FUN_005a1ec8` (MakeStr), `FUN_0054b880` (DrawTextToPane), `FUN_0024842c` (header-pane drawer).
+- Do **not** deploy global MakeStr hooks (`patch_clock_text.py`); restore from `exefs/code.bin.bak_clocktext` if needed.
+
+## img.bin packages (textures / layouts)
+
+- Source of truth: `extracted/romfs/img.bin` (~680MB).
+- Tools (Python scripts, not native exes):  
+  `EngPatcher/tools/nlpp-tools/bin/ie` (unpack package from img)  
+  `EngPatcher/tools/nlpp-tools/bin/pe` (unpack/repack package → `.arc`)  
+  Invoke as: `python ie --src_img <img.bin> --img_dir <dir> unpack --idx N` then `python pe <dir>/NNNN unpack`.
+- Folder → package map: `EngPatcher/src/image_map.py` (e.g. `ncommonicon` → 5238 `NCommonIcon.arc`).
+- Asset roots: `EngPatcher/assets/images/<Folder>/` or `<Folder>.check/`. Prefer `.check` dumps when both exist (`pack_images.prefer_asset_folders`).
+- PNGs should live under `timg/` when mirroring DARC paths; stem must match `timg/<name>.bclim`.
+
+### Packing images (safe path)
+
+```bash
+cd NewLovePlusPlusEngPatcher
+python src/pack_images.py --only ncommonicon --img-bin "<vanilla or azahar img.bin>" --out out/new_img.bin
+# optional: --deploy-azahar
+```
+
+Rules:
+
+1. **Default = same-size package splice.** Never use `--full-repack` / `Image.write()` unless explicitly experimenting (known black-screen boot).
+2. BCLIM output **must** match original file length/format. `bclimutil.png_to_bclim_same_size` handles fmt **1 (A8), 8 (RGBA4444), 0xB/11 (ETC1A4)**; other fmts may go through `png2bclim` but still require exact size.
+3. Azahar dump “fmt 13” ≠ EngPatcher CLIM enum — always `parse_bclim` from the archive, don’t trust dump filenames for format.
+4. Scope with `--only <key>` so you don’t skip-fail hundreds of unrelated PNGs.
+5. After splice, deploy `img.bin` to  
+   `%AppData%\Azahar\load\mods\00040000000F4E00\romfs\img.bin`.
+
+### Matching textures to dumps
+
+1. Dump from Azahar: `%AppData%\Azahar\dump\textures\00040000000F4E00\tex1_*`.
+2. Score PNGs/BCLIMs against dumps (text-region MAD / Jaccard); **MAD ≈ 0** means exact asset.
+3. Alpha-only dumps (mean RGB 0): composite alpha onto a light background before judging glyphs.
+4. Custom texture overrides are for RE only; they misbind/crash — prefer archive splice for real patches.
+
+## TextResource (strings)
+
+- Main table: `extracted/romfs/SystemData/TextResource/textresource_jpn.trb` (STRI/STRB/INDX/…).
+- Resident `textresource_resident_jpn.trb` is a different `TOP` format (date/time fragments), not STRI.
+- Lookup codebook: `EngPatcher/tools/Trb2xlsx/TrbExport/lookup.txt`.
+- Scripts: `python src/patch_textresource.py dump|inplace|rebuild|…` from EngPatcher.
+- Hierarchy: `FUN_005c0e7c(dst, maxlen, pack, slot)` → cat=`(pack>>8)&0xff`, sub=`pack&0xff`, then INDX slot. Flat STRI idx ≠ hierarchy pack.
+- If TRB already has EN but UI stays JP, the chrome is likely a **texture** or **runtime DrawText** from another source — don’t keep re-translating the same TRB keys.
+
+## code.bin patches
+
+- Work in EngPatcher `src/patch_code.py` (and related); keep backups before hooks.
+- Prefer targeted patches with caves **inside** `.text` only after proving a scoped call site; avoid global string hooks.
+- Runtime testing via Azahar LayeredFS:  
+  `mods/00040000000F4E00/exefs/code.bin` and/or `romfs/...`.
+
+## Emulator / RE loop
+
+1. Reproduce screen → dump textures (and note sizes/formats).
+2. Identify asset (pixel match) **or** draw path (Ghidra xrefs from layout/Pos_/operator strings).
+3. Patch smallest surface (one package / one TRB entry / one call site).
+4. Splice + deploy → retest.
+5. Document dead ends in `clock-confirm-ui-localization` rule when UI-specific.
+
+## Hard don’ts
+
+- Full `img.bin` rebuild via `Image.write()`.
+- Redeploy abandoned global MakeStr cave (`patch_clock_text.py` as-is).
+- Assume OptionClock / SysPopup / MyroomHeader `optn_tex_optionmenu_05` fix every “Japanese chrome” screen.
+- Commit secrets, huge `img.bin` copies, or texture dump folders unless the user asks.

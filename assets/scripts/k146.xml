@@ -199,7 +199,7 @@ A samurai never says "no"！
 You're a samurai today！ 
 Hehe！</Dialog>
           <Dialog>(You really wanted to go, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -275,14 +275,14 @@ Hehe！</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well then, where are you 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>Hehe...</Dialog>
           <Dialog>You're looking more stylish 
 than usual, aren't you, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Because, you know... right？</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>Well, it's all good！ 
@@ -290,7 +290,7 @@ Come on, let's go！ Youth
 awaits！</Dialog>
           <Dialog>You're in a good mood. 
 All right, let's go 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -348,13 +348,13 @@ All right, let's go
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, you're early, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Hehe... it's because we're 
 going to go to Enoshima, 
 right？</Dialog>
           <Dialog>Aren't you a little more 
 stylish than usual, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Yeah, it's because it's 
 Enoshima, right？</Dialog>
           <Dialog>Okay, let's go！</Dialog>
@@ -845,7 +845,7 @@ isn't it？ It's rude to
 Enoshima-san.</Dialog>
           <Dialog>Well, yeah. It was you who 
 said that, you know,  
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I see, hehe. Sorry, 
 Enoshima-san. Let's go！</Dialog>
         </Dialogs>
@@ -1553,7 +1553,7 @@ and Rinko？</Dialog>
           <Dialog>Hah～...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Are you a little tired 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I'm fine.</Dialog>
           <Dialog>I see.</Dialog>
           <Dialog>.....</Dialog>
@@ -2105,7 +2105,7 @@ goddess of marriage.</Dialog>
           <Dialog>But, you know, just in 
 case, okay？</Dialog>
           <Dialog>Okay, so a little bit, huh, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Yeah. Just for a little 
 while, okay？</Dialog>
         </Dialogs>
@@ -2855,7 +2855,7 @@ coincidences like this are
 common...</Dialog>
           <Dialog>Otherwise, you really are 
 a Celestial Maiden, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>If so... would you be 
 Rinko's dragon？</Dialog>
           <Dialog>Of course.</Dialog>
@@ -3078,7 +3078,7 @@ day, right？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>The sunset is amazing... 
 You wanted to come see it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>That's right. The legend of 
 the Celestial Maiden and 
@@ -3100,7 +3100,7 @@ lovers who ring this bell
 are...</Dialog>
           <Dialog>Said to be together forever.</Dialog>
           <Dialog>So you wanted to come here, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Yeah. And you know...</Dialog>
         </Dialogs>
       </SDL2>
@@ -3360,7 +3360,7 @@ blessing, right？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>The sunset is amazing. You 
 wanted to come here, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah. You know why？</Dialog>
           <Dialog>That would be...</Dialog>
@@ -3658,7 +3658,7 @@ right.</Dialog>
 ▲主人公＊▲...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I feel the same for you, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Shall we ring the bell？</Dialog>
           <Dialog>That bell？</Dialog>
           <Dialog>Yes. That bell says 
@@ -3680,7 +3680,7 @@ are...</Dialog>
           <Dialog>Said they can be together 
 forever.</Dialog>
           <Dialog>So you wanted to come here, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Well, yeah. It's a little 
 out of character for Rinko, 
 so it's hard for me to say 
@@ -3780,7 +3780,7 @@ Shonan.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>The sunset is amazing... 
 You wanted to come here 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah... I was thinking that 
 I could use the power of 
@@ -4274,7 +4274,7 @@ story. Then Dragon...</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hey, the train is coming, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry, my bad！ Sorry for 
 keeping you wait.</Dialog>
@@ -4302,7 +4302,7 @@ prettiest Maiden, right？</Dialog>
 Hurry！</Dialog>
           <Dialog>(Sounds like you made great 
 memories today. I'm glad, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4402,7 +4402,7 @@ they're telling me to come
 again.</Dialog>
           <Dialog>When we come to Enoshima, 
 you become a Maiden, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>What？ I've always been a 
 maiden！</Dialog>
           <Dialog>Ouch...</Dialog>

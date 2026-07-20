@@ -1,0 +1,15 @@
+Vendored copy of LovePlusProject/NLPPATCH for offline use.
+
+Upstream: https://github.com/LovePlusProject/NLPPATCH
+Release:  NLPPATCH.2017.08.15 (v1.0) — ~168/577 scripts (~28%)
+
+Layout:
+  vendor/NLPPATCH/                 — git tree snapshot (docs, PLUGIN SUPPORT, notes)
+  vendor/NLPPATCH/release/         — release zip payload (Windows-safe paths)
+    romfs/script/bin/script/*.dbin2
+    romfs/SystemData/TextResource/
+    000f4e00.code
+    README.txt / NEW SAVE DATA.png
+
+Nested .git was removed so these files are owned by EngPatcher.
+Deploy scripts with:  python src/deploy_nlppatch_scripts.py

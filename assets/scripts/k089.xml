@@ -84,7 +84,7 @@ call.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Ah, ▲小早川＊▲？ 
+          <Dialog>Ah, Rinko？ 
 It's me.</Dialog>
           <Dialog>This is Rinko. What's up？</Dialog>
           <Dialog>Well, you know...</Dialog>
@@ -1130,7 +1130,7 @@ later.</Dialog>
           <Dialog>...Why don't you hang up？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I will hang up after you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hmm... If you say so, then 
 Rinko will hang up now...</Dialog>
           <Dialog>Yeah. See you.</Dialog>
@@ -1177,7 +1177,7 @@ Rinko will hang up now...</Dialog>
 you hang up？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Because you don't hang up, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>You want Rinko to hang up？　
 Um... I don't want to.</Dialog>
           <Dialog>I can't help it. Bye.</Dialog>

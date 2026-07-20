@@ -101,9 +101,9 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone's ringing... It's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Hello, what's wrong 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello, I'm sorry for 
 calling so sudden.</Dialog>
@@ -120,7 +120,7 @@ heal faster that way.</Dialog>
           <Dialog>Yeah, thank you... See you.</Dialog>
           <Dialog>(You caught a cold. 
 I'm really sorry 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>(I'm going to visit her.)</Dialog>
         </Dialogs>
       </SDL2>
@@ -214,7 +214,7 @@ I'm really sorry
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone is ringing... Ah, 
-it's ▲高嶺＊＊▲.)</Dialog>
+it's Takane.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Happy Birthday.</Dialog>
@@ -341,7 +341,7 @@ birthday...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone is ringing... Ah, 
-it's ▲高嶺＊＊▲.)</Dialog>
+it's Takane.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello. I'm sorry to call 
@@ -361,7 +361,7 @@ Thanks for calling me.</Dialog>
           <Dialog>Yeah. See you later then.</Dialog>
           <Dialog>(Today's our anniversary. 
 You sure are a nice girl 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -450,7 +450,7 @@ You sure are a nice girl
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone's ringing... It's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Happy New Year.</Dialog>
@@ -466,7 +466,7 @@ greeting to Mama and Papa.</Dialog>
           <Dialog>Yeah, let's keep getting 
 along this year too.</Dialog>
           <Dialog>(A New Year begins, for me 
-and ▲高嶺＊＊▲.)</Dialog>
+and Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -581,11 +581,11 @@ and ▲高嶺＊＊▲.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's past midnight. Today 
 is your birthday, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Happy birthday 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Thank you. I'm really 
 glad you called me.</Dialog>
           <Dialog>Yeah, I wanted to say it 
@@ -704,7 +704,7 @@ congratulate her...)</Dialog>
           <Dialog>(It's past midnight, and 
 today is our anniversary. 
 I should call 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Hello. I'm so sorry for 

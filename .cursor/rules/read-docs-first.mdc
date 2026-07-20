@@ -1,0 +1,22 @@
+---
+description: Always read existing NLPP RE docs/rules before rediscovering; prevents starting from scratch.
+alwaysApply: true
+---
+
+# Read existing work first
+
+Before reverse-engineering UI, patching `img.bin`/`code.bin`/TRB, or “searching for the Japanese string again”:
+
+1. Read **`technical.md`** (this repo and/or `../NewLovePlusPlusEngPatcher/technical.md`) — addresses, BCLIM quirks, TRB/INDX, softkeys, dead ends.
+2. Skim Cursor rules:
+   - `nlpp-repo-workflow` — how to pack/deploy/address-convert
+   - `clock-confirm-ui-localization` — clock confirm status (buttons found; header still open)
+   - `ghidra-mcp` — Ghidra usage
+   - `patch-safety` — hard bans
+3. Check EngPatcher `out/clock_recheck/`, `out/textresource/`, and `assets/images/*.check/` before re-extracting packages or re-dumping TRB.
+
+**Do not** re-run full romfs string hunts for `３ＤＳ本体時計` / `本体時計` — already negative across encodings (see `technical.md` §9).
+
+**Do not** rediscover NCommonIcon `Com_btn_m01_b` / `t01_b` as the clock Back/Next source — already pixel-matched to GPU dumps (pkg 5238).
+
+Prefer extending documented next steps over opening a fresh “find the string” investigation.

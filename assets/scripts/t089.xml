@@ -713,7 +713,7 @@ again.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You do cute things 
 each time I see you, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1065,7 +1065,7 @@ understand...</Dialog>
           <Dialog>Okay then... Good night.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good night, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

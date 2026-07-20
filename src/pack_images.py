@@ -59,7 +59,11 @@ def _require_tools() -> None:
 
 
 def prefer_asset_folders(images_root: Path) -> dict[str, Path]:
-    """Pick best source folder per logical archive key."""
+    """Pick best source folder per logical archive key.
+
+    Prefer plain working folders (e.g. Title/) and .check dumps over raw
+    Title.arc trees when both exist — those usually hold the English masters.
+    """
     ranked: dict[str, list[tuple[int, Path]]] = defaultdict(list)
     for path in sorted(images_root.iterdir()):
         if not path.is_dir():
@@ -68,12 +72,12 @@ def prefer_asset_folders(images_root: Path) -> dict[str, Path]:
         if resolve_folder(path.name) is None:
             continue
         name = path.name.lower()
-        if name.endswith(".arc"):
+        if name.endswith(".check"):
             rank = 0
-        elif name.endswith(".check"):
-            rank = 1
-        else:
+        elif name.endswith(".arc"):
             rank = 2
+        else:
+            rank = 1
         ranked[key].append((rank, path))
 
     chosen: dict[str, Path] = {}
@@ -84,15 +88,26 @@ def prefer_asset_folders(images_root: Path) -> dict[str, Path]:
 
 
 def iter_asset_pngs(folder: Path) -> list[Path]:
-    pngs: list[Path] = []
+    by_stem: dict[str, tuple[int, Path]] = {}
     for png in folder.rglob("*.png"):
         rel_parts = png.relative_to(folder).parts
         if any(SKIP_DIR_RE.search(p) for p in rel_parts):
             continue
         if SKIP_PNG_RE.search(png.stem):
             continue
-        pngs.append(png)
-    return sorted(pngs)
+        stem = png.stem
+        rank = 2
+        for suffix in ("_eng", "_en", "_ENG"):
+            if stem.endswith(suffix):
+                stem = stem[: -len(suffix)]
+                rank = 0  # English master wins
+                break
+        if "timg" in {p.lower() for p in rel_parts}:
+            rank = min(rank, 1)
+        prev = by_stem.get(stem)
+        if prev is None or rank < prev[0]:
+            by_stem[stem] = (rank, png)
+    return sorted((p for _, p in by_stem.values()), key=lambda p: p.as_posix().lower())
 
 
 def png_to_bclim_candidates(png: Path) -> list[str]:
@@ -123,18 +138,37 @@ def _bclim_looks_valid(path: Path, orig_size: int) -> tuple[bool, str]:
 
 
 def convert_png_to_bclim(png: Path, orig_bclim: Path, work: Path) -> Path:
-    """Run png2bclim with original BCLIM present; return converted BCLIM path."""
+    """Convert PNG to BCLIM; keep same file size for DARC inject."""
+    from bclimutil import parse_bclim, png_to_bclim_same_size
+
     work.mkdir(parents=True, exist_ok=True)
     for old in work.glob("*"):
         if old.is_file():
             old.unlink()
+    orig_size = orig_bclim.stat().st_size
+    produced = work / f"{orig_bclim.stem}X.bclim"
+
+    try:
+        _pix, _w, _h, fmt, _footer = parse_bclim(orig_bclim.read_bytes())
+    except Exception:
+        fmt = -1
+
+    # fmt 8 = RGBA4444; fmt 0xB = ETC1A4; fmt 1 = A8; fmt 3 = RGB565 (Release buttons).
+    if fmt in (1, 3, 8, 0xB):
+        try:
+            produced.write_bytes(png_to_bclim_same_size(png, orig_bclim))
+            ok, reason = _bclim_looks_valid(produced, orig_size)
+            if ok:
+                return produced
+            raise PackError(reason)
+        except Exception as exc:
+            raise PackError(f"same-size BCLIM encode failed for {png.name}: {exc}") from exc
+
     staged_png = work / f"{orig_bclim.stem}.png"
     staged_bclim = work / f"{orig_bclim.stem}.bclim"
     shutil.copy2(png, staged_png)
     shutil.copy2(orig_bclim, staged_bclim)
-    orig_size = staged_bclim.stat().st_size
     _run([PNG2BCLIM, staged_png], cwd=work)
-    produced = work / f"{orig_bclim.stem}X.bclim"
     if not produced.is_file():
         hits = sorted(work.glob(f"{orig_bclim.stem}*X.bclim"))
         if not hits:
@@ -244,6 +278,59 @@ def repack_package(img_data: Path, index: int) -> Path:
     return new_pkg
 
 
+def splice_packages_into_img(
+    img_bin: Path,
+    img_data: Path,
+    patched: list[int],
+    dst: Path,
+) -> None:
+    """Byte-splice same-size new_XXXX packages into img.bin (safe for LayeredFS).
+
+    Avoids full Image.write() rebuilds that previously black-screened boots.
+    """
+    if str(NLPP_TOOLS) not in sys.path:
+        sys.path.insert(0, str(NLPP_TOOLS))
+    from img import Image  # type: ignore
+
+    img_bin = img_bin.resolve()
+    img_data = img_data.resolve()
+    dst = dst.resolve()
+    image = Image(str(img_bin))
+    image.parse(False)
+
+    if dst.resolve() != img_bin.resolve():
+        shutil.copy2(img_bin, dst)
+    data = bytearray(dst.read_bytes())
+
+    for index in patched:
+        new_pkg = img_data / f"new_{index:04d}"
+        old_pkg = img_data / f"{index:04d}"
+        if not new_pkg.is_file():
+            raise PackError(f"missing {new_pkg}")
+        res = image.entries[index]
+        if res is None:
+            raise PackError(f"package index {index} empty in img.bin")
+        base = res.fw.base_offset
+        pkg_len = res.fw.len()
+        blob = new_pkg.read_bytes()
+        if len(blob) > pkg_len:
+            raise PackError(
+                f"package {index:04d} grew ({pkg_len} -> {len(blob)}); "
+                "refusing full img.bin rewrite"
+            )
+        if len(blob) < pkg_len:
+            # pe often recompresses slightly smaller; pad the img.bin slot.
+            print(
+                f"[splice] package {index:04d} padded {len(blob)} -> {pkg_len} "
+                f"(+{pkg_len - len(blob)} zeros)"
+            )
+            blob = blob + b"\x00" * (pkg_len - len(blob))
+        data[base : base + pkg_len] = blob
+        print(f"[splice] package {index:04d} @ {base:#x} ({pkg_len} bytes)")
+
+    dst.write_bytes(data)
+
+
 def selective_ie_repack(img_bin: Path, img_data: Path, dst: Path, patched: list[int]) -> None:
     """Rebuild img.bin, swapping only new_XXXX packages (avoids full unpack)."""
     import sys as _sys
@@ -293,6 +380,8 @@ def pack_images(
     work: Path,
     out_img: Path,
     only_keys: set[str] | None = None,
+    *,
+    splice: bool = True,
 ) -> dict[str, int]:
     _require_tools()
     if not img_bin.is_file():
@@ -303,16 +392,6 @@ def pack_images(
     folders = prefer_asset_folders(images_root)
     if only_keys:
         folders = {k: v for k, v in folders.items() if k in only_keys}
-    if not folders:
-        raise PackError("no mapped image folders found")
-
-    # Group by package index (shared packages get multiple arcs)
-    by_pkg: dict[int, list[tuple[str, Path, str]]] = defaultdict(list)
-    for key, folder in sorted(folders.items()):
-        mapping = resolve_folder(folder.name)
-        assert mapping is not None
-        index, arc_name = mapping
-        by_pkg[index].append((key, folder, arc_name))
 
     work = work.resolve()
     out_img = out_img.resolve()
@@ -322,56 +401,93 @@ def pack_images(
     img_data = work / "img_data"
     conv = work / "bclim_tmp"
     report_lines: list[str] = []
+    # CESA TEXI inject is opt-in only (--only cesa). Auto-packing it previously
+    # produced a white boot soft-lock; prefer code.bin --skip-cesa-logo instead.
+    cesa_png = images_root / "cesa" / "CESA_240X400.png"
+    patch_cesa = cesa_png.is_file() and only_keys is not None and "cesa" in only_keys
 
-    unpack_packages(img_bin, img_data, set(by_pkg))
+    # Group by package index (shared packages get multiple arcs)
+    by_pkg: dict[int, list[tuple[str, Path, str]]] = defaultdict(list)
+    for key, folder in sorted(folders.items()):
+        mapping = resolve_folder(folder.name)
+        assert mapping is not None
+        index, arc_name = mapping
+        by_pkg[index].append((key, folder, arc_name))
 
-    totals = {"packages": 0, "png_ok": 0, "png_skip": 0, "arcs": 0}
+    if not by_pkg and not patch_cesa:
+        raise PackError("no mapped image folders found (and no assets/images/cesa PNG)")
+
+    totals = {"packages": 0, "png_ok": 0, "png_skip": 0, "arcs": 0, "cesa": 0}
     patched_indices: list[int] = []
 
-    for index, items in sorted(by_pkg.items()):
-        pkg_dir = ensure_package_data(img_data, index)
-        pkg_ok = pkg_skip = 0
-        touched = False
-        for key, folder, arc_name in items:
-            arc_path = pkg_dir / arc_name
-            if not arc_path.is_file():
-                # case-insensitive search
-                hits = [p for p in pkg_dir.glob("*.arc") if p.name.lower() == arc_name.lower()]
-                if not hits:
-                    report_lines.append(f"[miss-arc] {key}: {arc_name} not in package {index:04d}")
+    if by_pkg:
+        unpack_packages(img_bin, img_data, set(by_pkg))
+
+        for index, items in sorted(by_pkg.items()):
+            pkg_dir = ensure_package_data(img_data, index)
+            pkg_ok = pkg_skip = 0
+            touched = False
+            for key, folder, arc_name in items:
+                arc_path = pkg_dir / arc_name
+                if not arc_path.is_file():
+                    # case-insensitive search
+                    hits = [p for p in pkg_dir.glob("*.arc") if p.name.lower() == arc_name.lower()]
+                    if not hits:
+                        report_lines.append(f"[miss-arc] {key}: {arc_name} not in package {index:04d}")
+                        continue
+                    arc_path = hits[0]
+
+                pngs = iter_asset_pngs(folder)
+                if not pngs:
+                    report_lines.append(f"[empty] {folder.name}: no PNGs")
                     continue
-                arc_path = hits[0]
 
-            pngs = iter_asset_pngs(folder)
-            if not pngs:
-                report_lines.append(f"[empty] {folder.name}: no PNGs")
-                continue
+                print(f"[arc] {arc_path.name} <- {folder.name} ({len(pngs)} png)")
+                ok, skipped, warnings = patch_arc_with_pngs(arc_path, pngs, conv / f"{index:04d}_{key}")
+                pkg_ok += ok
+                pkg_skip += skipped
+                touched = touched or ok > 0
+                totals["arcs"] += 1
+                for w in warnings[:12]:
+                    report_lines.append(f"[warn] {key}: {w}")
+                if len(warnings) > 12:
+                    report_lines.append(f"[warn] {key}: ... +{len(warnings) - 12} more")
 
-            print(f"[arc] {arc_path.name} <- {folder.name} ({len(pngs)} png)")
-            ok, skipped, warnings = patch_arc_with_pngs(arc_path, pngs, conv / f"{index:04d}_{key}")
-            pkg_ok += ok
-            pkg_skip += skipped
-            touched = touched or ok > 0
-            totals["arcs"] += 1
-            for w in warnings[:12]:
-                report_lines.append(f"[warn] {key}: {w}")
-            if len(warnings) > 12:
-                report_lines.append(f"[warn] {key}: ... +{len(warnings) - 12} more")
+            totals["png_ok"] += pkg_ok
+            totals["png_skip"] += pkg_skip
+            if touched:
+                repack_package(img_data, index)
+                patched_indices.append(index)
+                totals["packages"] += 1
+                report_lines.append(f"[ok] package {index:04d}: {pkg_ok} replaced, {pkg_skip} skipped")
+            else:
+                report_lines.append(f"[skip] package {index:04d}: nothing replaced")
 
-        totals["png_ok"] += pkg_ok
-        totals["png_skip"] += pkg_skip
-        if touched:
-            repack_package(img_data, index)
-            patched_indices.append(index)
-            totals["packages"] += 1
-            report_lines.append(f"[ok] package {index:04d}: {pkg_ok} replaced, {pkg_skip} skipped")
+        if patched_indices:
+            if splice:
+                splice_packages_into_img(img_bin, img_data, patched_indices, out_img)
+            else:
+                selective_ie_repack(img_bin, img_data, out_img, patched_indices)
+        elif not patch_cesa:
+            raise PackError("no textures were injected; aborting img.bin rebuild")
         else:
-            report_lines.append(f"[skip] package {index:04d}: nothing replaced")
+            shutil.copy2(img_bin, out_img)
+    else:
+        shutil.copy2(img_bin, out_img)
 
-    if not patched_indices:
+    if patch_cesa:
+        from patch_cesa import patch_img_bin
+
+        print(f"[cesa] patching boot warning from {cesa_png}")
+        patched = work / "img_cesa.bin"
+        patch_img_bin(out_img, cesa_png, patched, work=work / "cesa_work")
+        shutil.move(str(patched), str(out_img))
+        totals["cesa"] = 1
+        report_lines.append("[ok] package 0090: CESA_240X400.texi (boot warning)")
+
+    if not patched_indices and not patch_cesa:
         raise PackError("no textures were injected; aborting img.bin rebuild")
 
-    selective_ie_repack(img_bin, img_data, out_img, patched_indices)
     report_path = work / "image_pack_report.txt"
     report_path.write_text(
         "\n".join(
@@ -381,6 +497,7 @@ def pack_images(
                 f"arcs touched:     {totals['arcs']}",
                 f"png replaced:     {totals['png_ok']}",
                 f"png skipped:      {totals['png_skip']}",
+                f"cesa patched:     {totals['cesa']}",
                 f"output:           {out_img}",
                 "",
                 *report_lines,
@@ -391,15 +508,38 @@ def pack_images(
     )
     print(f"[report] {report_path}")
     print(
-        f"[done] packages={totals['packages']} replaced={totals['png_ok']} skipped={totals['png_skip']}"
+        f"[done] packages={totals['packages']} replaced={totals['png_ok']} "
+        f"skipped={totals['png_skip']} cesa={totals['cesa']}"
     )
     return totals
+
+
+AZAHAR_IMG = (
+    Path.home()
+    / "AppData"
+    / "Roaming"
+    / "Azahar"
+    / "load"
+    / "mods"
+    / "00040000000F4E00"
+    / "romfs"
+    / "img.bin"
+)
+
+VANILLA_IMG = (
+    ROOT.parent
+    / "New Love Plus Plus"
+    / "extracted"
+    / "romfs"
+    / "img.bin"
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Pack EngPatcher PNGs into img.bin")
     p.add_argument("--images", default=str(ASSETS_IMAGES), help="assets/images root")
-    p.add_argument("--img-bin", default=str(DEFAULT_IMG_BIN), help="source romfs/img.bin")
+    default_img = VANILLA_IMG if VANILLA_IMG.is_file() else DEFAULT_IMG_BIN
+    p.add_argument("--img-bin", default=str(default_img), help="source romfs/img.bin")
     p.add_argument(
         "--work",
         default=str(ROOT / "out" / "img_work"),
@@ -413,7 +553,17 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--only",
         nargs="*",
-        help="optional logical keys to pack (e.g. title mail)",
+        help="optional logical keys to pack (e.g. title mail ncommonmsel(4))",
+    )
+    p.add_argument(
+        "--full-repack",
+        action="store_true",
+        help="use legacy full Image.write rebuild instead of same-size package splice",
+    )
+    p.add_argument(
+        "--deploy-azahar",
+        action="store_true",
+        help="copy output img.bin into Azahar LayeredFS mods",
     )
     return p
 
@@ -421,14 +571,24 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     only = {normalize_folder_key(k) for k in args.only} if args.only else None
+    img_bin = Path(args.img_bin)
+    # Prefer current Azahar overlay as source when deploying (keeps CESA splice).
+    if args.deploy_azahar and AZAHAR_IMG.is_file():
+        img_bin = AZAHAR_IMG
+        print(f"[img] using Azahar overlay as source: {img_bin}")
     try:
         pack_images(
             Path(args.images),
-            Path(args.img_bin),
+            img_bin,
             Path(args.work),
             Path(args.out),
             only_keys=only,
+            splice=not args.full_repack,
         )
+        if args.deploy_azahar:
+            AZAHAR_IMG.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(Path(args.out), AZAHAR_IMG)
+            print(f"[deploy] {AZAHAR_IMG}")
         return 0
     except PackError as exc:
         print(f"error: {exc}", file=sys.stderr)

@@ -92,7 +92,7 @@ solved it！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Good job, ▲主人公＊▲.</Dialog>
           <Dialog>When did you arrive 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>A little while ago. </Dialog>
           <Dialog>...Sorry, I didn't notice.</Dialog>
           <Dialog>I saw something good, so 
@@ -387,7 +387,7 @@ success... I feel good.)</Dialog>
 ▲主人公＊▲...？</Dialog>
           <Dialog>Ah, nothing much. I'm just 
 cleaning up an experiment, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hmmm... why are you on your 
 own？</Dialog>
           <Dialog>Well, I was in a good mood, 
@@ -728,7 +728,7 @@ a great job. Congrats.</Dialog>
           <Dialog>...But stop grinning.</Dialog>
           <Dialog>(In your typical way, I'm 
 getting motivated again, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -939,7 +939,7 @@ was pretty good.)</Dialog>
           <Dialog>From the look on your face, 
 it looks like your essay 
 went well.</Dialog>
-          <Dialog>Ah, ▲小早川＊▲.</Dialog>
+          <Dialog>Ah, Rinko.</Dialog>
           <Dialog>You should be pleased！？ 
 I know. Your girlfriend 
 will praise you.</Dialog>
@@ -1158,7 +1158,7 @@ humanities！</Dialog>
 humanities, huh. Not even 
 Rinko. Hmmm.</Dialog>
           <Dialog>Are you angry, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>There's nothing wrong with 
 having confidence.</Dialog>
           <Dialog>(She's definitely mad... 
@@ -1700,7 +1700,7 @@ definitely use it！</Dialog>
           <Dialog>I'm glad to hear you say 
 that, because I drew it 
 in your image, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko's image...？ Hehe, 
 thanks. Can I have this 
 illustration？ I'll take 
@@ -1816,7 +1816,7 @@ points... Because I'm your
 girlfriend.</Dialog>
           <Dialog>(I'm even more motivated if 
 you tell me that 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1915,14 +1915,14 @@ leadership role,
           <Dialog>In Rinko's class, no one 
 can take the leadership...</Dialog>
           <Dialog>What about you 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko as a leader？ 
 Absolutely not！ I'm not 
 that type of person.</Dialog>
           <Dialog>I'd like to see it, though. 
 The kind of leader you want 
 to be, I think you can do 
-it, ▲小早川＊▲.</Dialog>
+it, Rinko.</Dialog>
           <Dialog>Yo-You think so？</Dialog>
           <Dialog>I'm sure... you're doing 
 your best. Yes, I'll try my 
@@ -2101,7 +2101,7 @@ nice.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>I knew it was your class.</Dialog>
           <Dialog>Ah, did you hear that, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I just had to. I heard it. 
 Well... I'm glad for you. 
 It was good, but...</Dialog>
@@ -2114,7 +2114,7 @@ like...</Dialog>
           <Dialog>It seems all Rinko can hear 
 is her boyfriend's voice... 
 Hehe.</Dialog>
-          <Dialog>(▲小早川＊▲▼)</Dialog>
+          <Dialog>(Rinko▼)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2265,7 +2265,7 @@ Alright, I'll do my best！)</Dialog>
 time！)</Dialog>
           <Dialog>Ah, did you hear the 
 performance this time, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah. It was good, right？</Dialog>
           <Dialog>Is that all...？</Dialog>
@@ -2370,7 +2370,7 @@ break my own record？</Dialog>
 great record.</Dialog>
           <Dialog>Do you think so？ I feel 
 more confident when you say 
-so, ▲小早川＊▲.</Dialog>
+so, Rinko.</Dialog>
           <Dialog>Well, then...</Dialog>
           <Dialog>Hooray, hooray, go for it, 
 go for it ▲主人公＊▲♪</Dialog>
@@ -2569,7 +2569,7 @@ all.</Dialog>
           <Dialog>I was so excited.</Dialog>
           <Dialog>I want to show my good side 
 in front of you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>In front of Rinko...？</Dialog>
           <Dialog>Of course！</Dialog>
           <Dialog>You're so loud... Other 
@@ -2786,11 +2786,11 @@ you can... Hah... Hah...</Dialog>
 class... You're an idiot.</Dialog>
           <Dialog>Haha, if I see you, I just 
 want to give my all, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>For Rinko...？</Dialog>
           <Dialog>I mean, it's a natural to 
 do it in front of you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Then... I have to reward my 
 boyfriend for such hard 
 work, don't I？</Dialog>
@@ -2881,7 +2881,7 @@ be much lending today. The
 only thing left to do is 
 rearrange the bookshelves.</Dialog>
           <Dialog>You don't have to run, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>It's because... Rinko's... 
 on duty today, right？ 
@@ -2997,7 +2997,7 @@ paper and such？</Dialog>
           <Dialog>Oops, thanks. I'll add it 
 to the list.</Dialog>
           <Dialog>...Yay！</Dialog>
-          <Dialog>▲小早川＊▲...？</Dialog>
+          <Dialog>Rinko...？</Dialog>
           <Dialog>I've been relying on you a 
 lot lately. I'm glad I was 
 able to be of some help... 
@@ -3204,14 +3204,14 @@ this time,
 ▲主人公＊▲.</Dialog>
           <Dialog>It was because of your 
 continuous cooperation, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko only came up with 
 the idea for the structure 
 of the paper. You came up 
 with all the content.</Dialog>
           <Dialog>No, it's because you were 
 doing the review section, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>We compliment each other, 
 it's weird.</Dialog>
           <Dialog>Haha, I know.</Dialog>
@@ -3318,7 +3318,7 @@ this... by yourself, I see.</Dialog>
           <Dialog>I've already learned the 
 whole process without 
 having to ask you 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I see. So you don't need 
 Rinko anymore？ You'll be 
 fine on your own.</Dialog>
@@ -3436,7 +3436,7 @@ today.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey！</Dialog>
           <Dialog>What！！！？ You surprised 
-me, ▲小早川＊▲.</Dialog>
+me, Rinko.</Dialog>
           <Dialog>Hehe. It was because you 
 were spacing out.</Dialog>
           <Dialog>I can't believe you...</Dialog>
@@ -3534,7 +3534,7 @@ you can brag about！</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong, 
-▲小早川＊▲...？</Dialog>
+Rinko...？</Dialog>
           <Dialog>Uh, yes... it's nothing.</Dialog>
           <Dialog>Up close... you are 
 surprisingly strong, or 

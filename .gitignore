@@ -29,6 +29,8 @@ new_img.bin
 *.rar
 *.7z
 *.zip
+# Keep vendored NLPPATCH plugin/note zips trackable
+!vendor/**/*.zip
 
 # OS / editor
 .DS_Store

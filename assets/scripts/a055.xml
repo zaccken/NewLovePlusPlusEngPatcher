@@ -137,8 +137,8 @@
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Oh, it's ▲姉ヶ崎＊▲...</Dialog>
-          <Dialog>▲姉ヶ崎＊▲！</Dialog>
+          <Dialog>Oh, it's Nene...</Dialog>
+          <Dialog>Nene！</Dialog>
           <Dialog>Hey</Dialog>
           <Dialog>Chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
@@ -287,7 +287,7 @@ I'm in a hurry.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah,
-▲姉ヶ崎＊▲.)</Dialog>
+Nene.)</Dialog>
           <Dialog>Wanna have some tea？</Dialog>
           <Dialog>Do you have a moment？</Dialog>
           <Dialog>Hello, Sis</Dialog>
@@ -444,13 +444,13 @@ thought...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(That's ▲姉ヶ崎＊▲.
+          <Dialog>(That's Nene.
 Did she have a shift today？)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲！</Dialog>
+          <Dialog>Nene！</Dialog>
           <Dialog>Hey</Dialog>
           <Dialog>Chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
-          <Dialog>▲姉ヶ崎＊▲？</Dialog>
+          <Dialog>Nene？</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>Hey.</Dialog>
@@ -615,12 +615,12 @@ about.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Oh, how was I supposed to do
 this...？)</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲. Nice timing.)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲！</Dialog>
+          <Dialog>(Nene. Nice timing.)</Dialog>
+          <Dialog>Nene！</Dialog>
           <Dialog>Hey</Dialog>
           <Dialog>Chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.</Dialog>
+          <Dialog>Nene.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>Hey.</Dialog>
@@ -766,13 +766,13 @@ it a little at a time.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲
+          <Dialog>(Nene
 is there.)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲！</Dialog>
+          <Dialog>Nene！</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 What's up？</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>Yes？</Dialog>
@@ -930,12 +930,12 @@ soon？</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(That's ▲姉ヶ崎＊▲？)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲！</Dialog>
+          <Dialog>(That's Nene？)</Dialog>
+          <Dialog>Nene！</Dialog>
           <Dialog>Hey.</Dialog>
           <Dialog>Chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
-          <Dialog>▲姉ヶ崎＊▲. What's up？</Dialog>
+          <Dialog>Nene. What's up？</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>Hey.</Dialog>
@@ -1092,7 +1092,7 @@ you with？</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah,
-▲姉ヶ崎＊▲)</Dialog>
+Nene)</Dialog>
           <Dialog>-Hey.</Dialog>
           <Dialog>Hey~！</Dialog>
           <Dialog>Knee knock attack！</Dialog>
@@ -1249,12 +1249,12 @@ going too.</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Take this chop attack！</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hehe.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Hiya！</Dialog>
           <Dialog>Ouch！ Hey, I'm angry now！</Dialog>
@@ -1419,7 +1419,7 @@ stopping you.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>All right, break time...</Dialog>
-          <Dialog>(That's right. ▲姉ヶ崎＊▲
+          <Dialog>(That's right. Nene
 is taking a break, too. She
 might be in the break room
 now.)</Dialog>
@@ -1431,12 +1431,12 @@ fresh air outside.)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Take this chop attack！</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hehe.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Hiya！</Dialog>
           <Dialog>Ouch！ Hey, I'm angry now！</Dialog>
@@ -1591,13 +1591,13 @@ soon...)</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Take this chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hehe.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Hiya！</Dialog>
           <Dialog>Ouch！ Hey, I'm angry now！</Dialog>
@@ -1763,7 +1763,7 @@ for a bit more.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I'm hungry...)</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲...)</Dialog>
+          <Dialog>(Nene...)</Dialog>
           <Dialog>-Hey.</Dialog>
           <Dialog>Hey~！</Dialog>
           <Dialog>Knee knock attack！</Dialog>
@@ -1936,13 +1936,13 @@ bit.)</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Take this chop attack！</Dialog>
           <Dialog>Don't call her</Dialog>
           <Dialog>Oh.</Dialog>
           <Dialog>Hehe.</Dialog>
           <Dialog>Hey,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Hiya！</Dialog>
           <Dialog>Ouch！ Hey, I'm angry now！</Dialog>
@@ -2032,7 +2032,7 @@ you later.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>...？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 What a coincidence.</Dialog>
           <Dialog>Not really. I saw you from
 afar, so I tried to call you.</Dialog>
@@ -2107,10 +2107,10 @@ mind. See you later.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah,
-▲姉ヶ崎＊▲...</Dialog>
+Nene...</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>......</Dialog>
-          <Dialog>▲姉ヶ崎＊▲？</Dialog>
+          <Dialog>Nene？</Dialog>
           <Dialog>Hehe, just kidding. Did it
 surprise you？</Dialog>
           <Dialog>Hey, that was so mean.</Dialog>
@@ -2192,7 +2192,7 @@ Bye-bye.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>Wah！</Dialog>
           <Dialog>...？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>Nene,
 What was that...？</Dialog>
           <Dialog>Ahaha. You were surprised. So
 cute▼</Dialog>
@@ -2283,13 +2283,13 @@ seemed to enjoy teasing me...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah,
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Eh？ Are you working？ You're
 taking a break？</Dialog>
           <Dialog>Yeah. It's so crowded today.</Dialog>
-          <Dialog>▲姉ヶ崎＊▲
+          <Dialog>Nene
 has a lot to take care of.
 I'll help you then.</Dialog>
           <Dialog>But it's your break time.</Dialog>
@@ -2379,8 +2379,8 @@ you work during your break.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's so busy today...)</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲. Nice timing.)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.</Dialog>
+          <Dialog>(Nene. Nice timing.)</Dialog>
+          <Dialog>Nene.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>▲主人公＊▲.
 What's up？</Dialog>
@@ -2475,7 +2475,7 @@ guess I won't have time for a
 break.)</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 What's wrong？</Dialog>
           <Dialog>It's your break time, right？
 You should rest.</Dialog>
@@ -2487,7 +2487,7 @@ this...</Dialog>
 is break time. Go.</Dialog>
           <Dialog>Okay. I got it. Thank you.</Dialog>
           <Dialog>(Even now,
-▲姉ヶ崎＊▲
+Nene
 is still taking care of me...)</Dialog>
         </Dialogs>
       </SDL2>
@@ -2560,7 +2560,7 @@ is still taking care of me...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Phew. It's done...</Dialog>
           <Dialog>Eh？
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Is there anything you want？
@@ -2632,8 +2632,8 @@ okay.</Dialog>
           <Dialog>Phew. It's done...</Dialog>
           <Dialog>(I feel like someone is
 staring at me...)</Dialog>
-          <Dialog>(▲姉ヶ崎＊▲？)</Dialog>
-          <Dialog>▲姉ヶ崎＊▲,
+          <Dialog>(Nene？)</Dialog>
+          <Dialog>Nene,
 What's up？</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>I'm here. You're great to
@@ -2704,7 +2704,7 @@ again, I guess.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>...？</Dialog>
-          <Dialog>▲姉ヶ崎＊▲.
+          <Dialog>Nene.
 What's the matter？ Why did
 you come to my class？</Dialog>
           <Dialog>Of course, I want to see you.</Dialog>

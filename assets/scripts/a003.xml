@@ -1119,7 +1119,7 @@ me... What a pity. Now, good
 night.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Don't worry,
-▲姉ヶ崎＊▲.
+Nene.
 Good night..</Dialog>
         </Dialogs>
       </SDL2>
@@ -1178,7 +1178,7 @@ Good night..</Dialog>
 up？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Why...？ How about
-▲姉ヶ崎＊▲？
+Nene？
 Why don't you？</Dialog>
           <Dialog>Why is that？ A moment like
 this is nice, but I have to
@@ -1238,7 +1238,7 @@ later.</Dialog>
           <Dialog>Nene</Dialog>
           <Dialog>...You can hang up now.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲姉ヶ崎＊▲
+          <Dialog>Nene
 should hang up first.</Dialog>
           <Dialog>...Then let's hang up at the
 same time. ...3, 2, 1.</Dialog>
@@ -1329,7 +1329,7 @@ up. Bye-bye！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I should be more
 considerate of 
-▲姉ヶ崎＊▲...)</Dialog>
+Nene...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

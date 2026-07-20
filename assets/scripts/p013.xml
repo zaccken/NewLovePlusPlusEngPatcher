@@ -18,7 +18,7 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today, I'm going out with
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We are going to the zoo. 
 I'd better leave now.</Dialog>
         </Dialogs>
@@ -41,7 +41,7 @@ I'd better leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today, I'm going out with
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We're going to visit the 
 aquarium. I'd better leave 
 now.</Dialog>
@@ -65,7 +65,7 @@ now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today, I'm going out with
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We are going to Mt. Towano 
 for maple leaves viewing. 
 I'd better leave now.</Dialog>
@@ -89,7 +89,7 @@ I'd better leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today, I'm going out with
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>We are going skating at the 
 sports center. I'd better 
 leave now.</Dialog>
@@ -113,7 +113,7 @@ leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲高嶺＊＊▲. 
+Takane. 
 As her escort to help her 
 practice how to date.</Dialog>
           <Dialog>We are going to the harbor 
@@ -138,7 +138,7 @@ park.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲小早川＊▲. 
+Rinko. 
 For a date... Well, no. 
 It's just normal hanging 
 out.</Dialog>
@@ -165,7 +165,7 @@ leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲小早川＊▲. 
+Rinko. 
 For a date... Well, no. 
 It's just normal hanging 
 out.</Dialog>
@@ -191,7 +191,7 @@ park. I'd better leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲小早川＊▲. 
+Rinko. 
 For a date. No, not a date. 
 Just a normal hanging out.</Dialog>
           <Dialog>We are going to the zoo. 
@@ -216,7 +216,7 @@ I'd better leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲小早川＊▲. 
+Rinko. 
 For a date... No, not a 
 date. It's just normal 
 hanging out.</Dialog>
@@ -242,7 +242,7 @@ I'd better leave now.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today I'm going out with 
-▲小早川＊▲. 
+Rinko. 
 For a da... No, not a date. 
 Just normal hanging out...</Dialog>
           <Dialog>Okay, I'm going to the
@@ -271,7 +271,7 @@ investigate the dessert
 shop to find something for 
 our new menu. She'll tag 
 along to help me, right 
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
           <Dialog>I'd better leave now.</Dialog>
         </Dialogs>
       </SDL2>
@@ -297,7 +297,7 @@ investigate the noodles
 shop to find something for 
 our new menu. She'll tag 
 along to help me, right 
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
           <Dialog>I'd better leave now.</Dialog>
         </Dialogs>
       </SDL2>
@@ -323,7 +323,7 @@ investigate the lakeside
 restaurant to find food for 
 our new menu. She'll tag 
 along to help me, right 
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
           <Dialog>I'd better leave now.</Dialog>
         </Dialogs>
       </SDL2>
@@ -349,7 +349,7 @@ investigate a restaurant
 to find something for our 
 new menu. She'll tag along 
 to help me, right 
-▲姉ヶ崎＊▲？</Dialog>
+Nene？</Dialog>
           <Dialog>I'd better leave now.</Dialog>
         </Dialogs>
       </SDL2>
@@ -372,7 +372,7 @@ to help me, right
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Today, I'll be watching a 
 movie together with 
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Okay, I'll leave now.</Dialog>
         </Dialogs>
       </SDL2>

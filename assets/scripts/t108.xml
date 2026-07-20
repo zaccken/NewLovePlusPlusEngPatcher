@@ -70,7 +70,7 @@ suits your tastes.</Dialog>
           <Dialog>If you made it, I'm sure 
 it's definitely delicious. 
 Bon appetit, 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -220,7 +220,7 @@ make it, hehe.</Dialog>
           <Dialog>It looks delicious... 
 As expected of you！ 
 Bon appetit, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -279,7 +279,7 @@ Bon appetit！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>If you did it I'm sure it's 
 okay. Bon appetit, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -645,7 +645,7 @@ experience.</Dialog>
           <Dialog>(I think your cooking 
 skills need a little more 
 of practice, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -662,7 +662,7 @@ of practice,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I think your cooking 
 skills are doing great 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -679,7 +679,7 @@ skills are doing great
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I think your cooking 
 skills are getting better 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -697,7 +697,7 @@ skills are getting better
           <Dialog>(I really can brag about 
 your cooking skills as your 
 boyfriend 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -715,7 +715,7 @@ boyfriend
           <Dialog>(With your cooking skills I 
 can't think of you as an 
 amateur anymore 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -733,7 +733,7 @@ amateur anymore
           <Dialog>(I think you can teach 
 others now that your 
 cooking skills are better, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -750,7 +750,7 @@ cooking skills are better,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You are like a top chef 
 with those cooking skills 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -768,7 +768,7 @@ with those cooking skills
           <Dialog>(I feel like I'm eating at 
 a three-star restaurant 
 when you cook 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -785,7 +785,7 @@ when you cook
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Your cooking skills are 
 the best in the world 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -803,7 +803,7 @@ the best in the world
           <Dialog>(Your cooking skills make 
 you the best cook in human 
 history 
-▲高嶺＊＊▲！)</Dialog>
+Takane！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1130,7 +1130,7 @@ go.</Dialog>
           <Dialog>What do you want to order？ 
 Do you see something you'd 
 like to eat 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1355,7 +1355,7 @@ for your ▲生成選択肢２▲.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>By the way your hairstyle, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>My hairstyle？</Dialog>
           <Dialog>Yes, you know...</Dialog>
@@ -1509,7 +1509,7 @@ though.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I want to see a different 
 you. What do you think 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1691,7 +1691,7 @@ later.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hairstyle 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong with my 
 hair？</Dialog>
@@ -1788,7 +1788,7 @@ definitely suit you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>If you don't like that, 
 it's okay 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1888,7 +1888,7 @@ today.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>That hair accessory is 
 perfect for you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1905,7 +1905,7 @@ perfect for you,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Those earrings match your 
 image perfectly, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2079,7 +2079,7 @@ good.</Dialog>
           <Dialog>...That ring. I think 
 there's something more 
 suitable for you 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2175,7 +2175,7 @@ it for a while.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Excuse me. How do you 
 choose your clothes 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>How do I？ Hmm...</Dialog>
           <Dialog>Well then...</Dialog>
@@ -2632,7 +2632,7 @@ casual look？</Dialog>
           <Dialog>If it's neat clothes, I 
 think I'll be hooked on 
 you even more, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3023,7 +3023,7 @@ seriously...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Why don't I change the way 
 I call you 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3716,7 +3716,7 @@ too.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'm sure it will look good 
 on you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

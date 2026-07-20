@@ -278,11 +278,11 @@ didn't seem like Rinko.</Dialog>
           <Dialog>It's just like you, isn't 
 it？ That means you do what 
 you want to do, right, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>....</Dialog>
           <Dialog>If you want to be close to 
 me, then that's fine by me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>...you're acting cool, you 
 know.</Dialog>
           <Dialog>Really？</Dialog>
@@ -294,18 +294,18 @@ you much longer.</Dialog>
 when it's late... I wish we 
 could have spent more time 
 together.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>(I know, the tickets...)</Dialog>
           <Dialog>You know, I actually won 
 a prize. Two days and one 
 night in Atami, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>Why don't we go there... 
 together？</Dialog>
           <Dialog>(She can't do it after 
 all...)</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Are you ready to go home？</Dialog>
           <Dialog>I understand.</Dialog>
           <Dialog>Okay, here we go.</Dialog>
@@ -322,7 +322,7 @@ want to go？</Dialog>
           <Dialog>Then. Two days and one 
 night from ▲月▲▲日▲！</Dialog>
           <Dialog>(Our first trip together 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -434,7 +434,7 @@ night from ▲月▲▲日▲！</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What？</Dialog>
           <Dialog>Actually, I won it again. 
@@ -453,7 +453,7 @@ wanted to go with me.</Dialog>
 night from ▲月▲▲日▲！</Dialog>
           <Dialog>...Hehe.</Dialog>
           <Dialog>(We can travel once more 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -702,7 +702,7 @@ night from ▲月▲▲日▲！</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Yes, hello.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey, you're not busy, 
@@ -839,7 +839,7 @@ for good.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, you're already here, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>That's unusual for spring. 
 I happened to wake up early.</Dialog>
@@ -1025,7 +1025,7 @@ it a little bit.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Your hair, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Well, I changed it... 
 How do you like it？</Dialog>
@@ -1050,7 +1050,7 @@ today？</Dialog>
           <Dialog>Not very good</Dialog>
           <Dialog>Huh, you think so？</Dialog>
           <Dialog>(Your clothes are nice, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>It was Rinko's fault for 
 asking.</Dialog>
           <Dialog>(Well, I don't care about 
@@ -1226,7 +1226,7 @@ one.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>That hair, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What do you think？　Rinko 
 kinda likes this style.</Dialog>
@@ -1252,7 +1252,7 @@ today's outfit？</Dialog>
           <Dialog>Not very good</Dialog>
           <Dialog>Hehe, Rinko wins.</Dialog>
           <Dialog>(Your clothes are nice, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>I can't hear you.</Dialog>
           <Dialog>(Well, I don't care about 
 clothes.)</Dialog>
@@ -1427,7 +1427,7 @@ one.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>That hair, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah, for today's trip. 
 Does it look good on me？</Dialog>
@@ -1451,7 +1451,7 @@ strange？</Dialog>
           <Dialog>Not very good</Dialog>
           <Dialog>Hehe, can you say it more？</Dialog>
           <Dialog>(Your clothes are nice, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>If that's not weird, fine.</Dialog>
           <Dialog>(Well, I don't care about 
 clothes.)</Dialog>
@@ -1668,7 +1668,7 @@ we didn't share the
 workload, right？</Dialog>
           <Dialog>(What's the division of 
 labor for you 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>My little brother, you 
 know, he loves trains.</Dialog>
           <Dialog>Oh, I get it. That's the 
@@ -1677,7 +1677,7 @@ Pictures, models, that
 kind of stuff.</Dialog>
           <Dialog>What is that, boys talk？</Dialog>
           <Dialog>Maybe. You don't get it, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I'm a girl.</Dialog>
           <Dialog>It's over there. Did you 
 forget？</Dialog>
@@ -1689,7 +1689,7 @@ first place.</Dialog>
           <Dialog>Unlike the Shinkansen, it 
 has a certain elegance.</Dialog>
           <Dialog>Are you anti-Shinkansen, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Why the bipolarity？　
 The right ones are in the 
 right places, right？</Dialog>
@@ -2160,7 +2160,7 @@ going down.</Dialog>
 Atami.</Dialog>
           <Dialog>Haha, yeah.</Dialog>
           <Dialog>...it's just the two of us.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
           <Dialog>I'm home, Atami！　Kidding.</Dialog>
           <Dialog>Since when are you such a 
 regular.</Dialog>
@@ -2781,7 +2781,7 @@ workout？</Dialog>
           <Dialog>If you don't exercise, 
 I don't think you would 
 understand, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good job. If you can climb 
 the stairs with your 
 girlfriend on your back, 
@@ -2800,10 +2800,10 @@ a wish？</Dialog>
 way.</Dialog>
           <Dialog>(I wish my relationship 
 with you develops further, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>(I feel like I'm closer to 
 you than before, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
           <Dialog>I feel like it somehow 
 works. Is it a power spot？</Dialog>
         </Dialogs>
@@ -3088,9 +3088,9 @@ for me.</Dialog>
           <Dialog>(Hmm. Looking around, 
 I still think you are the 
 cutest in this beach, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Ah, ▲小早川＊▲.</Dialog>
+          <Dialog>Ah, Rinko.</Dialog>
           <Dialog>Something like this.</Dialog>
           <Dialog>Yeah, it's really nice.</Dialog>
           <Dialog>So this is what summer 
@@ -3104,13 +3104,13 @@ for a swimsuit, right？</Dialog>
 and thankful.</Dialog>
           <Dialog>(I wonder if you put 
 sunscreen for this cases, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>We need to put sunscreen 
 on！</Dialog>
           <Dialog>We'll use Sun Oil here！</Dialog>
           <Dialog>Shouldn't you put on some 
 sunscreen, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Oh right, I forgot about 
 that.</Dialog>
           <Dialog>I have no choice. I'll 
@@ -3118,13 +3118,13 @@ apply it for you.</Dialog>
           <Dialog>...don't come closer.</Dialog>
           <Dialog>(Tsk...)</Dialog>
           <Dialog>Put some of this, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Sun Oil？　I see, so you 
 have that kind of hobby.</Dialog>
           <Dialog>I bet the wheat-colored 
 skinned you is cute too！ 
 Shall I apply for you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I understand. But don't 
 come closer.</Dialog>
           <Dialog>(There you go...)</Dialog>
@@ -3340,7 +3340,7 @@ I'll better shut up.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh, where are you, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Excuse me, sorry to keep 
 you waiting.</Dialog>
@@ -3461,15 +3461,15 @@ later.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Oh, a cat！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hehe. Isn't she a beauty？</Dialog>
           <Dialog>Hey, let's go, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Nya？</Dialog>
           <Dialog>(Well, I guess it can't be 
 helped.)</Dialog>
           <Dialog>That's taking too long, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Just a little more time. 
 There's still time, right？</Dialog>
           <Dialog>Yes, but... the earlier we 
@@ -4240,7 +4240,7 @@ the name ▲苗字▲...</Dialog>
           <Dialog>Please let me show you to 
 your room.</Dialog>
           <Dialog>Let's go, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Yeah.</Dialog>
           <Dialog>Please hand me your 
 luggage, ma'am.</Dialog>
@@ -4448,7 +4448,7 @@ them again.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>We can stay in the same 
 room.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Because we came on a trip 
 together. It's weird that 
 we have to stay in separate 
@@ -4615,7 +4615,7 @@ will make some for you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Say, would you like to go 
 explore the hotel, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sounds good. Looking for 
 retro games？</Dialog>
@@ -4868,7 +4868,7 @@ for a high school student.</Dialog>
           <Dialog>Huh.</Dialog>
           <Dialog>You forgot your wallet. 
 Good grief, you're a child, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>(Ah, what do I do with the 
 key...)</Dialog>
           <Dialog>Lock up and leave</Dialog>
@@ -5196,10 +5196,10 @@ relax.)</Dialog>
           <Dialog>(All right, I'd better get 
 up.)</Dialog>
           <Dialog>(I bet you're not ready yet 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Too late！</Dialog>
           <Dialog>You were early, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Was it bad？</Dialog>
           <Dialog>Did you get all the way up 
 to your shoulders？</Dialog>
@@ -5209,7 +5209,7 @@ seconds？</Dialog>
           <Dialog>Two seconds is enough！　
 I don't want to be hot.</Dialog>
           <Dialog>(So you take short baths, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Well, your yukata looks 
 pretty good on you, doesn't 
 it？</Dialog>
@@ -5492,7 +5492,7 @@ good on you.</Dialog>
           <Dialog>I'm hungry.</Dialog>
           <Dialog>Okay, let's eat.</Dialog>
           <Dialog>Is sashimi okay, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Why？</Dialog>
           <Dialog>I thought you don't like it 
 that much. Somehow.</Dialog>
@@ -5739,13 +5739,13 @@ table here.</Dialog>
           <Dialog>Let's play！</Dialog>
           <Dialog>Too much trouble</Dialog>
           <Dialog>Let's play, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Better not, it's a hassle.</Dialog>
           <Dialog>Don't be like that. Come 
 on, let's do it.</Dialog>
           <Dialog>Ah, geez, I get it.</Dialog>
           <Dialog>All right. Let's being, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Yes, yes, I'll do my best.</Dialog>
           <Dialog>Yes, I won！</Dialog>
           <Dialog>....</Dialog>
@@ -5753,7 +5753,7 @@ on, let's do it.</Dialog>
           <Dialog>What are you really trying 
 to do, you idiot.</Dialog>
           <Dialog>(You're a sore loser, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>I sweated even after taking 
 a bath.</Dialog>
           <Dialog>Why don't you just go back 
@@ -5986,13 +5986,13 @@ ass.</Dialog>
           <Dialog>(Oh, there is an open-air 
 bath？ Maybe I'll invite 
 you to go there, too, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Let's go in！</Dialog>
           <Dialog>I'm done with baths</Dialog>
           <Dialog>(I just got in earlier, so 
 I'm done with baths.)</Dialog>
           <Dialog>Let's take an open-air bath 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Open-air bath？　No thanks, 
 it's a hassle.</Dialog>
@@ -6005,7 +6005,7 @@ sounds good.</Dialog>
 ground... I didn't even 
 notice it.)</Dialog>
           <Dialog>(Oh, there she is.)</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>W-wait... what are you 
 yelling at？</Dialog>
           <Dialog>Snow！　That's amazing！</Dialog>
@@ -6020,7 +6020,7 @@ me.</Dialog>
           <Dialog>Eh, yeah... well it's an 
 open-air bath, isn't it？</Dialog>
           <Dialog>What's it like over there, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Geez, stop it. You don't 
 want people to come in.</Dialog>
           <Dialog>You think？</Dialog>
@@ -6301,9 +6301,9 @@ to do？)</Dialog>
           <Dialog>I should wear a swimsuit</Dialog>
           <Dialog>Be a man here...</Dialog>
           <Dialog>(Is this the family bath, 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Are you there 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah.</Dialog>
           <Dialog>What's the matter？　You're 
 not coming in？</Dialog>
@@ -6336,7 +6336,7 @@ I'm going to get out！</Dialog>
           <Dialog>Tsk, that's boring.</Dialog>
           <Dialog>(I wonder if you know what 
 you're talking about 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6563,14 +6563,14 @@ you're talking about
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You said something about 
 the night view 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Invite her for an evening 
 stroll</Dialog>
           <Dialog>It's too dark now</Dialog>
           <Dialog>(It's already dark. Let's 
 not do this.)</Dialog>
           <Dialog>Wanna go for a night walk 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>A walk？　Now？</Dialog>
           <Dialog>You know, today, when we 
@@ -6588,7 +6588,7 @@ to go？</Dialog>
           <Dialog>A night walk... hehe. 
 Sounds exciting.</Dialog>
           <Dialog>It's not uncommon, right, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Not lately！</Dialog>
           <Dialog>It's a little far, but 
 let's walk.</Dialog>
@@ -6975,7 +6975,7 @@ that.</Dialog>
           <Dialog>There are many girls in the 
 world, but your girlfriend 
 is the only one.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>...it's time to get back.</Dialog>
         </Dialogs>
       </SDL2>
@@ -7097,7 +7097,7 @@ is the only one.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Let's go back to the room, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah.</Dialog>
           <Dialog>Ah！！</Dialog>
@@ -7255,7 +7255,7 @@ off the lights now？</Dialog>
           <Dialog>Yeah, sure.</Dialog>
           <Dialog>But, say... you don't want 
 to sleep yet, right？</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I'm sleepy.</Dialog>
           <Dialog>...me too.</Dialog>
           <Dialog>Okay, good night.</Dialog>
@@ -7479,10 +7479,10 @@ time.</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>▲小早川＊▲！？</Dialog>
+          <Dialog>Rinko！？</Dialog>
           <Dialog>Mm-hmm...</Dialog>
           <Dialog>(Your sleeping face, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(I'm glad I woke up early. 
 I got a decent night's 
 sleep last night.)</Dialog>
@@ -7791,7 +7791,7 @@ Hehe～♪</Dialog>
           <Dialog>Good morning, 
 ▲主人公＊▲.</Dialog>
           <Dialog>Good morning, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Listen, I'm going to 
 change, okay？</Dialog>
           <Dialog>Hmm？　Sure.</Dialog>
@@ -7803,11 +7803,11 @@ propensity for exposition.</Dialog>
 passed</Dialog>
           <Dialog>Wait until you hear her</Dialog>
           <Dialog>Are you ready, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Wait！</Dialog>
           <Dialog>Oh, you're done. Let's go 
 out to eat then.</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>You're the worst.</Dialog>
           <Dialog>(You were over, so it was 
 okay.)</Dialog>
@@ -8316,7 +8316,7 @@ of friendly.</Dialog>
           <Dialog>Who！？　They all have the 
 eyes of hunters！</Dialog>
           <Dialog>Hahaha. You're irresistible 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Enough, just help me！</Dialog>
           <Dialog>Thank you...</Dialog>
           <Dialog>Are you okay？</Dialog>
@@ -8967,7 +8967,7 @@ really must be a legend...</Dialog>
           <Dialog>Even though I couldn't find 
 the beach, I had a good 
 time. What about you 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah...</Dialog>
           <Dialog>....</Dialog>
           <Dialog>Ah...</Dialog>
@@ -8978,13 +8978,13 @@ waves.</Dialog>
           <Dialog>I can hear them. Come, over 
 there.</Dialog>
           <Dialog>Wait a minute, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>The beach seems to be 
 around here.</Dialog>
           <Dialog>I thought it was...</Dialog>
           <Dialog>It was definitely around 
 here.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>...See, I knew it！</Dialog>
           <Dialog>I can also hear the sound 
 of waves...</Dialog>
@@ -9319,7 +9319,7 @@ love with you.</Dialog>
 so thrilled...</Dialog>
           <Dialog>I'm falling more and more 
 in love with you.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I can't stop loving you.</Dialog>
           <Dialog>I'm afraid of this kind of 
 thing...</Dialog>
@@ -9671,7 +9671,7 @@ with you.</Dialog>
           <Dialog>I don't understand.</Dialog>
           <Dialog>I know it can't be helped, 
 but...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>This is how I'll hold out 
 for now. But when I grow 
 up...</Dialog>
@@ -9997,7 +9997,7 @@ have to go home. </Dialog>
           <Dialog>It's fine. It's fun enough.</Dialog>
           <Dialog>I'm just happy to be with 
 the one I love.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I love you.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>Don't be surprised.</Dialog>
@@ -10145,7 +10145,7 @@ after this？</Dialog>
           <Dialog>...yeah.</Dialog>
           <Dialog>I love you, 
 ▲主人公＊▲...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -10250,7 +10250,7 @@ almost over.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yeah...</Dialog>
           <Dialog>Come, let's go, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Bye-bye.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>I'm saying farewell to the 
@@ -10483,12 +10483,12 @@ stuff.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Did you get sunburnt, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>You think？　I don't want it 
 to hurt.</Dialog>
           <Dialog>A tanned version of you 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Don't imagine it.</Dialog>
           <Dialog>Ouch.</Dialog>
         </Dialogs>
@@ -10601,7 +10601,7 @@ almost didn't make it home.</Dialog>
           <Dialog>Sorry about that. But if 
 we're talking about 
 sleeping a lot, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Pretend you didn't see that 
 part.</Dialog>
           <Dialog>Yes, yes.</Dialog>
@@ -10999,14 +10999,14 @@ something important.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Going home alone after a 
 trip... feels a little sad.)</Dialog>
-          <Dialog>(▲小早川＊▲？)</Dialog>
+          <Dialog>(Rinko？)</Dialog>
           <Dialog>Hello？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello, where are you？</Dialog>
           <Dialog>Almost at the convenience 
 store, you know.</Dialog>
           <Dialog>Wait there！</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>(What was it？)</Dialog>
           <Dialog>What's going on？</Dialog>
           <Dialog>Hey, can I see your 
@@ -11180,7 +11180,7 @@ of the farewell is gone...)</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Wait... what are you doing？</Dialog>
@@ -11238,7 +11238,7 @@ of the farewell is gone...)</Dialog>
           <Dialog>Whoa.</Dialog>
           <Dialog>Come on. Huh, aren't we 
 pretending to be newlyweds.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -11288,7 +11288,7 @@ pretending to be newlyweds.</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Whoa.</Dialog>
           <Dialog>Hehe, we're newlyweds.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -12108,7 +12108,7 @@ get so excited about. It's
 just an event.</Dialog>
           <Dialog>Well, I'm honestly happy 
 that you gave it to me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Then it would have been 
 worth the trouble of 
 standing in line to buy 
@@ -12451,7 +12451,7 @@ today.</Dialog>
           <Dialog>It's your birthday... 
 today. Happy birthday.</Dialog>
           <Dialog>I see！　Thank you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>...it can't be helped. I'm 
 your girlfriend, after all.</Dialog>
           <Dialog>Yes, I'm so happy.</Dialog>
@@ -12461,11 +12461,11 @@ like it.</Dialog>
           <Dialog>You picked it out for me, 
 didn't you？ I'm sure I'll 
 love it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>...I hope so... are you 
 happy？</Dialog>
           <Dialog>Of course, thank you, 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Hehe...</Dialog>
         </Dialogs>
       </SDL2>
@@ -12561,7 +12561,7 @@ happy？</Dialog>
 right？　That said, happy 
 birthday.</Dialog>
           <Dialog>I see！　Thank you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>You can be even more happy. 
 Rinko even went to the 
 trouble of preparing a 
@@ -12575,7 +12575,7 @@ forgive you if you don't
 thank me.</Dialog>
           <Dialog>Thank you so much. You 
 really thought about me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Ah, geez！　Why am I so 
 embarrassed...</Dialog>
         </Dialogs>
@@ -12659,7 +12659,7 @@ but has someone already
 said it？</Dialog>
           <Dialog>I see, thanks！　Don't worry 
 you're the first one, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I see. What a relief... 
 Oh, Rinko brought you a 
 gift.</Dialog>
@@ -12879,7 +12879,7 @@ the other person's face.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What？　What's wrong？</Dialog>
           <Dialog>It's your birthday today. 
@@ -12914,7 +12914,7 @@ how she is... honestly,
 do you still love Rinko？</Dialog>
           <Dialog>That's obvious. I know how 
 you feel about me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I see... then I'm happy, 
 I guess.</Dialog>
           <Dialog>What's the matter？　You 
@@ -13099,7 +13099,7 @@ not have said that.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>It's your birthday today, 
@@ -13297,7 +13297,7 @@ too</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Ah, don't tell me...</Dialog>
           <Dialog>Happy Birthday！　Will you 

@@ -151,7 +151,7 @@ now？</Dialog>
           <Dialog>Hello？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hello, it's me, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I'm glad you called. What's 
 up？</Dialog>
         </Dialogs>
@@ -1496,7 +1496,7 @@ later.</Dialog>
           <Dialog>Hello. Is it okay now？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yeah, it's okay, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2890,7 +2890,7 @@ I'll see you next time.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey... it's Rinko.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Yo, ▲小早川＊▲.</Dialog>
+          <Dialog>Yo, Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2945,7 +2945,7 @@ I'll see you next time.</Dialog>
           <Dialog>Hello？　It's me, Rinko.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3108,7 +3108,7 @@ I'll see you next time.</Dialog>
           <Dialog>Hello...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah... 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3890,7 +3890,7 @@ be cold then.</Dialog>
 tomorrow yet？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Not yet. What about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>No, not yet. What should 
 I prepare？</Dialog>
           <Dialog>Maybe clothes to wear 
@@ -4959,7 +4959,7 @@ purpose.</Dialog>
           <Dialog>Ah, I see. Anyway, you've 
 got me worried.</Dialog>
           <Dialog>I'm really sorry, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5315,7 +5315,7 @@ what you thought.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>First of all, let me know 
 what you think, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko thinks it wasn't 
 bad... Not amazing, but 
 it wasn't bad.</Dialog>
@@ -5409,7 +5409,7 @@ to go again.</Dialog>
 happy right now.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Me too. Thanks to you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>That's mutual. Anyway, it 
 was a great date.</Dialog>
           <Dialog>Yeah. We really had a good 
@@ -5575,7 +5575,7 @@ once in a while.</Dialog>
           <Dialog>I know. That's how much fun 
 I had！</Dialog>
           <Dialog>Thank you so much, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5637,7 +5637,7 @@ thank you.</Dialog>
           <Dialog>That's right. Because the 
 date was extra fun.</Dialog>
           <Dialog>Then, I should also thank 
-you ▲小早川＊▲.</Dialog>
+you Rinko.</Dialog>
           <Dialog>You can't！　Rinko says it 
 first. Thanks for the 
 special time... hehe.</Dialog>
@@ -6320,7 +6320,7 @@ I was wondering what you
 were doing.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What are you doing, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Calling.</Dialog>
           <Dialog>I knew you would say that...</Dialog>
         </Dialogs>
@@ -6413,7 +6413,7 @@ hear your voice.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I see, I also wanted to 
 hear your voice 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>A heart to heart, huh. Hmm.</Dialog>
           <Dialog>Maybe something like that.</Dialog>
         </Dialogs>
@@ -6511,7 +6511,7 @@ something weird？</Dialog>
           <Dialog>No. I'm just happy to hear 
 your voice.</Dialog>
           <Dialog>I see, then me too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6653,7 +6653,7 @@ the same wavelength？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'll stay up a little 
 longer. What about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko can't sleep... 
 I tried to go to sleep and 
 when I closed my eyes, 
@@ -6803,7 +6803,7 @@ say good night.</Dialog>
 it first. Um, good night. 
 Have a nice dream... hehe.</Dialog>
           <Dialog>You too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6943,7 +6943,7 @@ bed too.</Dialog>
           <Dialog>Good job for another day.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Good job to you too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Rinko is not that tired, 
 she is young. But I'm going 
 to bed early. Good night.</Dialog>
@@ -7491,7 +7491,7 @@ Bye-bye.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, it's me, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>What？　Rinko is pretty 
 angry right now.</Dialog>
           <Dialog>I knew it...</Dialog>
@@ -7743,7 +7743,7 @@ better mood...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>...incoming call. Looks 
 like you left a message, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>TAM</Dialog>
           <Dialog>Message playback.</Dialog>
         </Dialogs>

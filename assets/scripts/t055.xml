@@ -147,9 +147,9 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Oh, I can see 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Manaka</Dialog>
@@ -317,11 +317,11 @@ going...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well, I guess I'll go 
 home...</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>......</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Huh？！</Dialog>
@@ -498,9 +498,9 @@ going...)</Dialog>
           <Dialog>(I just can't do it right. 
 What should I do...？)</Dialog>
           <Dialog>(Ah, there's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Manaka</Dialog>
@@ -523,7 +523,7 @@ help.</Dialog>
           <Dialog>Of course. Thanks！</Dialog>
           <Dialog>I'm glad. You're welcome.</Dialog>
           <Dialog>(You're such a nice person 
-▲高嶺＊＊▲！)</Dialog>
+Takane！)</Dialog>
           <Dialog>(I'll pass. I'll ask 
 someone else.)</Dialog>
         </Dialogs>
@@ -671,11 +671,11 @@ someone else.)</Dialog>
           <Dialog>Phew, time for a break.</Dialog>
           <Dialog>(Everyone's still excited, 
 even during a break.)</Dialog>
-          <Dialog>(Eh？ ▲高嶺＊＊▲ 
+          <Dialog>(Eh？ Takane 
 is spacing out alone 
 again.)</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Manaka</Dialog>
@@ -831,9 +831,9 @@ I'd better rest a bit.)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh？ That's... Oh, it's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Manaka</Dialog>
@@ -998,10 +998,10 @@ going...)</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>(Oh, ▲高嶺＊＊▲ 
+          <Dialog>(Oh, Takane 
 is over there.)</Dialog>
           <Dialog>Yo！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>All right, the chop！</Dialog>
           <Dialog>Don't call out to her</Dialog>
           <Dialog>Manaka</Dialog>
@@ -1018,7 +1018,7 @@ bell rings.</Dialog>
           <Dialog>I see. Sorry.</Dialog>
           <Dialog>Bye.</Dialog>
           <Dialog>(You're always serious, huh 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
           <Dialog>(Well, whatever. I'll get 
 going...)</Dialog>
         </Dialogs>
@@ -1155,7 +1155,7 @@ going...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, it's 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Hey</Dialog>
           <Dialog>I'll give her a surprise！</Dialog>
@@ -1302,11 +1302,11 @@ anything interesting...？</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>...？</Dialog>
           <Dialog>What's up？</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Oh, Takane！</Dialog>
           <Dialog>Take this！</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Hehe.</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲！</Dialog>
+          <Dialog>Oh, Takane！</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Take this！ Kyaa！</Dialog>
           <Dialog>Ah！ Oh no. I shouldn't make 
@@ -1316,7 +1316,7 @@ Mama wait.</Dialog>
 time here. See you.</Dialog>
           <Dialog>(It's rare for you to call 
 out for me, huh 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1453,7 +1453,7 @@ out for me, huh
           <Dialog>Hah... Finally, break 
 time...</Dialog>
           <Dialog>(Ah, I can see you 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Hey</Dialog>
           <Dialog>I'll give her a surprise！</Dialog>
@@ -1467,7 +1467,7 @@ time...</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>...Hey.</Dialog>
           <Dialog>What are you doing 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Oh, I'm just picking up 
 these balls during break 
 time ▲主人公＊▲.</Dialog>
@@ -1583,12 +1583,12 @@ help me with this.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Oh, ▲高嶺＊＊▲'s 
+          <Dialog>Oh, Takane's 
 rally is about to start.</Dialog>
           <Dialog>(She sure is good...)</Dialog>
           <Dialog>You're in top condition, 
 as usual right, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲. Thank you. 
 Um... did you notice 
@@ -1600,7 +1600,7 @@ my form, perhaps...</Dialog>
           <Dialog>There's no problem at all！</Dialog>
           <Dialog>I don't know. You and I are 
 on different levels 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Ah, is that so？ Maybe you 
 could tell me later if you 
 notice something.</Dialog>
@@ -1765,7 +1765,7 @@ it...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, I don't understand what 
 to do with this homework...</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲. 
+          <Dialog>Ah, Takane. 
 Good timing.</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Hey...</Dialog>
@@ -1795,7 +1795,7 @@ now. You really saved me！</Dialog>
 glad.</Dialog>
           <Dialog>(You're getting easier to 
 talk to lately 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1934,11 +1934,11 @@ talk to lately
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>What's up？</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>Take this！</Dialog>
           <Dialog>What's up？</Dialog>
           <Dialog>Hehe.</Dialog>
-          <Dialog>Ah, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Ah, Takane.</Dialog>
           <Dialog>Yes.</Dialog>
           <Dialog>Take this！ Kyaa！</Dialog>
           <Dialog>How's it going？</Dialog>
@@ -2039,7 +2039,7 @@ See you.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah...</Dialog>
           <Dialog>What are you doing 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I'm here to buy something. 
 How about you？</Dialog>
           <Dialog>I came to buy something, 
@@ -2134,7 +2134,7 @@ later.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah...</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>What are you doing？</Dialog>
           <Dialog>Um, I was just thinking of 
 you. It was a surprise 
@@ -2145,7 +2145,7 @@ and...</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>Nothing. See you. Bye.</Dialog>
           <Dialog>(You looked really happy, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2217,7 +2217,7 @@ and...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Huh？ ▲高嶺＊＊▲？</Dialog>
+          <Dialog>Huh？ Takane？</Dialog>
           <Dialog>It's really you.</Dialog>
           <Dialog>Eh？</Dialog>
           <Dialog>I thought that you looked 
@@ -2324,7 +2324,7 @@ it's okay. Bye.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>So you have been watching 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yeah. You're working hard. 
 How's everything？</Dialog>
           <Dialog>Well, not very good.</Dialog>
@@ -2333,7 +2333,7 @@ practice together？</Dialog>
           <Dialog>Now I know how to move. 
 You're really good at 
 teaching the basics 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>Hehe. No, you're really 
 good at learning.</Dialog>
           <Dialog>(Yeah！ I'll try my best！)</Dialog>
@@ -2400,7 +2400,7 @@ good at learning.</Dialog>
 good...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Yo, ▲高嶺＊＊▲. 
+          <Dialog>Yo, Takane. 
 Captain Tezuka is so cool, 
 right？ I can't compare to 
 him at all.</Dialog>
@@ -2494,7 +2494,7 @@ that you are...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>I'm sorry！ 
-▲高嶺＊＊▲！</Dialog>
+Takane！</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Sorry. My bad. Did you get 
 hurt？</Dialog>
@@ -2505,7 +2505,7 @@ me. It just surprised me.</Dialog>
 Hehe.</Dialog>
           <Dialog>(You have become more 
 cheerful lately, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2563,7 +2563,7 @@ cheerful lately,
           <Dialog>Phew, finally done...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>Eh？ ▲高嶺＊＊▲. 
+          <Dialog>Eh？ Takane. 
 Do you need anything？</Dialog>
           <Dialog>No, I'm just wondering how 
 you're doing.</Dialog>
@@ -2647,7 +2647,7 @@ lately.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Phew, finally done...</Dialog>
           <Dialog>Oh, is that 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Why are you here？ Ah, is 
@@ -2744,7 +2744,7 @@ again？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Kyaa！</Dialog>
           <Dialog>Sorry！.. Eh？ 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I have to say sorry too. 
 Hehe, now I'm here.</Dialog>
           <Dialog>Did you just run along the 
@@ -2758,7 +2758,7 @@ okay？</Dialog>
           <Dialog>She ran anyway...</Dialog>
           <Dialog>(You have become more 
 cheerful lately, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2935,7 +2935,7 @@ so naughty...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲...</Dialog>
+          <Dialog>Hey, Takane...</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Huh？ What？</Dialog>
           <Dialog>Come on. No one's watching 

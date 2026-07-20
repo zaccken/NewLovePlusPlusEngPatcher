@@ -101,8 +101,8 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
-          <Dialog>Hello, ▲小早川＊▲？</Dialog>
+Rinko.)</Dialog>
+          <Dialog>Hello, Rinko？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Excuse me.</Dialog>
           <Dialog>What's up？</Dialog>
@@ -117,7 +117,7 @@ them know.</Dialog>
 just get better.</Dialog>
           <Dialog>Yeah. Okay, then.</Dialog>
           <Dialog>(So you have a cold, huh, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>(I'm going to visit her.)</Dialog>
         </Dialogs>
       </SDL2>
@@ -248,7 +248,7 @@ just get better.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What's up？</Dialog>
@@ -385,7 +385,7 @@ call you, I had a reason.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What's up？</Dialog>
@@ -403,7 +403,7 @@ this past year...</Dialog>
           <Dialog>Yeah, see you.</Dialog>
           <Dialog>Yes, later.</Dialog>
           <Dialog>(Today was our anniversary, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -484,7 +484,7 @@ this past year...</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(My phone... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Um, Happy New Year.</Dialog>
@@ -497,7 +497,7 @@ this past year...</Dialog>
 a great year.</Dialog>
           <Dialog>(I new year is about to 
 start for both of us, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -606,11 +606,11 @@ start for both of us,
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's past midnight. 
 Today is your birthday, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Happy birthday, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>...Thank you.</Dialog>
           <Dialog>I'm glad, I could say it 
 to you first.</Dialog>
@@ -743,7 +743,7 @@ Happy Birthday.)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's past midnight. 
 Today is our anniversary, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Hello. You know...</Dialog>

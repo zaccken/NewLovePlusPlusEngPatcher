@@ -243,21 +243,21 @@ honored guests.</Dialog>
           <Dialog>I have a reservation under 
 the name ▲苗字▲...</Dialog>
           <Dialog>Let's go in, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yup.</Dialog>
           <Dialog>Please give me your luggage 
 dear wife.</Dialog>
           <Dialog>Eh... Whoa, me？ Yes... 
 Thank you.</Dialog>
           <Dialog>Oh, huh, what's wrong, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Suddenly calling me your 
 wife, it's...</Dialog>
           <Dialog>Haha. I think it's normal 
 if they see us as a couple.</Dialog>
           <Dialog>(You're bright red. I'm 
 getting embarrassed too 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -407,7 +407,7 @@ sorry. What should we do？</Dialog>
 annoying for the hotel 
 staff, if we told we want 
 other room.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>I want to be with you 
 forever.</Dialog>
           <Dialog>I'm getting nervous just 
@@ -731,7 +731,7 @@ finding it.</Dialog>
           <Dialog>Sorry for taking up your 
 time. Enjoy your stay.</Dialog>
           <Dialog>Haha, a legendary beach, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Sounds nice...</Dialog>
           <Dialog>Eh？</Dialog>
           <Dialog>We'll definitely go find 
@@ -739,7 +739,7 @@ it tomorrow.</Dialog>
           <Dialog>Ah, yes. I'm with you.</Dialog>
           <Dialog>(Well, if this means you're 
 happy, then it's okay 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>What should we do tomorrow？</Dialog>
           <Dialog>I want to go there again.</Dialog>
           <Dialog>Go there... To the beach？</Dialog>
@@ -883,7 +883,7 @@ the private bath？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It's time to go back to 
 our room and sleep 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Okay.</Dialog>
           <Dialog>(Come to think of it, 
@@ -891,11 +891,11 @@ this bed ... it's for one
 person only, right？)</Dialog>
           <Dialog>(If this was a futon, 
 I could put them closer...)</Dialog>
-          <Dialog>▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Takane！？</Dialog>
           <Dialog>Wouldn't it be best to 
 have a futon？</Dialog>
           <Dialog>Ah, were you thinking the 
-same ▲高嶺＊＊▲？</Dialog>
+same Takane？</Dialog>
           <Dialog>Yes. Because if we had a 
 futon, we could do funny 
 things with them, right？</Dialog>

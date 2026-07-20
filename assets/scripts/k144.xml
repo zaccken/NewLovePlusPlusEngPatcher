@@ -49,7 +49,7 @@
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hmm, who was it？</Dialog>
           <Dialog>Ah, just a friend. We were 
 just talking.</Dialog>
@@ -125,7 +125,7 @@ just talking.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>You know, maybe it's been 
 a while since we've talked 
 to each other properly.</Dialog>
@@ -522,7 +522,7 @@ it.</Dialog>
 ▲主人公＊▲？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yes, I'm gonna do it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Then good, don't slack off.</Dialog>
           <Dialog>Haha, that's my line.</Dialog>
         </Dialogs>
@@ -660,7 +660,7 @@ so busy.</Dialog>
 Good job.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hehe, how about that, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Don't get carried away.</Dialog>
           <Dialog>Haha.</Dialog>
         </Dialogs>
@@ -711,7 +711,7 @@ too hard,
 ▲主人公＊▲？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Are you worried about me, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Who's that？ The only who 
 needs to worry about you 
 is your girlfriend.</Dialog>
@@ -993,7 +993,7 @@ it okay？</Dialog>
 girlfriend will be happy, 
 don't you？</Dialog>
           <Dialog>Thank you so much,　
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1193,7 +1193,7 @@ handle it. Makes me wonder.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>You know, we haven't talked 
 properly for a while.</Dialog>
           <Dialog>...I guess.</Dialog>
@@ -1660,7 +1660,7 @@ compliment.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>What is it, ▲小早川＊▲？</Dialog>
+          <Dialog>What is it, Rinko？</Dialog>
           <Dialog>Lovers are all like that.</Dialog>
           <Dialog>You mean "we"？　Ah, why did 
 you say "like that"？</Dialog>
@@ -1848,7 +1848,7 @@ your girlfriend.</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's up, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Don't talk to me, pervert.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>It's not possible to do 
@@ -2897,7 +2897,7 @@ friend.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>You're on your way home 
 now, right？ If you're 
 free, do you want to go 
@@ -2971,7 +2971,7 @@ like that.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Did you wait for me？</Dialog>
           <Dialog>It's okay. I just happened 
 to meet a friend and we 
@@ -3220,7 +3220,7 @@ that's it.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Heh, I guess you care about 
 that kind of thing too, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>What do you mean "too"？ 
 You don't want my 
 chocolate？</Dialog>
@@ -3354,7 +3354,7 @@ fine.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>You know... today is my 
 birthday.</Dialog>
           <Dialog>...Oh, congratulations.</Dialog>
@@ -3579,7 +3579,7 @@ them hate you. Good luck.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲</Dialog>
+          <Dialog>Rinko</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>What's up, 
 ▲主人公＊▲？</Dialog>
@@ -3589,7 +3589,7 @@ advice...</Dialog>
 girlfriend.</Dialog>
           <Dialog>Yes, you're a girl too, 
 right？ Help me out, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I'm a decent girl, you 
 know？</Dialog>
           <Dialog>Of course. So, please help 
@@ -3895,12 +3895,12 @@ I'll rely on you.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(You're still not here, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Sorry to keep you waiting.</Dialog>
           <Dialog>Sorry for asking you to 
 come out so suddenly, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>It can't be helped. It's 
 because onii-chan is an 
 unreliable boyfriend！</Dialog>
@@ -3913,7 +3913,7 @@ good？</Dialog>
 good！</Dialog>
           <Dialog>Which one？</Dialog>
           <Dialog>I'll go check it out！</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>...And she's gone.</Dialog>
           <Dialog>(Seems she's doing fine...)</Dialog>
           <Dialog>There you are. What are you 
@@ -4047,7 +4047,7 @@ at that.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲！？</Dialog>
+          <Dialog>Rinko！？</Dialog>
           <Dialog>What are you doing here？</Dialog>
           <Dialog>Ah... well, just hanging 
 out.</Dialog>
@@ -4066,7 +4066,7 @@ that？</Dialog>
 Rinko will be on her way.</Dialog>
           <Dialog>Yeah, see you.</Dialog>
           <Dialog>(You saw me then, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4127,7 +4127,7 @@ lately？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well, in my own way... that 
 is why you worry about me 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>It's because you're sloppy. 
 You're always depending on 
 your girlfriend, aren't 
@@ -4398,7 +4398,7 @@ girlfriend, and she's
 ▲彼女＊＊▲.</Dialog>
           <Dialog>Tsk, cheapskate. You're my 
 onii-chan.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Idiot, don't be so easily 
 fooled！</Dialog>
           <Dialog>(I've been had...)</Dialog>
@@ -4464,7 +4464,7 @@ you'll do whatever she
 wants, right？</Dialog>
           <Dialog>My girlfriend isn't so 
 selfish. Unlike you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>You think？　But don't you 
 listen to a lot of 
 requests？</Dialog>

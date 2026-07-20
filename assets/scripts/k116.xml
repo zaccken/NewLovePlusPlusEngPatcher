@@ -87,11 +87,11 @@
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Say, ▲小早川＊▲.</Dialog>
+          <Dialog>Say, Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hmm, what？</Dialog>
           <Dialog>You like rock and punk, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I'd love to go into the 
 whole rock and punk 
 thing... and, what？</Dialog>
@@ -1083,8 +1083,8 @@ out of this.</Dialog>
           <Dialog>I-I'm sorry...</Dialog>
           <Dialog>...Okay.</Dialog>
           <Dialog>Hey, wait for me 
-▲小早川＊▲！</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+Rinko！</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1176,14 +1176,14 @@ the library the other day？</Dialog>
           <Dialog>Yes！　Ah, geez！</Dialog>
           <Dialog>Your friend's name was... 
 Hana-chan, right, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>I didn't think they were 
 that heartless. I mean, 
 with all those gals！</Dialog>
           <Dialog>...it's frustrating when 
 your friends make fun of 
 you like that, isn't it？</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>I didn't know Hara-chan 
 felt that way.</Dialog>
           <Dialog>That girl has a lot going 
@@ -1829,7 +1829,7 @@ good！</Dialog>
           <Dialog>E-Excuse me...</Dialog>
           <Dialog>What's wrong, Nagakura. 
 Please let her speak, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I-I'm sorry... I'm not a 
 rocker, but... I played 
 drums in a brass band when 
@@ -2379,7 +2379,7 @@ the Library Committee...)</Dialog>
 you're going to do about 
 the band you mentioned 
 last time, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Okay！　Then, we're going to 
 have a band meeting, so get 
@@ -2627,7 +2627,7 @@ should be sharp.</Dialog>
 involved with those two 
 like that？　It's a little 
 unusual for you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Well, because neither of 
 them says what they want 
 to say. When I don't talk, 
@@ -2639,7 +2639,7 @@ myself... you know.</Dialog>
           <Dialog>I see...</Dialog>
           <Dialog>Well, something like that.</Dialog>
           <Dialog>(The old you, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3123,7 +3123,7 @@ play acoustic guitar,
 right？ Then it's the same.</Dialog>
           <Dialog>Wait a sec. Then what is 
 Sasaki-san going to play, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>...abominable... 
 abominable...</Dialog>
           <Dialog>.....</Dialog>
@@ -3408,7 +3408,7 @@ sounds interesting！)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah... that's 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Hara</Dialog>
           <Dialog>Hey, Rinko-san. Recently... 
 you don't seem to be 
@@ -3447,9 +3447,9 @@ then.</Dialog>
           <Dialog>Ah...</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Tell me something, 
-▲小早川＊▲――</Dialog>
+Rinko――</Dialog>
           <Dialog>Later...</Dialog>
-          <Dialog>(...▲小早川＊▲.)</Dialog>
+          <Dialog>(...Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4162,7 +4162,7 @@ know any punks...</Dialog>
 brother had a battered... 
 *mumble*...</Dialog>
           <Dialog>Hey, what about you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Yeah, that's the thing, 
 come hang out with me for 
 a minute.</Dialog>
@@ -4519,7 +4519,7 @@ uses for practice.</Dialog>
           <Dialog>Hehe, speed is important in 
 these things.</Dialog>
           <Dialog>(You're really pumped, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -5239,7 +5239,7 @@ lyrics！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah... I can see you're 
 talking with someone, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>You know, I'm sorry.</Dialog>
           <Dialog>Hara</Dialog>
@@ -6241,7 +6241,7 @@ abominable...</Dialog>
           <Dialog>Let's get practicing！</Dialog>
           <Dialog>(You're kind of looking 
 like a leader now, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -7031,7 +7031,7 @@ change？)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh... I see you're 
 speaking with someone today 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Hara</Dialog>
           <Dialog>Rinko, are you still in the 
 band？</Dialog>
@@ -7506,10 +7506,10 @@ practicing like this...</Dialog>
           <Dialog>Humph, I don't believe 
 you...</Dialog>
           <Dialog>Sa-Sasaki-san...</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>...let's take a short break.</Dialog>
           <Dialog>Wait a minute, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Sasaki-san... um, I think 
 Kobayakawa-san practices 
 very hard.</Dialog>
@@ -7537,11 +7537,11 @@ boyfriends to comfort
 you... abominable...</Dialog>
           <Dialog>Fufu, that's nice.</Dialog>
           <Dialog>(I can hear you...)</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Yeah, sorry... I'll be 
 right back.</Dialog>
           <Dialog>Are you okay, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Rinko is thinking about it, 
 too. Maybe, it will be all 
 right.</Dialog>
@@ -8289,7 +8289,7 @@ them――</Dialog>
           <Dialog>E-Excuse me...</Dialog>
           <Dialog>What's up, Nagakura？ 
 Let's hear her, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Um... you know...</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>S-Sorry... outfit... um, 
@@ -8773,7 +8773,7 @@ really add fun to the show.)</Dialog>
           <Dialog>(Well, it's another day in 
 the band！)</Dialog>
           <Dialog>(Hmm... Ah, it's 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Hello？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hey, before practice today, 
@@ -8828,7 +8828,7 @@ say？　And then――</Dialog>
 so pitiful...</Dialog>
           <Dialog>Nagakura-senpai...</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -8935,9 +8935,9 @@ so pitiful...</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hah...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>.....</Dialog>
-          <Dialog>▲小早川＊▲！</Dialog>
+          <Dialog>Rinko！</Dialog>
           <Dialog>Eh？　Ah, what？</Dialog>
           <Dialog>I suppose you're still 
 worried about what happened 
@@ -8947,7 +8947,7 @@ and Sasaki-san saw right
 through me the whole time. 
 Rinko is just like those 
 gals.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>Sorry, it's nothing. Let's 
 not talk about annoying 
 things.</Dialog>
@@ -9326,9 +9326,9 @@ this condition...？)</Dialog>
 Nagakura-san have already 
 left...)</Dialog>
           <Dialog>(I wonder where you are, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Ouch... 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Are you okay？</Dialog>
@@ -9729,7 +9729,7 @@ leave any regrets！</Dialog>
           <Dialog>Yup.</Dialog>
           <Dialog>Yeah.</Dialog>
           <Dialog>(You did your best, 
-▲小早川＊▲！)</Dialog>
+Rinko！)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -9845,7 +9845,7 @@ it's finally tomorrow！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Hello.</Dialog>
           <Dialog>Yo, this is it, 
-▲小早川＊▲！</Dialog>
+Rinko！</Dialog>
           <Dialog>Ah, yeah...</Dialog>
           <Dialog>(I knew everyone was 
 nervous... me too.)</Dialog>
@@ -10352,7 +10352,7 @@ for us...)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh... you're speaking 
 with someone today, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Hara</Dialog>
           <Dialog>The live show, it's about 
 to happen.</Dialog>
@@ -10586,7 +10586,7 @@ nervous...)</Dialog>
 here！)</Dialog>
           <Dialog>Everybody――</Dialog>
           <Dialog>Let's all get a hold on！</Dialog>
-          <Dialog>▲小早川＊▲？</Dialog>
+          <Dialog>Rinko？</Dialog>
           <Dialog>Kobayakawa-san...</Dialog>
           <Dialog>Rehearsal is rehearsal. 
 Think about it the other 
@@ -11279,7 +11279,7 @@ is cool！</Dialog>
 The sound is so hot！</Dialog>
           <Dialog>Come now！　Bring it！</Dialog>
           <Dialog>(Looks like you're having 
-fun ▲小早川＊▲.)</Dialog>
+fun Rinko.)</Dialog>
           <Dialog>(I'm glad you formed the 
 band！)</Dialog>
           <Dialog>Yeah！</Dialog>
@@ -11779,12 +11779,12 @@ or to be friends.</Dialog>
           <Dialog>I don't mind...</Dialog>
           <Dialog>.....</Dialog>
           <Dialog>(Where did you go 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>(I knew you were here...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Good work, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Good work.</Dialog>
           <Dialog>The gig was a huge 
 success... right！</Dialog>
@@ -11818,13 +11818,13 @@ a bit... Hey？</Dialog>
 thank you.</Dialog>
           <Dialog>Rinko... I think I've 
 grown up a little.</Dialog>
-          <Dialog>▲小早川＊▲...</Dialog>
+          <Dialog>Rinko...</Dialog>
           <Dialog>The best memories you'll 
 ever have...</Dialog>
           <Dialog>Yeah...</Dialog>
           <Dialog>It's just like youth.</Dialog>
           <Dialog>Not like you, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>No, I think this is nice.</Dialog>
           <Dialog>It was really nice... to 
 be able to do this with 
@@ -12236,7 +12236,7 @@ the band！</Dialog>
 Right, Rinko？</Dialog>
           <Dialog>Ah... yeah！</Dialog>
           <Dialog>(Good for you, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

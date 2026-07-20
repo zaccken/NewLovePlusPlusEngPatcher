@@ -2258,7 +2258,7 @@ I'm going, see you...</Dialog>
           <Dialog>I... Hey, can we meet now？ 
 I can't stand just 
 hearing your voice.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Okay, let's</Dialog>
           <Dialog>It's okay if it's not now</Dialog>
           <Dialog>I can't right now</Dialog>
@@ -2360,7 +2360,7 @@ Can't we？</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Hello, it's me. 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I want to meet you！ 
 Can we go now？</Dialog>
@@ -2891,7 +2891,7 @@ I'm sorry.</Dialog>
           <Dialog>Hello？ It's me.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah！ What happened 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3031,7 +3031,7 @@ to call now？</Dialog>
           <Dialog>Hello？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Yes, hello. 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3113,7 +3113,7 @@ to call now？</Dialog>
           <Dialog>Hello...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What happened, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3175,7 +3175,7 @@ me？ Wasn't it difficult？</Dialog>
           <Dialog>Not so much. I wanted you 
 to enjoy without worrying 
 about anything, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Geez, you're so cool... 
 You were looking forward 
 to it.</Dialog>
@@ -3241,7 +3241,7 @@ that so suddenly？</Dialog>
 Did you think it for me？</Dialog>
           <Dialog>It was no big deal, I 
 wanted to make you happy, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>No. Thank you again. 
 I'll say it many times.</Dialog>
           <Dialog>It's okay... I'm getting 
@@ -3721,7 +3721,7 @@ our voices mirror.</Dialog>
           <Dialog>Ah... You knew after all. 
 I'm glad I called you...</Dialog>
           <Dialog>Expect a fun date, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -3860,7 +3860,7 @@ a sunny day？</Dialog>
 surely.</Dialog>
           <Dialog>...I see, if you believe 
 it, so do I, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -4844,7 +4844,7 @@ you waiting.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Let's stop. This won't 
 feel like a date, right 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>...Yes. That's right.</Dialog>
           <Dialog>Sorry for today. I will 
@@ -5156,7 +5156,7 @@ in person.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well then, want to go now？ 
 What are your plans, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm free！ I'm happy...</Dialog>
           <Dialog>Well then, I'll see you 
@@ -5543,7 +5543,7 @@ How about you？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>If you say that, then I 
 am also excited, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Hehe, let's get more 
 excited... I like it▼</Dialog>
           <Dialog>Haha... I'm happy, but 
@@ -6100,7 +6100,7 @@ play again.</Dialog>
           <Dialog>I had a great time 
 relaxing in your room. 
 Thank you for inviting me, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Yes... Mama said you're 
 welcome to come again.</Dialog>
           <Dialog>I see, I have to thank 
@@ -6646,7 +6646,7 @@ Did I wake you up？</Dialog>
           <Dialog>I was up. You sleep early. 
 Isn't it forbidden by your 
 parents to stay up late, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Nothing like that, but it's 
 bad for my body to stay up 
 late... I have to do my 
@@ -6803,12 +6803,12 @@ right？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It's already time... Are 
 you going to sleep already, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Yes. Before that, I want 
 to say good night to you. 
 Good night.</Dialog>
           <Dialog>So that was it... G'night, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -6903,7 +6903,7 @@ kind of luxurious.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Me too. I happy to talk to 
 you before going to bed, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Let's talk a lot again 
 tomorrow, yes？ Good night.</Dialog>
           <Dialog>Yes, good night.</Dialog>
@@ -7108,7 +7108,7 @@ I'm glad.</Dialog>
           <Dialog>You called me, so I would 
 wake up even if I'm 
 sleeping deeply, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>I'm happy... But, isn't 
 exaggerated to say that？</Dialog>
           <Dialog>Meanie. I'm waking up 
@@ -7303,7 +7303,7 @@ you up.</Dialog>
           <Dialog>I was awake. It seems 
 that you were awake a 
 long time ago, right 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>My family is awake at 
 this time, each day.</Dialog>
           <Dialog>Early sleep and early 
@@ -7753,7 +7753,7 @@ both stubborn.</Dialog>
           <Dialog>Maybe you're right... 
 Hey, I don't like this.</Dialog>
           <Dialog>Me neither, Let's make up, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>That's right. Then, the 
 next time we meet, let's 
 smile. Okay？</Dialog>
@@ -7829,7 +7829,7 @@ my fault？</Dialog>
           <Dialog>Emm... Do you think so？</Dialog>
           <Dialog>That doesn't mean it's all 
 your fault, 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>No... I'm sure I was too 
 aggressive. I... I want 
 to make up with you.</Dialog>
@@ -7864,7 +7864,7 @@ still upset...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Ah, it's a message from 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>TAM</Dialog>
           <Dialog>Playing the message.</Dialog>
         </Dialogs>
@@ -8166,7 +8166,7 @@ playing.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I'm sorry for not calling 
 you before, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -8210,7 +8210,7 @@ Do you have plans？ See ya.</Dialog>
 playing.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(I'm sorry I missed your 
-call ▲高嶺＊＊▲.)</Dialog>
+call Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

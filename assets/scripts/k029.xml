@@ -92,7 +92,7 @@
           <Dialog>Yes？</Dialog>
           <Dialog>What kinds of TV shows do 
 you usually watch, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>...Why？</Dialog>
           <Dialog>Um... Somehow, I just want 
 to know.</Dialog>
@@ -364,7 +364,7 @@ is beyond normal...)</Dialog>
           <Dialog>I think I should ask you 
 this question. Do you play 
 any sports, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Not at all. And I think I 
 should give you this answer.</Dialog>
           <Dialog>I guess so. That's what I 
@@ -671,7 +671,7 @@ on a land mine...)</Dialog>
 something else, but I just 
 can't picture you interest 
 in anything besides music, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Why？ I have interest in 
 stuff other than music.</Dialog>
           <Dialog>Really？ Such as...？</Dialog>
@@ -815,7 +815,7 @@ dangerous？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>What's your favorite animal 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Animal？ Well... This is 
 complicated. Most of them 
 kind of stink.</Dialog>
@@ -840,7 +840,7 @@ and they usually curl up
 like a ball...</Dialog>
           <Dialog>(Then your favorite animal 
 is a cat or many cats, 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1014,7 +1014,7 @@ is a cat or many cats,
           <Dialog>I might have asked you this 
 before, but do you have any 
 dream for your future, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Dream, huh...？ A dream for 
 Rinko is not such a big 
 deal.</Dialog>
@@ -1028,7 +1028,7 @@ must tell me your dream.</Dialog>
           <Dialog>I want to write books.</Dialog>
           <Dialog>Really？ I see. You really 
 love reading books,
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>I just want to write easy 
 reading books for little 
 kids. Something that will 
@@ -1042,17 +1042,17 @@ books. Those kids will be
 impressed with what I wrote.</Dialog>
           <Dialog>Ahaha！ That sounds great. 
 What I'd expect from you, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Really？ Hehe...</Dialog>
           <Dialog>Hey, and now, how about 
 your dream？</Dialog>
           <Dialog>Eh？ My dream... is to make 
 you happy. Yeah, that's it, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Geez！ A crafty answer！</Dialog>
           <Dialog>(Yup, but I'm sure you can 
 write nice books, 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1176,7 +1176,7 @@ write nice books,
           <Dialog>Yes？</Dialog>
           <Dialog>What is your dream for the 
 future, do you have plans, 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Like what I want to be in 
 the future？</Dialog>
           <Dialog>Yeah, what is it...？</Dialog>
@@ -1198,7 +1198,7 @@ okay...</Dialog>
 They will invade the Earth, 
 right？</Dialog>
           <Dialog>A-Aliens？
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Well, I think we'll be okay 
 for a while...</Dialog>
           <Dialog>Yeah. Alien invasion, huh？ 
@@ -1322,7 +1322,7 @@ right？</Dialog>
           <Dialog>Yeah？</Dialog>
           <Dialog>Even you have a female role 
 model, right 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>You mean I should have 
 one？ But... I can't think 
 of any.</Dialog>
@@ -1471,7 +1471,7 @@ from me！</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>Even you have a female role 
 model, right 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>"Even me," you said？</Dialog>
           <Dialog>Must be your imagination. 
 Well, do you have any？</Dialog>
@@ -1619,7 +1619,7 @@ it yourself, I think.)</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>Even you have a female role 
 model, right 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Role model？ Hmm...</Dialog>
           <Dialog>I don't know if this counts 
 as a role model but I 
@@ -1635,7 +1635,7 @@ Rinko can't do that.</Dialog>
 But I think when you become 
 a mother, you'll be able to 
 do that, too,
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>When Rinko becomes a 
 mother...？</Dialog>
           <Dialog>Yeah. And one day, I'll 
@@ -1765,7 +1765,7 @@ embarrassing...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>What kinds of movies do you 
-like ▲小早川＊▲？</Dialog>
+like Rinko？</Dialog>
           <Dialog>Movies？ Movies, huh？ 
 Hah...</Dialog>
           <Dialog>Oh, you don't like to watch 
@@ -1777,7 +1777,7 @@ at the posters and I can
 tell the whole story.</Dialog>
           <Dialog>You can tell, huh？ Well, 
 how about comedy or horror 
-movies ▲小早川＊▲？</Dialog>
+movies Rinko？</Dialog>
           <Dialog>Those movies only force me 
 to laugh or make me scared. 
 I think that's tiring.</Dialog>
@@ -1911,7 +1911,7 @@ then...？)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Yes？</Dialog>
           <Dialog>You really like reading, 
-right ▲小早川＊▲？</Dialog>
+right Rinko？</Dialog>
           <Dialog>Yeah, pretty much.</Dialog>
           <Dialog>Do you have books you like 
 in particular？</Dialog>
@@ -1931,7 +1931,7 @@ understand？</Dialog>
           <Dialog>I don't know if I want you 
 to understand or not... 
 I really don't know.</Dialog>
-          <Dialog>(▲小早川＊▲...)</Dialog>
+          <Dialog>(Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

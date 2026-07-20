@@ -37,7 +37,7 @@
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Yes, ▲高嶺＊＊▲？</Dialog>
+          <Dialog>Yes, Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yeah. I want to talk for 
 a bit, is it okay？</Dialog>
@@ -84,7 +84,7 @@ this？ You know...</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hello, ▲高嶺＊＊▲？</Dialog>
+          <Dialog>Hello, Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes... Umm...</Dialog>
           <Dialog>Hmm？</Dialog>

@@ -91,13 +91,13 @@ getting along with？
 Someone from the library 
 committee？</Dialog>
           <Dialog>Huh, that might be 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>Hey, do you have a senior 
 in your part-time job？ 
 Someone who you're 
 getting along lately？</Dialog>
           <Dialog>Huh, that might be 
-▲姉ヶ崎＊▲.</Dialog>
+Nene.</Dialog>
           <Dialog>Ah, really？ That's 
 amazing...</Dialog>
           <Dialog>What's amazing？</Dialog>
@@ -197,12 +197,12 @@ moderation, okay？</Dialog>
 the first year student of 
 the library committee？</Dialog>
           <Dialog>Ah, yes. That's 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>Are you on good terms with 
 your senior at your 
 part-time job？</Dialog>
           <Dialog>Yes, she's 
-▲姉ヶ崎＊▲...</Dialog>
+Nene...</Dialog>
           <Dialog>Well, it's not something 
 I care about, but...</Dialog>
           <Dialog>Hmm？ What's the matter？</Dialog>
@@ -407,12 +407,12 @@ today！ Dismissed！</Dialog>
 work！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, I can see you 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>(Can't she see me？ What 
 should I do to get her 
 attention？)</Dialog>
           <Dialog>...</Dialog>
-          <Dialog>▲高嶺＊＊▲.</Dialog>
+          <Dialog>Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's wrong？ You're 
@@ -435,7 +435,7 @@ makes me glad...</Dialog>
           <Dialog>No way！ I never considered 
 you to be like that...</Dialog>
           <Dialog>You changed me... Thank you.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>You don't have to be with 
 me all the time, but... 
 I want you to teach me 
@@ -581,7 +581,7 @@ today...</Dialog>
 work！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, I can see you 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
           <Dialog>(Can't she see me？ What 
 should I do？)</Dialog>
           <Dialog>Miyoshi</Dialog>
@@ -593,7 +593,7 @@ towards the tennis courts.</Dialog>
 something similar the 
 other day...</Dialog>
           <Dialog>Ah, I see. A friend of 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>I see...</Dialog>
           <Dialog>I don't know if I should 
 say this, but Takane was 
@@ -601,20 +601,20 @@ crying when she was at
 Dixie's with us.</Dialog>
           <Dialog>I remember they saying she 
 cried back then... 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>She's at the tennis 
 courts, right？ I got it, 
 thank you！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>...</Dialog>
           <Dialog>Is this a dream...？</Dialog>
           <Dialog>(I was dreaming you were 
 about to confess your 
 feelings for me, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -824,7 +824,7 @@ going to end well...</Dialog>
           <Dialog>I'm sorry... But I really 
 want it to be just the 
 two of us.</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Boy B</Dialog>
           <Dialog>Eh！？ I knew it...</Dialog>
           <Dialog>Er, well... Let's go over 
@@ -838,7 +838,7 @@ sudden...</Dialog>
           <Dialog>(I was dreaming you were 
 about to confess your 
 feelings for me, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1004,7 +1004,7 @@ calling him like that...</Dialog>
 come here！ Hurry up！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Y-yes...</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>Whassup...</Dialog>
           <Dialog>Whassup.</Dialog>
           <Dialog>Hey, why don't we go 
@@ -1017,7 +1017,7 @@ together to the courts？</Dialog>
           <Dialog>(I was dreaming you were 
 about to confess your 
 feelings for me, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1173,7 +1173,7 @@ today's activities！</Dialog>
           <Dialog>Good work today！</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Huh, I don't see you here 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
           <Dialog>(Where did you go？ 
 What are you doing？)</Dialog>
           <Dialog>Miyoshi</Dialog>
@@ -1191,10 +1191,10 @@ say this, but Takane was
 crying when she was at 
 Dixie's with us.</Dialog>
           <Dialog>So she was crying... 
-▲高嶺＊＊▲...</Dialog>
+Takane...</Dialog>
           <Dialog>She's at the tennis court, 
 right？ Thank you！</Dialog>
-          <Dialog>▲高嶺＊＊▲！</Dialog>
+          <Dialog>Takane！</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>...</Dialog>
@@ -1308,14 +1308,14 @@ me.</Dialog>
 even more serious person.</Dialog>
           <Dialog>You're always so serious. 
 Okay, sure. But why, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I mean, I think that's 
 something you'll like to 
 do...</Dialog>
           <Dialog>(Even more serious, huh？ 
 I mean, it's you we're 
 talking about here, 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1424,7 +1424,7 @@ if I should try that.</Dialog>
           <Dialog>(A calmer version of you... 
 I think that would be a 
 good thing to see, 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1533,7 +1533,7 @@ you would react if you saw
 me like that.</Dialog>
           <Dialog>(A more cheerful version of 
 you... I like what I see 
-▲高嶺＊＊▲.)</Dialog>
+Takane.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1596,7 +1596,7 @@ you... I like what I see
           <Dialog>Hey, do you go out at 
 night？ Did you try going 
 near downtown 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Huh？ That's not a good 
 thing to do. Don't you 
@@ -1613,7 +1613,7 @@ little worried.</Dialog>
 dangerous...</Dialog>
           <Dialog>(Yeah, that's dangerous 
 indeed. I have to tell 
-▲小早川＊▲ about it.)</Dialog>
+Rinko about it.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1676,7 +1676,7 @@ indeed. I have to tell
           <Dialog>Did you know what it means 
 to come to school in plain 
 clothes 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Huh, isn't that a violation 
 of the school rules？</Dialog>
@@ -1694,7 +1694,7 @@ better to talk to me if
 you need something.</Dialog>
           <Dialog>(Yeah, it's against 
 rules... I have to tell 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1757,7 +1757,7 @@ rules... I have to tell
           <Dialog>Hey, do you know of any 
 convenience store open at 
 midnight, 
-▲高嶺＊＊▲...？</Dialog>
+Takane...？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Don't go near any of those 
 stores, at that time...</Dialog>
@@ -1775,7 +1775,7 @@ I don't think it's a good
 idea.</Dialog>
           <Dialog>(Yeah, you don't have to 
 go out that late... I have 
-to tell ▲小早川＊▲ 
+to tell Rinko 
 about it...)</Dialog>
         </Dialogs>
       </SDL2>
@@ -1839,7 +1839,7 @@ about it...)</Dialog>
           <Dialog>Hey, what would you do if 
 your senpai from your part- 
 time job invited you to eat 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Well, I don't know about 
 part-time jobs, but... 
@@ -1854,7 +1854,7 @@ wants to get along with me.</Dialog>
 someone, trust is 
 important.</Dialog>
           <Dialog>(I wonder if you trust me 
-▲姉ヶ崎＊▲.)</Dialog>
+Nene.)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1914,7 +1914,7 @@ important.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>I was asked by the manager 
@@ -1933,7 +1933,7 @@ much. It's a thing
 amazing after all.</Dialog>
           <Dialog>(Then I can't possibly 
 consider leaving this 
-to ▲姉ヶ崎＊▲...)</Dialog>
+to Nene...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1993,7 +1993,7 @@ to ▲姉ヶ崎＊▲...)</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Hey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Hey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>What's wrong？</Dialog>
           <Dialog>If you promise someone to 
@@ -2008,7 +2008,7 @@ an appointment.</Dialog>
           <Dialog>(Well, she's right about 
 that... What should I do 
 with my promise with 
-▲姉ヶ崎＊▲？)</Dialog>
+Nene？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -2220,7 +2220,7 @@ with my promise with
           <Dialog>Manaka</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>▲高嶺＊＊▲...</Dialog>
+          <Dialog>Takane...</Dialog>
           <Dialog>...What's the matter？</Dialog>
           <Dialog>....</Dialog>
           <Dialog>Uh... Was I on your way？</Dialog>
@@ -2229,8 +2229,8 @@ You know, I've been doing
 some thinking.</Dialog>
           <Dialog>Huh？</Dialog>
           <Dialog>You are my girlfriend 
-▲高嶺＊＊▲...</Dialog>
-          <Dialog>...▲高嶺＊＊▲？</Dialog>
+Takane...</Dialog>
+          <Dialog>...Takane？</Dialog>
           <Dialog>Yes, of course... 
 That's exactly right...</Dialog>
           <Dialog>Why are you asking me that？</Dialog>
@@ -2250,17 +2250,17 @@ at the time...</Dialog>
           <Dialog>But...</Dialog>
           <Dialog>I was remembering that and 
 I thought that I really 
-liked ▲高嶺＊＊▲.</Dialog>
+liked Takane.</Dialog>
           <Dialog>Ah...</Dialog>
           <Dialog>I'm really glad I can go 
 out with you, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Thank you...</Dialog>
           <Dialog>So do I. I'm glad to be 
 your girlfriend.</Dialog>
           <Dialog>(You don't know how happy 
 you make me 
-▲高嶺＊＊▲...)</Dialog>
+Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>

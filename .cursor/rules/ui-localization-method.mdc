@@ -1,0 +1,31 @@
+---
+description: How to localize NLPP UI chrome — texture vs TRB vs DrawText decision tree.
+alwaysApply: true
+---
+
+# UI localization method
+
+When a screen stays Japanese despite EN TRB:
+
+## Decision tree
+
+1. **GPU-dump the visible chrome** (Azahar texture dump). Note W×H and whether RGB is empty (alpha text) vs full color (baked button).
+2. **If opaque/colored control (softkey, icon label):** pixel-match BCLIM in `img.bin` packages → EngPatcher PNG → same-size splice. TRB edits won’t change it.
+3. **If alpha-only text pane:** runtime `DrawTextToPane` / MakeStr. Find caller via layout / `FUN_0024842c` / TextResource pack — **not** by assuming the on-screen sentence exists as one TRB key.
+4. **If TRB already EN for the same words:** you’re on the wrong path (different asset or runtime buffer). Stop re-translating those keys.
+
+## Verify identity before patching
+
+- Prefer MAD≈0 against dumps over filename similarity (`OptionClock` ≠ confirm softkeys).
+- Confirm package with `image_map.py` + `ie`/`pe` unpack; check fmt via `bclimutil.parse_bclim`.
+- For shared softkeys (`Com_btn_*` in pkg 5238), patching affects **all** screens using that button — intentional and usually desirable for EN.
+
+## Clock confirm (current)
+
+| Piece | Kind | Status |
+|-------|------|--------|
+| Back/Next | ETC1A4 BCLIM `Com_btn_{m,t}01_b` @ 5238 | Identified; EN splice not verified in-game |
+| Header `３ＤＳ本体時計` | Runtime alpha 256×32 | Source buffer unknown — debugger next |
+| 年/月/日 | 16×16 alpha glyphs | Not TRB flat path; atlas/source open |
+
+Details: `technical.md`, rule `clock-confirm-ui-localization`.

@@ -1306,7 +1306,7 @@ close like this...</Dialog>
           <Dialog>Hmm？</Dialog>
           <Dialog>It seems like we're the 
 only people in the world...</Dialog>
-          <Dialog>(▲高嶺＊＊▲...)</Dialog>
+          <Dialog>(Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1399,7 +1399,7 @@ to you, forever...</Dialog>
           <Dialog>Sure, I want the same 
 thing...</Dialog>
           <Dialog>Yes...</Dialog>
-          <Dialog>(▲高嶺＊＊▲...)</Dialog>
+          <Dialog>(Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1500,7 +1500,7 @@ sorry.</Dialog>
           <Dialog>I know, if you're doing 
 like that then...</Dialog>
           <Dialog>(Huh, what do you mean 
-▲高嶺＊＊▲？)</Dialog>
+Takane？)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1598,14 +1598,14 @@ like that then...</Dialog>
           <Dialog>Like this？</Dialog>
           <Dialog>Yup, just like that. 
 Now then...</Dialog>
-          <Dialog>▲高嶺＊＊▲！？</Dialog>
+          <Dialog>Takane！？</Dialog>
           <Dialog>It's not embarrassing to 
 hug you like this.</Dialog>
           <Dialog>(I wonder, would you like 
 me to hug you like this？)</Dialog>
           <Dialog>It feels good to be like 
 this...</Dialog>
-          <Dialog>(▲高嶺＊＊▲...)</Dialog>
+          <Dialog>(Takane...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1777,7 +1777,7 @@ favor？</Dialog>
           <Dialog>You don't want to hold 
 hands...</Dialog>
           <Dialog>What do you mean, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>I'm sorry to bother you.</Dialog>
           <Dialog>Well, it's not that...</Dialog>
           <Dialog>I want you to hold me like 

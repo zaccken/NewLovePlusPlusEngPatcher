@@ -1,0 +1,36 @@
+---
+description: How to use user-ghidra MCP on NLPP code.bin without wasting turns.
+alwaysApply: true
+---
+
+# Ghidra MCP (`user-ghidra`)
+
+## Setup
+
+1. `GetMcpTools` for schema before calling tools.
+2. `list_open_programs` / `list_instances` + `connect_instance` if needed.
+3. Prefer current program `code.bin` (image base **0**).
+
+## Addresses
+
+- Ghidra file address ≈ offset in `extracted/exefs/code.bin`.
+- Runtime pointer in memory/data = **file + `0x100000`**.
+- When searching for pointer xrefs to a string at file `0x006c3ea4`, also try LE bytes of `0x007c3ea4` (VA).
+- String search in Ghidra often misses UTF-8 Japanese — use Python over `code.bin` / TRB for JP text.
+
+## Efficient RE
+
+- Start from **ascii anchors** (`OptionAdjustTimeUIOperator`, `Lyt_Clock*`, `Pos_Com_btn_*`) → `get_xrefs_to` → decompile callers.
+- Use `search_byte_patterns` for LE pointer pools when `get_xrefs_to` on the string address is empty.
+- `batch_decompile` / `analyze_function_complete` need the param names from the tool schema (`functions` / `name`), not ad-hoc keys.
+- Softkey Pos names are duplicated (`Pos_Com_Btn_m` vs `Pos_com_btn_m`) — different UI families; confirm which table a function’s DAT points at.
+
+## Known good APIs (don’t re-derive)
+
+| Role | Address / name |
+|------|----------------|
+| TextResource pack+slot | `FUN_005c0e7c` → `FUN_0056ed00` |
+| MakeStr | `FUN_005a1ec8` @ `005A1EC8` |
+| DrawTextToPane | `FUN_0054b880` |
+| Header pane draw | `FUN_0024842c` |
+| Softkey m / o / t enable | `FUN_001d2498` / `001d1c70` / `001d2080` |

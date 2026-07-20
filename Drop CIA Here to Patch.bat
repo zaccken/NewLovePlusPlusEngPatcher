@@ -40,9 +40,22 @@ if not exist "%CIA%" (
   exit /b 1
 )
 
-where python >nul 2>&1
-if errorlevel 1 (
-  echo [!] Python not found on PATH. Install Python 3.10+ and retry.
+REM Resolve a real Python (not the Microsoft Store stub). Prefer PATH, then py launcher,
+REM then common install folders — new installs often only get "py" or miss PATH.
+call :find_python
+if not defined PYTHON (
+  echo.
+  echo [!] Python 3.10+ not found.
+  echo.
+  echo     Fix ^(pick one^):
+  echo       1. Install from https://www.python.org/downloads/
+  echo          and CHECK "Add python.exe to PATH"
+  echo       2. Or install from Microsoft Store: "Python 3.12"
+  echo.
+  echo     If you disabled "App execution aliases" for python.exe:
+  echo     that only helps after a real install is on PATH / via py.
+  echo     Try opening a NEW Command Prompt and running:  py -3 --version
+  echo.
   pause
   exit /b 1
 )
@@ -54,9 +67,11 @@ echo  ============================================
 echo.
 echo  Dropped:
 echo    %CIA%
+echo  Using:
+echo    %PYTHON%
 echo.
 
-python "%SRC%\setup_tools.py"
+"%PYTHON%" "%SRC%\setup_tools.py"
 if errorlevel 1 (
   echo [!] Tool setup failed.
   pause
@@ -82,10 +97,10 @@ if /i "%NLPP_WITH_IMAGES%"=="1" (
   echo UI image packing enabled ^(NLPP_WITH_IMAGES=1^)
   set "REUSE_IMG="
   if exist "%~dp0out\new_img.bin" set "REUSE_IMG=--reuse-packed-img"
-  python "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" --with-images --packed-img "%~dp0out\new_img.bin" %REUSE_IMG% %EXTRA_ROMFS%
+  "%PYTHON%" "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" --with-images --packed-img "%~dp0out\new_img.bin" %REUSE_IMG% %EXTRA_ROMFS%
 ) else (
   echo Scripts-only patch ^(UI images off — set NLPP_WITH_IMAGES=1 to enable^)
-  python "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" %EXTRA_ROMFS%
+  "%PYTHON%" "%SRC%\patch_cia.py" --cia "%CIA%" --out "%~dp0out\NewLovePlusPlus-EN.cia" --layeredfs-out "%~dp0out\layeredfs" %EXTRA_ROMFS%
 )
 set ERR=%ERRORLEVEL%
 
@@ -102,4 +117,61 @@ echo [+] LayeredFS:
 echo     %~dp0out\layeredfs\
 echo.
 pause
+exit /b 0
+
+:find_python
+set "PYTHON="
+REM 1) python on PATH — skip the zero-byte Microsoft Store alias stub
+where python >nul 2>&1
+if not errorlevel 1 (
+  for /f "delims=" %%P in ('where python 2^>nul') do (
+    if not defined PYTHON call :try_python "%%P"
+  )
+)
+if defined PYTHON exit /b 0
+
+REM 2) Windows Python launcher (survives missing PATH / disabled aliases)
+where py >nul 2>&1
+if not errorlevel 1 (
+  for /f "delims=" %%P in ('py -3 -c "import sys; print(sys.executable) if sys.version_info >= (3,10) else None" 2^>nul') do (
+    if not defined PYTHON if exist "%%P" call :try_python "%%P"
+  )
+)
+if defined PYTHON exit /b 0
+
+REM 3) Common install locations when PATH was never set
+for %%V in (314 313 312 311 310) do (
+  if not defined PYTHON if exist "%LocalAppData%\Programs\Python\Python%%V\python.exe" (
+    call :try_python "%LocalAppData%\Programs\Python\Python%%V\python.exe"
+  )
+)
+if defined PYTHON exit /b 0
+for %%V in (3.14 3.13 3.12 3.11 3.10) do (
+  if not defined PYTHON if exist "%ProgramFiles%\Python%%V\python.exe" (
+    call :try_python "%ProgramFiles%\Python%%V\python.exe"
+  )
+)
+if defined PYTHON exit /b 0
+if exist "%LocalAppData%\Microsoft\WindowsApps\PythonSoftwareFoundation.Python*\python.exe" (
+  for /d %%D in ("%LocalAppData%\Microsoft\WindowsApps\PythonSoftwareFoundation.Python*") do (
+    if not defined PYTHON if exist "%%D\python.exe" call :try_python "%%D\python.exe"
+  )
+)
+exit /b 0
+
+:try_python
+REM Reject Store stub (opens Store / tiny file) and require 3.10+
+set "CAND=%~1"
+if not exist "%CAND%" exit /b 1
+for %%A in ("%CAND%") do if %%~zA LSS 1024 exit /b 1
+REM Bare WindowsApps\python.exe is the Store alias stub; real Store Python is under PythonSoftwareFoundation.*
+set "CAND_DIR=%~dp1"
+echo "%CAND_DIR%" | findstr /i /c:"\WindowsApps\" >nul
+if not errorlevel 1 (
+  echo "%CAND_DIR%" | findstr /i /c:"PythonSoftwareFoundation" >nul
+  if errorlevel 1 exit /b 1
+)
+"%CAND%" -c "import sys; raise SystemExit(0 if sys.version_info >= (3,10) else 1)" >nul 2>&1
+if errorlevel 1 exit /b 1
+set "PYTHON=%CAND%"
 exit /b 0

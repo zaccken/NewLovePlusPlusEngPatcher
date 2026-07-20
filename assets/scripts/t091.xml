@@ -27,7 +27,7 @@ right, but I wonder if
 it's real.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I can't be late for my date 
-with ▲高嶺＊＊▲.</Dialog>
+with Takane.</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -81,7 +81,7 @@ I arrived first.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>So you got here first 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Ah, I got ahead of you.</Dialog>
         </Dialogs>
@@ -109,7 +109,7 @@ I arrived first.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>It's a little hot today 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yeah. Are you a little 
 sweaty？ I have a 
@@ -227,7 +227,7 @@ the cold？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>We don't want to get a cold 
 today. Don't you agree, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>Yes. Let's have a warm 
 date... kidding.</Dialog>
@@ -302,7 +302,7 @@ didn't you？
           <Dialog>Oh, it's the perfect time.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Did I make you wait, 
-▲高嶺＊＊▲？</Dialog>
+Takane？</Dialog>
           <Dialog>No, not that much.</Dialog>
         </Dialogs>
       </SDL2>
@@ -458,7 +458,7 @@ hot right now.</Dialog>
         </Unknown>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
-          <Dialog>Heey, ▲高嶺＊＊▲.</Dialog>
+          <Dialog>Heey, Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I won't go anywhere, you 
 didn't had to run. Are you 
@@ -799,7 +799,7 @@ quickly, ▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>I'm sorry to have keep you 
 waiting, 
-▲高嶺＊＊▲.</Dialog>
+Takane.</Dialog>
           <Dialog>Manaka</Dialog>
           <Dialog>I'm fine. Did you run 
 all the way？ Your white 

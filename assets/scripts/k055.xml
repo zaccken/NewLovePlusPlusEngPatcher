@@ -163,12 +163,12 @@
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Eh？ If it isn't 
-▲小早川＊▲...</Dialog>
+Rinko...</Dialog>
           <Dialog>(What should I do？ 
 Should I call out to her？)</Dialog>
           <Dialog>Call her</Dialog>
           <Dialog>Don't call her</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>......</Dialog>
           <Dialog>(I guess she didn't hear 
@@ -332,7 +332,7 @@ manner...？)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>Well then, shall I go home？</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>......</Dialog>
           <Dialog>(Did she notice me？)</Dialog>
@@ -501,7 +501,7 @@ leave me alone.</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Ah, it's 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Yo！</Dialog>
           <Dialog>Yah...</Dialog>
           <Dialog>Chop attack！</Dialog>
@@ -671,7 +671,7 @@ any more than this...)</Dialog>
           <Dialog>(So much work to do today...)</Dialog>
           <Dialog>(Um... What do I do with 
 these...？)</Dialog>
-          <Dialog>(▲小早川＊▲... 
+          <Dialog>(Rinko... 
 Nice timing.)</Dialog>
           <Dialog>Yo！</Dialog>
           <Dialog>Yah...</Dialog>
@@ -839,7 +839,7 @@ it...)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(That's... 
-▲小早川＊▲.)</Dialog>
+Rinko.)</Dialog>
           <Dialog>Yo！</Dialog>
           <Dialog>Yah...</Dialog>
           <Dialog>Chop attack！</Dialog>
@@ -1006,7 +1006,7 @@ any business here...</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(Was that girl who just 
 turned around the corner 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Follow her</Dialog>
           <Dialog>Leave her alone</Dialog>
           <Dialog>She went this way...</Dialog>
@@ -1014,7 +1014,7 @@ turned around the corner
           <Dialog>Ouch！</Dialog>
           <Dialog>？</Dialog>
           <Dialog>Ah, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>Sorry. I didn't see you.</Dialog>
           <Dialog>...Am I that small？</Dialog>
@@ -1167,7 +1167,7 @@ about it？)</Dialog>
         <Dialogs>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>(It's 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
           <Dialog>Hello~</Dialog>
           <Dialog>Hey~！</Dialog>
           <Dialog>Super knee knock！</Dialog>
@@ -1353,7 +1353,7 @@ planned？</Dialog>
 See you.</Dialog>
           <Dialog>(This time, it was who 
 called out to me 
-▲小早川＊▲...)</Dialog>
+Rinko...)</Dialog>
         </Dialogs>
       </SDL2>
     </Entry>
@@ -1482,7 +1482,7 @@ called out to me
 belongs to this shelf...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>That's wrong.</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hello~</Dialog>
           <Dialog>Yah...</Dialog>
           <Dialog>Take this！ Chop！</Dialog>
@@ -1678,7 +1678,7 @@ and read a book for now.)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>？</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hello~</Dialog>
           <Dialog>Yah...</Dialog>
           <Dialog>Take this！ Chop！</Dialog>
@@ -1825,7 +1825,7 @@ room.</Dialog>
 starting soon...)</Dialog>
           <Dialog>(Huh, that's... Where are 
 you going 
-▲小早川＊▲？)</Dialog>
+Rinko？)</Dialog>
           <Dialog>Hello~</Dialog>
           <Dialog>Hey~！</Dialog>
           <Dialog>Super knee knock！</Dialog>
@@ -1979,7 +1979,7 @@ room...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>？</Dialog>
-          <Dialog>▲小早川＊▲.</Dialog>
+          <Dialog>Rinko.</Dialog>
           <Dialog>Hello~</Dialog>
           <Dialog>Yah...</Dialog>
           <Dialog>Take this！ Chop！</Dialog>
@@ -2060,7 +2060,7 @@ kill some time...？)</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>？</Dialog>
           <Dialog>Do you need something from 
-me ▲小早川＊▲？</Dialog>
+me Rinko？</Dialog>
           <Dialog>Yeah, kinda.</Dialog>
           <Dialog>Ah！ Sorry, I got carried 
 away talking. Did you need 
@@ -2140,7 +2140,7 @@ something？</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>？</Dialog>
           <Dialog>Yo, 
-▲小早川＊▲.</Dialog>
+Rinko.</Dialog>
           <Dialog>It's pretty easy to spot 
 you from afar.</Dialog>
           <Dialog>Ah！ Did I force you to 
@@ -2226,7 +2226,7 @@ idiot.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's wrong？ Why were you 
 running here 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Hehe, because I saw you 
 here.</Dialog>
           <Dialog>Ah, Rinko has to go.</Dialog>
@@ -2292,7 +2292,7 @@ could talk more.</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>○○○○○○○○</Dialog>
           <Dialog>What's wrong 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Um, these books are heavy.</Dialog>
           <Dialog>All right. I should just 
 put them in order, right？</Dialog>
@@ -2391,7 +2391,7 @@ put them in order, right？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's up 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Help me.</Dialog>
           <Dialog>Then... Is this okay？</Dialog>
           <Dialog>Okay.</Dialog>
@@ -2486,7 +2486,7 @@ be tough...)</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>What's wrong 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Well, can we skip the work 
 today and go to the arcade 
 instead？</Dialog>
@@ -2565,7 +2565,7 @@ that...</Dialog>
           <Dialog>Phew. All done... By the 
 way, the sensei called me 
 earlier...</Dialog>
-          <Dialog>▲小早川＊▲？ 
+          <Dialog>Rinko？ 
 You need anything？</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>Not really...</Dialog>
@@ -2658,7 +2658,7 @@ toilet...)</Dialog>
           <Dialog>Ouch！</Dialog>
           <Dialog>Rinko</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
-          <Dialog>▲小早川＊▲？ 
+          <Dialog>Rinko？ 
 Why are you here？</Dialog>
           <Dialog>Why？ You were sleeping and 
 didn't notice that Rinko 
@@ -2747,7 +2747,7 @@ it's your fault！ Idiot！</Dialog>
           <Dialog>▲主人公＊▲.</Dialog>
           <Dialog>？</Dialog>
           <Dialog>Is there anything you want 
-▲小早川＊▲？</Dialog>
+Rinko？</Dialog>
           <Dialog>Hehe, nothing really.</Dialog>
           <Dialog>Oh, it's time to go.</Dialog>
           <Dialog>Is it okay for Rinko to 
