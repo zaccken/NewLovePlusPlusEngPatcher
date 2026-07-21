@@ -34,3 +34,8 @@ alwaysApply: true
 | DrawTextToPane | `FUN_0054b880` |
 | Header pane draw | `FUN_0024842c` |
 | Softkey m / o / t enable | `FUN_001d2498` / `001d1c70` / `001d2080` |
+| Options button BCLIM bind | `OptionMenu_BindBtnTextures` @ `001eb3dc` |
+| MSel icon+text bind | `BindMSelBtnIconAndText` @ `0020ad74` |
+| Options/clock plate bind | `OptionMenu_BindPlateTextures` @ `0020bcc0` (slot 6 = clock title) |
+
+Options/clock **menu chrome** = A8 BCLIM names under `Com_M_Sel_*_Text*` in pkg **5245**, not DrawText and not `optn_tex_*`.

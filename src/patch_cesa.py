@@ -127,44 +127,81 @@ def read_cesa_tex_from_pkg(pkg_raw: bytes) -> bytes:
     return tex
 
 
+def _stored_final_block(payload: bytes) -> bytes:
+    """Final deflate stored block carrying ``payload`` (len <= 65535)."""
+    n = len(payload)
+    if n > 0xFFFF:
+        raise ValueError("stored block too large")
+    return bytes(
+        [
+            0x01,
+            n & 0xFF,
+            (n >> 8) & 0xFF,
+            (~n) & 0xFF,
+            ((~n) >> 8) & 0xFF,
+        ]
+    ) + payload
+
+
+def _try_zlib_exact_candidate(out: bytes, data: bytes) -> bool:
+    try:
+        d = zlib.decompressobj()
+        got = d.decompress(out)
+    except zlib.error:
+        return False
+    return got == data and d.unused_data == b"" and bool(d.eof)
+
+
 def compress_zlib_exact(data: bytes, exact_len: int) -> bytes:
     """Build a zlib stream of exactly ``exact_len`` bytes with no trailing unused input.
 
     Trailing NUL padding after a short zlib stream leaves ``unused_data``; the
-    game's inflater appears to reject that (white CESA boot screen). Pad inside
-    the deflate stream with empty stored blocks instead.
+    game's inflater appears to hang/reject that (CESA white boot, Options freeze).
+    Pad *inside* the deflate stream with stored blocks instead.
     """
     adler = struct.pack(">I", zlib.adler32(data) & 0xFFFFFFFF)
     for level in range(10):
         cand = zlib.compress(data, level)
         if len(cand) != exact_len:
             continue
-        d = zlib.decompressobj()
-        got = d.decompress(cand)
-        if got == data and d.unused_data == b"" and d.eof:
+        if _try_zlib_exact_candidate(cand, data):
             return cand
 
+    bodies: list[bytes] = []
     for level in range(10):
         co = zlib.compressobj(level, wbits=-15)
-        body = co.compress(data) + co.flush(zlib.Z_SYNC_FLUSH)
-        budget = exact_len - 2 - 4
-        remain = budget - len(body)
-        if remain < 5 or remain % 5 != 0:
-            continue
-        n_empty = remain // 5
-        extras = b"\x00\x00\x00\xff\xff" * (n_empty - 1)
-        final = b"\x01\x00\x00\xff\xff"
-        for hdr in (b"\x78\x9c", b"\x78\xda", b"\x78\x5e", b"\x78\x01"):
-            out = hdr + body + extras + final + adler
-            if len(out) != exact_len:
+        bodies.append(co.compress(data) + co.flush(zlib.Z_SYNC_FLUSH))
+    try:
+        import zopfli.zlib as zopfli_zlib  # type: ignore
+
+        # Raw deflate body via stripping zlib wrapper from zopfli output.
+        z = zopfli_zlib.compress(data)
+        if len(z) >= 6:
+            bodies.insert(0, z[2:-4])
+    except Exception:
+        pass
+
+    hdrs = (b"\x78\x9c", b"\x78\xda", b"\x78\x5e", b"\x78\x01")
+    for body in bodies:
+        for hdr in hdrs:
+            budget = exact_len - len(hdr) - 4
+            remain = budget - len(body)
+            if remain < 5:
                 continue
-            try:
-                d = zlib.decompressobj()
-                got = d.decompress(out)
-            except zlib.error:
-                continue
-            if got == data and d.unused_data == b"" and d.eof:
-                return out
+            # Prefer a single final stored block with arbitrary payload length.
+            payload_len = remain - 5
+            if 0 <= payload_len <= 0xFFFF:
+                out = hdr + body + _stored_final_block(b"\x00" * payload_len) + adler
+                if len(out) == exact_len and _try_zlib_exact_candidate(out, data):
+                    return out
+            # Fallback: empty sync markers + empty final (remain multiple of 5).
+            if remain % 5 == 0:
+                n_empty = remain // 5
+                extras = b"\x00\x00\x00\xff\xff" * (n_empty - 1)
+                final = b"\x01\x00\x00\xff\xff"
+                out = hdr + body + extras + final + adler
+                if len(out) == exact_len and _try_zlib_exact_candidate(out, data):
+                    return out
 
     raise RuntimeError(f"cannot build exact zlib stream of length {exact_len}")
 

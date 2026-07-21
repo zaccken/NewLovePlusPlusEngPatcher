@@ -2,10 +2,11 @@
 """Minimal BCLIM helpers for NLPP UI text textures.
 
 CLIM format IDs (GBATEK / this game):
-  1 = A8, 8 = RGBA4444, 0xB/11 = ETC1A4
+  1 = A8, 8 = RGBA4444, 0xB/11 = ETC1A4, 0xD/13 = A4
 
 Title button labels are RGBA4444 (fmt 8). FileSelect label sheets are
 ETC1A4 (fmt 0xB) — 16 bytes per 4x4 block, stored in 8x8-tile Z-order.
+Option06 date-unit glyphs (年/月/日) are A4 (fmt 0xD).
 """
 
 from __future__ import annotations
@@ -95,6 +96,57 @@ def encode_a8_pixels(img: Image.Image, pot_w: int, pot_h: int) -> bytes:
         return bytes([a])
 
     return encode_tiled_pixels(img, pot_w, pot_h, write)
+
+
+# Ohana / PICA 8x8 Morton tile index order (same as d2xy linearization).
+_TILE_ORDER = [
+    0, 1, 8, 9, 2, 3, 10, 11, 16, 17, 24, 25, 18, 19, 26, 27,
+    4, 5, 12, 13, 6, 7, 14, 15, 20, 21, 28, 29, 22, 23, 30, 31,
+    32, 33, 40, 41, 34, 35, 42, 43, 48, 49, 56, 57, 50, 51, 58, 59,
+    36, 37, 44, 45, 38, 39, 46, 47, 52, 53, 60, 61, 54, 55, 62, 63,
+]
+
+
+def encode_a4_pixels(img: Image.Image, pot_w: int, pot_h: int) -> bytes:
+    """Pack 4-bit alpha (CLIM fmt 0xD) — low nibble first, Tile_Order, no Y-flip."""
+    src = img.convert("RGBA")
+    canvas = Image.new("RGBA", (pot_w, pot_h), (0, 0, 0, 0))
+    canvas.paste(src, (0, 0))
+    px = canvas.load()
+    nibs: list[int] = []
+    for ty in range(0, pot_h, 8):
+        for tx in range(0, pot_w, 8):
+            for i in range(64):
+                dx = _TILE_ORDER[i] % 8
+                dy = _TILE_ORDER[i] // 8
+                x, y = tx + dx, ty + dy
+                if x >= pot_w or y >= pot_h:
+                    nibs.append(0)
+                else:
+                    nibs.append(px[x, y][3] >> 4)
+    out = bytearray()
+    for i in range(0, len(nibs), 2):
+        out.append((nibs[i] & 0xF) | ((nibs[i + 1] & 0xF) << 4))
+    return bytes(out)
+
+
+def png_to_bclim_a4_same_size(png: Path, orig_bclim: Path) -> bytes:
+    """Build A4 (CLIM fmt 0xD) BCLIM matching the original file length."""
+    orig = orig_bclim.read_bytes()
+    pix, width, height, fmt, footer = parse_bclim(orig)
+    if fmt != 0xD:
+        raise ValueError(f"expected A4 fmt 0xD, got {fmt:#x}")
+    pot_w, pot_h = canvas_for_pixel_bytes(len(pix) * 2, width, height, 1)
+    need = (pot_w * pot_h) // 2
+    pixels = encode_a4_pixels(Image.open(png), pot_w, pot_h)
+    if len(pixels) != need:
+        raise ValueError(f"A4 size mismatch {len(pixels)} != {need}")
+    if len(pixels) != len(pix):
+        raise ValueError(f"A4 payload mismatch {len(pixels)} != {len(pix)}")
+    out = pixels + footer
+    if len(out) != len(orig):
+        raise ValueError(f"BCLIM size changed {len(orig)} -> {len(out)}")
+    return out
 
 
 def encode_rgba4444_pixels(img: Image.Image, pot_w: int, pot_h: int) -> bytes:
@@ -353,4 +405,6 @@ def png_to_bclim_same_size(png: Path, orig_bclim: Path) -> bytes:
         return png_to_bclim_a8_same_size(png, orig_bclim)
     if fmt == 3:
         return png_to_bclim_rgb565_same_size(png, orig_bclim)
+    if fmt == 0xD:
+        return png_to_bclim_a4_same_size(png, orig_bclim)
     raise ValueError(f"unsupported BCLIM format {fmt:#x} for same-size encode")

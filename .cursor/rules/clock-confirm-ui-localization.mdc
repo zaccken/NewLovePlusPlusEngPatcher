@@ -1,16 +1,13 @@
 ---
-description: Session notes for localizing the bottom-screen system clock confirm UI (option 1 / targeted RE). Read before retrying clock text/button patches.
+description: Session notes for clock confirm UI, Options chrome, and related softkeys. Read before retrying related patches.
 alwaysApply: true
 ---
 
-# Clock confirm UI localization (session notes)
+# Clock confirm + Options UI localization
 
-Goal: localize NLPP (`00040000000F4E00`) bottom-screen **system clock confirm** chrome that stays Japanese while top-screen EN works:
-- Header: `３ＤＳ本体時計`
-- Date units: `年` / `月` / `日`
-- Square softkeys: `戻る` / `次へ`
+Goal: localize NLPP (`00040000000F4E00`) chrome that stayed Japanese while TRB EN worked.
 
-Chosen approach: **targeted RE / proper romhack** (not custom Azahar textures as the long-term fix).
+Chosen approach: **targeted RE / romhack** (not custom Azahar textures as the long-term fix).
 
 ## Paths
 
@@ -23,76 +20,56 @@ Chosen approach: **targeted RE / proper romhack** (not custom Azahar textures as
 | Ghidra | `code.bin`, image base `0`; runtime VA ≈ file + `0x100000` |
 | MCP | `user-ghidra` |
 
-**Critical:** never full-rewrite `img.bin` with `Image.write()` (black-screens). Same-offset package splice only (`pack_images.splice_packages_into_img`).
+**Critical:** never full-rewrite `img.bin`. Same-offset splice only. Never splice with bak as img base (wipes live EN) — see `img-exact-zlib-deploy`.
 
-## What worked / solid discoveries
+## Verified softkeys @ NCommonIcon **5238**
 
-### Softkeys = NCommonIcon BCLIMs (best lead)
+| UI | BCLIM | EN |
+|----|--------|-----|
+| Back `戻る` | `Com_btn_m01_b` (+ ON) | Back |
+| Next `次へ` | `Com_btn_t01_b` (+ ON) | Next |
+| Confirm `決定` | `Com_btn_k01_b` (+ ON) | OK |
 
-GPU dumps match EngPatcher assets **pixel-perfect (MAD 0)**:
+ETC1A4. Shared across screens. Deploy Confirm: `tools/deploy_confirm_btn_en.py`.
 
-| UI | Dump | Asset / BCLIM |
-|----|------|----------------|
-| Back `戻る` | `tex1_64x64_F305C9338867CC37_13_mip0.png` (twin `42FF2BB2…`) | `Com_btn_m01_b` |
-| Next `次へ` | `tex1_64x64_4352FF452CC91909_13_mip0.png` (twin `75A87132…`) | `Com_btn_t01_b` |
+## Options + clock title @ NCommonMSel **5245** (A8)
 
-- Package **5238** `NCommonIcon.arc` — both are **ETC1A4 fmt 11**, 4136 bytes (`m01`/`t01` + `ON` variants).
-- Same package: `MenuNComBtnM.dmst` maps `Pos_Com_Btn_m` and `Pos_Com_btn_t`.
-- EngPatcher map key: `"ncommonicon": (5238, "NCommonIcon.arc")`.
-- Exact JP masters: `assets/images/NCommonIcon.check/timg/Com_btn_{m,t}01_b.png` (not the nested `NCommonIcon/NCommonIcon/timg/` copies — those score poorly).
-- Naming: `m`=戻る, `t`=次へ, `k`=決定, `o`=OK, etc.
-- DateEdit pkgs **4195/4196** also have `Com_btn_m01_b` but different art (e.g. hiragana もどる); clock confirm uses the **NCommonIcon** kanji style.
+**Not DrawText. Not MyroomHeader `optn_tex_*`.**
 
-**Patch path (not finished / not verified in-game this session):** render EN PNGs → `pack_images` same-size ETC1A4 encode → splice pkg 5238. Prior pack run replaced only 2 files in 5238; many NCommonIcon PNGs were skipped as bad/too-small BCLIMs — do not blindly re-pack the whole folder.
+| Asset | EN |
+|-------|-----|
+| `Plate_Text03_00_00` | Options |
+| `Btn/Plate_Text03_01` | Display Settings |
+| `Btn/Plate_Text03_02` | Sound Settings |
+| `Btn_Text04_04` / `Btn_Text03_05` | Network / Password |
+| `Plate_Text03_06_00` / `_01` | 3DS System Clock |
 
-### Header = runtime DrawText, not a title BCLIM
+Ghidra: `OptionMenu_BindBtnTextures` `001eb3dc`, `BindMSelBtnIconAndText` `0020ad74`, `OptionMenu_BindPlateTextures` `0020bcc0` (slot 6 = clock).
 
-- Dump `tex1_256x32_2EC64BAE152688B3_8_mip0.png` is **alpha-only** text `３ＤＳ本体時計` (mean RGB 0).
-- Clock UI loads `Com_lyt_rigt_hdr.bclyt` with ClockPop/ClockSet (descriptor near `0x6c505c` / loader via `FUN_001dc494`).
-- Layout in MyroomHeader pkg **5575**; tiny shell BCLYT, **no embedded JP string**.
-- Drawn by `FUN_0024842c` → `MakeStr` (`FUN_005a1ec8`) + `DrawTextToPane` (`FUN_0054b880`).
-- Callers: `FUN_00350a1c`, `OptionClockPopSetup` (`0034d214`).
+Deploy: `tools/deploy_msel_options_en.py` (splice into **live** MOD).
 
-### Date units = 16×16 alpha glyphs
+## Option panels @ **5247**
 
-- Dumps: `8B9E56BD…` = `年`, `6B2CD1FB…` = `月`, `63A5BD96…` = `日` (visualize alpha; RGB black).
-- No matching 16×16 A8 BCLIM found in scanned arcs. TRB already has EN for flat `年`/`月`/`日`, but this screen appears to use separate glyph textures / another path.
+| Asset | EN |
+|-------|-----|
+| `Opt_TxtItem_Help` / `Message` | Help Display / Message Speed |
+| `Opt_HelpBtn_A_*` / `B_*` | Every Time / Once (**not** Defaults) |
+| `Opt_txtItem_{SE,VOICE,MIC}` | SE / Voice / Mic Sensitivity |
 
-### Ghidra / UI anchors
+Deploy: `tools/deploy_display_settings_en.py`. Floating `初期設定` still unmapped.
 
-- `OptionAdjustTimeUIOperator` @ `002d2ea0`; factory `FUN_002d2e50`; caller `FUN_0039fc64`.
-- Layouts: `Lyt_ClockPop_01.bclyt`, `Lyt_ClockSet_01.bclyt` @ `0073d8ac` / `0073d8c2`.
-- Softkey visibility: `FUN_001d14e0` / enablers `FUN_001d2498` (m), `FUN_001d1c70` (o), `FUN_001d2080` (t).
-- `OptionClockPopSetup` enables **m + o (Back+OK)**, not m+t — confirm wizard with Next may be another state; textures still from NCommonIcon.
-- TextResource lookup: `FUN_005c0e7c` → `FUN_0056ed00` with pack `(cat<<8|sub)` + slot. INDX hierarchy is parseable (cat table in first `0x400` of INDX).
+## Do not repeat
 
-### Deploy / tooling facts
+1. OptionClock / SysPopup for square Back/Next.
+2. TRB-only for confirm/Options chrome.
+3. Contiguous string hunt for `３ＤＳ本体時計`.
+4. Global MakeStr / `pe` grow / NUL-pad zlib / bak→MOD wipe.
+5. EN over JP without full A8 canvas clear.
+6. Per-byte zopfli fine-tune loops on large ARCs (hang).
+7. Labeling `Opt_HelpBtn_*` as Defaults.
 
-- `ie` / `pe` under EngPatcher `tools/nlpp-tools` are Python scripts (invoke with `sys.executable`).
-- `bclimutil`: fmt 1=A8, 8=RGBA4444, 0xB/11=ETC1A4; Azahar dump “fmt 13” ≠ project enum.
-- Restore point: `exefs\code.bin.bak_clocktext` (from abandoned MakeStr hook).
+## Open
 
-## What failed / do not repeat
-
-1. **OptionClock / SysPopup BCLIM “fixes” for this screen** — wrong assets (Ok/Cancel pills, different chrome). `Lyt_ClockPop_01` ≠ square Back/Next.
-2. **Assuming TRB `戻る`/`次へ`/`年`/`月`/`日` EN fixes the confirm chrome** — Azahar already has those; confirm screen still JP (uses textures / other path).
-3. **Contiguous string search** for `３ＤＳ本体時計` / `本体時計` in `code.bin`, `img.bin`, romfs, BCLYT — absent as UTF-8 / UTF-16 / SJIS / NLP codebook index sequence. Closest TRB: `ＤＳ本体の時計と同じ`.
-4. **Global MakeStr hook** (`FUN_005a1ec8` @ `005A1EC8`) — abandoned: cave outside `.text` crash; cave in `.text` wiped all text. **Do not redeploy `src/patch_clock_text.py` as-is.**
-5. **`FUN_00249fd4` / `Tex_Bt%02d` softkey drawer** — wrong UI; uses TRB `(1,6,*)` blood types / Profile softkeys.
-6. **Azahar custom textures** (`pack.json` `use_new_hash`) — briefly worked then misbinds/crashes; customs cleared; keep custom/dump/async off unless deliberately testing.
-7. **Full `img.bin` Image.write rebuild** — black-screen boot.
-8. **Treating `optn_tex_optionmenu_05` (MyroomHeader) as this header** — prior attempts; dump is 256×32 runtime text, not that 128×16 menu title asset.
-9. **Assuming `FUN_005c0e7c(..., 0x107, slot)` in `FUN_0034cd98` is the clock title** — pack `0x107` = hierarchy `(1,7,*)` = **prefectures**, not the clock header (fills `+0x106` in a broader date/profile UI).
-
-## Open questions / next steps
-
-1. **Buttons:** create EN `Com_btn_m01_b` / `t01_b` (+ ON), splice **only** those into pkg 5238, verify on clock confirm.
-2. **Header:** string is almost certainly **runtime-assembled**. Best next probe: debugger breakpoint on `FUN_0024842c` / `DrawTextToPane` when opening clock confirm; capture buffer/source. Do not resume global MakeStr patching.
-3. **Date 年/月/日 16×16:** find source atlas / text path after buttons work.
-4. Confirm whether clock confirm Next uses `Pos_Com_btn_t` enable path or another softkey mode that still binds NCommonIcon `t01` textures.
-
-## Useful dump / work dirs (EngPatcher)
-
-- `out/clock_recheck/` — scans, header upscale, date glyph viz, pkg 5238 extract
-- `out/clock_recheck/img_data/5238_data/` — `NCommonIcon.arc` + `MenuNComBtnM.dmst`
-- `assets/images/NCommonIcon.check/timg/` — JP masters matching GPU dumps
+1. `初期設定` Defaults asset; message-speed sample string source.
+2. Shorten overflowing To-Do TRB titles (STRI 2837 etc.).
+3. Bake verified LayeredFS into CIA.

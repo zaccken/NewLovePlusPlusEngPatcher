@@ -8,8 +8,11 @@ venv/
 .pytest_cache/
 .mypy_cache/
 
-# Patcher build / work products (CIAs, RomFS trees, img.bin, LayeredFS, reports)
+# Patcher build / work products (CIAs, RomFS trees, LayeredFS, reports)
 out/
+
+# Local packed img.bin cache (new_img.bin / bake_img.bin — large, not source)
+cache/
 
 # Downloaded / cloned tooling — keep docs only
 tools/*
@@ -22,7 +25,6 @@ tools/*
 *.3ds
 *.app
 img.bin
-new_img.bin
 *.ncch
 
 # Archives

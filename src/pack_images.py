@@ -7,11 +7,13 @@ Uses tools from https://github.com/kiwiz/nlpp-tools (ie, pe, png2bclim).
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import shutil
 import subprocess
 import sys
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from darcutil import DarcArchive
@@ -28,6 +30,24 @@ PE = NLPP_TOOLS / "bin" / "pe"
 DEFAULT_IMG_BIN = Path(r"C:\Users\Zepse\nlpp_work\romfs\img.bin")
 SKIP_DIR_RE = re.compile(r"(timg\s*-\s*copy|__pycache__|\.git)", re.I)
 SKIP_PNG_RE = re.compile(r"(\(2\)|_jpn|_bak|copy)", re.I)
+DEFAULT_WORKERS = max(1, min(32, (os.cpu_count() or 4)))
+
+
+def default_workers() -> int:
+    return DEFAULT_WORKERS
+
+
+def _progress_bar(done: int, total: int, *, prefix: str = "", width: int = 28) -> None:
+    """Single-line progress bar (TTY-friendly; still prints under redirected logs)."""
+    total = max(1, total)
+    done = max(0, min(done, total))
+    frac = done / total
+    filled = int(width * frac)
+    bar = "#" * filled + "-" * (width - filled)
+    line = f"\r  {prefix}[{bar}] {done}/{total} ({frac * 100:5.1f}%)"
+    print(line, end="", flush=True)
+    if done >= total:
+        print(flush=True)
 
 
 class PackError(RuntimeError):
@@ -153,8 +173,8 @@ def convert_png_to_bclim(png: Path, orig_bclim: Path, work: Path) -> Path:
     except Exception:
         fmt = -1
 
-    # fmt 8 = RGBA4444; fmt 0xB = ETC1A4; fmt 1 = A8; fmt 3 = RGB565 (Release buttons).
-    if fmt in (1, 3, 8, 0xB):
+    # fmt 8 = RGBA4444; fmt 0xB = ETC1A4; fmt 1 = A8; fmt 3 = RGB565; fmt 0xD = A4.
+    if fmt in (1, 3, 8, 0xB, 0xD):
         try:
             produced.write_bytes(png_to_bclim_same_size(png, orig_bclim))
             ok, reason = _bclim_looks_valid(produced, orig_size)
@@ -217,64 +237,222 @@ def ensure_package_data(img_data: Path, index: int) -> Path:
     return pkg_dir
 
 
+def _resolve_bclim_entry(darc: DarcArchive, png: Path):
+    for cand in png_to_bclim_candidates(png):
+        entry = darc.find(cand)
+        if entry:
+            return entry
+    return darc.find(png.stem + ".bclim")
+
+
+def _convert_one_png(
+    png: Path,
+    dest_bclim: Path,
+    work: Path,
+) -> tuple[str, bytes | None, str | None]:
+    """Worker: convert one PNG. Returns (status, bclim_bytes, warning)."""
+    try:
+        new_bclim = convert_png_to_bclim(png, dest_bclim, work)
+        return "ok", new_bclim.read_bytes(), None
+    except PackError as exc:
+        return "skip", None, str(exc)
+    except ValueError as exc:
+        return "skip", None, str(exc)
+
+
 def patch_arc_with_pngs(
     arc_path: Path,
     pngs: list[Path],
     work_dir: Path,
+    *,
+    workers: int = 1,
 ) -> tuple[int, int, list[str]]:
-    """Convert PNGs and same-size-inject into the original .arc (no DARC rebuild)."""
+    """Convert PNGs (optionally in parallel) and same-size-inject into the .arc."""
     darc = DarcArchive.load(arc_path)
     extract_dir = work_dir / "extract"
     conv_dir = work_dir / "convert"
     if extract_dir.exists():
         shutil.rmtree(extract_dir)
     extract_dir.mkdir(parents=True, exist_ok=True)
-    # Extract only files we may convert (need original BCLIM beside PNG for png2bclim)
+    # Need original BCLIM beside PNG for png2bclim / same-size encode
     darc.extract_all(extract_dir)
 
     ok = skipped = 0
     warnings: list[str] = []
     dirty = False
 
+    jobs: list[tuple[Path, object, Path]] = []
     for png in pngs:
-        entry = None
-        for cand in png_to_bclim_candidates(png):
-            entry = darc.find(cand)
-            if entry:
-                break
-        if entry is None:
-            entry = darc.find(png.stem + ".bclim")
+        entry = _resolve_bclim_entry(darc, png)
         if entry is None:
             skipped += 1
             warnings.append(f"no BCLIM match for {png.name}")
             continue
-
         dest_bclim = extract_dir / entry.name
-        try:
-            new_bclim = convert_png_to_bclim(png, dest_bclim, conv_dir / png.stem)
-            darc.replace_same_size(entry, new_bclim.read_bytes())
-            dirty = True
-            ok += 1
-        except PackError as exc:
+        jobs.append((png, entry, dest_bclim))
+
+    if not jobs:
+        return ok, skipped, warnings
+
+    workers = max(1, int(workers))
+    results: list[tuple[object, str, bytes | None, str | None]] = []
+
+    total_jobs = len(jobs)
+    if workers == 1 or total_jobs == 1:
+        for i, (png, entry, dest_bclim) in enumerate(jobs, 1):
+            status, data, warn = _convert_one_png(png, dest_bclim, conv_dir / png.stem)
+            results.append((entry, status, data, warn))
+            _progress_bar(i, total_jobs, prefix=f"[convert] {total_jobs} PNG  ")
+    else:
+        print(
+            f"  [async] converting {total_jobs} PNG(s) with {workers} workers",
+            flush=True,
+        )
+        _progress_bar(0, total_jobs, prefix=f"[convert] {total_jobs} PNG  ")
+        done = 0
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {
+                pool.submit(
+                    _convert_one_png,
+                    png,
+                    dest_bclim,
+                    conv_dir / png.stem,
+                ): entry
+                for png, entry, dest_bclim in jobs
+            }
+            for fut in as_completed(futures):
+                entry = futures[fut]
+                status, data, warn = fut.result()
+                results.append((entry, status, data, warn))
+                done += 1
+                _progress_bar(done, total_jobs, prefix=f"[convert] {total_jobs} PNG  ")
+
+    # Apply replacements serially (DarcArchive is not thread-safe).
+    for entry, status, data, warn in results:
+        if status == "ok" and data is not None:
+            try:
+                darc.replace_same_size(entry, data)
+                dirty = True
+                ok += 1
+            except (PackError, ValueError) as exc:
+                skipped += 1
+                warnings.append(str(exc))
+        else:
             skipped += 1
-            warnings.append(str(exc))
-        except ValueError as exc:
-            skipped += 1
-            warnings.append(str(exc))
+            if warn:
+                warnings.append(warn)
 
     if dirty:
         darc.save(arc_path)
     return ok, skipped, warnings
 
 
-def repack_package(img_data: Path, index: int) -> Path:
+def repack_package(
+    img_data: Path,
+    index: int,
+    *,
+    fine_tune: bool = False,
+) -> Path:
+    """Write new_XXXX keeping original PACK layout / compressed slot sizes.
+
+    ``pe repack`` uses zlib level=9 and often grows compressed ARCs past the
+    img.bin package slot. Same-size BCLIM patches keep decompressed size fixed,
+    so we splice exact-length zlib back into the original package bytes.
+    """
+    return repack_package_exact_slots(img_data, index, fine_tune=fine_tune)
+
+
+def repack_package_exact_slots(
+    img_data: Path,
+    index: int,
+    *,
+    fine_tune: bool = False,
+) -> Path:
+    if str(NLPP_TOOLS) not in sys.path:
+        sys.path.insert(0, str(NLPP_TOOLS))
+    from exact_zlib import compress_to_exact_slot
+    from img import Package, FileWindow  # type: ignore
+
     img_data = img_data.resolve()
-    pkg = img_data / f"{index:04d}"
-    print(f"[pe] repack {index:04d}")
-    _run([sys.executable, PE, str(pkg), "repack"], cwd=NLPP_TOOLS)
+    src_pkg = img_data / f"{index:04d}"
+    pkg_dir = img_data / f"{index:04d}_data"
     new_pkg = img_data / f"new_{index:04d}"
-    if not new_pkg.is_file():
-        raise PackError(f"pe repack did not create {new_pkg}")
+    if not src_pkg.is_file():
+        raise PackError(f"missing {src_pkg}")
+    if not pkg_dir.is_dir():
+        raise PackError(f"missing {pkg_dir}")
+
+    pkg = Package(FileWindow(str(src_pkg)), 0)
+    pkg.parse(False)
+    blob = bytearray(src_pkg.read_bytes())
+    changed = 0
+
+    for elem in pkg.entries:
+        if elem is None:
+            continue
+        path = pkg_dir / elem.fn
+        # pe unpack may use .seri suffix for SERI resources
+        if not path.is_file():
+            seri = pkg_dir / f"{elem.fn}.seri"
+            path = seri if seri.is_file() else path
+        if not path.is_file():
+            continue
+
+        new_data = path.read_bytes()
+        old_data = elem.read(decompress=True)
+        if new_data == old_data:
+            continue
+
+        slot_len = elem.fw.len()
+        # FileWindow.base_offset is absolute file offset into the package.
+        off = elem.fw.base_offset
+        if elem.is_cmp:
+            if len(new_data) != len(old_data):
+                raise PackError(
+                    f"package {index:04d} {elem.fn}: decompressed size changed "
+                    f"({len(old_data)} -> {len(new_data)}); need same-size inject"
+                )
+            print(
+                f"[exact-zlib] {index:04d} {elem.fn}: "
+                f"dec={len(new_data)} slot={slot_len}"
+                f"{' fine-tune=on' if fine_tune else ''}",
+                flush=True,
+            )
+            try:
+                slot = compress_to_exact_slot(
+                    new_data, slot_len, fine_tune=fine_tune
+                )
+            except Exception as exc:
+                # Don't abort the whole UI pack for one stubborn ARC — leave
+                # the vanilla compressed element so other packages still ship.
+                print(
+                    f"[exact-zlib] SKIP {index:04d} {elem.fn}: {exc} "
+                    f"(leaving Japanese/vanilla for this element)",
+                    flush=True,
+                )
+                continue
+            blob[off : off + slot_len] = slot
+            changed += 1
+        else:
+            if len(new_data) != slot_len:
+                raise PackError(
+                    f"package {index:04d} {elem.fn}: uncompressed grew "
+                    f"({slot_len} -> {len(new_data)})"
+                )
+            blob[off : off + slot_len] = new_data
+            changed += 1
+
+    if changed == 0:
+        # Nothing differed — still emit new_* so splice path is uniform.
+        print(f"[repack] {index:04d}: no element changes; copying original")
+    else:
+        print(f"[repack] {index:04d}: exact-slot updated {changed} element(s)")
+
+    if len(blob) != src_pkg.stat().st_size:
+        raise PackError(
+            f"package {index:04d} size drift {src_pkg.stat().st_size} -> {len(blob)}"
+        )
+    new_pkg.write_bytes(blob)
     return new_pkg
 
 
@@ -314,12 +492,14 @@ def splice_packages_into_img(
         pkg_len = res.fw.len()
         blob = new_pkg.read_bytes()
         if len(blob) > pkg_len:
-            raise PackError(
-                f"package {index:04d} grew ({pkg_len} -> {len(blob)}); "
-                "refusing full img.bin rewrite"
+            # Exact-slot repack should prevent this; skip rather than abort the pack.
+            print(
+                f"[splice] SKIP package {index:04d}: grew "
+                f"({pkg_len} -> {len(blob)}); leaving vanilla",
+                flush=True,
             )
+            continue
         if len(blob) < pkg_len:
-            # pe often recompresses slightly smaller; pad the img.bin slot.
             print(
                 f"[splice] package {index:04d} padded {len(blob)} -> {pkg_len} "
                 f"(+{pkg_len - len(blob)} zeros)"
@@ -382,6 +562,8 @@ def pack_images(
     only_keys: set[str] | None = None,
     *,
     splice: bool = True,
+    workers: int | None = None,
+    fine_tune: bool = False,
 ) -> dict[str, int]:
     _require_tools()
     if not img_bin.is_file():
@@ -393,11 +575,13 @@ def pack_images(
     if only_keys:
         folders = {k: v for k, v in folders.items() if k in only_keys}
 
+    workers = default_workers() if workers is None else max(1, int(workers))
     work = work.resolve()
     out_img = out_img.resolve()
     img_bin = img_bin.resolve()
     images_root = images_root.resolve()
     work.mkdir(parents=True, exist_ok=True)
+    print(f"[pack] async PNG→BCLIM workers={workers} fine_tune={fine_tune}")
     img_data = work / "img_data"
     conv = work / "bclim_tmp"
     report_lines: list[str] = []
@@ -443,7 +627,12 @@ def pack_images(
                     continue
 
                 print(f"[arc] {arc_path.name} <- {folder.name} ({len(pngs)} png)")
-                ok, skipped, warnings = patch_arc_with_pngs(arc_path, pngs, conv / f"{index:04d}_{key}")
+                ok, skipped, warnings = patch_arc_with_pngs(
+                    arc_path,
+                    pngs,
+                    conv / f"{index:04d}_{key}",
+                    workers=workers,
+                )
                 pkg_ok += ok
                 pkg_skip += skipped
                 touched = touched or ok > 0
@@ -456,7 +645,7 @@ def pack_images(
             totals["png_ok"] += pkg_ok
             totals["png_skip"] += pkg_skip
             if touched:
-                repack_package(img_data, index)
+                repack_package(img_data, index, fine_tune=fine_tune)
                 patched_indices.append(index)
                 totals["packages"] += 1
                 report_lines.append(f"[ok] package {index:04d}: {pkg_ok} replaced, {pkg_skip} skipped")
@@ -547,7 +736,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p.add_argument(
         "--out",
-        default=str(ROOT / "out" / "new_img.bin"),
+        default=str(ROOT / "cache" / "new_img.bin"),
         help="output img.bin path",
     )
     p.add_argument(
@@ -564,6 +753,17 @@ def build_parser() -> argparse.ArgumentParser:
         "--deploy-azahar",
         action="store_true",
         help="copy output img.bin into Azahar LayeredFS mods",
+    )
+    p.add_argument(
+        "--workers",
+        type=int,
+        default=DEFAULT_WORKERS,
+        help=f"parallel PNG→BCLIM conversions (default: {DEFAULT_WORKERS})",
+    )
+    p.add_argument(
+        "--fine-tune",
+        action="store_true",
+        help="Opt-in per-byte zopfli fine-tune (very slow; default uses empty-block pad)",
     )
     return p
 
@@ -584,6 +784,8 @@ def main(argv: list[str] | None = None) -> int:
             Path(args.out),
             only_keys=only,
             splice=not args.full_repack,
+            workers=args.workers,
+            fine_tune=args.fine_tune,
         )
         if args.deploy_azahar:
             AZAHAR_IMG.parent.mkdir(parents=True, exist_ok=True)

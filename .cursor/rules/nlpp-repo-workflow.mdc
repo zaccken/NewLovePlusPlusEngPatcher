@@ -39,8 +39,9 @@ Title ID: `00040000000F4E00`. Prefer editing/patching via EngPatcher; treat the 
 
 ```bash
 cd NewLovePlusPlusEngPatcher
-python src/pack_images.py --only ncommonicon --img-bin "<vanilla or azahar img.bin>" --out out/new_img.bin
+python src/pack_images.py --only ncommonicon --img-bin "<vanilla or azahar img.bin>" --out cache/new_img.bin
 # optional: --deploy-azahar
+# Prefer feature deploy scripts under tools/deploy_*_en.py for Options/softkeys/headers.
 ```
 
 Rules:
@@ -51,6 +52,7 @@ Rules:
 4. Scope with `--only <key>` so you don’t skip-fail hundreds of unrelated PNGs.
 5. After splice, deploy `img.bin` to  
    `%AppData%\Azahar\load\mods\00040000000F4E00\romfs\img.bin`.
+6. Exact-zlib / bak-wipe rules: see `img-exact-zlib-deploy`. Feature backups: `img.bin.bak_pre_<name>` beside LayeredFS `romfs/img.bin`.
 
 ### Matching textures to dumps
 
@@ -67,6 +69,7 @@ Rules:
 - Scripts: `python src/patch_textresource.py dump|inplace|rebuild|…` from EngPatcher.
 - Hierarchy: `FUN_005c0e7c(dst, maxlen, pack, slot)` → cat=`(pack>>8)&0xff`, sub=`pack&0xff`, then INDX slot. Flat STRI idx ≠ hierarchy pack.
 - If TRB already has EN but UI stays JP, the chrome is likely a **texture** or **runtime DrawText** from another source — don’t keep re-translating the same TRB keys.
+- To-Do / quest list **titles** are TRB (`FUN_005c0e7c` pack `0x0600`+slot → DrawText into `Txt_Title`). Overflow = shorten EN in `translations.json` (font size is pane-global, not per-string). Example: STRI **2837** カノジョ専属カメラマン.
 
 ## code.bin patches
 

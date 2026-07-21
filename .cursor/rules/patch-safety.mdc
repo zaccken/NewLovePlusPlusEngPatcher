@@ -12,13 +12,19 @@ alwaysApply: true
 - Same-size BCLIM violations — if encode changes length/format, keep the original entry.
 - Broad `--only`-less image packs that skip-fail half of NCommonIcon; scope keys (`--only ncommonicon`) and only replace intended PNGs.
 - Shipping Azahar **custom texture** packs (`use_new_hash`) as the real fix — OK for RE, unstable in play.
+- **`pe` repack that grows a PACK slot**, or selective `ie` full rewrite to absorb growth (prefer exact same package length).
+- **Short zlib into a compressed ARC/TEX slot with trailing NUL**, or **shrinking entry `cmp_len`** — freezes/crashes (Options, CESA). Stream length must equal the slot with `unused_data == 0`.
+- Treating MyroomHeader `optn_tex_optionmenu_*` as Options/clock titles (wrong; use NCommonMSel **5245**).
+- **`splice_packages_into_img(bak, …, MOD_IMG)`** when `bak != MOD` — copies the whole bak over live and **wipes later EN packages**. Splice into live `MOD_IMG`; extract vanilla packages from bak only.
 
 ## Always
 
 - Splice packages at the **same offset/length** (`splice_packages_into_img`).
-- Backup before code hooks; test one change at a time in LayeredFS.
-- When deploying images, prefer splicing onto the current Azahar mod `img.bin` if it already has other patches (CESA, etc.), not only vanilla — see `pack_images --deploy-azahar` source selection.
+- For zlib-compressed ARC replaces: exact-length stream; see rule `img-exact-zlib-deploy` (zopfli gap-salt **or** SYNC_FLUSH empty-blocks; zero gaps first on large ARCs if needed).
+- Backup before code hooks; test one change at a time in LayeredFS (`img.bin.bak_pre_<feature>`).
+- When deploying images, prefer splicing onto the current Azahar mod `img.bin` if it already has other patches (CESA, etc.), not only vanilla.
 - Treat dump `extracted/` as mostly read-only; write patches through EngPatcher → Azahar mods.
+- Fully quit Azahar after `img.bin` changes so LayeredFS reloads.
 
 ## LayeredFS layout
 

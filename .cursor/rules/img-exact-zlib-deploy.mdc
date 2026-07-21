@@ -1,0 +1,46 @@
+---
+description: Exact-length zlib/zopfli ARC splice rules for LayeredFS img.bin package deploys.
+alwaysApply: true
+---
+
+# Exact-zlib img.bin package deploy
+
+Same-offset package splice only. Compressed ARC `cmp_len` must stay fixed; stream length == slot with `unused_data == 0`.
+
+## Critical: never wipe live patches
+
+```python
+# ❌ BAD — copies entire bak over LayeredFS img.bin (wipes later EN pkgs)
+splice_packages_into_img(bak_pre_msel5245, img_data, [5245], MOD_IMG)
+
+# ✅ GOOD — patch ARC from vanilla pkg extract; splice into *live* MOD
+splice_packages_into_img(MOD_IMG, img_data, [5245], MOD_IMG)
+```
+
+`splice_packages_into_img(src, …, dst)` **copies `src` → `dst` when paths differ**, then overlays packages. Vanilla bak is only for *extracting* a clean package blob, not as the splice base.
+
+## Compression playbook (pick by undershoot)
+
+| Situation | Strategy |
+|-----------|----------|
+| zopfli == slot | Use zopfli as-is |
+| zopfli slightly under; gaps left | Binary-search **gap salt** (urandom in inter-file pads); retry seeds. **No** per-byte fine loop (hangs for minutes on large ARCs) |
+| zopfli far under; zlib SYNC_FLUSH body fits | `compress_exact_empty_blocks` (SYNC_FLUSH body + empty stored blocks; `remain % 5 == 0`) |
+| Large ARC (e.g. **5380**); zlib body > slot | **Zero inter-file pads first** (prior EN urandom makes zlib worse), then empty-block |
+| Gaps already salted / zero-cap too small | Treat **all** inter-file regions as re-saltable; or rebuild package from vanilla with full label set |
+| Shared header ARC (**5575**) | Rebuild **all** known EN toptex from vanilla together — patching one from live can wipe others |
+
+Never: short zlib + trailing NUL; shrink `cmp_len`; `pe` repack that grows PACK.
+
+## Deploy scripts (EngPatcher `tools/`)
+
+| Script | Pkg(s) |
+|--------|--------|
+| `deploy_msel_options_en.py` | **5245** Options/clock plates |
+| `deploy_msel_menus_en.py` | 5244/5241/5242 |
+| `deploy_confirm_btn_en.py` | **5238** Confirm `OK` |
+| `deploy_display_settings_en.py` | **5247** Help/Message/Sound labels |
+| `deploy_myroom_main_en.py` / `deploy_mydata_en.py` | **5380** |
+| `deploy_schedule_header_en.py` / profile/todo/mail/… | **5575** + others |
+
+Rollback: `img.bin.bak_pre_<feature>` next to LayeredFS `romfs/img.bin`. Fully quit Azahar after deploy.

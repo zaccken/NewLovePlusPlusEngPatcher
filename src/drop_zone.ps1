@@ -1,12 +1,15 @@
-# WinForms drop target for New Love Plus+ CIA patching.
-# Drag a .cia onto the window, or click Browse.
+# WinForms drop target for New Love Plus+ CIA / 3DS patching.
+# Drag a .cia / .3ds / .cci onto the window, or click Browse.
 $ErrorActionPreference = "Stop"
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
 $src = Split-Path -Parent $MyInvocation.MyCommand.Path
 $root = Split-Path -Parent $src
-$bat = Join-Path $root "Drop CIA Here to Patch.bat"
+$bat = Join-Path $root "Drop CIA or 3DS Here to Patch.bat"
+if (-not (Test-Path -LiteralPath $bat)) {
+    $bat = Join-Path $root "Drop CIA Here to Patch.bat"
+}
 
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "New Love Plus+ English Patcher"
@@ -19,7 +22,7 @@ $form.MinimizeBox = $true
 $form.BackColor = [System.Drawing.Color]::FromArgb(245, 247, 250)
 
 $label = New-Object System.Windows.Forms.Label
-$label.Text = "Drop a New Love Plus+ .cia here"
+$label.Text = "Drop a New Love Plus+ .cia / .3ds here"
 $label.Font = New-Object System.Drawing.Font("Segoe UI", 14, [System.Drawing.FontStyle]::Bold)
 $label.AutoSize = $false
 $label.TextAlign = "MiddleCenter"
@@ -28,7 +31,7 @@ $label.Height = 70
 $label.Padding = New-Object System.Windows.Forms.Padding(12)
 
 $hint = New-Object System.Windows.Forms.Label
-$hint.Text = "Requires the encrypted dump (SHA-1 a9fbd2e6…). Scripts + UI → out\"
+$hint.Text = "CIA or 3DS dump → decrypt → inject → out\NewLovePlusPlus-EN.cia"
 $hint.Font = New-Object System.Drawing.Font("Segoe UI", 9)
 $hint.ForeColor = [System.Drawing.Color]::FromArgb(80, 90, 100)
 $hint.AutoSize = $false
@@ -68,27 +71,29 @@ $go.ForeColor = [System.Drawing.Color]::White
 $go.FlatStyle = "Flat"
 
 $status = New-Object System.Windows.Forms.Label
-$status.Text = "Waiting for a .cia drop..."
+$status.Text = "Waiting for a .cia / .3ds drop..."
 $status.Font = New-Object System.Drawing.Font("Segoe UI", 9)
 $status.Dock = "Bottom"
 $status.Height = 36
 $status.TextAlign = "MiddleCenter"
 
 $script:ciaPath = $null
+$script:allowedExt = @(".cia", ".3ds", ".cci")
 
 function Set-Cia([string]$path) {
     if (-not (Test-Path -LiteralPath $path)) {
         $status.Text = "File not found."
         return
     }
-    if ([IO.Path]::GetExtension($path).ToLowerInvariant() -ne ".cia") {
-        $status.Text = "Please drop a .cia file."
+    $ext = [IO.Path]::GetExtension($path).ToLowerInvariant()
+    if ($script:allowedExt -notcontains $ext) {
+        $status.Text = "Please drop a .cia / .3ds / .cci file."
         return
     }
     $script:ciaPath = $path
     $pathBox.Text = $path
     $go.Enabled = $true
-    $status.Text = "Ready — click Patch (or drop another .cia)."
+    $status.Text = "Ready — click Patch (or drop another dump)."
     $form.BackColor = [System.Drawing.Color]::FromArgb(230, 245, 235)
 }
 
@@ -109,8 +114,8 @@ $form.Add_DragDrop({
 
 $browse.Add_Click({
     $dlg = New-Object System.Windows.Forms.OpenFileDialog
-    $dlg.Filter = "CIA files (*.cia)|*.cia|All files (*.*)|*.*"
-    $dlg.Title = "Select New Love Plus+ CIA"
+    $dlg.Filter = "3DS dumps (*.cia;*.3ds;*.cci)|*.cia;*.3ds;*.cci|CIA (*.cia)|*.cia|3DS/CCI (*.3ds;*.cci)|*.3ds;*.cci|All files (*.*)|*.*"
+    $dlg.Title = "Select New Love Plus+ dump"
     if ($dlg.ShowDialog() -eq [Windows.Forms.DialogResult]::OK) {
         Set-Cia $dlg.FileName
     }
@@ -126,7 +131,7 @@ $go.Add_Click({
     if ($p.ExitCode -eq 0) {
         $status.Text = "Done. See out\NewLovePlusPlus-EN.cia"
         [System.Windows.Forms.MessageBox]::Show(
-            "Patched CIA written to:`n$root\out\NewLovePlusPlus-EN.cia`n`nLayeredFS:`n$root\out\layeredfs\",
+            "Patched CIA written to:`n$root\out\NewLovePlusPlus-EN.cia`n`nScratch work files were cleaned up.",
             "Patch complete",
             [Windows.Forms.MessageBoxButtons]::OK,
             [Windows.Forms.MessageBoxIcon]::Information

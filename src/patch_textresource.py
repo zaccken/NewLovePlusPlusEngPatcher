@@ -158,31 +158,72 @@ def to_game_newlines(text: str) -> str:
     return normalize_newlines(text)
 
 
-def wrap_like_original(english: str, original: str, width: int = 22) -> str:
-    """Prefer keeping original break count; otherwise soft-wrap long lines."""
-    en = to_game_newlines(english).strip("\n")
-    orig = normalize_newlines(original)
-    if "\n" in en:
-        return en
-    breaks = orig.count("\n")
-    if breaks <= 0 or len(en) <= width:
-        return en
-    # Split into ~equal chunks at spaces when possible.
-    words = en.split(" ")
+def _soft_wrap_words(words: list[str], width: int) -> list[str]:
     lines: list[str] = []
     cur = ""
-    target_lines = breaks + 1
-    approx = max(width, (len(en) + target_lines - 1) // target_lines)
     for w in words:
         trial = w if not cur else f"{cur} {w}"
-        if cur and len(trial) > approx and len(lines) < target_lines - 1:
+        if cur and len(trial) > width:
             lines.append(cur)
             cur = w
         else:
             cur = trial
     if cur:
         lines.append(cur)
-    return "\n".join(lines)
+    return lines
+
+
+def fit_wrap(
+    english: str,
+    original: str,
+    *,
+    min_width: int = 18,
+    max_width: int = 30,
+    jp_scale: float = 2.0,
+    force_width: int | None = None,
+) -> str:
+    """Best-guess wrap for dialog-sized EN using JP line width as a budget.
+
+    - Multi-line JP (◙/\\n) → re-wrap EN to ~2× max JP line length when needed.
+    - Already-broken EN with an over-long line → same.
+    - Single-line JP/EN blobs (newsletters, etc.) are left alone.
+    """
+    en = normalize_newlines(english).strip("\n")
+    # Collapse accidental "word \\n word" spacing from MT.
+    en = re.sub(r"[ \t]*\n[ \t]*", "\n", en)
+    orig = normalize_newlines(original)
+    jp_lines = orig.split("\n") if orig else [""]
+    jp_breaks = max(0, len(jp_lines) - 1)
+    en_lines = [L.strip() for L in en.split("\n")] if en else [""]
+    max_en = max((len(L) for L in en_lines), default=0)
+
+    if force_width is not None:
+        width = force_width
+    else:
+        max_jp = max((len(L) for L in jp_lines), default=0)
+        width = int(round(max_jp * jp_scale)) if max_jp else 26
+        width = max(min_width, min(max_width, width))
+
+    # Single-line JP → leave EN alone (mail / tips / labels), unless EN
+    # already has breaks and overflows the budget.
+    if jp_breaks <= 0:
+        if "\n" not in en or max_en <= width:
+            return en if "\n" not in en else "\n".join(en_lines)
+        # fall through to wrap overflowing broken EN
+
+    # Already fits: keep cleaned breaks.
+    if max_en <= width and "\n" in en:
+        return "\n".join(en_lines)
+
+    words = en.replace("\n", " ").split()
+    if not words:
+        return en
+    return "\n".join(_soft_wrap_words(words, width))
+
+
+def wrap_like_original(english: str, original: str, width: int = 22) -> str:
+    """Back-compat: soft-wrap using a fixed width (legacy callers)."""
+    return fit_wrap(english, original, force_width=width)
 
 
 def rebuild_trb(
@@ -213,7 +254,7 @@ def rebuild_trb(
 
         if key in translations or key_alt in translations:
             english = translations.get(key) or translations[key_alt]
-            english = wrap_like_original(english, text)
+            english = fit_wrap(english, text)
             # Game font: prefer fullwidth question mark.
             english = english.replace("?", "？")
             payload = english.encode("utf-8")
@@ -710,6 +751,80 @@ def cmd_stats(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_rewrap(args: argparse.Namespace) -> int:
+    """Re-wrap dialog EN in an existing EN TRB using JP line-width budgets."""
+    lookup = load_lookup(args.lookup.resolve())
+    vanilla = dump_entries(args.trb.resolve().read_bytes(), lookup)
+    en_path = args.en_trb.resolve()
+    en_entries = dump_entries(en_path.read_bytes(), lookup)
+    if len(vanilla) != len(en_entries):
+        raise SystemExit(
+            f"entry count mismatch vanilla={len(vanilla)} en={len(en_entries)}"
+        )
+
+    mapping: dict[str, str] = {}
+    changed = 0
+    preview_idx = {4657, 4623, 4624, 4659, 4661}
+    for i, (jp_e, en_e) in enumerate(zip(vanilla, en_entries)):
+        jp = jp_e["text"]
+        en = en_e["text"]
+        if not en or en == jp:
+            continue
+        # Skip untranslated leftovers.
+        if JP_RE.search(en) and not re.search(r"[A-Za-z]", en):
+            continue
+        new = fit_wrap(en, jp)
+        if new != normalize_newlines(en).strip("\n"):
+            changed += 1
+            if i in preview_idx or (args.verbose and changed <= 12):
+                print(f"--- idx {i} ---", flush=True)
+                print("OLD:", repr(en)[:240], flush=True)
+                print("NEW:", repr(new)[:240], flush=True)
+        mapping[jp] = new
+        mapping[jp.replace("\n", "◙")] = new
+
+    print(f"[rewrap] candidates={len(mapping)} changed={changed}", flush=True)
+    rebuilt, stats = rebuild_trb(args.trb.resolve().read_bytes(), mapping, lookup)
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_bytes(rebuilt)
+    print(f"[rewrap] rebuild {stats} -> {args.out} ({len(rebuilt)} bytes)", flush=True)
+
+    if args.update_translations:
+        tpath = args.update_translations.resolve()
+        existing = load_translations(tpath) if tpath.is_file() else {}
+        existing.update(mapping)
+        save_translations(tpath, existing)
+        print(f"[rewrap] updated {tpath} (+{changed} wraps)", flush=True)
+
+    config_src = args.config
+    if config_src is None:
+        guess = args.trb.resolve().parent / "textresource_config.trb"
+        if guess.is_file():
+            config_src = guess
+    if config_src is not None:
+        size_value = max(len(rebuilt), args.min_config_size)
+        cfg = update_config_size(config_src.resolve().read_bytes(), size_value)
+        args.config_out.parent.mkdir(parents=True, exist_ok=True)
+        args.config_out.write_bytes(cfg)
+        print(f"[rewrap] config SIZE={size_value} -> {args.config_out}", flush=True)
+
+    if args.deploy_azahar:
+        dest = AZAHAR_DIR / "textresource_jpn.trb"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        # Backup once.
+        bak = dest.with_suffix(".trb.bak_pre_rewrap")
+        if dest.is_file() and not bak.is_file():
+            shutil.copy2(dest, bak)
+            print(f"[rewrap] backup {bak}", flush=True)
+        shutil.copy2(args.out, dest)
+        print(f"[rewrap] deployed {dest}", flush=True)
+        if config_src is not None and args.config_out.is_file():
+            cfg_dest = AZAHAR_DIR / "textresource_config.trb"
+            shutil.copy2(args.config_out, cfg_dest)
+            print(f"[rewrap] deployed {cfg_dest}", flush=True)
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--lookup", type=Path, default=LOOKUP_PATH)
@@ -777,6 +892,31 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--trb", type=Path, default=DEFAULT_TRB)
     p.add_argument("--translations", type=Path, default=OUT_DIR / "translations.json")
     p.set_defaults(func=cmd_stats)
+
+    p = sub.add_parser(
+        "rewrap",
+        help="Re-wrap dialog EN using JP line-width budgets (best-guess fit)",
+    )
+    p.add_argument("--trb", type=Path, default=DEFAULT_TRB, help="vanilla JP TRB")
+    p.add_argument(
+        "--en-trb",
+        type=Path,
+        default=AZAHAR_DIR / "textresource_jpn.trb",
+        help="current English TRB to re-wrap",
+    )
+    p.add_argument("--out", type=Path, default=OUT_DIR / "textresource_jpn.trb")
+    p.add_argument("--config", type=Path, default=None)
+    p.add_argument("--config-out", type=Path, default=OUT_DIR / "textresource_config.trb")
+    p.add_argument("--min-config-size", type=int, default=0)
+    p.add_argument(
+        "--update-translations",
+        type=Path,
+        default=None,
+        help="merge rewrapped strings into translations.json",
+    )
+    p.add_argument("--deploy-azahar", action="store_true")
+    p.add_argument("--verbose", action="store_true")
+    p.set_defaults(func=cmd_rewrap)
 
     return ap
 

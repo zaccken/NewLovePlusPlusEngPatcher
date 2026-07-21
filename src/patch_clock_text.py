@@ -2,12 +2,11 @@
 """
 Swap specific Japanese UTF-8 UI labels at MakeStr (FUN_005a1ec8).
 
-Clock-confirm header 「３ＤＳ本体時計」 and square 戻る/次へ are runtime font
-draws. Those UTF-8 strings are not stored in romfs, but they pass through
-MakeStr as C strings right before DrawTextToPane.
+*** DO NOT DEPLOY *** Abandoned. Header 「３ＤＳ本体時計」 does not pass through
+MakeStr as this UTF-8 (hook left header JP). Any MakeStr cave here also blanked
+other DrawText (system help). Restore from code.bin.bak_clocktext if deployed.
 
-Hook: branch MakeStr entry to a cave in code.bin trailing padding. The cave
-strcmp's r1 against embedded JP strings and redirects to English.
+Softkeys are BCLIM; prefer texture / caller-specific patches for the header.
 """
 from __future__ import annotations
 
@@ -24,11 +23,11 @@ CAVE_ADDR = 0x0068F800
 
 ORIG_MAKESTR_HEAD = bytes.fromhex("70402de9")  # stmdb sp!,{r4,r5,r6,lr} = e92d4070
 
+# Softkeys are BCLIM now — only DrawText titles here.
+# Keep EN shorter/equal UTF-8 length when possible (pane is 256px).
 PAIRS: list[tuple[bytes, bytes]] = [
     ("３ＤＳ本体時計".encode("utf-8"), "3DS System Clock".encode("utf-8")),
     ("3DS本体時計".encode("utf-8"), "3DS System Clock".encode("utf-8")),
-    ("戻る".encode("utf-8"), "Back".encode("utf-8")),
-    ("次へ".encode("utf-8"), "Next".encode("utf-8")),
 ]
 
 
@@ -137,9 +136,10 @@ def assemble_cave(base: int = CAVE_ADDR) -> bytes:
         loop = len(code)
         emit(ldrb_imm(12, 6, 0))  # r12 = *cand
         emit(ldrb_imm(0, 4, 0))  # r0  = *jp (scratch; real r0 on stack)
+        emit(cmp_reg(12, 0))  # cmp *cand, *jp  (was missing — blanked all text)
         bne_off = emit(u32(0))
         emit(cmp_imm(12, 0))
-        beq_off = emit(u32(0))
+        beq_off = emit(u32(0))  # both NULs → match
         emit(add_imm(6, 6, 1))
         emit(add_imm(4, 4, 1))
         b_loop_off = emit(u32(0))

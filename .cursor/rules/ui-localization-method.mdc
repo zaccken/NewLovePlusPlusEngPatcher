@@ -11,21 +11,35 @@ When a screen stays Japanese despite EN TRB:
 
 1. **GPU-dump the visible chrome** (Azahar texture dump). Note W×H and whether RGB is empty (alpha text) vs full color (baked button).
 2. **If opaque/colored control (softkey, icon label):** pixel-match BCLIM in `img.bin` packages → EngPatcher PNG → same-size splice. TRB edits won’t change it.
-3. **If alpha-only text pane:** runtime `DrawTextToPane` / MakeStr. Find caller via layout / `FUN_0024842c` / TextResource pack — **not** by assuming the on-screen sentence exists as one TRB key.
-4. **If TRB already EN for the same words:** you’re on the wrong path (different asset or runtime buffer). Stop re-translating those keys.
+3. **If alpha-only text that survives a DrawText nuclear remap:** still a **BCLIM** (often A8 `Com_M_Sel_*_Text*`). Trace filename in Ghidra → bind fn → package. Do **not** assume DrawText.
+4. **If true runtime DrawText** (help/error, some titles): `DrawTextToPane` / MakeStr. Nuclear test: force all DrawText → if chrome stays JP, it’s textures.
+5. **If list/quest titles already EN but overflow the capsule:** TRB string too long — **shorten the EN string** (pane font size is global). Example: To-Do STRI **2837** `Girlfriend's Personal Photographer` → shorter synonym (`Personal Photographer`). Pack `0x0600` slot 22; `translations.json` + `patch_textresource.py`.
+6. **If TRB already EN for the same words:** wrong path (different asset or runtime buffer). Stop re-translating those keys.
 
 ## Verify identity before patching
 
 - Prefer MAD≈0 against dumps over filename similarity (`OptionClock` ≠ confirm softkeys).
 - Confirm package with `image_map.py` + `ie`/`pe` unpack; check fmt via `bclimutil.parse_bclim`.
-- For shared softkeys (`Com_btn_*` in pkg 5238), patching affects **all** screens using that button — intentional and usually desirable for EN.
+- Shared softkeys (`Com_btn_*` in pkg **5238**) affect **all** screens — intentional for EN.
+- Prefer Ghidra ascii anchors (`OptionMenu_BindBtnTextures`, `Com_M_Sel_Btn_Text03_*`) over guessing MyroomHeader `optn_tex_*`.
 
-## Clock confirm (current)
+## Exact-zlib splice
 
-| Piece | Kind | Status |
-|-------|------|--------|
-| Back/Next | ETC1A4 BCLIM `Com_btn_{m,t}01_b` @ 5238 | Identified; EN splice not verified in-game |
-| Header `３ＤＳ本体時計` | Runtime alpha 256×32 | Source buffer unknown — debugger next |
-| 年/月/日 | 16×16 alpha glyphs | Not TRB flat path; atlas/source open |
+See rule `img-exact-zlib-deploy`. Never grow PACK / NUL-pad short zlib / splice from bak over live.
 
-Details: `technical.md`, rule `clock-confirm-ui-localization`.
+## Chrome status (2026-07-20)
+
+| Screen | Pkg | Status |
+|--------|-----|--------|
+| Options + clock title | **5245** A8 | EN |
+| Display/Sound settings panels | **5247** RGBA4444 | EN (`deploy_display_settings_en.py`) |
+| Back/Next/Confirm | **5238** ETC1A4 | EN (`OK` for 決定) |
+| Gallery / Comm / Data MSel | 5244/5241/5242 | EN |
+| Myroom / My Data / Schedule hdr | **5380** / **5575** | EN |
+| Profile labels | 5246 + **5252** | EN (Western name order) |
+| Status stats | **5501** / **5255** | EN |
+| To-Do chrome | 5575 / **5253** | EN; long TRB titles → shorten |
+| Floating `初期設定` Defaults | — | **unmapped** |
+| Message-speed sample line | — | **unmapped** |
+
+Details: `technical.md` §12.4–12.6.

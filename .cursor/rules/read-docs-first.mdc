@@ -10,13 +10,17 @@ Before reverse-engineering UI, patching `img.bin`/`code.bin`/TRB, or “searchin
 1. Read **`technical.md`** (this repo and/or `../NewLovePlusPlusEngPatcher/technical.md`) — addresses, BCLIM quirks, TRB/INDX, softkeys, dead ends.
 2. Skim Cursor rules:
    - `nlpp-repo-workflow` — how to pack/deploy/address-convert
-   - `clock-confirm-ui-localization` — clock confirm status (buttons found; header still open)
-   - `ghidra-mcp` — Ghidra usage
+   - `clock-confirm-ui-localization` — clock + Options + Confirm softkeys (5245 / 5238 / 5247 / 5248)
+   - `ui-localization-method` — texture vs TRB vs DrawText decision tree
+   - `img-exact-zlib-deploy` — exact-length zlib/zopfli splice; **never bak→MOD wipe**
+   - `ghidra-mcp` — Ghidra usage + Options bind APIs
    - `patch-safety` — hard bans
-3. Check EngPatcher `out/clock_recheck/`, `out/textresource/`, and `assets/images/*.check/` before re-extracting packages or re-dumping TRB.
+3. Check `out/msel5245_en/`, `out/confirm_btn_en/`, `out/options_tex_extract/`, `out/clock_recheck/`, and `assets/images/*.check/` before re-extracting packages.
 
-**Do not** re-run full romfs string hunts for `３ＤＳ本体時計` / `本体時計` — already negative across encodings (see `technical.md` §9).
+**Do not** re-run full romfs string hunts for `３ＤＳ本体時計` / `本体時計` — absent as text; title is A8 BCLIM @ pkg **5245** (see `technical.md` §§9, 12.4–12.5).
 
-**Do not** rediscover NCommonIcon `Com_btn_m01_b` / `t01_b` as the clock Back/Next source — already pixel-matched to GPU dumps (pkg 5238).
+**Do not** rediscover NCommonIcon `Com_btn_m01_b` / `t01_b` as the clock Back/Next source — already verified EN (pkg 5238).
+
+**Do not** treat MyroomHeader `optn_tex_*` or DrawText as Options/clock menu chrome — wrong path.
 
 Prefer extending documented next steps over opening a fresh “find the string” investigation.
