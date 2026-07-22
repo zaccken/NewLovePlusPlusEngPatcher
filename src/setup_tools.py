@@ -164,6 +164,7 @@ def ensure_python_deps() -> None:
         ("PIL", "Pillow"),
         ("numpy", "numpy"),
         ("zopfli", "zopfli"),
+        ("etcpak", "etcpak"),
     ):
         try:
             __import__(mod)

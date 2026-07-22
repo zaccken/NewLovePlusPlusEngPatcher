@@ -193,8 +193,11 @@ if /i "%NLPP_WITH_IMAGES%"=="0" (
     echo.
     "%PYTHON%" "%~dp0tools\rebuild_bake_img.py" --rom "%CIA%"
     if errorlevel 1 (
-      echo [!] rebuild_bake_img.py failed.
-      echo     Need a New Love Plus+ .cia / .3ds / .cci ^(or set NLPP_VANILLA_IMG^).
+      echo [!] rebuild_bake_img.py failed — see traceback above.
+      echo     Common fixes:
+      echo       pip install -r requirements.txt
+      echo       ^(needs Pillow numpy zopfli etcpak^)
+      echo       Or set NLPP_VANILLA_IMG if vanilla extract failed.
       pause
       exit /b 1
     )

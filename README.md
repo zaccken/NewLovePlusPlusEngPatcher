@@ -57,7 +57,7 @@ Many other decrypted CIAs will fail the hash check (by design). The patcher decr
 
 - Windows x64  
 - Python 3.10+ (the drop bat finds `python`, `py -3`, or common install folders)  
-- `pip install -r requirements.txt` (Pillow, numpy, zopfli — drop-bat runs this)  
+- `pip install -r requirements.txt` (Pillow, numpy, zopfli, etcpak — drop-bat runs this)  
 - A few GB free disk (RomFS rebuild is large)  
 - First run auto-fetches OSS CIA tools (`3dstool`, `ctrtool`, `makerom`, `seeddb.bin`) and installs vendored `decrypt.exe`  
 - `decrypt.exe` credit: [davidmorom](https://github.com/davidmorom) / [Batch CIA 3DS Decryptor Redux](https://github.com/xxmichibxx/Batch-CIA-3DS-Decryptor-Redux) (`tools/Batch-CIA-3DS-Decryptor-Redux/`)  
@@ -178,7 +178,7 @@ Thank you to everyone whose work this patcher builds on. Their materials keep **
 
 Deploy NLPPATCH dialogue with: `python src/deploy_nlppatch_scripts.py`.
 
-Python packages used at runtime: [Pillow](https://python-pillow.org/), [NumPy](https://numpy.org/), [zopfli](https://github.com/google/zopfli) (`python-zopfli`).
+Python packages used at runtime: [Pillow](https://python-pillow.org/), [NumPy](https://numpy.org/), [zopfli](https://github.com/google/zopfli) (`python-zopfli`), [etcpak](https://github.com/K0lb3/etcpak) (ETC1/ETC1A4 for BCLIM).
 
 ---
 
