@@ -21,6 +21,7 @@ from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import PackError, splice_packages_into_img  # noqa: E402
 
 from deploy_common import (  # noqa: E402
+    UI_FONT,
     iter_deploy_targets,
     resolve_img_paths,
 )
@@ -29,7 +30,7 @@ MOD_IMG, VANILLA = resolve_img_paths()
 
 OUT = ROOT / "out" / "card_flist_en"
 PKG = 4152
-FONT = Path(r"C:\Windows\Fonts\YuGothR.ttc")
+FONT = UI_FONT  # bundled OFL (assets/fonts/MPLUS1p-Regular.ttf)
 # RGB565 yellow-panel sort labels in Card.arc
 LABELS = [
     ("timg/Flist_Txt03.bclim", "Received"),
@@ -37,7 +38,7 @@ LABELS = [
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT), size=size, index=0)
+    return ImageFont.truetype(str(FONT), size=size)
 
 
 def interfile_zero_gaps(data: bytes) -> list[tuple[int, int]]:

@@ -39,6 +39,10 @@ tools/Trb2xlsx/**/packages/
 tools/Trb2xlsx/.vs/
 tools/Trb2xlsx/**/.vs/
 
+# Vendored decrypt.exe + credits (Batch CIA 3DS Decryptor Redux)
+!tools/Batch-CIA-3DS-Decryptor-Redux/
+!tools/Batch-CIA-3DS-Decryptor-Redux/**
+
 # Game dumps & intermediates (never commit)
 *.cia
 *.cxi

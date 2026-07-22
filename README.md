@@ -4,6 +4,8 @@ One-click English patcher for **New Love Plus+** (3DS), plus the finished transl
 
 Translation work-in-progress lives elsewhere ([Makein/NLPPGit](https://github.com/Makein/NLPPGit), localization project). This repo holds **completed** scripts/images and a toolchain that turns an official **CIA or .3ds/.cci** dump into a playable English **CIA**.
 
+**License:** EngPatcher original work is [MIT](LICENSE) for the community. That license covers **only** this project’s own code and assets — not third-party tools, fonts, or vendored trees (see [Credits](#credits) and `LICENSE`).
+
 ---
 
 ## What it can do
@@ -55,8 +57,11 @@ Many other decrypted CIAs will fail the hash check (by design). The patcher decr
 
 - Windows x64  
 - Python 3.10+ (the drop bat finds `python`, `py -3`, or common install folders)  
+- `pip install -r requirements.txt` (Pillow, numpy, zopfli — drop-bat runs this)  
 - A few GB free disk (RomFS rebuild is large)  
-- First run downloads/wires `3dstool` + CIA tools via `src/setup_tools.py`
+- First run auto-fetches OSS CIA tools (`3dstool`, `ctrtool`, `makerom`, `seeddb.bin`) and installs vendored `decrypt.exe`  
+- `decrypt.exe` credit: [davidmorom](https://github.com/davidmorom) / [Batch CIA 3DS Decryptor Redux](https://github.com/xxmichibxx/Batch-CIA-3DS-Decryptor-Redux) (`tools/Batch-CIA-3DS-Decryptor-Redux/`)  
+- UI glyph font is bundled: `assets/fonts/MPLUS1p-Regular.ttf` (SIL OFL) 
 
 If you see **Python not found**: install from [python.org](https://www.python.org/downloads/) with **Add python.exe to PATH** checked, open a **new** Command Prompt, and confirm `py -3 --version` works. Turning off Windows “App execution aliases” for `python.exe` only helps after a real install exists.
 
@@ -142,11 +147,38 @@ python src/patch_cia.py --cia "C:\path\to\00040000000F4E00_v00.3ds" --out out/Ne
 
 ## Credits
 
-Image packing (`tools/nlpp-tools/`) uses **[kiwiz/nlpp-tools](https://github.com/kiwiz/nlpp-tools)** — thank you to **kiwiz** for `ie`, `pe`, `png2bclim`, `png2texi`, and the packing workflow this project wraps.
+Thank you to everyone whose work this patcher builds on. Their materials keep **their own** licenses; the MIT grant in [`LICENSE`](LICENSE) is only for EngPatcher original work.
 
-Other community references: [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH), [NLPTextTool](https://github.com/LovePlusProject/NLPTextTool), [Makein/NLPPGit](https://github.com/Makein/NLPPGit).
+### CIA / RomFS tooling
 
-An offline copy of NLPPATCH (git tree + `NLPPATCH.2017.08.15` release scripts/TRB/code) lives in `vendor/NLPPATCH/`. Deploy dialogue with `python src/deploy_nlppatch_scripts.py`.
+| Component | Credit |
+|-----------|--------|
+| `3dstool` | [dnasdw/3dstool](https://github.com/dnasdw/3dstool) (auto-fetched by `setup_tools.py`) |
+| `ctrtool` / `makerom` | [3DSGuy/Project_CTR](https://github.com/3DSGuy/Project_CTR) (auto-fetched) |
+| `seeddb.bin` | [ihaveamac/3DS-rom-tools](https://github.com/ihaveamac/3DS-rom-tools) (auto-fetched) |
+| `decrypt.exe` | [davidmorom](https://github.com/davidmorom); packaged in [xxmichibxx/Batch-CIA-3DS-Decryptor-Redux](https://github.com/xxmichibxx/Batch-CIA-3DS-Decryptor-Redux); original batch decryptor [matiffeder/3DS-stuff](https://github.com/matiffeder/3DS-stuff). Vendored at `tools/Batch-CIA-3DS-Decryptor-Redux/` — see `CREDITS.md` |
+
+### Image packing / UI
+
+| Component | Credit |
+|-----------|--------|
+| `nlpp-tools` (`ie`, `pe`, `png2bclim`, `png2texi`, …) | **[kiwiz/nlpp-tools](https://github.com/kiwiz/nlpp-tools)** — thank you to **kiwiz** |
+| UI glyph font `MPLUS1p-Regular.ttf` | [M PLUS 1p](https://fonts.google.com/specimen/M+PLUS+1p) / [Coji / M+ FONTS](https://github.com/coz-m/MPLUS_FONTS), SIL OFL 1.1 (`assets/fonts/OFL.txt`) |
+| Other fonts under `assets/fonts/` (Pixelify Sans, Press Start 2P, Silkscreen, VT323) | [Google Fonts](https://fonts.google.com/) / respective OFL authors (editor / optional assets) |
+
+### Text / scripts / localization community
+
+| Component | Credit |
+|-----------|--------|
+| NLPPATCH (scripts / TRB / code plugin; offline under `vendor/NLPPATCH/`) | [LovePlusProject/NLPPATCH](https://github.com/LovePlusProject/NLPPATCH) and contributors (see [their credits](https://github.com/LovePlusProject/NLPPATCH/issues/1)) |
+| NLPTextTool (XML ↔ `.dbin2`) | [LovePlusProject/NLPTextTool](https://github.com/LovePlusProject/NLPTextTool) (orig. [gdkchan](https://github.com/gdkchan)) |
+| NLPUnpacker | [LovePlusProject/NLPUnpacker](https://github.com/LovePlusProject/NLPUnpacker) (orig. [gdkchan](https://github.com/gdkchan)) |
+| Translation asset repo (reference) | [Makein/NLPPGit](https://github.com/Makein/NLPPGit) |
+| `Trb2xlsx` / `lookup.txt` (TRB character codebook) | [deaknaew/Trb2xlsx](https://github.com/deaknaew/Trb2xlsx) (vendored under `tools/Trb2xlsx/`) |
+
+Deploy NLPPATCH dialogue with: `python src/deploy_nlppatch_scripts.py`.
+
+Python packages used at runtime: [Pillow](https://python-pillow.org/), [NumPy](https://numpy.org/), [zopfli](https://github.com/google/zopfli) (`python-zopfli`).
 
 ---
 
@@ -175,6 +207,7 @@ assets/textresource/         translations.json (source for main TRB rebuild)
 release/                     gold bake + regenerated TRB overlay (see release/README.md)
 cache/                       optional PNG-pack scratch (new_img.bin; gitignored)
 tools/nlpp-tools/            vendored img.bin helpers (kiwiz/nlpp-tools)
+tools/Batch-CIA-3DS-Decryptor-Redux/  vendored decrypt.exe + CREDITS
 tools/mdcutil.py             SMS MDC pack/unpack
 tools/deploy_*.py            chrome/SMS/day-counter deploys (Azahar optional)
 tools/rebuild_bake_img.py    regenerate bake + TRBs from sources

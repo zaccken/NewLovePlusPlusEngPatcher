@@ -35,6 +35,7 @@ from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import PackError, splice_packages_into_img  # noqa: E402
 
 from deploy_common import (  # noqa: E402
+    UI_FONT,
     iter_deploy_targets,
     resolve_img_paths,
 )
@@ -43,8 +44,7 @@ MOD_IMG, VANILLA = resolve_img_paths()
 
 IMG_DATA = ROOT / "out" / "options_tex_extract" / "img_data"
 PKG = 5245
-FONT = Path(r"C:\Windows\Fonts\YuGothR.ttc")
-
+FONT = UI_FONT  # bundled OFL (assets/fonts/MPLUS1p-Regular.ttf)
 # Ghidra OptionMenu_BindBtnTextures + BindPlateTextures (incl. Display/Sound pages).
 LABELS: list[tuple[str, str]] = [
     ("Com_M_Sel_Plate_Text03_00_00.bclim", "Options"),
@@ -60,7 +60,7 @@ LABELS: list[tuple[str, str]] = [
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT), size=size, index=0)
+    return ImageFont.truetype(str(FONT), size=size)
 
 
 def glyph_h(a: np.ndarray) -> int:

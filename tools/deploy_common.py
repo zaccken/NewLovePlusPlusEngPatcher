@@ -20,6 +20,9 @@ from nlpp_paths import (  # noqa: E402
     require_vanilla_img,
 )
 
+# Bundled SIL OFL font (see assets/fonts/README.md). Replaces YuGothR.ttc.
+UI_FONT = ROOT / "assets" / "fonts" / "MPLUS1p-Regular.ttf"
+
 __all__ = [
     "AZAHAR_MOD_IMG",
     "AZAHAR_MOD_TRB_DIR",
@@ -29,12 +32,26 @@ __all__ = [
     "ROMFS_OVERLAY",
     "ROOT",
     "TEXTRESOURCE",
+    "UI_FONT",
     "find_vanilla_img",
     "iter_deploy_targets",
     "require_vanilla_img",
     "resolve_img_paths",
     "resolve_resident_trb",
+    "ui_font",
 ]
+
+
+def ui_font(size: int):
+    """Load the bundled EngPatcher UI font at ``size`` pt."""
+    from PIL import ImageFont
+
+    if not UI_FONT.is_file():
+        raise SystemExit(
+            f"missing UI font: {UI_FONT}\n"
+            "Expected assets/fonts/MPLUS1p-Regular.ttf (SIL OFL)."
+        )
+    return ImageFont.truetype(str(UI_FONT), size=size)
 
 
 def resolve_img_paths() -> tuple[Path, Path]:

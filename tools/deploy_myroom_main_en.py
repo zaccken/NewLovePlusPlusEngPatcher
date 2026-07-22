@@ -21,6 +21,7 @@ from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import PackError, splice_packages_into_img  # noqa: E402
 
 from deploy_common import (  # noqa: E402
+    UI_FONT,
     iter_deploy_targets,
     resolve_img_paths,
 )
@@ -29,7 +30,7 @@ MOD_IMG, VANILLA = resolve_img_paths()
 
 OUT = ROOT / "out" / "myroom_en"
 PKG = 5380
-FONT = Path(r"C:\Windows\Fonts\YuGothR.ttc")
+FONT = UI_FONT  # bundled OFL (assets/fonts/MPLUS1p-Regular.ttf)
 # Screenshot: dark-blue ink on white button chrome (icons are separate).
 LABELS = [
     ("timg/main_tex_yotei_RGBA4_NEW.bclim", "Schedule"),
@@ -44,7 +45,7 @@ INK = (70, 110, 160)
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT), size=size, index=0)
+    return ImageFont.truetype(str(FONT), size=size)
 
 
 def render_label(w: int, h: int, text: str) -> Image.Image:

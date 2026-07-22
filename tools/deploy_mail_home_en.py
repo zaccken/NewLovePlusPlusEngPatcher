@@ -26,6 +26,7 @@ from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import PackError, splice_packages_into_img  # noqa: E402
 
 from deploy_common import (  # noqa: E402
+    UI_FONT,
     iter_deploy_targets,
     resolve_img_paths,
 )
@@ -33,7 +34,7 @@ from deploy_common import (  # noqa: E402
 MOD_IMG, VANILLA = resolve_img_paths()
 
 OUT = ROOT / "out" / "mail_home_en"
-FONT = Path(r"C:\Windows\Fonts\YuGothR.ttc")
+FONT = UI_FONT  # bundled OFL (assets/fonts/MPLUS1p-Regular.ttf)
 # Dark-blue ink on transparent (white button / patterned header behind).
 INK = (70, 110, 160)
 
@@ -50,7 +51,7 @@ BUTTON_LABELS = [
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT), size=size, index=0)
+    return ImageFont.truetype(str(FONT), size=size)
 
 
 def render_label(w: int, h: int, text: str) -> Image.Image:

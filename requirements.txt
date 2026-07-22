@@ -1,0 +1,7 @@
+# Core EngPatcher / gold-bake dependencies (Python 3.10+)
+Pillow>=10.0.0
+numpy>=1.24.0
+zopfli>=0.2.3
+
+# Optional: OpenAI MT for patch_textresource.py translate
+# openai>=1.0.0

@@ -30,6 +30,7 @@ from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import PackError, splice_packages_into_img  # noqa: E402
 
 from deploy_common import (  # noqa: E402
+    UI_FONT,
     iter_deploy_targets,
     resolve_img_paths,
 )
@@ -38,7 +39,7 @@ MOD_IMG, VANILLA = resolve_img_paths()
 
 OUT = ROOT / "out" / "profile_en"
 PREV = ROOT / "out" / "profile_previews"
-FONT = Path(r"C:\Windows\Fonts\YuGothR.ttc")
+FONT = UI_FONT  # bundled OFL (assets/fonts/MPLUS1p-Regular.ttf)
 BG = (255, 220, 0)
 # Match JP atlas chroma ink (light cyan) — yellow is keyed out on grey bars.
 INK = (160, 210, 230)
@@ -67,7 +68,7 @@ ATLAS_MD_SIZE = 11
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(str(FONT), size=size, index=0)
+    return ImageFont.truetype(str(FONT), size=size)
 
 
 # ---- A8 header (white plate) -------------------------------------------------

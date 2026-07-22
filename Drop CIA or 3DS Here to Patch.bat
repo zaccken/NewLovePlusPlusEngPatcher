@@ -72,6 +72,16 @@ echo  Using:
 echo    %PYTHON%
 echo.
 
+echo Installing Python deps from requirements.txt ...
+"%PYTHON%" -m pip install -q -r "%~dp0requirements.txt"
+if errorlevel 1 (
+  echo [!] pip install failed. Try: %PYTHON% -m pip install -r requirements.txt
+  pause
+  exit /b 1
+)
+echo.
+echo Fetching / checking CIA tools ^(3dstool, ctrtool, makerom, seeddb, decrypt^) ...
+echo decrypt.exe is vendored from Batch CIA 3DS Decryptor Redux ^(see tools\Batch-CIA-3DS-Decryptor-Redux\CREDITS.md^).
 "%PYTHON%" "%SRC%\setup_tools.py"
 if errorlevel 1 (
   echo [!] Tool setup failed.
