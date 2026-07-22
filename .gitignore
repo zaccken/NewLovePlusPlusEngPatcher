@@ -32,6 +32,12 @@ tools/*
 !tools/nlpp-tools/**
 !tools/Trb2xlsx/
 !tools/Trb2xlsx/**
+# Trb2xlsx build / IDE junk (lookup.txt + sources stay tracked)
+tools/Trb2xlsx/**/bin/
+tools/Trb2xlsx/**/obj/
+tools/Trb2xlsx/**/packages/
+tools/Trb2xlsx/.vs/
+tools/Trb2xlsx/**/.vs/
 
 # Game dumps & intermediates (never commit)
 *.cia
@@ -57,3 +63,5 @@ desktop.ini
 *~
 .idea/
 .vscode/
+
+tools/Trb2xlsx/**/*.csproj.user
