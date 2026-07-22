@@ -64,6 +64,9 @@ DEPLOY_SCRIPTS: list[str] = [
     "deploy_todo_hist_en.py",
     "deploy_schedule_header_en.py",
     "deploy_day_counter_en.py",
+    # Hub main-menu rows (Title.arc) + boot CESA — not covered by NCommonMSel deploys.
+    "deploy_title_main_menu_en.py",
+    "deploy_cesa_en.py",
 ]
 
 
