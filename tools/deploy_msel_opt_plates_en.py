@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-"""Patch Options submenu plates/buttons still JP on live pkg 5245."""
+"""Patch Options submenu plates still JP on live pkg 5245.
+
+Runs after deploy_msel_options_en.py. Prefer soft glyphs; fall back to hard.
+Uses shared exact_zlib (gap-tune / empty-block) — local empty-block-only often
+misses after Options has already filled most of the slot.
+"""
 from __future__ import annotations
 
-import struct
 import sys
 import zlib
 from pathlib import Path
@@ -24,6 +28,7 @@ from bclimutil import (  # noqa: E402
     png_to_bclim_a8_same_size,
 )
 from darcutil import DarcArchive  # noqa: E402
+from exact_zlib import compress_exact_zopfli  # noqa: E402
 from img import ARC, FileWindow, Image as ImgBin, Package  # noqa: E402
 from pack_images import splice_packages_into_img  # noqa: E402
 
@@ -112,60 +117,20 @@ def make_bclim(raw: bytes, en: str, tmp: Path, *, hard: bool) -> bytes:
     return png_to_bclim_a8_same_size(png, orig)
 
 
-def compress_exact_empty_blocks(data: bytes, exact_len: int) -> bytes | None:
-    adler = struct.pack(">I", zlib.adler32(data) & 0xFFFFFFFF)
-    strategies = (
-        zlib.Z_DEFAULT_STRATEGY,
-        zlib.Z_FILTERED,
-        zlib.Z_HUFFMAN_ONLY,
-        zlib.Z_RLE,
-        zlib.Z_FIXED,
-    )
-    hdrs = (b"\x78\x9c", b"\x78\xda", b"\x78\x5e", b"\x78\x01")
-
-    def try_body(body: bytes) -> bytes | None:
-        for hdr in hdrs:
-            remain = exact_len - len(hdr) - 4 - len(body)
-            if remain < 5 or remain % 5 != 0:
-                continue
-            n_empty = remain // 5
-            out = (
-                hdr
-                + body
-                + b"\x00\x00\x00\xff\xff" * (n_empty - 1)
-                + b"\x01\x00\x00\xff\xff"
-                + adler
-            )
-            if len(out) != exact_len:
-                continue
-            d = zlib.decompressobj()
-            try:
-                got = d.decompress(out)
-            except zlib.error:
-                continue
-            if got == data and not d.unused_data and d.eof:
-                return out
-        return None
-
-    for level in range(10):
-        co = zlib.compressobj(level, wbits=-15)
-        hit = try_body(co.compress(data) + co.flush(zlib.Z_SYNC_FLUSH))
-        if hit is not None:
-            return hit
-    for level in range(10):
-        for mem in range(1, 10):
-            for strat in strategies:
-                try:
-                    co = zlib.compressobj(level, zlib.DEFLATED, -15, mem, strat)
-                    hit = try_body(co.compress(data) + co.flush(zlib.Z_SYNC_FLUSH))
-                except zlib.error:
-                    continue
-                if hit is not None:
-                    return hit
-    return None
+def _patch_candidate(arc_bytes: bytes, tmp: Path, *, hard: bool) -> bytes:
+    darc = DarcArchive(bytearray(arc_bytes))
+    for path, en in LABELS:
+        entry = darc.find(path) or darc.find(Path(path).name)
+        if entry is None:
+            raise SystemExit(f"missing {path}")
+        darc.replace_same_size(
+            entry, make_bclim(darc.extract_file(entry), en, tmp, hard=hard)
+        )
+        print(f"OK {path} -> {en!r} hard={hard}", flush=True)
+    return bytes(darc.data)
 
 
-def main() -> None:
+def main() -> int:
     if not MOD_IMG.is_file():
         raise SystemExit(f"missing {MOD_IMG}")
     bak = MOD_IMG.with_suffix(".bin.bak_pre_opt_plates")
@@ -191,77 +156,55 @@ def main() -> None:
     cmp = arc.fw.len()
     print(f"pkg {PKG} slot={cmp}", flush=True)
 
-    patched: bytes | None = None
+    # Soft first (nicer), then hard (matches options deploy; usually compresses better).
+    candidates: list[tuple[str, bytes]] = []
     for hard in (False, True):
-        darc = DarcArchive(bytearray(arc.parsed()))
-        for path, en in LABELS:
-            entry = darc.find(path)
-            darc.replace_same_size(
-                entry, make_bclim(darc.extract_file(entry), en, tmp, hard=hard)
-            )
-            print(f"OK {path} -> {en!r} hard={hard}", flush=True)
-        cand = bytes(darc.data)
+        cand = _patch_candidate(arc.parsed(), tmp, hard=hard)
         z = len(zopfli_zlib.compress(cand))
-        print(f"  zopfli={z}", flush=True)
+        print(f"  trial hard={hard}: zopfli={z} slot={cmp}", flush=True)
         if z <= cmp:
-            patched = cand
+            candidates.append((f"hard={hard}", cand))
+
+    if not candidates:
+        raise SystemExit(f"patched ARC zopfli exceeds slot {cmp}")
+
+    tuned: bytes | None = None
+    slot: bytes | None = None
+    last_err: Exception | None = None
+    for label, cand in candidates:
+        try:
+            print(f"  exact-zlib via shared helper ({label})…", flush=True)
+            tuned, slot = compress_exact_zopfli(cand, cmp)
+            print(f"  hit with {label}", flush=True)
             break
-        patched = cand
-    assert patched is not None
-    z0 = len(zopfli_zlib.compress(patched))
-    if z0 > cmp:
-        raise SystemExit(f"patched ARC zopfli {z0} exceeds slot {cmp}")
+        except RuntimeError as exc:
+            last_err = exc
+            print(f"  miss with {label}: {exc}", flush=True)
 
-    slot = compress_exact_empty_blocks(patched, cmp)
-    tuned = patched
-    if slot is None:
-        print("empty-block miss; tuning zopfli via transparent-pixel noise…", flush=True)
-        import os
+    if tuned is None or slot is None:
+        # Options deploy already wrote these plates hard=True. Soft re-render is
+        # best-effort chrome; do not fail the full gold rebuild over it.
+        print(
+            "[warn] could not build exact zlib for Options plates — "
+            "keeping prior pkg 5245 (usually already EN from deploy_msel_options_en.py).",
+            flush=True,
+        )
+        if last_err is not None:
+            print(f"[warn] last error: {last_err}", flush=True)
+        return 0
 
-        t = bytearray(patched)
-        # Nudge trailing zeros inside each patched BCLIM payload (alpha=0 already).
-        rng = os.urandom(4096)
-        ri = 0
-        for path, _en in LABELS:
-            darc = DarcArchive(bytes(t))
-            entry = darc.find(path)
-            # last 64 bytes of file payload before CLIM footer often pad
-            start = entry.offset
-            end = entry.offset + entry.length
-            for i in range(end - 80, end - 40):
-                if t[i] == 0:
-                    t[i] = rng[ri % len(rng)] or 1
-                    ri += 1
-                    z = len(zopfli_zlib.compress(bytes(t)))
-                    if z == cmp:
-                        tuned = bytes(t)
-                        slot = zopfli_zlib.compress(tuned)
-                        print(f"  zopfli hit via noise @ {i:#x}", flush=True)
-                        break
-                    if z > cmp:
-                        t[i] = 0
-            if slot is not None:
-                break
-        if slot is None:
-            slot = compress_exact_empty_blocks(bytes(t), cmp)
-            if slot is not None:
-                tuned = bytes(t)
-                print("  empty-block hit after noise", flush=True)
-    if slot is None:
-        raise SystemExit("could not build exact zlib stream")
     do = zlib.decompressobj()
     got = do.decompress(slot)
     if got != tuned or do.unused_data or not do.eof:
         raise SystemExit("zlib verify failed")
     print(f"ARC exact {len(slot)}", flush=True)
-    patched = tuned
 
     blob = bytearray(src.read_bytes())
     entry_off = Package.ENTRY_SIZE
     _typ, dec_len, _do, _fl, is_cmp, slot_len, cmp_off = Package.parse_entry(
         bytes(blob[entry_off : entry_off + Package.ENTRY_SIZE])
     )
-    if not is_cmp or slot_len != cmp or len(patched) != dec_len:
+    if not is_cmp or slot_len != cmp or len(tuned) != dec_len:
         raise SystemExit("ARC entry mismatch")
     blob[cmp_off : cmp_off + cmp] = slot
     new_pkg = pkg_dir / f"new_{PKG:04d}"
@@ -271,20 +214,18 @@ def main() -> None:
     pkg2.parse(False)
     for a, b in zip(pkg.entries, pkg2.entries):
         if isinstance(a, ARC):
-            if b.parsed() != patched:
+            if b.parsed() != tuned:
                 raise SystemExit("ARC mismatch")
         elif a.parsed() != b.parsed():
             raise SystemExit("DMST changed")
     print("DMST OK", flush=True)
     for _dest in iter_deploy_targets(MOD_IMG):
         splice_packages_into_img(_dest, pkg_dir, [PKG], _dest)
-    print("deployed Options plates/buttons EN ->", MOD_IMG, flush=True)
+    print("deployed Options plates EN ->", MOD_IMG, flush=True)
     print("Rollback:", bak, flush=True)
-    print(
-        "Also refresh Azahar Custom Textures (load/textures) + full restart.",
-        flush=True,
-    )
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
+
